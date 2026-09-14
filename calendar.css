@@ -1,0 +1,72 @@
+/* Append this to assets/main.scss AFTER @import "minima"; */
+
+.wrapper.page-wrap {
+  max-width: 56rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.page-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-sidebar {
+  width: 13.5rem;
+  flex-shrink: 0;
+}
+
+.cal-widget {
+  border: 1px solid #ddd4c4;
+  background: #fff;
+  padding: 0.75rem;
+}
+
+.cal-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.cal {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.8rem;
+}
+
+.cal th,
+.cal td {
+  text-align: center;
+  padding: 0.28rem 0;
+}
+
+.cal a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cal a:hover {
+  text-decoration: underline;
+}
+
+.cal .no-src,
+.cal .empty {
+  color: #999;
+}
+
+.cal-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.7rem;
+  color: #666;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper.page-wrap {
+    flex-direction: column;
+  }
+
+  .page-sidebar {
+    width: 100%;
+  }
+}

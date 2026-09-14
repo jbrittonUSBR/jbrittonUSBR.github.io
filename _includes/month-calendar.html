@@ -1,0 +1,73 @@
+{% assign cal_year = site.time | date: "%Y" %}
+{% assign cal_month = site.time | date: "%m" %}
+{% assign cal_month_num = site.time | date: "%-m" | plus: 0 %}
+{% assign cal_year_num = site.time | date: "%Y" | plus: 0 %}
+{% assign cal_title = site.time | date: "%B %Y" %}
+
+{% case cal_month_num %}
+  {% when 1 or 3 or 5 or 7 or 8 or 10 or 12 %}
+    {% assign days_in_month = 31 %}
+  {% when 4 or 6 or 9 or 11 %}
+    {% assign days_in_month = 30 %}
+  {% when 2 %}
+    {% assign leap_mod = cal_year_num | modulo: 4 %}
+    {% if leap_mod == 0 %}
+      {% assign days_in_month = 29 %}
+    {% else %}
+      {% assign days_in_month = 28 %}
+    {% endif %}
+{% endcase %}
+
+{% capture first_day_str %}{{ cal_year }}-{{ cal_month }}-01{% endcapture %}
+{% assign first_dow = first_day_str | date: "%w" | plus: 0 %}
+
+<aside class="cal-widget">
+  <h3 class="cal-title">{{ cal_title }}</h3>
+  <table class="cal">
+    <thead>
+      <tr>
+        <th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      {% for n in (1..7) %}
+        {% if n <= first_dow %}
+        <td class="empty">&nbsp;</td>
+        {% endif %}
+      {% endfor %}
+
+      {% for day in (1..days_in_month) %}
+        {% assign rem = day | plus: first_dow | minus: 1 | modulo: 7 %}
+        {% if day < 10 %}
+          {% assign dd = day | prepend: "0" %}
+        {% else %}
+          {% assign dd = day %}
+        {% endif %}
+        {% capture src_path %}/{{ cal_year }}/{{ cal_month }}/{{ dd }}/sources/{% endcapture %}
+        {% capture src_path_alt %}/{{ cal_year }}/{{ cal_month }}/{{ dd }}/sources{% endcapture %}
+        {% assign has_src = false %}
+        {% for p in site.pages %}
+          {% if p.url == src_path %}
+            {% assign has_src = true %}
+          {% endif %}
+          {% if p.url == src_path_alt %}
+            {% assign has_src = true %}
+          {% endif %}
+        {% endfor %}
+        <td>
+          {% if has_src %}
+            <a href="{{ src_path | relative_url }}" title="Bibliography {{ cal_year }}-{{ cal_month }}-{{ dd }}">{{ day }}</a>
+          {% else %}
+            <span class="no-src">{{ day }}</span>
+          {% endif %}
+        </td>
+        {% if rem == 6 %}
+      </tr><tr>
+        {% endif %}
+      {% endfor %}
+      </tr>
+    </tbody>
+  </table>
+  <p class="cal-note">Linked days have a bibliography.</p>
+</aside>

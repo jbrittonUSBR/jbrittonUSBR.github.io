@@ -13,7 +13,6 @@ title: Daily News
 {% for post in month.items %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    — {{ post.date | date: "%d" }}
   </li>
 {% endfor %}
 </ul>

@@ -4,6 +4,9 @@ url: "https://jbrittonUSBR.github.io"
 baseurl: ""
 author: jbritton
 
+header_pages:
+  - about.md
+  
 theme: minima
 
 minima:

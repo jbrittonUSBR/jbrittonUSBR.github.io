@@ -1,0 +1,24 @@
+title: Daily News Updates
+description: Short daily news notes published from GitHub Pages.
+url: "https://jbrittonUSBR.github.io"
+baseurl: ""
+author: jbrittonUSBR
+
+theme: minima
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/jbrittonUSBR" }
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: America/Denver
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Welcome — first daily note"
+title: "Priority Headlines for 14SEP2026"
 date: 2026-09-14 08:00:00 -0600
 categories: news
 ---
-
-# Priority Headlines for 14SEP2026
 
 ## 1. Iran/Houthi Campaign Against Saudi Energy Infrastructure Intensifies (UAS/SVT/FTO/AHE)
 - Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports

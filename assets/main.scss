@@ -1,0 +1,60 @@
+---
+---
+
+@import "minima";
+
+body {
+  background: #f6f4ef;
+}
+
+.briefing .kicker {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #6b4f2a;
+  margin-bottom: 0.25rem;
+}
+
+.briefing h1 {
+  margin: 0 0 0.35rem;
+}
+
+.lede {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.latest {
+  border: 1px solid #ddd4c4;
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.latest .meta {
+  color: #666;
+  margin: 0 0 0.4rem;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #3d3d3d;
+  color: #111;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #111;
+  color: #fff;
+}
+
+.year-list {
+  list-style: none;
+  padding: 0;
+}
+
+.year-list li {
+  margin: 0.35rem 0;
+}

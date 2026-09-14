@@ -4,8 +4,7 @@ title: Home
 ---
 
 <div class="briefing">
-  <p class="kicker">Priority Headlines</p>
-  <h1>Today’s notes</h1>
+  <h1>Daily Brief</h1>
   <p class="lede">Short daily briefing. Newest file first.</p>
 </div>
 
@@ -14,7 +13,6 @@ title: Home
 <article class="latest">
   <p class="meta">{{ latest.date | date: "%A, %d %B %Y" }}</p>
   <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
-  <p><a class="button" href="{{ latest.url | relative_url }}">Open today’s file</a></p>
 </article>
 {% endif %}
 

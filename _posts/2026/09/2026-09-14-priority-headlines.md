@@ -91,3 +91,9 @@ categories: news
 - **AI-for-weapons development confirmed**: Anthropic's disclosures of Russian kamikaze-drone software development and blocked bioweapons research validate prior AI-misuse warnings — expectation set for more state and non-state actors leveraging commercial AI.
 - **Patch-gap weaponization becoming a doctrine**: BlueMoon's three-V8-zero-days-in-one-kit approach shows threat actors systematically scanning for the patch gap as a persistent attack surface.
 - **Sabotage attribution volatility**: The French train derailment (suspected then ruled out) and the Bulgarian weapons-site fire (owner claims sabotage) — both underline the analytical hazard of rapid attribution in rail and energy incidents.
+
+- ## Sources
+
+Bibliography of articles used for this briefing (93 items after CI/terrorism title screen).
+
+[Open the 14 September 2026 bibliography]({{ '/2026/09/14/sources/' | relative_url }})

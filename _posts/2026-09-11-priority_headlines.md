@@ -1,4 +1,9 @@
-
+---
+layout: post
+title: "Priority Headlines for 11SEP2026"
+date: 2026-09-14 08:00:00 -0600
+categories: news
+---
 
 ## 1. Russia-Ukraine Drone Warfare Reaches New Thresholds (UAS/SVT)
 

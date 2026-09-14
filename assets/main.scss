@@ -59,6 +59,30 @@ body {
   margin: 0.35rem 0;
 }
 
+.cal-widget {
+  border: 1px solid #ddd4c4;
+  background: #fff;
+  padding: 0.75rem;
+}
+
+.cal-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.cal {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.8rem;
+}
+
+.cal th,
+.cal td {
+  text-align: center;
+  padding: 0.28rem 0;
+}
+
 .cal a {
   font-weight: 700;
   color: #1565c0;
@@ -74,6 +98,10 @@ body {
 .cal .empty {
   font-weight: 400;
   color: #999;
+}
 
-@import "calendar";  
+.cal-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.7rem;
+  color: #666;
 }

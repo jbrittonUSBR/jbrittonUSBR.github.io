@@ -23,6 +23,11 @@ title: Home
 {% endfor %}
 </ul>
 
+<div class="briefing">
+  <h1>Source List for Daily Brief</h1>
+  <p class="lede">Chicago Style citation list with links to the articles.</p>
+</div>
+
 <article class="latest">
   <p class="meta">{{ latest.date | date: "%A, %d %B %Y" }}</p>
   <h2><a href="{{ latest.date | date: '/%Y/%m/%d/sources/' | relative_url }}">Bibliography — {{ latest.date | date: "%d %B %Y" }}</a></h2>

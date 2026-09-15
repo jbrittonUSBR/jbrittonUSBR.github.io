@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Priority Headlines for 15SEP2026"
-date: 2026-09-15 07:00:00 -0600
+date: 2026-09-15 0:05:00 -0600
 categories: news
 ---
 

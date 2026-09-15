@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Priority Headlines for 15SEP2026"
+date: 2026-09-15 07:00:00 -0600
+categories: news
+---
+
 ## 1. Energy Chokepoint Crisis Deepens — Iran/Houthi Campaign (CBRN/SVT/FTO/UAS)
 - New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption
 - Iran war: Saudi pipeline out for at least a month, further stressing energy supplies

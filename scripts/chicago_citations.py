@@ -163,12 +163,17 @@ def main() -> int:
         if first:
             first = False
         else:
+            # Blank lines + HTML comment force kramdown to close the previous list.
+            lines.append("")
             lines.append("---")
+            lines.append("")
         lines.append(f"## {heading_for(q)}")
         lines.append(f"Querying NewsAPI for `{q}`...")
         lines.append(f"Articles found: {len(arts)}")
+        lines.append("")
         for i, art in enumerate(arts, 1):
             lines.append(f"{i}. {chicago_cite(art, accessed)}")
+    lines.append("")
     lines.append("---")
     lines.append("")
 

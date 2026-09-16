@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Keep only NewsAPI articles that look like terrorism or U.S. critical-infrastructure hits.
+"""Keep only NewsAPI articles that look like terrorism or CI hits.
 
-Reads the JSON written by newspull_to_json.py and writes a same-shaped JSON
-containing only matching articles.
+Title/citation screen aligned with the manual Grok filter:
+tactical incident over strategy; drop transactional/Biztoc/market copy.
 
-Usage:
   python filter_ci_json.py --in newspull.json --out newspull_ci.json
 """
 
@@ -17,61 +16,105 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Title/citation must hit at least one of these (word-ish; case-insensitive).
+# Tactical incident / designated-actor / CI-asset hits (title + citation).
+# Bare nouns (drone, airport, rail, plot) are NOT enough by themselves.
 KEEP = [
     r"\bcritical infrastructure\b",
     r"\bsubstations?\b",
     r"\btransformers?\b",
     r"\bpower grid\b",
     r"\belectric grid\b",
+    r"\bhigh voltage\b",
     r"\btransmission (line|tower|grid)\b",
     r"\bscada\b",
     r"\bindustrial control\b",
-    r"\b\bics\b",
+    r"\bics advisory\b",
     r"\bplc\b",
     r"\bhydropower\b",
     r"\bhydroelectric\b",
-    r"\bwater (utility|treatment|system|plant|infrastructure)\b",
+    r"\bwater (utility|treatment|system|plant|infrastructure|distribution)\b",
     r"\bdam(s)?\b",
     r"\bpipeline\b",
     r"\brefiner(y|ies)\b",
     r"\bchemical plant\b",
-    r"\bnuclear (plant|facility|site|power)\b",
-    r"\bcbrn\b",
+    r"\bnuclear (plant|facility|site|power|safety)\b",
+    r"\bundersea cable\b",
+    r"\bfiber[- ]optic\b",
     r"\bsabotage\b",
     r"\bvandalism\b",
     r"\binsider threat\b",
     r"\bhostile surveillance\b",
+    r"\bpre-?operational surveillance\b",
     r"\bvehicle ramming\b",
     r"\bvehicle as a weapon\b",
+    r"\bdrove into a crowd\b",
+    r"\bmowed down\b",
     r"\bactive shooter\b",
-    r"\bmass casualty\b",
+    r"\bmass (casualty|shooting)\b",
+    r"\barmed (assault|hostile)\b",
     r"\bied\b",
+    r"\bvbiied\b",
     r"\bimprovised explosive\b",
     r"\bbombing\b",
+    r"\bcar bomb\b",
+    r"\bsuicide bomb\b",
+    r"\barson\b",
+    r"\bcbrn\b",
+    r"\bricin\b",
+    r"\bdirty bomb\b",
+    r"\bbioweapon\b",
+    r"\bchemical weapon\b",
     r"\bterroris(m|t|ts)\b",
+    r"\bfinance terrorism\b",
+    r"\bmaterial support\b",
+    r"\bmurder for hire\b",
+    r"\bassassination\b",
     r"\bextremist(s| group)?\b",
     r"\bdve\b",
+    r"\brmve\b",
     r"\bfto\b",
     r"\bpatriot front\b",
+    r"\baccelerationist\b",
     r"\bal[- ]?qaeda\b",
     r"\bal[- ]?shabaab\b",
     r"\bisis\b",
+    r"\bislamic state\b",
+    r"\bhouthi(s)?\b",
+    r"\birgc\b",
+    r"\bquds force\b",
     r"\bespionage\b",
+    r"\btrade secret\b",
+    r"\bchargesheet\b",
+    r"\brussian intelligence\b",
+    r"\bchinese intelligence\b",
+    r"\biranian intelligence\b",
+    r"\bgru\b",
+    r"\bfsb\b",
+    r"\bsvr\b",
+    r"\bministry of state security\b",
+    r"\bmss\b",
+    r"\bmois\b",
+    r"\bvevak\b",
     r"\bcyber ?attack\b",
     r"\bransomware\b",
+    r"\bsupply[- ]chain (compromise|breach|attack|poison)\b",
+    r"\bsoftware supply\b",
+    r"\bzero-?day\b",
+    r"\bdrone (attack|strike|incursion|sighting)\b",
+    r"\bhostile drone\b",
+    r"\bcounter-?uas\b",
+    r"\bkamikaze drone\b",
     r"\buas\b",
     r"\buav\b",
-    r"\bdrone(s)?\b",
-    r"\bairport\b",
-    r"\bseaport\b",
-    r"\brail(way|road)?\b",
-    r"\bsubstation shooting\b",
-    r"\bplot\b",
-    r"\bthreat to\b",
+    r"\bsuspicious package\b",
+    r"\bbomb squad\b",
+    r"\bfoiled (plot|attack)\b",
+    r"\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\b.*\b(russian|china|chinese|iran|iranian)\b.*\b(plot|plots|assassination|murder)\b",
+    r"\b(russian|china|chinese|iran|iranian)\b.*\b(charg(e|es|ed)|indictment)\b.*\b(plot|plots|assassination|murder)\b",
+    r"\brussian plots?\b",
+    r"\bassassination plots?\b",
 ]
 
-# Transactional business copy — drop even if a KEEP term also appears.
 TRANSACTIONAL = [
     r"\bcontract(s|ed|ing)?\b",
     r"\bawarded\b",
@@ -87,6 +130,7 @@ TRANSACTIONAL = [
     r"\bstands? to benefit\b",
     r"\bstocks? stand to benefit\b",
     r"\bthese \d+ stocks\b",
+    r"\bbetter drone stock\b",
     r"\bearnings call\b",
     r"\bquarterly dividend\b",
     r"\bpress release\b",
@@ -104,9 +148,10 @@ TRANSACTIONAL = [
     r"\bsales, profit\b",
     r"\bprofit forecast\b",
     r"\binvestor(s)? throughout\b",
+    r"\bexclusive report by\b",
+    r"\bworth \$\d",
 ]
 
-# If these dominate and there is no strong CI/terror verb, drop.
 NOISE = [
     r"\bmarket worth\b",
     r"\bstock\b",
@@ -123,6 +168,8 @@ NOISE = [
     r"\bpremier league\b",
     r"\bhollywood\b",
     r"\bbox office\b",
+    r"\breview:\b",
+    r"\bthis story has been removed\b",
 ]
 
 STRONG = [
@@ -131,6 +178,9 @@ STRONG = [
     r"\bscada\b",
     r"\bsabotage\b",
     r"\bterroris(m|t|ts)\b",
+    r"\bfinance terrorism\b",
+    r"\bmurder for hire\b",
+    r"\bassassination\b",
     r"\binsider threat\b",
     r"\bimprovised explosive\b",
     r"\bied\b",
@@ -142,6 +192,9 @@ STRONG = [
     r"\bdam(s)?\b",
     r"\bhydropower\b",
     r"\bpower grid\b",
+    r"\bdrone (attack|strike|incursion)\b",
+    r"\bhouthi",
+    r"\bisis\b",
 ]
 
 
@@ -164,6 +217,12 @@ def hits(patterns: list[str], text: str) -> list[str]:
 
 
 def is_match(article: dict) -> tuple[bool, list[str]]:
+    title = (article.get("title") or "").strip()
+    outlet = (article.get("outlet") or "").strip().lower()
+    if not title or title.lower() in {"removed", "this story has been removed"}:
+        return False, []
+    if "biztoc" in outlet or "biztoc.com" in haystack(article).lower():
+        return False, []
     text = haystack(article)
     if hits(TRANSACTIONAL, text):
         return False, []
@@ -172,7 +231,6 @@ def is_match(article: dict) -> tuple[bool, list[str]]:
         return False, []
     noise = hits(NOISE, text)
     strong = hits(STRONG, text)
-    # Sports/markets only, no strong CI/terror term → drop
     if noise and not strong:
         return False, []
     return True, keep
@@ -204,6 +262,8 @@ def main() -> int:
                 kept_n += 1
             else:
                 dropped_n += 1
+        if not kept_arts:
+            continue
         kept_sections.append(
             {
                 "query": section.get("query"),
@@ -215,12 +275,15 @@ def main() -> int:
 
     out = {
         "pulled_at_utc": data.get("pulled_at_utc") if isinstance(data, dict) else None,
+        "accessed": data.get("accessed") if isinstance(data, dict) else None,
         "filtered_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "filter": "terrorism_or_critical_infrastructure_keyword",
-        "source_file": str(src),
+        "filter": "manual_title_review_terrorism_or_CI",
+        "source_file": src.name,
+        "source_article_count": data.get("article_count") if isinstance(data, dict) else None,
         "article_count": kept_n,
         "dropped_count": dropped_n,
         "term_count": len(kept_sections),
+        "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
         "results": kept_sections,
     }
     Path(args.dst).write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

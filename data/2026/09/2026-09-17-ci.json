@@ -1,0 +1,1592 @@
+{
+  "pulled_at_utc": "2026-09-17T13:20:30Z",
+  "accessed": "September 17, 2026",
+  "filtered_at_utc": "2026-09-17T13:20:47Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull.json",
+  "source_article_count": 493,
+  "article_count": 110,
+  "dropped_count": 383,
+  "term_count": 23,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Bloomberg",
+          "title": "US Coast Guard and FBI Conduct Cyberattack Probes on Tankers",
+          "outlet": "gcaptain.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:04:42Z",
+          "link": "https://gcaptain.com/us-coast-guard-and-fbi-conduct-cyberattack-probes-on-tankers/",
+          "citation": "(U) Bloomberg. \"US Coast Guard and FBI Conduct Cyberattack Probes on Tankers.\" gcaptain.com, September 16, 2026. https://gcaptain.com/us-coast-guard-and-fbi-conduct-cyberattack-probes-on-tankers/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "TOI News Desk",
+          "title": "Evening news wrap: India-Pak naval ships collide in international waters; India condemns drone attack near & Mecca more",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:00:26Z",
+          "link": "https://timesofindia.indiatimes.com/india/evening-news-wrap-india-pak-naval-ships-collide-in-international-waters-india-condemns-drone-attack-near-mecca-more/articleshow/134287261.cms",
+          "citation": "(U) TOI News Desk. \"Evening news wrap: India-Pak naval ships collide in international waters; India condemns drone attack near & Mecca more.\" The Times of India, September 16, 2026. https://timesofindia.indiatimes.com/india/evening-news-wrap-india-pak-naval-ships-collide-in-international-waters-india-condemns-drone-attack-near-mecca-more/articleshow/134287261.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "India expresses concern over drone attack on Makkah, calls for West Asia peace and stability",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:27:42Z",
+          "link": "https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms",
+          "citation": "(U) ET Online. \"India expresses concern over drone attack on Makkah, calls for West Asia peace and stability.\" The Times of India, September 16, 2026. https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Statement by the Deputy Prime Minister/Foreign Minister on the Houthi Drone Attack Targeting the Holy City of Makkah Al-Mukarramah",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260916-pakistan-mfa01.htm",
+          "citation": "(U) John Pike. \"Statement by the Deputy Prime Minister/Foreign Minister on the Houthi Drone Attack Targeting the Holy City of Makkah Al-Mukarramah.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/military/library/news/2026/09/mil-260916-pakistan-mfa01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b",
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "HANNA ARHIROVA Associated Press",
+          "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
+          "outlet": "Abcnews.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T11:27:52Z",
+          "link": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
+          "citation": "(U) HANNA ARHIROVA Associated Press. \"Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine.\" Abcnews.com, September 16, 2026. https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "KIM CHANDLER Associated Press",
+          "title": "16th Street Baptist Church marks bombing anniversary with a new visitor center",
+          "outlet": "Abcnews.com",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T20:58:22Z",
+          "link": "https://abcnews.com/Politics/wireStory/16th-street-baptist-church-marks-bombing-anniversary-new-136475525",
+          "citation": "(U) KIM CHANDLER Associated Press. \"16th Street Baptist Church marks bombing anniversary with a new visitor center.\" Abcnews.com, September 15, 2026. https://abcnews.com/Politics/wireStory/16th-street-baptist-church-marks-bombing-anniversary-new-136475525. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 8,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Milena Wälde",
+          "title": "US exposes alleged Russian terror network targeting Ukraine allies",
+          "outlet": "POLITICO.eu",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T08:42:26Z",
+          "link": "https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges/",
+          "citation": "(U) Milena Wälde. \"US exposes alleged Russian terror network targeting Ukraine allies.\" POLITICO.eu, September 16, 2026. https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt",
+          "outlet": "Breitbart News",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T13:05:16Z",
+          "link": "https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/",
+          "citation": "(U) Oliver JJ Lane. \"Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt.\" Breitbart News, September 15, 2026. https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States",
+          "outlet": "Globalsecurity.org",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm",
+          "citation": "(U) John Pike. \"Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States.\" Globalsecurity.org, September 15, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b",
+            "\\bmurder for hire\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "James Reinl",
+          "title": "America's new nightmare attack revealed: Experts expose 'soft underbelly' in grave danger and unveil 'Everything, Everywhere, All at Once' assault more devastating than 9/11",
+          "outlet": "Dailymail.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T18:08:15Z",
+          "link": "https://www.dailymail.com/news/article-16085301/america-cyberattack-infrastructure-new-york.html",
+          "citation": "(U) James Reinl. \"America's new nightmare attack revealed: Experts expose 'soft underbelly' in grave danger and unveil 'Everything, Everywhere, All at Once' assault more devastating than 9/11.\" Dailymail.com, September 12, 2026. https://www.dailymail.com/news/article-16085301/america-cyberattack-infrastructure-new-york.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Emedo Ashibeze",
+          "title": "5 Transformers Stronger Than Megatron",
+          "outlet": "Screen Rant",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T01:00:15Z",
+          "link": "https://screenrant.com/transformers-stronger-megatron/",
+          "citation": "(U) Emedo Ashibeze. \"5 Transformers Stronger Than Megatron.\" Screen Rant, September 11, 2026. https://screenrant.com/transformers-stronger-megatron/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Greene-Colozzi, Assistant Professor of Criminology and Justice Studies, UMass Lowell",
+          "title": "Lockdown or active shooter drill? The distinction matters for children’s safety and well-being",
+          "outlet": "The Conversation Africa",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:34:16Z",
+          "link": "https://theconversation.com/lockdown-or-active-shooter-drill-the-distinction-matters-for-childrens-safety-and-well-being-290133",
+          "citation": "(U) Emily Greene-Colozzi, Assistant Professor of Criminology and Justice Studies, UMass Lowell. \"Lockdown or active shooter drill? The distinction matters for children’s safety and well-being.\" The Conversation Africa, September 16, 2026. https://theconversation.com/lockdown-or-active-shooter-drill-the-distinction-matters-for-childrens-safety-and-well-being-290133. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
+        {
+          "author": "Luke Barr",
+          "title": "21-year-old Pennsylvania man arrested in alleged ISIS-inspired firearm plot: DOJ",
+          "outlet": "Abcnews.com",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:03:37Z",
+          "link": "https://abcnews.com/US/21-year-pennsylvania-man-arrested-alleged-isis-inspired/story?id=136450719",
+          "citation": "(U) Luke Barr. \"21-year-old Pennsylvania man arrested in alleged ISIS-inspired firearm plot: DOJ.\" Abcnews.com, September 15, 2026. https://abcnews.com/US/21-year-pennsylvania-man-arrested-alleged-isis-inspired/story?id=136450719. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Butler County Man Charged with Receiving a Firearm and Ammunition With Intent to Commit Terrorism on Behalf of ISIS",
+          "outlet": "Globalsecurity.org",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:00:00Z",
+          "link": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-doj01.htm",
+          "citation": "(U) John Pike. \"Butler County Man Charged with Receiving a Firearm and Ammunition With Intent to Commit Terrorism on Behalf of ISIS.\" Globalsecurity.org, September 15, 2026. https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "PBS News, PBS NewsHour",
+          "title": "Houthi gains in Yemen, attack on Saudi pipeline compound pressure on oil markets",
+          "outlet": "PBS",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T22:40:45Z",
+          "link": "https://www.pbs.org/newshour/show/houthi-gains-in-yemen-attack-on-saudi-pipeline-compound-pressure-on-oil-markets",
+          "citation": "(U) PBS News, PBS NewsHour. \"Houthi gains in Yemen, attack on Saudi pipeline compound pressure on oil markets.\" PBS, September 14, 2026. https://www.pbs.org/newshour/show/houthi-gains-in-yemen-attack-on-saudi-pipeline-compound-pressure-on-oil-markets. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Malcolm Ferguson",
+          "title": "DOJ Ejects Green Card Holder Using Alien Terrorist Removal Court",
+          "outlet": "The New Republic",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T17:27:46Z",
+          "link": "https://newrepublic.com/post/215394/justice-department-ejects-green-card-holder-afghanistan-alien-terrorist-removal-court",
+          "citation": "(U) Malcolm Ferguson. \"DOJ Ejects Green Card Holder Using Alien Terrorist Removal Court.\" The New Republic, September 14, 2026. https://newrepublic.com/post/215394/justice-department-ejects-green-card-holder-afghanistan-alien-terrorist-removal-court. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Adam Gramegna",
+          "title": "DOJ Used Alien Terrorist Removal Court For First Time Ever to Deport Woman Claimed of Radicalizing Family",
+          "outlet": "Military.com",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T15:48:39Z",
+          "link": "https://military.com/doj-used-alien-terrorist-removal-court-first-time-ever-deport-woman-claimed-radicalizing-family",
+          "citation": "(U) Adam Gramegna. \"DOJ Used Alien Terrorist Removal Court For First Time Ever to Deport Woman Claimed of Radicalizing Family.\" Military.com, September 14, 2026. https://military.com/doj-used-alien-terrorist-removal-court-first-time-ever-deport-woman-claimed-radicalizing-family. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Colin P. Clarke and Clara Broekaert",
+          "title": "25 Years After 9/11, What Are We Failing to Imagine Now?",
+          "outlet": "Foreign Policy",
+          "published": "September 7, 2026",
+          "publishedAt": "2026-09-07T04:28:40Z",
+          "link": "http://foreignpolicy.com/2026/09/07/9-11-failure-of-imagination-new-terrorist-technologies/",
+          "citation": "(U) Colin P. Clarke and Clara Broekaert. \"25 Years After 9/11, What Are We Failing to Imagine Now?.\" Foreign Policy, September 7, 2026. http://foreignpolicy.com/2026/09/07/9-11-failure-of-imagination-new-terrorist-technologies/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt",
+          "outlet": "Breitbart News",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T13:05:16Z",
+          "link": "https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/",
+          "citation": "(U) Oliver JJ Lane. \"Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt.\" Breitbart News, September 15, 2026. https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "German authorities identify suspects in failed drone attack at Leipzig airport",
+          "outlet": "Crypto Briefing",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T10:13:36Z",
+          "link": "https://cryptobriefing.com/german-suspects-drone-attack-leipzig-airport/",
+          "citation": "(U) Editorial Team. \"German authorities identify suspects in failed drone attack at Leipzig airport.\" Crypto Briefing, September 12, 2026. https://cryptobriefing.com/german-suspects-drone-attack-leipzig-airport/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Wanted man accused of Winnipeg arsons and extortions may be in Ontario, police say",
+          "outlet": "CBC News",
+          "published": "September 10, 2026",
+          "publishedAt": "2026-09-10T19:30:21Z",
+          "link": "https://www.cbc.ca/news/canada/manitoba/winnipeg-police-warrant-arson-extortion-charges-9.7339119",
+          "citation": "(U) CBC News Staff. \"Wanted man accused of Winnipeg arsons and extortions may be in Ontario, police say.\" CBC News, September 10, 2026. https://www.cbc.ca/news/canada/manitoba/winnipeg-police-warrant-arson-extortion-charges-9.7339119. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "'Climate Terrorism': Manhunt Arrest in Germany Over Rocket Attacks Against High Voltage Power Lines",
+          "outlet": "Breitbart News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T10:16:07Z",
+          "link": "https://www.breitbart.com/europe/2026/09/09/hold-hold-germany-energy-sabotage/",
+          "citation": "(U) Oliver JJ Lane. \"'Climate Terrorism': Manhunt Arrest in Germany Over Rocket Attacks Against High Voltage Power Lines.\" Breitbart News, September 9, 2026. https://www.breitbart.com/europe/2026/09/09/hold-hold-germany-energy-sabotage/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhigh voltage\\b",
+            "\\bsabotage\\b",
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "German police arrest suspect in sabotage attacks on power grid",
+          "outlet": "The Local Germany",
+          "published": "September 8, 2026",
+          "publishedAt": "2026-09-08T14:08:40Z",
+          "link": "https://www.thelocal.de/20260908/german-police-arrest-suspect-in-sabotage-attacks-on-power-grid",
+          "citation": "(U) AFP. \"German police arrest suspect in sabotage attacks on power grid.\" The Local Germany, September 8, 2026. https://www.thelocal.de/20260908/german-police-arrest-suspect-in-sabotage-attacks-on-power-grid. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b",
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Charles Kennedy",
+          "title": "Germany’s Power Grid Could Be NATO’s Weakest Link",
+          "outlet": "OilPrice.com",
+          "published": "September 8, 2026",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "link": "https://oilprice.com/Energy/Energy-General/Germanys-Power-Grid-Could-Be-NATOs-Weakest-Link.html",
+          "citation": "(U) Charles Kennedy. \"Germany’s Power Grid Could Be NATO’s Weakest Link.\" OilPrice.com, September 8, 2026. https://oilprice.com/Energy/Energy-General/Germanys-Power-Grid-Could-Be-NATOs-Weakest-Link.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Yves Smith",
+          "title": "Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn",
+          "outlet": "Nakedcapitalism.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T10:52:37Z",
+          "link": "https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html",
+          "citation": "(U) Yves Smith. \"Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn.\" Nakedcapitalism.com, September 16, 2026. https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Haley Zaremba",
+          "title": "Sam Altman Is Selling Utilities the Cure for a Cyberattack His Own AI Helped Cau",
+          "outlet": "OilPrice.com",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T21:00:00Z",
+          "link": "https://oilprice.com/Energy/Energy-General/Sam-Altman-Is-Selling-Utilities-the-Cure-for-a-Cyberattack-His-Own-AI-Helped-Cau.html",
+          "citation": "(U) Haley Zaremba. \"Sam Altman Is Selling Utilities the Cure for a Cyberattack His Own AI Helped Cau.\" OilPrice.com, September 15, 2026. https://oilprice.com/Energy/Energy-General/Sam-Altman-Is-Selling-Utilities-the-Cure-for-a-Cyberattack-His-Own-AI-Helped-Cau.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Bill Toulas",
+          "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+          "outlet": "BleepingComputer",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T16:40:14Z",
+          "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+          "citation": "(U) Bill Toulas. \"CenterPoint Energy confirms customer data stolen in cyberattack.\" BleepingComputer, September 15, 2026. https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Carly Page",
+          "title": "Cyberattack sends International Meteor Organization crashing back to Earth",
+          "outlet": "Theregister.com",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T16:00:00Z",
+          "link": "https://www.theregister.com/cyber-crime/2026/09/14/cyberattack-sends-international-meteor-organization-crashing-back-to-earth/5296282",
+          "citation": "(U) Carly Page. \"Cyberattack sends International Meteor Organization crashing back to Earth.\" Theregister.com, September 14, 2026. https://www.theregister.com/cyber-crime/2026/09/14/cyberattack-sends-international-meteor-organization-crashing-back-to-earth/5296282. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Conor Gallagher",
+          "title": "The Long, Lawless Arm in the Fight Against ‘Anti-Capitalist Terrorists’ Reaches Into Europe as Autistici/Inventati Is Debanked, Hacked, and Has Its Domain Shut Down",
+          "outlet": "Nakedcapitalism.com",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T10:00:33Z",
+          "link": "https://www.nakedcapitalism.com/2026/09/the-long-lawless-arm-in-the-fight-against-anti-capitalist-terrorists-reaches-into-europe-as-autistici-inventati-is-debanked-hacked-and-has-its-domain-shut-down.html",
+          "citation": "(U) Conor Gallagher. \"The Long, Lawless Arm in the Fight Against ‘Anti-Capitalist Terrorists’ Reaches Into Europe as Autistici/Inventati Is Debanked, Hacked, and Has Its Domain Shut Down.\" Nakedcapitalism.com, September 14, 2026. https://www.nakedcapitalism.com/2026/09/the-long-lawless-arm-in-the-fight-against-anti-capitalist-terrorists-reaches-into-europe-as-autistici-inventati-is-debanked-hacked-and-has-its-domain-shut-down.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Yves Smith",
+          "title": "Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn",
+          "outlet": "Nakedcapitalism.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T10:52:37Z",
+          "link": "https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html",
+          "citation": "(U) Yves Smith. \"Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn.\" Nakedcapitalism.com, September 16, 2026. https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Le Monde",
+          "title": "Houthi control of Bab al-Mandab Strait poses new threat to global economy",
+          "outlet": "Freerepublic.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T02:36:50Z",
+          "link": "https://freerepublic.com/focus/f-news/4395694/posts",
+          "citation": "(U) Le Monde. \"Houthi control of Bab al-Mandab Strait poses new threat to global economy.\" Freerepublic.com, September 16, 2026. https://freerepublic.com/focus/f-news/4395694/posts. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Mike Corder",
+          "title": "Sabotage suspected in Dutch railway outage",
+          "outlet": "WSB Radio",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T15:05:07Z",
+          "link": "https://www.wsbradio.com/news/business/suspected-sabotage/YDHFSYLSGI5ORKJJPMNOABJ7B4/",
+          "citation": "(U) Mike Corder. \"Sabotage suspected in Dutch railway outage.\" WSB Radio, September 15, 2026. https://www.wsbradio.com/news/business/suspected-sabotage/YDHFSYLSGI5ORKJJPMNOABJ7B4/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt",
+          "outlet": "Breitbart News",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T13:05:16Z",
+          "link": "https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/",
+          "citation": "(U) Oliver JJ Lane. \"Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt.\" Breitbart News, September 15, 2026. https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "Suspected sabotage triggers a major Dutch rail outage during morning rush hour",
+          "outlet": "New York Post",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T10:37:26Z",
+          "link": "https://nypost.com/2026/09/15/world-news/suspected-sabotage-triggers-a-major-dutch-rail-outage-during-the-morning-rush-hour/",
+          "citation": "(U) Associated Press. \"Suspected sabotage triggers a major Dutch rail outage during morning rush hour.\" New York Post, September 15, 2026. https://nypost.com/2026/09/15/world-news/suspected-sabotage-triggers-a-major-dutch-rail-outage-during-the-morning-rush-hour/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "ISIS-K Terrorist Sentenced to 20 Years in Prison for Role in Abbey Gate and Other Terror Attacks",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260916-doj01.htm",
+          "citation": "(U) John Pike. \"ISIS-K Terrorist Sentenced to 20 Years in Prison for Role in Abbey Gate and Other Terror Attacks.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/security/library/news/2026/09/sec-260916-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "US charges five people over alleged Russian plots",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T06:57:10Z",
+          "link": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots",
+          "citation": "(U) Al Jazeera Staff. \"US charges five people over alleged Russian plots.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "Aryan Singh",
+          "title": "How FBI busted Russian plot to kill US-based dissident, target Ukraine supporters",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:50:35Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/how-fbi-busted-russian-plot-to-kill-us-based-dissident-target-ukraine-supporters/articleshow/134278231.cms",
+          "citation": "(U) Aryan Singh. \"How FBI busted Russian plot to kill US-based dissident, target Ukraine supporters.\" The Times of India, September 16, 2026. https://timesofindia.indiatimes.com/world/us/how-fbi-busted-russian-plot-to-kill-us-based-dissident-target-ukraine-supporters/articleshow/134278231.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "FBI thwarts Russian plot to kill a prominent dissident in Washington",
+          "outlet": "Business Standard",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:19:35Z",
+          "link": "https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html",
+          "citation": "(U) AP. \"FBI thwarts Russian plot to kill a prominent dissident in Washington.\" Business Standard, September 16, 2026. https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 8,
+      "error": null,
+      "articles": [
+        {
+          "author": "CBS News",
+          "title": "FBI investigation thwarts \"mass casualty attack\" from Pennsylvania man accused of pledging ISIS allegiance",
+          "outlet": "Freerepublic.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:02:22Z",
+          "link": "https://freerepublic.com/focus/f-news/4395723/posts",
+          "citation": "(U) CBS News. \"FBI investigation thwarts \"mass casualty attack\" from Pennsylvania man accused of pledging ISIS allegiance.\" Freerepublic.com, September 16, 2026. https://freerepublic.com/focus/f-news/4395723/posts. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "ISIS-K Terrorist Sentenced to 20 Years in Prison for Role in Abbey Gate and Other Terror Attacks",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260916-doj01.htm",
+          "citation": "(U) John Pike. \"ISIS-K Terrorist Sentenced to 20 Years in Prison for Role in Abbey Gate and Other Terror Attacks.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/security/library/news/2026/09/sec-260916-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "By Timour Azhari, Alexander Cornwell and Gram Slattery",
+          "title": "U.S. officials met Iran-backed Houthis in Oman over the weekend, sources say",
+          "outlet": "Yahoo Entertainment",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T11:03:56Z",
+          "link": "https://www.yahoo.com/news/politics/articles/u-officials-met-iran-backed-110356019.html",
+          "citation": "(U) By Timour Azhari, Alexander Cornwell and Gram Slattery. \"U.S. officials met Iran-backed Houthis in Oman over the weekend, sources say.\" Yahoo Entertainment, September 16, 2026. https://www.yahoo.com/news/politics/articles/u-officials-met-iran-backed-110356019.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "US charges five people over alleged Russian plots",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T06:57:10Z",
+          "link": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots",
+          "citation": "(U) Al Jazeera Staff. \"US charges five people over alleged Russian plots.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "FBI thwarts Russian plot to kill a prominent dissident in Washington",
+          "outlet": "Business Standard",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:19:35Z",
+          "link": "https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html",
+          "citation": "(U) AP. \"FBI thwarts Russian plot to kill a prominent dissident in Washington.\" Business Standard, September 16, 2026. https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Saudi crown prince seeks Egypt's backing as Houthi attacks rattle Red Sea oil routes",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T03:54:08Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/saudi-crown-prince-seeks-egypts-backing-as-houthi-attacks-rattle-red-sea-oil-routes/articleshow/134277311.cms",
+          "citation": "(U) AP. \"Saudi crown prince seeks Egypt's backing as Houthi attacks rattle Red Sea oil routes.\" The Times of India, September 16, 2026. https://economictimes.indiatimes.com/news/international/world-news/saudi-crown-prince-seeks-egypts-backing-as-houthi-attacks-rattle-red-sea-oil-routes/articleshow/134277311.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Pennsylvania man charged over alleged ISIS attack plot",
+          "outlet": "Israelnationalnews.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T03:29:26Z",
+          "link": "https://www.israelnationalnews.com/news/433232",
+          "citation": "(U) Israel National News. \"Pennsylvania man charged over alleged ISIS attack plot.\" Israelnationalnews.com, September 16, 2026. https://www.israelnationalnews.com/news/433232. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Thao Nguyen, USA TODAY",
+          "title": "Pennsylvania man accused of preparing attack for Islamic State group",
+          "outlet": "USA Today",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T02:48:38Z",
+          "link": "https://www.usatoday.com/story/news/nation/2026/09/15/pennsylvania-man-charged-alleged-isis-attack-plot/91783241007/",
+          "citation": "(U) Thao Nguyen, USA TODAY. \"Pennsylvania man accused of preparing attack for Islamic State group.\" USA Today, September 16, 2026. https://www.usatoday.com/story/news/nation/2026/09/15/pennsylvania-man-charged-alleged-isis-attack-plot/91783241007/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b",
+            "\\bislamic state\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Bulgaria investigates fire at weapons site that owner calls sabotage",
+          "outlet": "BBC News",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T17:38:21Z",
+          "link": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Bulgaria investigates fire at weapons site that owner calls sabotage.\" BBC News, September 12, 2026. https://www.bbc.co.uk/news/articles/cd94kj17zvwo. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Ben Smith",
+          "title": "Trump Uses Alien Terrorist Court for First-Ever Deportation",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T14:00:43Z",
+          "link": "https://legalinsurrection.com/2026/09/trump-uses-alien-terrorist-court-for-first-ever-deportation/",
+          "citation": "(U) Ben Smith. \"Trump Uses Alien Terrorist Court for First-Ever Deportation.\" Legalinsurrection.com, September 12, 2026. https://legalinsurrection.com/2026/09/trump-uses-alien-terrorist-court-for-first-ever-deportation/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Department of Justice Removes Alien Terrorist in First Use of United States Alien Terrorist Removal Court",
+          "outlet": "Globalsecurity.org",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T12:00:00Z",
+          "link": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260911-doj01.htm",
+          "citation": "(U) John Pike. \"Department of Justice Removes Alien Terrorist in First Use of United States Alien Terrorist Removal Court.\" Globalsecurity.org, September 11, 2026. https://www.globalsecurity.org/security/library/news/2026/09/sec-260911-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alessandro  Mascellino",
+          "title": "CISA Updates Insider Threat Guide With New Mitigation Advice",
+          "outlet": "Infosecurity Magazine",
+          "published": "September 10, 2026",
+          "publishedAt": "2026-09-10T14:00:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/",
+          "citation": "(U) Alessandro  Mascellino. \"CISA Updates Insider Threat Guide With New Mitigation Advice.\" Infosecurity Magazine, September 10, 2026. https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "Jim Loucks",
+          "title": "The Assessment Gap in U.S. Counter-Terrorism Strikes",
+          "outlet": "War on the Rocks",
+          "published": "September 10, 2026",
+          "publishedAt": "2026-09-10T07:30:59Z",
+          "link": "https://warontherocks.com/the-assessment-gap-in-u-s-counter-terrorism-strikes/",
+          "citation": "(U) Jim Loucks. \"The Assessment Gap in U.S. Counter-Terrorism Strikes.\" War on the Rocks, September 10, 2026. https://warontherocks.com/the-assessment-gap-in-u-s-counter-terrorism-strikes/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "PRNewswire Staff",
+          "title": "TSA marks 25th anniversary of September 11 terrorist attacks",
+          "outlet": "PRNewswire",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T14:20:00Z",
+          "link": "https://www.prnewswire.com/news-releases/tsa-marks-25th-anniversary-of-september-11-terrorist-attacks-302876489.html",
+          "citation": "(U) PRNewswire Staff. \"TSA marks 25th anniversary of September 11 terrorist attacks.\" PRNewswire, September 11, 2026. https://www.prnewswire.com/news-releases/tsa-marks-25th-anniversary-of-september-11-terrorist-attacks-302876489.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Bloomberg",
+          "title": "US Coast Guard and FBI Conduct Cyberattack Probes on Tankers",
+          "outlet": "gcaptain.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:04:42Z",
+          "link": "https://gcaptain.com/us-coast-guard-and-fbi-conduct-cyberattack-probes-on-tankers/",
+          "citation": "(U) Bloomberg. \"US Coast Guard and FBI Conduct Cyberattack Probes on Tankers.\" gcaptain.com, September 16, 2026. https://gcaptain.com/us-coast-guard-and-fbi-conduct-cyberattack-probes-on-tankers/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "India expresses concern over drone attack on Makkah, calls for West Asia peace and stability",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:27:42Z",
+          "link": "https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms",
+          "citation": "(U) ET Online. \"India expresses concern over drone attack on Makkah, calls for West Asia peace and stability.\" The Times of India, September 16, 2026. https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil - The New York Times",
+          "outlet": "Slashdot.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:12:48Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=185668358",
+          "citation": "(U) feedfeeder. \"Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil - The New York Times.\" Slashdot.org, September 16, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=185668358. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "CENTCOM Says Hormuz 'Remains Open' As Houthi-Saudi Fighting Threatens Another Key Waterway",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260916-rferl04.htm",
+          "citation": "(U) John Pike. \"CENTCOM Says Hormuz 'Remains Open' As Houthi-Saudi Fighting Threatens Another Key Waterway.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/military/library/news/2026/09/mil-260916-rferl04.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Yves Smith",
+          "title": "Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn",
+          "outlet": "Nakedcapitalism.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T10:52:37Z",
+          "link": "https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html",
+          "citation": "(U) Yves Smith. \"Iran War: Europe Oil and US Diesel Crunch Worsens; Tucker Exposes Massive Trump/Israel Bombing Campaign Right After Midterms; Experts Question Survival of Regimes in Saudi Arabia, Jordsn.\" Nakedcapitalism.com, September 16, 2026. https://www.nakedcapitalism.com/2026/09/iran-war-europe-oil-and-us-diesel-crunch-worsens-tucker-exposes-massive-trump-israel-bombing-campaign-right-after-midterms-experts-question-survival-of-regimes-in-saudi-arabia-jordsn.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "Chantal Da Silva",
+          "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
+          "outlet": "NBC News",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T10:41:21Z",
+          "link": "https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075",
+          "citation": "(U) Chantal Da Silva. \"Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’.\" NBC News, September 16, 2026. https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 8,
+      "error": null,
+      "articles": [
+        {
+          "author": "CBS News",
+          "title": "FBI investigation thwarts \"mass casualty attack\" from Pennsylvania man accused of pledging ISIS allegiance",
+          "outlet": "Freerepublic.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:02:22Z",
+          "link": "https://freerepublic.com/focus/f-news/4395723/posts",
+          "citation": "(U) CBS News. \"FBI investigation thwarts \"mass casualty attack\" from Pennsylvania man accused of pledging ISIS allegiance.\" Freerepublic.com, September 16, 2026. https://freerepublic.com/focus/f-news/4395723/posts. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "TOI News Desk",
+          "title": "Evening news wrap: India-Pak naval ships collide in international waters; India condemns drone attack near & Mecca more",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:00:26Z",
+          "link": "https://timesofindia.indiatimes.com/india/evening-news-wrap-india-pak-naval-ships-collide-in-international-waters-india-condemns-drone-attack-near-mecca-more/articleshow/134287261.cms",
+          "citation": "(U) TOI News Desk. \"Evening news wrap: India-Pak naval ships collide in international waters; India condemns drone attack near & Mecca more.\" The Times of India, September 16, 2026. https://timesofindia.indiatimes.com/india/evening-news-wrap-india-pak-naval-ships-collide-in-international-waters-india-condemns-drone-attack-near-mecca-more/articleshow/134287261.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Report: US met Houthis days after terror group seized key coastline",
+          "outlet": "Israelnationalnews.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:43:42Z",
+          "link": "https://www.israelnationalnews.com/news/433258",
+          "citation": "(U) Israel National News. \"Report: US met Houthis days after terror group seized key coastline.\" Israelnationalnews.com, September 16, 2026. https://www.israelnationalnews.com/news/433258. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it - NPR",
+          "outlet": "Slashdot.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:33:32Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=185668506",
+          "citation": "(U) feedfeeder. \"Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it - NPR.\" Slashdot.org, September 16, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=185668506. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "India expresses concern over drone attack on Makkah, calls for West Asia peace and stability",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:27:42Z",
+          "link": "https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms",
+          "citation": "(U) ET Online. \"India expresses concern over drone attack on Makkah, calls for West Asia peace and stability.\" The Times of India, September 16, 2026. https://economictimes.indiatimes.com/news/india/india-expresses-concern-over-drone-attack-on-makkah-calls-for-west-asia-peace-and-stability/articleshow/134287647.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Houthis claim missile and drone strikes on Saudi Aramco facilities and Khamis Mushait airbase",
+          "outlet": "Crypto Briefing",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:13:32Z",
+          "link": "https://cryptobriefing.com/houthis-claim-strikes-saudi-aramco-airbase/",
+          "citation": "(U) Editorial Team. \"Houthis claim missile and drone strikes on Saudi Aramco facilities and Khamis Mushait airbase.\" Crypto Briefing, September 16, 2026. https://cryptobriefing.com/houthis-claim-strikes-saudi-aramco-airbase/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil - The New York Times",
+          "outlet": "Slashdot.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:12:48Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=185668358",
+          "citation": "(U) feedfeeder. \"Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil - The New York Times.\" Slashdot.org, September 16, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=185668358. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Taiz camps overflow with Yemenis fleeing fighting after Houthi offensive",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:10:55Z",
+          "link": "https://www.aljazeera.com/features/2026/9/16/taiz-camps-overflow-with-yemenis-fleeing-fighting-after-houthi-offensive",
+          "citation": "(U) Al Jazeera English Staff. \"Taiz camps overflow with Yemenis fleeing fighting after Houthi offensive.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/features/2026/9/16/taiz-camps-overflow-with-yemenis-fleeing-fighting-after-houthi-offensive. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Goodin",
+          "title": "Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks",
+          "outlet": "New York Post",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T17:30:49Z",
+          "link": "https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/",
+          "citation": "(U) Emily Goodin. \"Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks.\" New York Post, September 11, 2026. https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Eimer McAuley",
+          "title": "Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon",
+          "outlet": "TheJournal.ie",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T23:10:44Z",
+          "link": "https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/",
+          "citation": "(U) Eimer McAuley. \"Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon.\" TheJournal.ie, September 9, 2026. https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        },
+        {
+          "author": "Emmanuel Detres",
+          "title": "Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations",
+          "outlet": "Inside the Magic",
+          "published": "September 8, 2026",
+          "publishedAt": "2026-09-08T16:15:00Z",
+          "link": "https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/",
+          "citation": "(U) Emmanuel Detres. \"Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations.\" Inside the Magic, September 8, 2026. https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "HANNA ARHIROVA Associated Press",
+          "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
+          "outlet": "Abcnews.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T11:27:52Z",
+          "link": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
+          "citation": "(U) HANNA ARHIROVA Associated Press. \"Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine.\" Abcnews.com, September 16, 2026. https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Bloomberg News",
+          "title": "No Trump Truce Seen as Kyiv Hits Volga Refinery",
+          "outlet": "Rigzone",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T08:22:21Z",
+          "link": "https://www.rigzone.com/news/wire/no_trump_truce_seen_as_kyiv_hits_volga_refinery-16-sep-2026-184625-article/",
+          "citation": "(U) Bloomberg News. \"No Trump Truce Seen as Kyiv Hits Volga Refinery.\" Rigzone, September 16, 2026. https://www.rigzone.com/news/wire/no_trump_truce_seen_as_kyiv_hits_volga_refinery-16-sep-2026-184625-article/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Haley Zaremba",
+          "title": "Sam Altman Is Selling Utilities the Cure for a Cyberattack His Own AI Helped Cau",
+          "outlet": "OilPrice.com",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T21:00:00Z",
+          "link": "https://oilprice.com/Energy/Energy-General/Sam-Altman-Is-Selling-Utilities-the-Cure-for-a-Cyberattack-His-Own-AI-Helped-Cau.html",
+          "citation": "(U) Haley Zaremba. \"Sam Altman Is Selling Utilities the Cure for a Cyberattack His Own AI Helped Cau.\" OilPrice.com, September 15, 2026. https://oilprice.com/Energy/Energy-General/Sam-Altman-Is-Selling-Utilities-the-Cure-for-a-Cyberattack-His-Own-AI-Helped-Cau.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "ET Online",
+          "title": "A rooftop sniper, missing security measures and a grieving family: Could Charlie Kirk’s assassination have been prevented? Family raises new questions",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:56:20Z",
+          "link": "https://economictimes.indiatimes.com/news/international/global-trends/a-rooftop-sniper-missing-security-measures-and-a-grieving-family-could-charlie-kirks-assassination-have-been-prevented-family-raises-new-questions/articleshow/134288439.cms",
+          "citation": "(U) ET Online. \"A rooftop sniper, missing security measures and a grieving family: Could Charlie Kirk’s assassination have been prevented? Family raises new questions.\" The Times of India, September 16, 2026. https://economictimes.indiatimes.com/news/international/global-trends/a-rooftop-sniper-missing-security-measures-and-a-grieving-family-could-charlie-kirks-assassination-have-been-prevented-family-raises-new-questions/articleshow/134288439.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "John Amato",
+          "title": "Trump's New Lie: Assassination Attempt Was A Democratic Plot Against Him",
+          "outlet": "Crooksandliars.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T11:55:49Z",
+          "link": "https://crooksandliars.com/2026/09/trump-lie-assassination-dem-plot",
+          "citation": "(U) John Amato. \"Trump's New Lie: Assassination Attempt Was A Democratic Plot Against Him.\" Crooksandliars.com, September 16, 2026. https://crooksandliars.com/2026/09/trump-lie-assassination-dem-plot. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Charlie Kirk's family alleges UVU knew of rooftop security risk before his assassination: legal filing",
+          "outlet": "Fox News",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T10:00:35Z",
+          "link": "https://www.foxnews.com/us/charlie-kirk-family-alleges-uvu-knew-rooftop-security-risk-before-assassination-legal-filing",
+          "citation": "(U) Fox News Staff. \"Charlie Kirk's family alleges UVU knew of rooftop security risk before his assassination: legal filing.\" Fox News, September 16, 2026. https://www.foxnews.com/us/charlie-kirk-family-alleges-uvu-knew-rooftop-security-risk-before-assassination-legal-filing. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "US charges five people over alleged Russian plots",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T06:57:10Z",
+          "link": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots",
+          "citation": "(U) Al Jazeera Staff. \"US charges five people over alleged Russian plots.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "Nicholas Kerr",
+          "title": "Trump says Butler assassination attempt was 'Democrat Plot' without showing evidence",
+          "outlet": "Abcnews.com",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T20:32:56Z",
+          "link": "https://abcnews.com/Politics/trump-claims-butler-assassination-attempt-democrat-plot-showing/story?id=136468084",
+          "citation": "(U) Nicholas Kerr. \"Trump says Butler assassination attempt was 'Democrat Plot' without showing evidence.\" Abcnews.com, September 15, 2026. https://abcnews.com/Politics/trump-claims-butler-assassination-attempt-democrat-plot-showing/story?id=136468084. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "US charges five people over alleged Russian plots",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T06:57:10Z",
+          "link": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots",
+          "citation": "(U) Al Jazeera Staff. \"US charges five people over alleged Russian plots.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "Aryan Singh",
+          "title": "How FBI busted Russian plot to kill US-based dissident, target Ukraine supporters",
+          "outlet": "The Times of India",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:50:35Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/how-fbi-busted-russian-plot-to-kill-us-based-dissident-target-ukraine-supporters/articleshow/134278231.cms",
+          "citation": "(U) Aryan Singh. \"How FBI busted Russian plot to kill US-based dissident, target Ukraine supporters.\" The Times of India, September 16, 2026. https://timesofindia.indiatimes.com/world/us/how-fbi-busted-russian-plot-to-kill-us-based-dissident-target-ukraine-supporters/articleshow/134278231.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "FBI thwarts Russian plot to kill a prominent dissident in Washington",
+          "outlet": "Business Standard",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:19:35Z",
+          "link": "https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html",
+          "citation": "(U) AP. \"FBI thwarts Russian plot to kill a prominent dissident in Washington.\" Business Standard, September 16, 2026. https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States",
+          "outlet": "Globalsecurity.org",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm",
+          "citation": "(U) John Pike. \"Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States.\" Globalsecurity.org, September 15, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b",
+            "\\bmurder for hire\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Mathias Bölinger, Julett Pineda, Anna Chaika",
+          "title": "Cuban dance teacher ordered EU sabotage attacks from Russia",
+          "outlet": "DW (English)",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T05:19:00Z",
+          "link": "https://www.dw.com/en/cuban-dance-teacher-ordered-eu-sabotage-attacks-from-russia/a-79225946",
+          "citation": "(U) Mathias Bölinger, Julett Pineda, Anna Chaika. \"Cuban dance teacher ordered EU sabotage attacks from Russia.\" DW (English), September 14, 2026. https://www.dw.com/en/cuban-dance-teacher-ordered-eu-sabotage-attacks-from-russia/a-79225946. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Bill Bishop",
+          "title": "Xi’s India trip; US-China and AI; MSS head on AI; Weak August credit data; “Dynamic zero 动态清零” for payment arrears",
+          "outlet": "Sinocism.com",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T23:13:32Z",
+          "link": "https://sinocism.com/p/xis-india-trip-us-china-and-ai-mss",
+          "citation": "(U) Bill Bishop. \"Xi’s India trip; US-China and AI; MSS head on AI; Weak August credit data; “Dynamic zero 动态清零” for payment arrears.\" Sinocism.com, September 14, 2026. https://sinocism.com/p/xis-india-trip-us-china-and-ai-mss. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bmss\\b"
+          ]
+        },
+        {
+          "author": "Heath Callahan",
+          "title": "Once in a BlueMoon: How a Chrome Patch-Gap Turned Three V8 Zero-Days Into an Espionage Kit",
+          "outlet": "Forkast.news",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T02:21:13Z",
+          "link": "https://forkast.news/once-in-a-bluemoon-how-a-chrome-patch-gap-turned-three-v8-zero-days-into-an-espionage-kit/",
+          "citation": "(U) Heath Callahan. \"Once in a BlueMoon: How a Chrome Patch-Gap Turned Three V8 Zero-Days Into an Espionage Kit.\" Forkast.news, September 12, 2026. https://forkast.news/once-in-a-bluemoon-how-a-chrome-patch-gap-turned-three-v8-zero-days-into-an-espionage-kit/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Leslie Eastman",
+          "title": "China’s Three-Front War on American AI: Sabotage, Theft, and Espionage",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T01:00:27Z",
+          "link": "https://legalinsurrection.com/2026/09/chinas-three-front-war-on-american-ai-sabotage-theft-and-espionage/",
+          "citation": "(U) Leslie Eastman. \"China’s Three-Front War on American AI: Sabotage, Theft, and Espionage.\" Legalinsurrection.com, September 12, 2026. https://legalinsurrection.com/2026/09/chinas-three-front-war-on-american-ai-sabotage-theft-and-espionage/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Global Sports Desk",
+          "title": "Candace Owens demands answers from Turning Point after Charlie Kirk statue vandalism",
+          "outlet": "The Times of India",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T22:38:32Z",
+          "link": "https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-demands-answers-from-turning-point-after-charlie-kirk-statue-vandalism/articleshow/134249248.cms",
+          "citation": "(U) Global Sports Desk. \"Candace Owens demands answers from Turning Point after Charlie Kirk statue vandalism.\" The Times of India, September 14, 2026. https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-demands-answers-from-turning-point-after-charlie-kirk-statue-vandalism/articleshow/134249248.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Super-tanker explodes after striking a naval mine; Strait of Hormuz under IRGC Navy control",
+          "outlet": "Globalsecurity.org",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260914-irna01.htm",
+          "citation": "(U) John Pike. \"Super-tanker explodes after striking a naval mine; Strait of Hormuz under IRGC Navy control.\" Globalsecurity.org, September 14, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260914-irna01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Mahyer Yousi / YouTube",
+          "title": "BREAKING: Civil War In Iran - Armed Pro-Pahlavi Iranians Attack IRGC",
+          "outlet": "Freerepublic.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T21:27:29Z",
+          "link": "https://freerepublic.com/focus/f-news/4395290/posts",
+          "citation": "(U) Mahyer Yousi / YouTube. \"BREAKING: Civil War In Iran - Armed Pro-Pahlavi Iranians Attack IRGC.\" Freerepublic.com, September 12, 2026. https://freerepublic.com/focus/f-news/4395290/posts. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Mahyer Yousi / YouTube",
+          "title": "BREAKING: Civil War In Iran - Armed Pro-Pahlavi Iranians Attack IRGC",
+          "outlet": "Freerepublic.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T21:27:29Z",
+          "link": "https://freerepublic.com/focus/f-chat/4395290/posts",
+          "citation": "(U) Mahyer Yousi / YouTube. \"BREAKING: Civil War In Iran - Armed Pro-Pahlavi Iranians Attack IRGC.\" Freerepublic.com, September 12, 2026. https://freerepublic.com/focus/f-chat/4395290/posts. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "US charges five people over alleged Russian plots",
+          "outlet": "Al Jazeera English",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T06:57:10Z",
+          "link": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots",
+          "citation": "(U) Al Jazeera Staff. \"US charges five people over alleged Russian plots.\" Al Jazeera English, September 16, 2026. https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "FBI thwarts Russian plot to kill a prominent dissident in Washington",
+          "outlet": "Business Standard",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T04:19:35Z",
+          "link": "https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html",
+          "citation": "(U) AP. \"FBI thwarts Russian plot to kill a prominent dissident in Washington.\" Business Standard, September 16, 2026. https://www.business-standard.com/world-news/fbi-thwarts-russian-plot-to-kill-a-prominent-dissident-in-washington-126091600118_1.html. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States",
+          "outlet": "Globalsecurity.org",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm",
+          "citation": "(U) John Pike. \"Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States.\" Globalsecurity.org, September 15, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b",
+            "\\bmurder for hire\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Mathias Bölinger, Julett Pineda, Anna Chaika",
+          "title": "Cuban dance teacher ordered EU sabotage attacks from Russia",
+          "outlet": "DW (English)",
+          "published": "September 14, 2026",
+          "publishedAt": "2026-09-14T05:19:00Z",
+          "link": "https://www.dw.com/en/cuban-dance-teacher-ordered-eu-sabotage-attacks-from-russia/a-79225946",
+          "citation": "(U) Mathias Bölinger, Julett Pineda, Anna Chaika. \"Cuban dance teacher ordered EU sabotage attacks from Russia.\" DW (English), September 14, 2026. https://www.dw.com/en/cuban-dance-teacher-ordered-eu-sabotage-attacks-from-russia/a-79225946. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Alexander Dinger, Ibrahim Naber, Lennart Pfahler",
+          "title": "Suspected Russian spy behind drone attack in Leipzig",
+          "outlet": "POLITICO.eu",
+          "published": "September 13, 2026",
+          "publishedAt": "2026-09-13T17:11:21Z",
+          "link": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany/",
+          "citation": "(U) Alexander Dinger, Ibrahim Naber, Lennart Pfahler. \"Suspected Russian spy behind drone attack in Leipzig.\" POLITICO.eu, September 13, 2026. https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany/. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "South Korea's expanded espionage law takes effect amid push to protect chip technology",
+          "outlet": "The Times of India",
+          "published": "September 13, 2026",
+          "publishedAt": "2026-09-13T10:49:11Z",
+          "link": "https://economictimes.indiatimes.com/tech/technology/south-koreas-expanded-espionage-law-takes-effect-amid-push-to-protect-chip-technology/articleshow/134195142.cms",
+          "citation": "(U) Reuters. \"South Korea's expanded espionage law takes effect amid push to protect chip technology.\" The Times of India, September 13, 2026. https://economictimes.indiatimes.com/tech/technology/south-koreas-expanded-espionage-law-takes-effect-amid-push-to-protect-chip-technology/articleshow/134195142.cms. Accessed September 17, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

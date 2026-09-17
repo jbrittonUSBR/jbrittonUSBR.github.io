@@ -1,11 +1,10 @@
-
 ---
 layout: post
-title: "Priority Headlines for 16SEP2026"
-date: 2026-09-16 00:05:00 -0600
+title: "Priority Headlines for 17SEP2026"
+date: 2026-09-17 00:05:00 -0600
 categories: news
-
 ---
+
 ## Energy / Electric
 - Saudi Pipeline Attack Risks 'Disastrous' Loss of Millions of Barrels of Oil (NYT via Slashdot.org) — East-West Crude Oil Pipeline damaged; multi-week outage risk
 - Houthis claim missile and drone strikes on Saudi Aramco facilities and Khamis Mushait airbase (Crypto Briefing) — Saudi energy and military airbase co-targeted

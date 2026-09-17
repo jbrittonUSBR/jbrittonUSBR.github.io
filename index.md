@@ -22,19 +22,18 @@ title: Home
   <li><a href="{{ year.name | prepend: '/' | relative_url }}">{{ year.name }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
 
 <div class="briefing">
   <h1>Source List for Daily Brief</h1>
   <p class="lede">Chicago Style citation list with links to the articles.</p>
 </div>
 
-{% assign src_pages = site.pages | where_exp: "p", "p.permalink contains '/sources/'" | sort: "permalink" | reverse %}
-{% assign latest_src = src_pages | first %}
+{% assign src_pages = site.pages | where_exp: "p", "p.url contains '/sources/'" | sort: "url" | reverse %}
+{% assign latest_src = src_pages.first %}
 {% if latest_src %}
 <article class="latest">
   <p class="meta">{{ latest_src.title | replace: "Sources — ", "" }}</p>
   <h2><a href="{{ latest_src.url | relative_url }}">{{ latest_src.title | replace: "Sources", "Bibliography" }}</a></h2>
 </article>
 {% endif %}
-
-

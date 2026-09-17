@@ -12,40 +12,38 @@ jobs:
   pull:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install requests
         run: pip install requests
-        
-      - name: Pull, filter, sources page
-              env:
-                NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-              run: |
-                set -euo pipefail
-                DAY=$(date -u +%Y-%m-%d)
-                Y=$(date -u +%Y)
-                M=$(date -u +%m)
-                mkdir -p "sources/${Y}/${M}" "data/${Y}/${M}"
-                python scripts/newspull_to_json.py --out "newspull.json"
-                python scripts/filter_ci_json.py --in "newspull.json" --out "newspull_ci.json"
-                python scripts/chicago_citations.py --in "newspull_ci.json" --out "sources/${Y}/${M}/${DAY}.md"
-                cp newspull_ci.json "data/${Y}/${M}/${DAY}-ci.json"
-                rm -f newspull.json newspull.txt
-                git add "sources/${Y}/${M}/${DAY}.md" "data/${Y}/${M}/${DAY}-ci.json"
 
-      - name: Commit sources page
+      - name: Pull, filter, sources page
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: |
+          set -euo pipefail
+          DAY=$(date -u +%Y-%m-%d)
+          Y=$(date -u +%Y)
+          M=$(date -u +%m)
+          mkdir -p "sources/${Y}/${M}" "data/${Y}/${M}"
+          python scripts/newspull_to_json.py --out "newspull.json"
+          python scripts/filter_ci_json.py --in "newspull.json" --out "newspull_ci.json"
+          python scripts/chicago_citations.py --in "newspull_ci.json" --out "sources/${Y}/${M}/${DAY}.md"
+          cp newspull_ci.json "data/${Y}/${M}/${DAY}-ci.json"
+          rm -f newspull.json newspull.txt
+          git add "sources/${Y}/${M}/${DAY}.md" "data/${Y}/${M}/${DAY}-ci.json"
+
+      - name: Commit sources and JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git diff --cached --quiet; then
             echo "No sources change"
           else
-            git commit -m "sources ${DAY:-$(date -u +%Y-%m-%d)}"
+            git commit -m "sources and ci json"
             git push
           fi
-
-   

@@ -28,8 +28,13 @@ title: Home
   <p class="lede">Chicago Style citation list with links to the articles.</p>
 </div>
 
+{% assign src_pages = site.pages | where_exp: "p", "p.permalink contains '/sources/'" | sort: "permalink" | reverse %}
+{% assign latest_src = src_pages | first %}
+{% if latest_src %}
 <article class="latest">
-  <p class="meta">{{ latest.date | date: "%A, %d %B %Y" }}</p>
-  <h2><a href="{{ latest.date | date: '/%Y/%m/%d/sources/' | relative_url }}">Bibliography — {{ latest.date | date: "%d %B %Y" }}</a></h2>
+  <p class="meta">{{ latest_src.title | replace: "Sources — ", "" }}</p>
+  <h2><a href="{{ latest_src.url | relative_url }}">{{ latest_src.title | replace: "Sources", "Bibliography" }}</a></h2>
 </article>
 {% endif %}
+
+

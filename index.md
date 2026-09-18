@@ -26,10 +26,9 @@ title: Home
 
 <div class="briefing">
   <h1>First Alert</h1>
-  <p class="lede">Dam-related First Alert log, 1–18 September 2026.</p>
+  <p class="lede">Dam-related First Alert log.</p>
 </div>
 <p><a href="{{ '/first-alert/' | relative_url }}">Open the First Alert dashboard</a></p>
-
 <div class="briefing">
   <h1>Source List for Daily Brief</h1>
   <p class="lede">Chicago Style citation list with links to the articles.</p>

@@ -180,6 +180,3 @@ Mononame Dam (MO) — Fire; Henke Lake Dam (MO) — Outage; VA Holding Corp Nort
 - Week of 15–21 September shows five dam-adjacent fires — highest week in this set.
 - Fire geography now includes AZ, TX, and GA.
 - Outages stay afternoon–evening; fires trend morning–midday.
-
-<p><a href="{{ '/first-alert/' | relative_url }}">First Alert dashboard</a></p>
-```

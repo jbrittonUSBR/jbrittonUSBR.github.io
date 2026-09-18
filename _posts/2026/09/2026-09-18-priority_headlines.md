@@ -33,10 +33,9 @@ categories: news
 - ATF describes improvised explosives found at church shooting scene (ABC 12 WJRT-TV) — Grand Blanc, Michigan; IEDs tied to shooting scene
 - Civil Defense: One Killed, Two Injured by Intercepted Houthi Drone Debris in Taif (Globalsecurity.org) — Saudi Arabia; civilian casualties from drone-defeat debris
 - London Jewish community remains on edge after antisemitic arson wave (The Jerusalem Post) — UK; faith-target arson series
-- Vacation paradise under attack as officials suspect arsonists may be behind inferno (Fox News) — arson-suspected fire at resort area
+- Vacation paradise on the Amalfi Coast in Italy under attack as officials suspect arsonists may be behind inferno (Fox News) — arson-suspected fire at resort area
 - Man arrested on suspicion of arson for allegedly starting Spokane fire (ABC News) — US; arrest in suspected arson
 - Afghan man tied to Abbey Gate bombing sentenced to 20 years for supporting ISIS (ABC News) — judicial outcome
-- Unlawful surveillance added to list of charges against Brunswick man (news10.com) — Rensselaer County, New York; hostile surveillance/stalking charges
 
 ## Tactical takeaways
 - Saudi energy target set follows through from 17SEP: East-West Pipeline confirmed shut down by drone strikes on pumping stations, now in gradual restoration — pipeline remains the live Persian Gulf CI node.

@@ -181,10 +181,5 @@ Mononame Dam (MO) — Fire; Henke Lake Dam (MO) — Outage; VA Holding Corp Nort
 - Fire geography now includes AZ, TX, and GA.
 - Outages stay afternoon–evening; fires trend morning–midday.
 
-## Home-page link
-
-On `index.md`:
-
-```liquid
 <p><a href="{{ '/first-alert/' | relative_url }}">First Alert dashboard</a></p>
 ```

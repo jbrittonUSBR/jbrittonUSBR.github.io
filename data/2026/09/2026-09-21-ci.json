@@ -1,0 +1,1079 @@
+{
+  "pulled_at_utc": "2026-09-21T12:14:56Z",
+  "accessed": "September 21, 2026",
+  "filtered_at_utc": "2026-09-21T12:15:11Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull.json",
+  "source_article_count": 500,
+  "article_count": 76,
+  "dropped_count": 424,
+  "term_count": 18,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Russian Investigators Open Terrorism Case Over Ukrainian Attacks on Moscow, Moscow Region",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik05.htm",
+          "citation": "(U) John Pike. \"Russian Investigators Open Terrorism Case Over Ukrainian Attacks on Moscow, Moscow Region.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik05.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Largest Drone Attack on Moscow Region Repelled - Moscow Mayor",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik07.htm",
+          "citation": "(U) John Pike. \"Largest Drone Attack on Moscow Region Repelled - Moscow Mayor.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik07.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Ukraine launches largest ever drone attack on Moscow with over 1,600 drones",
+          "outlet": "Crypto Briefing",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:48:06Z",
+          "link": "https://cryptobriefing.com/ukraine-largest-drone-attack-moscow/",
+          "citation": "(U) Editorial Team. \"Ukraine launches largest ever drone attack on Moscow with over 1,600 drones.\" Crypto Briefing, September 20, 2026. https://cryptobriefing.com/ukraine-largest-drone-attack-moscow/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Taegan Goddard",
+          "title": "Ukraine Launches Biggest Moscow Drone Attack",
+          "outlet": "Politicalwire.com",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:27:46Z",
+          "link": "https://politicalwire.com/2026/09/20/ukraine-launches-biggest-moscow-drone-attack/",
+          "citation": "(U) Taegan Goddard. \"Ukraine Launches Biggest Moscow Drone Attack.\" Politicalwire.com, September 20, 2026. https://politicalwire.com/2026/09/20/ukraine-launches-biggest-moscow-drone-attack/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "BBC",
+          "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
+          "outlet": "Freerepublic.com",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:22:09Z",
+          "link": "https://freerepublic.com/focus/f-news/4396226/posts",
+          "citation": "(U) BBC. \"'Massive' drone attack on Moscow region sees Ukraine hit oil refinery.\" Freerepublic.com, September 20, 2026. https://freerepublic.com/focus/f-news/4396226/posts. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b",
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Mass Ukrainian drone attack on Moscow kills two, Russia says - Al Jazeera",
+          "outlet": "Slashdot.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T10:32:23Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=185715582",
+          "citation": "(U) feedfeeder. \"Mass Ukrainian drone attack on Moscow kills two, Russia says - Al Jazeera.\" Slashdot.org, September 20, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=185715582. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "CNA Staff",
+          "title": "Flames, smoke seen near Riyadh airport; Saudi Arabia says Houthi ballistic missile intercepted",
+          "outlet": "CNA",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T12:06:00Z",
+          "link": "https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631",
+          "citation": "(U) CNA Staff. \"Flames, smoke seen near Riyadh airport; Saudi Arabia says Houthi ballistic missile intercepted.\" CNA, September 19, 2026. https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "The Associated Press",
+          "title": "Aerial threat alert sounds in Saudi capital for 1st time in latest escalation with Houthis",
+          "outlet": "Yahoo Entertainment",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T07:11:22Z",
+          "link": "https://www.yahoo.com/news/world/articles/saudi-arabia-issues-alerts-across-071122788.html",
+          "citation": "(U) The Associated Press. \"Aerial threat alert sounds in Saudi capital for 1st time in latest escalation with Houthis.\" Yahoo Entertainment, September 19, 2026. https://www.yahoo.com/news/world/articles/saudi-arabia-issues-alerts-across-071122788.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 9,
+      "error": null,
+      "articles": [
+        {
+          "author": "Dewald Swart",
+          "title": "How to Watch the Transformers Movies in Order",
+          "outlet": "Addictivetips.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T08:58:59Z",
+          "link": "https://www.addictivetips.com/media-streaming/transformer-movies-order/",
+          "citation": "(U) Dewald Swart. \"How to Watch the Transformers Movies in Order.\" Addictivetips.com, September 18, 2026. https://www.addictivetips.com/media-streaming/transformer-movies-order/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil",
+          "outlet": "Military.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:59:42Z",
+          "link": "https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil",
+          "citation": "(U) MLT Staff. \"Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil.\" Military.com, September 16, 2026. https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "James Tocchio",
+          "title": "Transformers: Beyond Reality Redux Transforms $20 Into Disappointment",
+          "outlet": "UploadVR",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:10:24Z",
+          "link": "https://www.uploadvr.com/transformers-beyond-reality-redux-transforms-20-into-disappointment/",
+          "citation": "(U) James Tocchio. \"Transformers: Beyond Reality Redux Transforms $20 Into Disappointment.\" UploadVR, September 16, 2026. https://www.uploadvr.com/transformers-beyond-reality-redux-transforms-20-into-disappointment/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Globalsecurity.org",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm",
+          "citation": "(U) John Pike. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Globalsecurity.org, September 16, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260916-rferl01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Mike Eckel",
+          "title": "US Charges 5 In Russian Intelligence Sabotage And Assassination Plot",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T09:15:32Z",
+          "link": "https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html",
+          "citation": "(U) Mike Eckel. \"US Charges 5 In Russian Intelligence Sabotage And Assassination Plot.\" Radio Free Europe/ Radio Liberty, September 16, 2026. https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bassassination\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Milena Wälde",
+          "title": "US exposes alleged Russian terror network targeting Ukraine allies",
+          "outlet": "POLITICO.eu",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T08:42:26Z",
+          "link": "https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges/",
+          "citation": "(U) Milena Wälde. \"US exposes alleged Russian terror network targeting Ukraine allies.\" POLITICO.eu, September 16, 2026. https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt",
+          "outlet": "Breitbart News",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T13:05:16Z",
+          "link": "https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/",
+          "citation": "(U) Oliver JJ Lane. \"Coordinated Sabotage Attack on Dozens of Locations Brings Dutch Railways Grinding to a Halt.\" Breitbart News, September 15, 2026. https://www.breitbart.com/europe/2026/09/15/coordinated-sabotage-attack-brings-dutch-railways-grinding-to-a-halt/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States",
+          "outlet": "Globalsecurity.org",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm",
+          "citation": "(U) John Pike. \"Members of Russian Intelligence Services Network Charged with Conspiring to Finance Terrorism and Commit Murder for Hire in the United States.\" Globalsecurity.org, September 15, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260915-doj01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b",
+            "\\bmurder for hire\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Prisha Roy",
+          "title": "ISIS-inspired shooting suspect identified as former Reddit moderator",
+          "outlet": "The Times of India",
+          "published": "September 17, 2026",
+          "publishedAt": "2026-09-17T08:26:50Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/isis-inspired-shooting-suspect-identified-as-former-reddit-moderator/articleshow/134306089.cms",
+          "citation": "(U) Prisha Roy. \"ISIS-inspired shooting suspect identified as former Reddit moderator.\" The Times of India, September 17, 2026. https://timesofindia.indiatimes.com/world/us/isis-inspired-shooting-suspect-identified-as-former-reddit-moderator/articleshow/134306089.cms. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "TOI World Desk",
+          "title": "Afghan man arrested over suspected synagogue arson attempt in Germany ahead of holiest Jewish day",
+          "outlet": "The Times of India",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T10:42:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/afghan-man-arrested-over-suspected-synagogue-arson-attempt-in-germany-ahead-of-holiest-jewish-day/articleshow/134366910.cms",
+          "citation": "(U) TOI World Desk. \"Afghan man arrested over suspected synagogue arson attempt in Germany ahead of holiest Jewish day.\" The Times of India, September 20, 2026. https://timesofindia.indiatimes.com/world/europe/afghan-man-arrested-over-suspected-synagogue-arson-attempt-in-germany-ahead-of-holiest-jewish-day/articleshow/134366910.cms. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Jewish News Syndicate",
+          "title": "Arson suspect arrested after German synagogue fire",
+          "outlet": "New York Post",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T21:43:54Z",
+          "link": "https://nypost.com/2026/09/19/world-news/arson-suspect-arrested-after-german-synagogue-fire/",
+          "citation": "(U) Jewish News Syndicate. \"Arson suspect arrested after German synagogue fire.\" New York Post, September 19, 2026. https://nypost.com/2026/09/19/world-news/arson-suspect-arrested-after-german-synagogue-fire/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "DPA",
+          "title": "Man arrested for alleged arson attack on German synagogue",
+          "outlet": "Haaretz",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T17:09:53Z",
+          "link": "https://www.haaretz.com/jewish/news/2026-09-18/ty-article/man-arrested-for-alleged-arson-attack-on-german-synagogue/000001a0-b534-d58b-abac-bd7e8d300000",
+          "citation": "(U) DPA. \"Man arrested for alleged arson attack on German synagogue.\" Haaretz, September 18, 2026. https://www.haaretz.com/jewish/news/2026-09-18/ty-article/man-arrested-for-alleged-arson-attack-on-german-synagogue/000001a0-b534-d58b-abac-bd7e8d300000. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Mark Hallam",
+          "title": "German police probe arson attack on Wuppertal synagogue",
+          "outlet": "DW (English)",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T15:45:00Z",
+          "link": "https://www.dw.com/en/wuppertal-synagogue-attack/a-79331270",
+          "citation": "(U) Mark Hallam. \"German police probe arson attack on Wuppertal synagogue.\" DW (English), September 18, 2026. https://www.dw.com/en/wuppertal-synagogue-attack/a-79331270. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Germany: Afghan national arrested over suspected arson attack on synagogue",
+          "outlet": "Israelnationalnews.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T02:53:16Z",
+          "link": "https://www.israelnationalnews.com/news/433349",
+          "citation": "(U) Israel National News. \"Germany: Afghan national arrested over suspected arson attack on synagogue.\" Israelnationalnews.com, September 18, 2026. https://www.israelnationalnews.com/news/433349. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Justine Calma",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "outlet": "The Verge",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T20:28:15Z",
+          "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "citation": "(U) Justine Calma. \"Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems.\" The Verge, September 19, 2026. https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Haruko cyberattack exposes data of 15 clients, some funds lost",
+          "outlet": "Crypto Briefing",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T15:17:36Z",
+          "link": "https://cryptobriefing.com/haruko-cyberattack-client-data-funds-lost/",
+          "citation": "(U) Editorial Team. \"Haruko cyberattack exposes data of 15 clients, some funds lost.\" Crypto Briefing, September 18, 2026. https://cryptobriefing.com/haruko-cyberattack-client-data-funds-lost/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Will Canny",
+          "title": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
+          "outlet": "CoinDesk",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T15:06:31Z",
+          "link": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
+          "citation": "(U) Will Canny. \"Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost.\" CoinDesk, September 18, 2026. https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Ellyn Lapointe",
+          "title": "Cyberattack Takes Down Organization That’s Literally Just Trying to Track Meteors",
+          "outlet": "Gizmodo.com",
+          "published": "September 17, 2026",
+          "publishedAt": "2026-09-17T20:20:24Z",
+          "link": "https://gizmodo.com/cyberattack-takes-down-organization-thats-literally-just-trying-to-track-meteors-2000813354",
+          "citation": "(U) Ellyn Lapointe. \"Cyberattack Takes Down Organization That’s Literally Just Trying to Track Meteors.\" Gizmodo.com, September 17, 2026. https://gizmodo.com/cyberattack-takes-down-organization-thats-literally-just-trying-to-track-meteors-2000813354. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile",
+          "outlet": "New York Post",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T06:25:15Z",
+          "link": "https://nypost.com/2026/09/20/world-news/saudi-arabia-confirms-yemen-houthi-terrorists-attempted-to-strike-capital-riyadh/",
+          "citation": "(U) Associated Press. \"Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile.\" New York Post, September 20, 2026. https://nypost.com/2026/09/20/world-news/saudi-arabia-confirms-yemen-houthi-terrorists-attempted-to-strike-capital-riyadh/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Stephen M. Lepore",
+          "title": "Trump cuts visit to Camp David short as he arrives back at White House amid tensions with Iran-backed militia",
+          "outlet": "Dailymail.com",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T05:19:58Z",
+          "link": "https://www.dailymail.com/news/article-16145623/Trump-Camp-David-Houthis-Saudi-Arabia-attack.html",
+          "citation": "(U) Stephen M. Lepore. \"Trump cuts visit to Camp David short as he arrives back at White House amid tensions with Iran-backed militia.\" Dailymail.com, September 20, 2026. https://www.dailymail.com/news/article-16145623/Trump-Camp-David-Houthis-Saudi-Arabia-attack.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AP- PTI",
+          "title": "Saudi Arabia confirms Yemen's Houthi rebels tried to attack its capital with ballistic missile",
+          "outlet": "BusinessLine",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T03:53:07Z",
+          "link": "https://www.thehindubusinessline.com/news/world/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-ballistic-missile/article71486988.ece",
+          "citation": "(U) AP- PTI. \"Saudi Arabia confirms Yemen's Houthi rebels tried to attack its capital with ballistic missile.\" BusinessLine, September 20, 2026. https://www.thehindubusinessline.com/news/world/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-ballistic-missile/article71486988.ece. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Yemen's Houthi rebels target Riyadh with ballistic missile, Saudi Arabia says",
+          "outlet": "The Times of India",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T00:39:55Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/yemens-houthi-rebels-target-riyadh-with-ballistic-missile-saudi-arabia-says/articleshow/134362507.cms",
+          "citation": "(U) AP. \"Yemen's Houthi rebels target Riyadh with ballistic missile, Saudi Arabia says.\" The Times of India, September 20, 2026. https://economictimes.indiatimes.com/news/defence/yemens-houthi-rebels-target-riyadh-with-ballistic-missile-saudi-arabia-says/articleshow/134362507.cms. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Saudi Arabia confirms Yemen's Houthi rebels tried to attack its capital with a ballistic missile",
+          "outlet": "CBC News",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T21:34:24Z",
+          "link": "https://www.cbc.ca/news/world/houthi-rebels-saudi-arabia-conflict-riyadh-missile-attack-9.7351092",
+          "citation": "(U) CBC News Staff. \"Saudi Arabia confirms Yemen's Houthi rebels tried to attack its capital with a ballistic missile.\" CBC News, September 19, 2026. https://www.cbc.ca/news/world/houthi-rebels-saudi-arabia-conflict-riyadh-missile-attack-9.7351092. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "HuffPost",
+          "title": "Saudi Arabia Confirms Yemen's Houthi Rebels Tried To Attack Its Capital With A Ballistic Missile",
+          "outlet": "HuffPost",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T21:13:09Z",
+          "link": "https://www.huffpost.com/entry/yemen-saudi-arabia_n_6aaef951e4b03a8a58d6d51b",
+          "citation": "(U) HuffPost. \"Saudi Arabia Confirms Yemen's Houthi Rebels Tried To Attack Its Capital With A Ballistic Missile.\" HuffPost, September 19, 2026. https://www.huffpost.com/entry/yemen-saudi-arabia_n_6aaef951e4b03a8a58d6d51b. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Iran dismantles three terrorist operational cells",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm",
+          "citation": "(U) John Pike. \"Iran dismantles three terrorist operational cells.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Daniel Winston",
+          "title": "Shhh! Whatever you do, don't center the murderous extremists",
+          "outlet": "Israelnationalnews.com",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T19:14:44Z",
+          "link": "https://www.israelnationalnews.com/news/433397",
+          "citation": "(U) Daniel Winston. \"Shhh! Whatever you do, don't center the murderous extremists.\" Israelnationalnews.com, September 19, 2026. https://www.israelnationalnews.com/news/433397. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Sabrina Penty",
+          "title": "Smoke and flames billow over Riyadh airport in Saudi Arabia as Houthi rebels gain ground",
+          "outlet": "Dailymail.com",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T12:45:06Z",
+          "link": "https://www.dailymail.com/news/article-16144301/Smoke-flames-billow-Riyadh-airport-Saudi-Arabia-Houthi.html",
+          "citation": "(U) Sabrina Penty. \"Smoke and flames billow over Riyadh airport in Saudi Arabia as Houthi rebels gain ground.\" Dailymail.com, September 19, 2026. https://www.dailymail.com/news/article-16144301/Smoke-flames-billow-Riyadh-airport-Saudi-Arabia-Houthi.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Jon Stojan",
+          "title": "Guerassim Nikolov explains why autonomous systems are becoming the new insider threat",
+          "outlet": "Digital Journal",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T22:20:47Z",
+          "link": "https://www.digitaljournal.com/article/guerassim-nikolov-explains-why-autonomous-systems-are-becoming-the-new-insider-threat/",
+          "citation": "(U) Jon Stojan. \"Guerassim Nikolov explains why autonomous systems are becoming the new insider threat.\" Digital Journal, September 18, 2026. https://www.digitaljournal.com/article/guerassim-nikolov-explains-why-autonomous-systems-are-becoming-the-new-insider-threat/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Bulgaria investigates fire at weapons site that owner calls sabotage",
+          "outlet": "BBC News",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T17:38:21Z",
+          "link": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Bulgaria investigates fire at weapons site that owner calls sabotage.\" BBC News, September 12, 2026. https://www.bbc.co.uk/news/articles/cd94kj17zvwo. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Ben Smith",
+          "title": "Trump Uses Alien Terrorist Court for First-Ever Deportation",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T14:00:43Z",
+          "link": "https://legalinsurrection.com/2026/09/trump-uses-alien-terrorist-court-for-first-ever-deportation/",
+          "citation": "(U) Ben Smith. \"Trump Uses Alien Terrorist Court for First-Ever Deportation.\" Legalinsurrection.com, September 12, 2026. https://legalinsurrection.com/2026/09/trump-uses-alien-terrorist-court-for-first-ever-deportation/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Department of Justice Removes Alien Terrorist in First Use of United States Alien Terrorist Removal Court",
+          "outlet": "Globalsecurity.org",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T12:00:00Z",
+          "link": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260911-doj01.htm",
+          "citation": "(U) John Pike. \"Department of Justice Removes Alien Terrorist in First Use of United States Alien Terrorist Removal Court.\" Globalsecurity.org, September 11, 2026. https://www.globalsecurity.org/security/library/news/2026/09/sec-260911-doj01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alessandro  Mascellino",
+          "title": "CISA Updates Insider Threat Guide With New Mitigation Advice",
+          "outlet": "Infosecurity Magazine",
+          "published": "September 10, 2026",
+          "publishedAt": "2026-09-10T14:00:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/",
+          "citation": "(U) Alessandro  Mascellino. \"CISA Updates Insider Threat Guide With New Mitigation Advice.\" Infosecurity Magazine, September 10, 2026. https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "Jim Loucks",
+          "title": "The Assessment Gap in U.S. Counter-Terrorism Strikes",
+          "outlet": "War on the Rocks",
+          "published": "September 10, 2026",
+          "publishedAt": "2026-09-10T07:30:59Z",
+          "link": "https://warontherocks.com/the-assessment-gap-in-u-s-counter-terrorism-strikes/",
+          "citation": "(U) Jim Loucks. \"The Assessment Gap in U.S. Counter-Terrorism Strikes.\" War on the Rocks, September 10, 2026. https://warontherocks.com/the-assessment-gap-in-u-s-counter-terrorism-strikes/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Largest Drone Attack on Moscow Region Repelled - Moscow Mayor",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik07.htm",
+          "citation": "(U) John Pike. \"Largest Drone Attack on Moscow Region Repelled - Moscow Mayor.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260920-sputnik07.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Ukraine launches largest ever drone attack on Moscow with over 1,600 drones",
+          "outlet": "Crypto Briefing",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:48:06Z",
+          "link": "https://cryptobriefing.com/ukraine-largest-drone-attack-moscow/",
+          "citation": "(U) Editorial Team. \"Ukraine launches largest ever drone attack on Moscow with over 1,600 drones.\" Crypto Briefing, September 20, 2026. https://cryptobriefing.com/ukraine-largest-drone-attack-moscow/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "BBC",
+          "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
+          "outlet": "Freerepublic.com",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:22:09Z",
+          "link": "https://freerepublic.com/focus/f-news/4396226/posts",
+          "citation": "(U) BBC. \"'Massive' drone attack on Moscow region sees Ukraine hit oil refinery.\" Freerepublic.com, September 20, 2026. https://freerepublic.com/focus/f-news/4396226/posts. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b",
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Yemen's Houthis claim attack on Riyadh, heralding escalation in tensions with Saudi Arabia",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260920-pdo02.htm",
+          "citation": "(U) John Pike. \"Yemen's Houthis claim attack on Riyadh, heralding escalation in tensions with Saudi Arabia.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/military/library/news/2026/09/mil-260920-pdo02.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Trump Says Houthi Rebels Agree Not To Fight The US",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260920-rferl01.htm",
+          "citation": "(U) John Pike. \"Trump Says Houthi Rebels Agree Not To Fight The US.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/military/library/news/2026/09/mil-260920-rferl01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Yemen's Houthis claim attack on Riyadh, heralding escalation in tensions with Saudi Arabia",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:25:48Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/saudi/2026/saudi-260920-pdo01.htm",
+          "citation": "(U) John Pike. \"Yemen's Houthis claim attack on Riyadh, heralding escalation in tensions with Saudi Arabia.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/saudi/2026/saudi-260920-pdo01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Saudi-led coalition says Houthis fired ballistic missile at Riyadh",
+          "outlet": "Hurriyet Daily News",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T11:23:26Z",
+          "link": "https://www.hurriyetdailynews.com/saudi-led-coalition-says-houthis-fired-ballistic-missile-at-riyadh-227101",
+          "citation": "(U) hurriyetdailynews.com. \"Saudi-led coalition says Houthis fired ballistic missile at Riyadh.\" Hurriyet Daily News, September 20, 2026. https://www.hurriyetdailynews.com/saudi-led-coalition-says-houthis-fired-ballistic-missile-at-riyadh-227101. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Estefano Gomez",
+          "title": "Saudi Arabia plans major response to Houthi attacks on infrastructure",
+          "outlet": "Crypto Briefing",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T09:47:22Z",
+          "link": "https://cryptobriefing.com/saudi-arabia-plans-major-response-to-houthi-attacks-on-infrastructure/",
+          "citation": "(U) Estefano Gomez. \"Saudi Arabia plans major response to Houthi attacks on infrastructure.\" Crypto Briefing, September 20, 2026. https://cryptobriefing.com/saudi-arabia-plans-major-response-to-houthi-attacks-on-infrastructure/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Goodin",
+          "title": "Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks",
+          "outlet": "New York Post",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T17:30:49Z",
+          "link": "https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/",
+          "citation": "(U) Emily Goodin. \"Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks.\" New York Post, September 11, 2026. https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Eimer McAuley",
+          "title": "Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon",
+          "outlet": "TheJournal.ie",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T23:10:44Z",
+          "link": "https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/",
+          "citation": "(U) Eimer McAuley. \"Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon.\" TheJournal.ie, September 9, 2026. https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        },
+        {
+          "author": "Emmanuel Detres",
+          "title": "Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations",
+          "outlet": "Inside the Magic",
+          "published": "September 8, 2026",
+          "publishedAt": "2026-09-08T16:15:00Z",
+          "link": "https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/",
+          "citation": "(U) Emmanuel Detres. \"Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations.\" Inside the Magic, September 8, 2026. https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Editorial Team",
+          "title": "Turkey signals military support for Saudi Arabia against Houthis under new Mecca defense pact",
+          "outlet": "Crypto Briefing",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T08:23:45Z",
+          "link": "https://cryptobriefing.com/turkey-military-support-saudi-arabia-houthis/",
+          "citation": "(U) Editorial Team. \"Turkey signals military support for Saudi Arabia against Houthis under new Mecca defense pact.\" Crypto Briefing, September 20, 2026. https://cryptobriefing.com/turkey-military-support-saudi-arabia-houthis/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Justine Calma",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "outlet": "The Verge",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T20:28:15Z",
+          "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "citation": "(U) Justine Calma. \"Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems.\" The Verge, September 19, 2026. https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Houthi group targets jet-fuel storage in air attack on Riyadh",
+          "outlet": "Crypto Briefing",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T15:06:14Z",
+          "link": "https://cryptobriefing.com/houthi-air-attack-riyadh-jet-fuel/",
+          "citation": "(U) Editorial Team. \"Houthi group targets jet-fuel storage in air attack on Riyadh.\" Crypto Briefing, September 19, 2026. https://cryptobriefing.com/houthi-air-attack-riyadh-jet-fuel/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Iran dismantles three terrorist operational cells",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm",
+          "citation": "(U) John Pike. \"Iran dismantles three terrorist operational cells.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "Germany charges businesswoman with espionage, expels her alleged Russian handler",
+          "outlet": "Intelnews.org",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T04:06:00Z",
+          "link": "https://intelnews.org/2026/09/19/01-3457/",
+          "citation": "(U) intelNews. \"Germany charges businesswoman with espionage, expels her alleged Russian handler.\" Intelnews.org, September 19, 2026. https://intelnews.org/2026/09/19/01-3457/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Yahoo News.",
+          "title": "Trump Baselessly Claims Assassination Attempt Was ‘Democrat Plot’ Against Him",
+          "outlet": "Freerepublic.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T16:48:36Z",
+          "link": "https://freerepublic.com/focus/f-chat/4396050/posts",
+          "citation": "(U) Yahoo News.. \"Trump Baselessly Claims Assassination Attempt Was ‘Democrat Plot’ Against Him.\" Freerepublic.com, September 18, 2026. https://freerepublic.com/focus/f-chat/4396050/posts. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "DND welcomes House approval of proposed New Espionage Act",
+          "outlet": "Globalsecurity.org",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T12:00:00Z",
+          "link": "https://www.globalsecurity.org/intell/library/news/2026/intell-260918-pna01.htm",
+          "citation": "(U) John Pike. \"DND welcomes House approval of proposed New Espionage Act.\" Globalsecurity.org, September 18, 2026. https://www.globalsecurity.org/intell/library/news/2026/intell-260918-pna01.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 8,
+      "error": null,
+      "articles": [
+        {
+          "author": "intelNews",
+          "title": "Germany charges businesswoman with espionage, expels her alleged Russian handler",
+          "outlet": "Intelnews.org",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T04:06:00Z",
+          "link": "https://intelnews.org/2026/09/19/01-3457/",
+          "citation": "(U) intelNews. \"Germany charges businesswoman with espionage, expels her alleged Russian handler.\" Intelnews.org, September 19, 2026. https://intelnews.org/2026/09/19/01-3457/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Russia's FSB Nabs Ukrainian Agent Plotting to Bomb Gas Pipeline in Kabardino-Balkaria",
+          "outlet": "Sputnikglobe.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T07:11:37Z",
+          "link": "https://sputnikglobe.com/20260918/russias-fsb-nabs-ukrainian-agent-plotting-to-bomb-gas-pipeline-in-kabardino-balkaria-1124754352.html",
+          "citation": "(U) Sputnik International. \"Russia's FSB Nabs Ukrainian Agent Plotting to Bomb Gas Pipeline in Kabardino-Balkaria.\" Sputnikglobe.com, September 18, 2026. https://sputnikglobe.com/20260918/russias-fsb-nabs-ukrainian-agent-plotting-to-bomb-gas-pipeline-in-kabardino-balkaria-1124754352.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Zhang Yajuan, Mu Jia, Yuan Qiwen, Suonan Renqing, Wang Yanan, Xiao Yanping",
+          "title": "Forecasting global monthly mpox trends using an SVR-Bayesian autoregressive-Prophet ensemble model",
+          "outlet": "Nature.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T00:00:00Z",
+          "link": "https://www.nature.com/articles/s41598-026-71399-0.pdf",
+          "citation": "(U) Zhang Yajuan, Mu Jia, Yuan Qiwen, Suonan Renqing, Wang Yanan, Xiao Yanping. \"Forecasting global monthly mpox trends using an SVR-Bayesian autoregressive-Prophet ensemble model.\" Nature.com, September 18, 2026. https://www.nature.com/articles/s41598-026-71399-0.pdf. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsvr\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "FBI stop Russian plot to murder prominent dissident in Washington, DC, authorities say",
+          "outlet": "New York Post",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T15:39:41Z",
+          "link": "https://nypost.com/2026/09/16/us-news/fbi-stopped-russian-plot-to-murder-a-prominent-dissident-in-dc-authorities-say/",
+          "citation": "(U) Associated Press. \"FBI stop Russian plot to murder prominent dissident in Washington, DC, authorities say.\" New York Post, September 16, 2026. https://nypost.com/2026/09/16/us-news/fbi-stopped-russian-plot-to-murder-a-prominent-dissident-in-dc-authorities-say/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil",
+          "outlet": "Military.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:59:42Z",
+          "link": "https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil",
+          "citation": "(U) MLT Staff. \"Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil.\" Military.com, September 16, 2026. https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Mediaite",
+          "title": "Russian Intelligence Service Members Charged for Terrorism and Murder-for-Hire Plot in US",
+          "outlet": "Freerepublic.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:53:46Z",
+          "link": "https://freerepublic.com/focus/f-chat/4395733/posts",
+          "citation": "(U) Mediaite. \"Russian Intelligence Service Members Charged for Terrorism and Murder-for-Hire Plot in US.\" Freerepublic.com, September 16, 2026. https://freerepublic.com/focus/f-chat/4395733/posts. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Zachary Leeman",
+          "title": "Russian Intelligence Service Members Charged for Terrorism and Murder-for-Hire Plot in US",
+          "outlet": "Mediaite",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:24:09Z",
+          "link": "https://www.mediaite.com/media/news/russian-intelligence-service-members-arrested-for-terrorism-and-trying-to-commit-murder-for-hire-in-us/",
+          "citation": "(U) Zachary Leeman. \"Russian Intelligence Service Members Charged for Terrorism and Murder-for-Hire Plot in US.\" Mediaite, September 16, 2026. https://www.mediaite.com/media/news/russian-intelligence-service-members-arrested-for-terrorism-and-trying-to-commit-murder-for-hire-in-us/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\brussian intelligence\\b",
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Travis Gettys",
+          "title": "'Global assassination network' accused in dangerous D.C. plot: report",
+          "outlet": "Raw Story",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T13:22:42Z",
+          "link": "https://www.rawstory.com/russian-assassination-plot/",
+          "citation": "(U) Travis Gettys. \"'Global assassination network' accused in dangerous D.C. plot: report.\" Raw Story, September 16, 2026. https://www.rawstory.com/russian-assassination-plot/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Iran dismantles three terrorist operational cells",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm",
+          "citation": "(U) John Pike. \"Iran dismantles three terrorist operational cells.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Uzi Baruch",
+          "title": "Israeli accused of contacting Hamas, Iranian intelligence",
+          "outlet": "Israelnationalnews.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T06:21:00Z",
+          "link": "https://www.israelnationalnews.com/news/433355",
+          "citation": "(U) Uzi Baruch. \"Israeli accused of contacting Hamas, Iranian intelligence.\" Israelnationalnews.com, September 18, 2026. https://www.israelnationalnews.com/news/433355. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\biranian intelligence\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Press Trust of India",
+          "title": "Maharashtra TET papers smuggled in shoe insoles for ₹8K, says chargesheet",
+          "outlet": "Business Standard",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T03:42:07Z",
+          "link": "https://www.business-standard.com/india-news/maharashtra-tet-papers-smuggled-in-shoe-insoles-for-8k-says-chargesheet-126091900113_1.html",
+          "citation": "(U) Press Trust of India. \"Maharashtra TET papers smuggled in shoe insoles for ₹8K, says chargesheet.\" Business Standard, September 19, 2026. https://www.business-standard.com/india-news/maharashtra-tet-papers-smuggled-in-shoe-insoles-for-8k-says-chargesheet-126091900113_1.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bchargesheet\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Brevo Supply-Chain Attack Infected Over 100,000 Websites",
+          "outlet": "Securityaffairs.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T21:38:15Z",
+          "link": "https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html",
+          "citation": "(U) Pierluigi Paganini. \"Brevo Supply-Chain Attack Infected Over 100,000 Websites.\" Securityaffairs.com, September 18, 2026. https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
+          "author": "Ionut Arghire",
+          "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+          "outlet": "Securityweek.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T09:46:57Z",
+          "link": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+          "citation": "(U) Ionut Arghire. \"Brevo Supply Chain Attack Injects Malware Into 100,000 Websites.\" Securityweek.com, September 18, 2026. https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
+          "author": "Muhammad Yawar Malik",
+          "title": "Why Your CI/CD Pipeline Is Your Most Unprotected Attack Surface",
+          "outlet": "DevOps.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T09:34:54Z",
+          "link": "https://devops.com/why-your-ci-cd-pipeline-is-your-most-unprotected-attack-surface/",
+          "citation": "(U) Muhammad Yawar Malik. \"Why Your CI/CD Pipeline Is Your Most Unprotected Attack Surface.\" DevOps.com, September 18, 2026. https://devops.com/why-your-ci-cd-pipeline-is-your-most-unprotected-attack-surface/. Accessed September 21, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

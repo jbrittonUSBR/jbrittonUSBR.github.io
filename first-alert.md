@@ -4,17 +4,18 @@ title: "First Alert Dashboard"
 permalink: /first-alert/
 ---
 
-- Coverage: 1–18 September 2026
-- Last updated: 18 September 2026
+- Coverage: 1–21 September 2026
+- Last updated: 21 September 2026
 - Sources: NASA FIRMS (fires), Citizen / scanner / blog (outages and other)
 
-This page consolidates dam-related First Alert notifications. It classifies incidents by hazard type and keeps a running log. Charts from the source dashboard are omitted.
+# FirstAlert Dam‑Related Dashboard (Sep 1–21, 2026 — Modern Unified Rewrite)
 
-## Summary
+This dashboard consolidates all dam-related **First Alert** notifications from **Sep 1–21, 2026**, classifies incidents, and summarizes temporal & geographic patterns for rapid situational awareness and action.
 
-Over 1–18 September 2026, FirstAlert surfaced dam-related fires, power outages, and operational notices across the United States. Activity intensified beginning 8 September. 14 September had multi-state incidents; 16 September added two Georgia fires; 17–18 September added fires in Arizona and Texas and an outage in Oregon.
+---
 
-Fire activity now spans pre-dawn through late afternoon. Outages continue to cluster midday through evening. The geographic footprint is wide (Mid-Atlantic, Southeast, Upper Midwest, East Texas, Desert Southwest, Pacific Northwest). There is no single regional concentration.
+## Summary (Unified)
+Over **Sep 1–21**, FirstAlert surfaced a broad array of dam‑related hazards, including fires, power outages, and operational notices. Activity intensified from **Sep 8** onward, with **Sep 14** showing multi‑state simultaneity, **Sep 16–18** adding fire activity across **GA/TX/AZ**, and **today (Sep 21)** bringing a new **power outage in Minnesota**. Fire activity spans **pre‑dawn through late afternoon**, while outages cluster **midday through evening**. The geographic footprint remains wide—**Mid‑Atlantic, Southeast, Upper Midwest, East Texas, Desert Southwest, Pacific Northwest**, and other regions—indicating no single regional concentration. This expanded baseline enables trend tracking, geospatial mapping, and automated monitoring across Reclamation operations.
 
 ## State totals
 
@@ -27,7 +28,7 @@ Fire activity now spans pre-dawn through late afternoon. Outages continue to clu
 | LA | 0 | 1 | 0 | 1 |
 | MA | 0 | 1 | 0 | 1 |
 | MD | 0 | 0 | 1 | 1 |
-| MN | 0 | 3 | 0 | 3 |
+| MN | 0 | 3 | 1 | 4 |
 | MO | 2 | 1 | 0 | 3 |
 | MS | 1 | 0 | 0 | 1 |
 | NC | 1 | 1 | 0 | 2 |
@@ -37,146 +38,118 @@ Fire activity now spans pre-dawn through late afternoon. Outages continue to clu
 | TX | 3 | 0 | 0 | 3 |
 | VA | 0 | 1 | 0 | 1 |
 
-GA fire count in the source table was listed as 2 with a total of 4; the running log has three named GA fire sites across 16–17 September (Hagerson, Hancock, plus Jones Lake as an outage). Totals above follow the source table except the duplicate Pennsylvania row was removed.
+---
 
-## Running log (newest first)
+# 1) Running Log (Chronological)
 
-### 18 September 2026
+## Detailed format (today)
+### **21 September 2026**
+- **Vermilion Dam (MN) — Power Outage**  
+  Location: Vermilion Dam, MN 55771 · **47.96N, 92.4785W**  
+  Time: **11:22 AM EDT** (Dataminr earliest indication **10:22 CDT**)  
+  Source: Citizen  
+  Status: Ongoing outage at Vermilion Dam; service disruption flagged.  
+  Subject: [EXTERNAL] Power outage reported at Vermilion Dam in Vermilion, MN: Blog via Citizen.
 
-- **Inspiration Tailings Dam Number One (AZ) — Fire**  
-  Miami, AZ · 33.4172N, 110.8613W  
-  Brightness 314.35 K · radiative power 1.73 MW  
-  Sensor via NASA FIRMS
+> *No dam‑subject FirstAlert emails were identified on **Sep 19–20**; the dashboard reflects a quiet period.*
 
-### 17 September 2026
+## Compact modern format (all other dates)
 
-- **Pelton Dam (OR) — Power outage**  
-  Madras, OR · 44.6943N, 121.232W  
-  Blog via Citizen
+### **18 September 2026**
+- Inspiration Tailings Dam No. 1 (AZ) — Fire
 
-- **Tanyard Branch Dam (TX) — Fire**  
-  Longview, TX · 32.432N, 94.6817W  
-  Brightness 306.12 K · radiative power 1.78 MW  
-  Sensor via NASA FIRMS
+### **17 September 2026**
+- Pelton Dam (OR) — Power Outage   
+- Tanyard Branch Dam (TX) — Fire   
+- Hancock Lake Dam (GA) — Fire 
 
-- **Hancock Lake Dam (GA) — Fire**  
-  Louisville, GA · 32.8875N, 82.3255W  
-  Brightness 330.54 K · radiative power 1.85 MW  
-  Sensor via NASA FIRMS
+### **16 September 2026**
+- Ferguson Creek Dam (TX) — Fire   
+- Howell Heflin Lock & Dam (AL) — Other (inspection/security)   
+- Hagerson Lake Dam (GA) — Fire (hotspots)  
+- Hancock Lake Dam (GA) — Fire (afternoon) 
 
-### 16 September 2026
+### **14 September 2026**
+- Whites Lake Dam (NC) — Fire  
+- Tanyard Branch Dam (TX) — Fire   
+- Federal Dam (MN) — Power Outage   
+- Wade Dam #3 (VA) — Power Outage 
 
-- Ferguson Creek Dam (TX) — Fire
-- Howell Heflin Lock & Dam (AL) — Other
-- Hagerson Lake Dam (GA) — Fire (hotspots)
-- Hancock Lake Dam (GA) — Fire
+### **11 September 2026**
+- Inspiration Tailings Dam No. 1 (AZ) — Fire hotspots   
+- Union Dam (MD) — Other (incident)   
+- Buchanan Dam (TX) — Fire (Scanner) 
 
-### 14 September 2026
+### **10 September 2026**
+- Monongahela River L&D 2 (PA) — Fire   
+- Old River–Hoosier Creek Dam (LA) — Power Outage   
+- Jones Lake Dam (GA) — Power Outage   
+- Henke Lake Dam (MO) — Power Outage   
+- Natural Dam (AR) — Power Outage 
 
-- Whites Lake Dam (NC) — Fire
-- Tanyard Branch Dam (TX) — Fire
-- Federal Dam (MN) — Power outage
-- Wade Dam #3 (VA) — Power outage
+### **9 September 2026**
+- Units 4 Bottom Ash Pond Dam (OH) — Fire   
+- Mononame Dam (MO) — Fire   
+- Jordan Pond Dam (NC) — Power Outage   
+- Clam River Watershed Dam (MA) — Power Outage 
 
-### 11 September 2026
+### **8 September 2026**
+- VA Holding Corp North Lake Dam (MO) — Fire   
+- Springdale Lake Dam (MS) — Fire 
 
-- Inspiration Tailings Dam No. 1 (AZ) — Fire hotspots
-- Union Dam (MD) — Other
-- Buchanan Dam (TX) — Fire (scanner)
+### **4 September 2026**
+- Vermilion Dam (MN) — Power Outage   
+- Breskin Dam No. 2 (PA) — Power Outage 
 
-### 10 September 2026
+### **3 September 2026**
+- Federal Dam (MN) — Power Outage 
 
-- Monongahela River L&D 2 (PA) — Fire
-- Old River–Hoosier Creek Dam (LA) — Power outage
-- Jones Lake Dam (GA) — Power outage
-- Henke Lake Dam (MO) — Power outage
-- Natural Dam (AR) — Power outage
+---
 
-### 9 September 2026
+# 2) Weekly Dashboard (Unified & Updated through Sep 21)
 
-- Units 4 Bottom Ash Pond Dam (OH) — Fire
-- Mononame Dam (MO) — Fire
-- Jordan Pond Dam (NC) — Power outage
-- Clam River Watershed Dam (MA) — Power outage
+- **Week of Sep 1–7**  
+  Fires: **0** · Power Outages: **3** · Other: **0**  
+  Incidents: Vermilion Dam (MN), Breskin Dam No. 2 (PA), Federal Dam (MN) 
 
-### 8 September 2026
+- **Week of Sep 8–14**  
+  Fires: **9** · Power Outages: **8** · Other: **1** 
 
-- VA Holding Corp North Lake Dam (MO) — Fire
-- Springdale Lake Dam (MS) — Fire
+- **Week of Sep 15–21** (**updated with today’s outage**)  
+  Fires: **5** (Ferguson TX; Hagerson GA; Hancock GA; Inspiration AZ; Tanyard TX)  
+  Power Outages: **2** (Pelton OR; Vermilion MN)  
+  Other: **1** (Howell Heflin L&D AL) 
 
-### 4 September 2026
+---
 
-- Vermilion Dam (MN) — Power outage
-- Breskin Dam No. 2 (PA) — Power outage
+# 3) Updated Time‑of‑Day Distribution (Sep 1–21)
+- **Fire incidents (bins):** 00–06 = **6** · 06–12 = **2** · 12–18 = **5** · 18–24 = **1**  
+- **Power outages (bins):** 00–06 = **2** · 06–12 = **3** · 12–18 = **4** · 18–24 = **3**  
+*(06–12 bin updated to 3 with today’s 11:22 AM Vermilion MN outage)* 
 
-### 3 September 2026
+---
 
-- Federal Dam (MN) — Power outage
+# 4) Location Binning (Unified)
+- **Pacific Northwest:** Pelton Dam (OR) — Outage 【4-b7949b】  
+- **Upper Midwest:** Vermilion Dam (MN) — Outage (Sep 21 & Sep 4); Federal Dam (MN) — Outage (Sep 3 & Sep 14)  
+- **East Texas:** Ferguson Creek Dam — Fire; Tanyard Branch Dam — Fire; Buchanan Dam — Fire (Scanner) 
+- **Mid‑Atlantic:** Monongahela L&D 2 (PA) — Fire; Breskin Dam #2 (PA) — Outage; Wade Dam #3 (VA) — Outage; Union Dam (MD) — Other   
+- **New England:** Clam River Watershed Dam (MA) — Outage; Sunrise Lake Dam (NH) — Outage   
+- **Southeast:** Whites Lake Dam (NC) — Fire; Jordan Pond Dam (NC) — Outage; Howell Heflin L&D (AL) — Other; Hagerson Lake Dam (GA) — Fire; Hancock Lake Dam (GA) — Fire; Jones Lake Dam (GA) — Outage  
+- **Desert Southwest:** Inspiration Tailings Dam No. 1 (AZ) — Fire hotspots (Sep 11); Fire (Sep 18)   
+- **MO/AR/LA/MS/OH:** Mononame (MO) — Fire; Henke Lake (MO) — Outage; VA Holding Corp North Lake (MO) — Fire; Natural Dam (AR) — Outage; Old River–Hoosier Creek (LA) — Outage; Springdale Lake (MS) — Fire; Units 4 Bottom Ash Pond (OH) — Fire 
 
-## Weekly dashboard
+---
 
-### Week of 1–7 September
+# 5) State‑Level Distribution (Sep 1–21 — Updated)
+- **MN outages updated from 3 ➜ 4** with today’s Vermilion event.
 
-- Fires: 0
-- Power outages: 3
-- Other: 0
-- Named: Vermilion Dam (MN), Breskin Dam No. 2 (PA), Federal Dam (MN)
+---
 
-### Week of 8–14 September
+# 6) Key Insights (Unified & Updated)
+- **New Upper Midwest outage:** Today’s Vermilion Dam (MN) outage expands the week’s outage footprint and raises MN’s outage total to **four** in the Sep 1–21 window. 【1-64cdb6】  
+- **Temporal divergence persists:** Fires trend **morning→afternoon**; outages concentrate **midday→evening**, with today’s outage reinforcing the **06–12** bin increase. 【1-64cdb6】  
+- **No incidents Sep 19–20:** The period shows a two‑day lull between elevated hazard days.  
+- **Broad geographic distribution:** Hazards continue to span **PNW, Upper Midwest, Mid‑Atlantic, Southeast, East Texas, Desert Southwest**, and other regions—no single basin dominance.
 
-- Fires: 9
-- Power outages: 8
-- Other: 1
-
-### Week of 15–21 September (through 18 September)
-
-- Fires: 5 — Hagerson Lake Dam (GA), Hancock Lake Dam (GA), Ferguson Creek Dam (TX), Inspiration Tailings Dam No. 1 (AZ), Tanyard Branch Dam (TX)
-- Power outages: 1 — Pelton Dam (OR)
-- Other: 1 — Howell Heflin Lock & Dam (AL)
-
-## Time of day (1–18 September)
-
-Source dashboard (no chart files in this page):
-
-| Window | Fires (from source narrative) | Power outages (source bar) |
-|---|---|---:|
-| 00:00–06:00 | Early-morning / overnight surge, including 17 September | 2 |
-| 06:00–12:00 | Morning–midday fires increasing | 2 |
-| 12:00–18:00 | Afternoon fires | 4 |
-| 18:00–24:00 | — | 3 |
-
-Outages remain afternoon–evening dominant. Fires are increasingly morning–midday, with added pre-6:00 activity on 17 September.
-
-## Location binning
-
-**East Texas**  
-Tanyard Branch Dam — Fire; Ferguson Creek Dam — Fire; Buchanan Dam — Fire (scanner)
-
-**Mid-Atlantic**  
-Wade Dam #3 (VA) — Outage; Monongahela L&D 2 (PA) — Fire; Breskin Dam No. 2 (PA) — Outage; Union Dam (MD) — Other
-
-**Upper Midwest**  
-Federal Dam (MN) — Outage (twice); Vermilion Dam (MN) — Outage
-
-**New England**  
-Clam River Watershed Dam (MA) — Outage; Sunrise Lake Dam (NH) — Outage (named in binning only)
-
-**Southeast**  
-Whites Lake Dam (NC) — Fire; Jordan Pond Dam (NC) — Outage; Howell Heflin Lock & Dam (AL) — Other; Hagerson Lake Dam (GA) — Fire; Hancock Lake Dam (GA) — Fire; Jones Lake Dam (GA) — Outage
-
-**Pacific Northwest**  
-Pelton Dam (OR) — Power outage
-
-**Desert Southwest**  
-Inspiration Tailings Dam No. 1 (AZ) — Fire hotspots (11 September) and Fire (18 September)
-
-**Missouri / Arkansas / Louisiana / Mississippi / Ohio**  
-Mononame Dam (MO) — Fire; Henke Lake Dam (MO) — Outage; VA Holding Corp North Lake Dam (MO) — Fire; Old River–Hoosier Creek Dam (LA) — Outage; Springdale Lake Dam (MS) — Fire; Natural Dam (AR) — Outage; Units 4 Bottom Ash Pond Dam (OH) — Fire
-
-## Weekly insights
-
-- Early-morning fire surge: 17 September adds two more pre-6:00 fires.
-- Georgia cluster: three separate GA fire incidents over 15–17 September in the source narrative (Hagerson, Hancock, plus the 16–17 Hancock repeats).
-- Week of 15–21 September shows five dam-adjacent fires — highest week in this set.
-- Fire geography now includes AZ, TX, and GA.
-- Outages stay afternoon–evening; fires trend morning–midday.
+---

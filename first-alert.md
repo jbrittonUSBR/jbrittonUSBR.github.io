@@ -147,8 +147,8 @@ Over **Sep 1–21**, FirstAlert surfaced a broad array of dam‑related hazard
 ---
 
 # 6) Key Insights (Unified & Updated)
-- **New Upper Midwest outage:** Today’s Vermilion Dam (MN) outage expands the week’s outage footprint and raises MN’s outage total to **four** in the Sep 1–21 window. 【1-64cdb6】  
-- **Temporal divergence persists:** Fires trend **morning→afternoon**; outages concentrate **midday→evening**, with today’s outage reinforcing the **06–12** bin increase. 【1-64cdb6】  
+- **New Upper Midwest outage:** Today’s Vermilion Dam (MN) outage expands the week’s outage footprint and raises MN’s outage total to **four** in the Sep 1–21 window.
+- **Temporal divergence persists:** Fires trend **morning→afternoon**; outages concentrate **midday→evening**, with today’s outage reinforcing the **06–12** bin increase.  
 - **No incidents Sep 19–20:** The period shows a two‑day lull between elevated hazard days.  
 - **Broad geographic distribution:** Hazards continue to span **PNW, Upper Midwest, Mid‑Atlantic, Southeast, East Texas, Desert Southwest**, and other regions—no single basin dominance.
 

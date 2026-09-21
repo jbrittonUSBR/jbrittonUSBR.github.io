@@ -42,7 +42,7 @@ Over **Sep 1–21**, FirstAlert surfaced a broad array of dam‑related hazard
 
 # 1) Running Log (Chronological)
 
-## Detailed format (today)
+## Today
 ### **21 September 2026**
 - **Vermilion Dam (MN) — Power Outage**  
   Location: Vermilion Dam, MN 55771 · **47.96N, 92.4785W**  
@@ -53,7 +53,7 @@ Over **Sep 1–21**, FirstAlert surfaced a broad array of dam‑related hazard
 
 > *No dam‑subject FirstAlert emails were identified on **Sep 19–20**; the dashboard reflects a quiet period.*
 
-## Compact modern format (all other dates)
+## Previous Incidents
 
 ### **18 September 2026**
 - Inspiration Tailings Dam No. 1 (AZ) — Fire
@@ -130,7 +130,7 @@ Over **Sep 1–21**, FirstAlert surfaced a broad array of dam‑related hazard
 ---
 
 # 4) Location Binning (Unified)
-- **Pacific Northwest:** Pelton Dam (OR) — Outage 【4-b7949b】  
+- **Pacific Northwest:** Pelton Dam (OR) — Outage   
 - **Upper Midwest:** Vermilion Dam (MN) — Outage (Sep 21 & Sep 4); Federal Dam (MN) — Outage (Sep 3 & Sep 14)  
 - **East Texas:** Ferguson Creek Dam — Fire; Tanyard Branch Dam — Fire; Buchanan Dam — Fire (Scanner) 
 - **Mid‑Atlantic:** Monongahela L&D 2 (PA) — Fire; Breskin Dam #2 (PA) — Outage; Wade Dam #3 (VA) — Outage; Union Dam (MD) — Other   

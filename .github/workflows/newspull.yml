@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install Python deps
+        run: pip install requests feedparser googlenewsdecoder
 
       - name: Pull, filter, sources page
         env:
@@ -30,11 +30,21 @@ jobs:
           Y=$(date -u +%Y)
           M=$(date -u +%m)
           mkdir -p "sources/${Y}/${M}" "data/${Y}/${M}"
+
           python scripts/newspull_to_json.py --out "newspull.json"
-          python scripts/filter_ci_json.py --in "newspull.json" --out "newspull_ci.json"
+
+          python scripts/gnews_rss_pull.py --hours 48 --max 20 --sleep 0.4 --out "newspull_gnews.json" || true
+          if [ -f newspull_gnews.json ]; then
+            python scripts/merge_newspull.py --a "newspull.json" --b "newspull_gnews.json" --out "newspull_merged.json"
+          else
+            cp newspull.json newspull_merged.json
+          fi
+
+          python scripts/filter_ci_json.py --in "newspull_merged.json" --out "newspull_ci.json"
           python scripts/chicago_citations.py --in "newspull_ci.json" --out "sources/${Y}/${M}/${DAY}.md"
           cp newspull_ci.json "data/${Y}/${M}/${DAY}-ci.json"
-          rm -f newspull.json newspull.txt
+
+          rm -f newspull.json newspull_gnews.json newspull_merged.json newspull.txt
           git add "sources/${Y}/${M}/${DAY}.md" "data/${Y}/${M}/${DAY}-ci.json"
 
       - name: Commit sources and JSON

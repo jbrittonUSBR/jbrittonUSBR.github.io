@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "First Alert Dashboard"
+title: "Critical Infrastructure Update"
 permalink: /first-alert/
 ---
 

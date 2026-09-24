@@ -4,11 +4,11 @@ title: "Critical Infrastructure Update"
 permalink: /first-alert/
 ---
 
-- Coverage: 22–23 September 2026
-- Last updated: 23 September 2026
+- Coverage: 23–24 September 2026
+- Last updated: 24 September 2026
 - Sources: NASA FIRMS (fires), Citizen / scanner / blog (outages and other)
 
-# CI Sector Brief 2026-09-23
+# CI Sector Brief 2026-09-24
 
 ## EXECUTIVE SUMMARY
 

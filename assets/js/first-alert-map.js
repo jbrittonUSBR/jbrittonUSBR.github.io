@@ -118,6 +118,29 @@
       attribution: "&copy; OpenStreetMap"
     }).addTo(map);
 
+    (function addLegend() {
+      var legend = L.control({ position: "bottomright" });
+      legend.onAdd = function () {
+        var div = L.DomUtil.create("div", "fa-legend");
+        var items = [
+          ["#c0392b", "Fire"],
+          ["#8e44ad", "Outage / utilities"],
+          ["#2980b9", "Flood / water"],
+          ["#16a085", "Cyber"],
+          ["#d35400", "Vandalism / attack"],
+          ["#2c3e50", "Other"]
+        ];
+        div.innerHTML = "<div class=\"fa-legend-title\">Topic</div>";
+        items.forEach(function (it) {
+          div.innerHTML +=
+            "<div class=\"fa-legend-row\"><span class=\"fa-swatch\" style=\"background:" +
+            it[0] + "\"></span>" + it[1] + "</div>";
+        });
+        return div;
+      };
+      legend.addTo(map);
+    })();
+
     loadCsv()
       .then(function (text) {
         const table = parseCsv(text);
@@ -167,10 +190,10 @@
           });
           const n = items.length;
           const radiusForZoom = function (z) {
-            var base = n <= 1 ? 7 : 7 + (n - 1) * 6;
-            if (z <= 4) base += n <= 1 ? 1 : 4;
+            var base = n <= 1 ? 5 : 5 + (n - 1) * 6;
+            if (z <= 4) base += n <= 1 ? 0 : 4;
             else if (z >= 9) base -= n <= 1 ? 0 : 3;
-            return Math.max(6, Math.min(40, base));
+            return Math.max(5, Math.min(40, base));
           };
           const m = L.circleMarker([ll.lat, ll.lon], {
             radius: radiusForZoom(map.getZoom()),

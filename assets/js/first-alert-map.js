@@ -165,13 +165,22 @@
             if (href) html += "<a href=\"" + href + "\" target=\"_blank\" rel=\"noopener\">Open alert</a>";
             html += "</div>";
           });
+          const n = items.length;
+          const radiusForZoom = function (z) {
+            var base = 5 + Math.sqrt(n) * 4;
+            if (z < 5) base *= 1.35;
+            else if (z > 8) base *= 0.75;
+            return Math.max(5, Math.min(26, base));
+          };
           const m = L.circleMarker([ll.lat, ll.lon], {
-            radius: items.length > 1 ? 9 : 7,
+            radius: radiusForZoom(map.getZoom()),
             color: "#fff",
             weight: 1,
             fillColor: topicColor(topic),
-            fillOpacity: 0.9
+            fillOpacity: 0.88
           });
+          m._faCount = n;
+          m._faRadiusForZoom = radiusForZoom;
           const title = items.length > 1 ? items.length + " alerts at this location" : "";
           m.bindPopup((title ? "<em>" + title + "</em><br>" : "") + html, { maxHeight: 240 });
           if (items.length > 1) {
@@ -180,6 +189,12 @@
           group.addLayer(m);
         });
         group.addTo(map);
+        map.on("zoomend", function () {
+          var z = map.getZoom();
+          group.eachLayer(function (layer) {
+            if (layer._faRadiusForZoom) layer.setRadius(layer._faRadiusForZoom(z));
+          });
+        });
         map.fitBounds(group.getBounds().pad(0.15));
         setTimeout(function () { map.invalidateSize(); }, 200);
         status(pts.length + " alerts / " + keys.length + " locations / " + table.length + " CSV rows.");

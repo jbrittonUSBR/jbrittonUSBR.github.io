@@ -118,29 +118,6 @@
       attribution: "&copy; OpenStreetMap"
     }).addTo(map);
 
-    (function addLegend() {
-      var legend = L.control({ position: "bottomright" });
-      legend.onAdd = function () {
-        var div = L.DomUtil.create("div", "fa-legend");
-        var items = [
-          ["#c0392b", "Fire"],
-          ["#8e44ad", "Outage / utilities"],
-          ["#2980b9", "Flood / water"],
-          ["#16a085", "Cyber"],
-          ["#d35400", "Vandalism / attack"],
-          ["#2c3e50", "Other"]
-        ];
-        div.innerHTML = "<div class=\"fa-legend-title\">Topic</div>";
-        items.forEach(function (it) {
-          div.innerHTML +=
-            "<div class=\"fa-legend-row\"><span class=\"fa-swatch\" style=\"background:" +
-            it[0] + "\"></span>" + it[1] + "</div>";
-        });
-        return div;
-      };
-      legend.addTo(map);
-    })();
-
     loadCsv()
       .then(function (text) {
         const table = parseCsv(text);

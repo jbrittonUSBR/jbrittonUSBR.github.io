@@ -9,9 +9,11 @@
         <div class="page-main">
           {{ content }}
         </div>
+        {% if page.url == "/" %}
         <div class="page-sidebar">
           {% include month-calendar.html %}
         </div>
+        {% endif %}
       </div>
     </main>
 

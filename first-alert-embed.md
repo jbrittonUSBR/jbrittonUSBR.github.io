@@ -12,36 +12,41 @@ permalink: /first-alert/embed/
   <style>
     html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
     #first-alert-map { height: 100%; width: 100%; }
-    .fa-legend {
-      background: rgba(255,255,255,.92);
-      padding: 8px 10px;
-      border-radius: 4px;
-      font: 12px/1.35 sans-serif;
-      box-shadow: 0 1px 4px rgba(0,0,0,.2);
-    }
-    .fa-legend-title { font-weight: 700; margin-bottom: 4px; }
-    .fa-legend-row { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
-    .fa-swatch {
-      width: 10px; height: 10px; border-radius: 50%;
-      border: 1px solid #fff; box-shadow: 0 0 0 1px #ccc;
-      flex: 0 0 10px;
-    }
-    .leaflet-tooltip.fa-count {
-      background: transparent; border: 0; box-shadow: none;
-      color: #fff; font-weight: 700; text-shadow: 0 0 2px #000;
-    }
-
     #first-alert-map-status {
       position: absolute; z-index: 1000; left: 8px; bottom: 8px;
       background: rgba(255,255,255,.9); font: 12px/1.3 sans-serif;
-      padding: 4px 8px; border-radius: 3px; max-width: 70%;
+      padding: 4px 8px; border-radius: 3px; max-width: 55%;
+    }
+    .fa-legend {
+      position: absolute; z-index: 1000; right: 8px; bottom: 8px;
+      background: rgba(255,255,255,.94);
+      padding: 8px 10px;
+      border-radius: 4px;
+      font: 12px/1.35 sans-serif;
+      box-shadow: 0 1px 4px rgba(0,0,0,.25);
+    }
+    .fa-legend-title { font-weight: 700; margin-bottom: 4px; }
+    .fa-legend-row { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
+    .fa-swatch {
+      width: 10px; height: 10px; border-radius: 50%;
+      border: 1px solid #fff; box-shadow: 0 0 0 1px #bbb;
+      flex: 0 0 10px;
     }
   </style>
 </head>
 <body>
   <div id="first-alert-map-status">Loading map…</div>
+  <div class="fa-legend">
+    <div class="fa-legend-title">Topic</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#c0392b"></span>Fire</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#8e44ad"></span>Outage / utilities</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#2980b9"></span>Flood / water</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#16a085"></span>Cyber</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#d35400"></span>Vandalism / attack</div>
+    <div class="fa-legend-row"><span class="fa-swatch" style="background:#2c3e50"></span>Other</div>
+  </div>
   <div id="first-alert-map"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="{{ '/assets/js/first-alert-map.js' | relative_url }}?v=5"></script>
+  <script src="{{ '/assets/js/first-alert-map.js' | relative_url }}?v=6"></script>
 </body>
 </html>

@@ -34,6 +34,13 @@ title: Home
   <p class="lede">Chicago Style citation list with links to the articles.</p>
 </div>
 
+<p><a href="{{ '/first-alert/map/' | relative_url }}">First Alert incident map</a></p>
+<iframe
+  title="First Alert map"
+  src="{{ '/first-alert/map/' | relative_url }}"
+  style="width:100%;height:420px;border:1px solid #ddd4c4;border-radius:4px;"
+  loading="lazy"></iframe>
+  
 {% assign src_pages = site.pages | where_exp: "p", "p.url contains '/sources/'" | sort: "url" | reverse %}
 {% assign latest_src = src_pages.first %}
 {% if latest_src %}

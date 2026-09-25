@@ -23,15 +23,6 @@ title: Home
   {% endif %}
 </article>
 
-<h3>Daily Brief Archive</h3>
-{% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-<ul class="year-list">
-{% for year in years %}
-  <li><a href="{{ year.name | prepend: '/' | relative_url }}">{{ year.name }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
-
 <div class="briefing">
   <h1>First Alert</h1>
 </div>

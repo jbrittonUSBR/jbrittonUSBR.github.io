@@ -190,10 +190,10 @@
           });
           const n = items.length;
           const radiusForZoom = function (z) {
-            var base = n <= 1 ? 5 : 5 + (n - 1) * 6;
+            var base = n <= 1 ? 7 : 7 + (n - 1) * 6;
             if (z <= 4) base += n <= 1 ? 0 : 4;
             else if (z >= 9) base -= n <= 1 ? 0 : 3;
-            return Math.max(5, Math.min(40, base));
+            return Math.max(6, Math.min(40, base));
           };
           const m = L.circleMarker([ll.lat, ll.lon], {
             radius: radiusForZoom(map.getZoom()),

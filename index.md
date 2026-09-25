@@ -26,9 +26,8 @@ title: Home
 
 <div class="briefing">
   <h1>First Alert</h1>
-  <p class="lede">Dam-related First Alert log.</p>
 </div>
-<p><a href="{{ '/first-alert/' | relative_url }}">Open the First Alert dashboard</a></p>
+<p><a href="{{ '/first-alert/' | relative_url }}">Open Today's Critical Infrastructure Brief</a></p>
 
 <p><a href="{{ '/first-alert/map/' | relative_url }}">First Alert incident map</a></p>
 <iframe

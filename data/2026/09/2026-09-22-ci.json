@@ -1,20 +1,80 @@
 {
-  "pulled_at_utc": "2026-09-22T12:15:46Z",
+  "pulled_at_utc": "2026-09-22T14:43:29Z",
   "accessed": "September 22, 2026",
-  "filtered_at_utc": "2026-09-22T12:16:06Z",
+  "filtered_at_utc": "2026-09-22T14:48:26Z",
   "filter": "manual_title_review_terrorism_or_CI",
-  "source_file": "newspull.json",
-  "source_article_count": 496,
-  "article_count": 59,
-  "dropped_count": 437,
-  "term_count": 17,
+  "source_file": "newspull_merged.json",
+  "source_article_count": 486,
+  "article_count": 68,
+  "dropped_count": 418,
+  "term_count": 18,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 4,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Suat Delgen",
+          "title": "Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis",
+          "outlet": "Globalresearch.ca",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T14:38:48Z",
+          "link": "https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187",
+          "citation": "(U) Suat Delgen. \"Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis.\" Globalresearch.ca, September 21, 2026. https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Charles Kennedy",
+          "title": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
+          "outlet": "OilPrice.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:51:13Z",
+          "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+          "citation": "(U) Charles Kennedy. \"Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu.\" OilPrice.com, September 21, 2026. https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Houthis target ‘sensitive sites’ in Saudi Arabia (VIDEO)",
+          "outlet": "RT",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:11:59Z",
+          "link": "https://www.rt.com/news/646030-saudi-arabia-houthis-strikes/",
+          "citation": "(U) RT. \"Houthis target ‘sensitive sites’ in Saudi Arabia (VIDEO).\" RT, September 21, 2026. https://www.rt.com/news/646030-saudi-arabia-houthis-strikes/. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CBS News Staff",
+          "title": "Massive Ukrainian drone attack in Russia",
+          "outlet": "CBS News",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:00:50Z",
+          "link": "https://www.cbsnews.com/video/massive-ukranian-drone-attack-in-russia/",
+          "citation": "(U) CBS News Staff. \"Massive Ukrainian drone attack in Russia.\" CBS News, September 21, 2026. https://www.cbsnews.com/video/massive-ukranian-drone-attack-in-russia/. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Insider Inc.",
+          "title": "Russia's secret plan to supercharge kamikaze drone production",
+          "outlet": "Business Insider",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T12:47:12Z",
+          "link": "https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article",
+          "citation": "(U) Insider Inc.. \"Russia's secret plan to supercharge kamikaze drone production.\" Business Insider, September 21, 2026. https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bkamikaze drone\\b"
+          ]
+        },
         {
           "author": "Christopher Miller in Kyiv, Max Seddon in Berlin",
           "title": "Trump presses Zelenskiy to stop hitting Russian refineries",
@@ -29,56 +89,12 @@
         },
         {
           "author": "John Pike",
-          "title": "Russian UAV Strikes Hit Ukraine's Military Supply Chain Overnight",
-          "outlet": "Globalsecurity.org",
-          "published": "September 21, 2026",
-          "publishedAt": "2026-09-21T12:00:00Z",
-          "link": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260921-sputnik02.htm",
-          "citation": "(U) John Pike. \"Russian UAV Strikes Hit Ukraine's Military Supply Chain Overnight.\" Globalsecurity.org, September 21, 2026. https://www.globalsecurity.org/wmd/library/news/ukraine/2026/09/ukraine-260921-sputnik02.htm. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\buav\\b"
-          ]
-        },
-        {
-          "author": "John Pike",
           "title": "UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000",
           "outlet": "Globalsecurity.org",
           "published": "September 21, 2026",
           "publishedAt": "2026-09-21T12:00:00Z",
           "link": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260921-unnews02.htm",
           "citation": "(U) John Pike. \"UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000.\" Globalsecurity.org, September 21, 2026. https://www.globalsecurity.org/military/library/news/2026/09/mil-260921-unnews02.htm. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Tony Halpin",
-          "title": "Moscow Refinery Hit in Major Drone Attack by Ukraine",
-          "outlet": "Rigzone",
-          "published": "September 21, 2026",
-          "publishedAt": "2026-09-21T08:18:18Z",
-          "link": "https://www.rigzone.com/news/wire/moscow_refinery_hit_in_major_drone_attack_by_ukraine-21-sep-2026-184658-article/",
-          "citation": "(U) Tony Halpin. \"Moscow Refinery Hit in Major Drone Attack by Ukraine.\" Rigzone, September 21, 2026. https://www.rigzone.com/news/wire/moscow_refinery_hit_in_major_drone_attack_by_ukraine-21-sep-2026-184658-article/. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 1,
-      "error": null,
-      "articles": [
-        {
-          "author": "CNA Staff",
-          "title": "Flames, smoke seen near Riyadh airport; Saudi Arabia says Houthi ballistic missile intercepted",
-          "outlet": "CNA",
-          "published": "September 19, 2026",
-          "publishedAt": "2026-09-19T12:06:00Z",
-          "link": "https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631",
-          "citation": "(U) CNA Staff. \"Flames, smoke seen near Riyadh airport; Saudi Arabia says Houthi ballistic missile intercepted.\" CNA, September 19, 2026. https://www.channelnewsasia.com/world/flames-smoke-seen-near-riyadh-airport-saudi-arabia-says-houthi-ballistic-missile-intercepted-6396631. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -231,6 +247,25 @@
       ]
     },
     {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Insider Inc.",
+          "title": "Russia's secret plan to supercharge kamikaze drone production",
+          "outlet": "Business Insider",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T12:47:12Z",
+          "link": "https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article",
+          "citation": "(U) Insider Inc.. \"Russia's secret plan to supercharge kamikaze drone production.\" Business Insider, September 21, 2026. https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bkamikaze drone\\b"
+          ]
+        }
+      ]
+    },
+    {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
       "count": 3,
       "error": null,
@@ -269,6 +304,25 @@
           "citation": "(U) Will Canny. \"Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost.\" CoinDesk, September 18, 2026. https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Insider Inc.",
+          "title": "Russia's secret plan to supercharge kamikaze drone production",
+          "outlet": "Business Insider",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T12:47:12Z",
+          "link": "https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article",
+          "citation": "(U) Insider Inc.. \"Russia's secret plan to supercharge kamikaze drone production.\" Business Insider, September 21, 2026. https://www.businessinsider.com/russia-kamikaze-drone-factory-expansion-plans-2026-9#article. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bkamikaze drone\\b"
           ]
         }
       ]
@@ -520,29 +574,65 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 2,
+      "count": 5,
       "error": null,
       "articles": [
         {
-          "author": "Christopher Miller in Kyiv, Max Seddon in Berlin",
-          "title": "Trump presses Zelenskiy to stop hitting Russian refineries",
-          "outlet": "The Irish Times",
+          "author": "Suat Delgen",
+          "title": "Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis",
+          "outlet": "Globalresearch.ca",
           "published": "September 21, 2026",
-          "publishedAt": "2026-09-21T12:05:44Z",
-          "link": "https://www.irishtimes.com/world/europe/2026/09/21/trump-presses-zelenskiy-to-stop-hitting-russian-refineries/",
-          "citation": "(U) Christopher Miller in Kyiv, Max Seddon in Berlin. \"Trump presses Zelenskiy to stop hitting Russian refineries.\" The Irish Times, September 21, 2026. https://www.irishtimes.com/world/europe/2026/09/21/trump-presses-zelenskiy-to-stop-hitting-russian-refineries/. Accessed September 22, 2026.",
+          "publishedAt": "2026-09-21T14:38:48Z",
+          "link": "https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187",
+          "citation": "(U) Suat Delgen. \"Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis.\" Globalresearch.ca, September 21, 2026. https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Editorial Team",
+          "title": "Russia extends diesel export ban beyond September amid Ukraine attacks on refineries",
+          "outlet": "Crypto Briefing",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T14:04:01Z",
+          "link": "https://cryptobriefing.com/russia-diesel-export-ban-ukraine-refinery-attacks/",
+          "citation": "(U) Editorial Team. \"Russia extends diesel export ban beyond September amid Ukraine attacks on refineries.\" Crypto Briefing, September 21, 2026. https://cryptobriefing.com/russia-diesel-export-ban-ukraine-refinery-attacks/. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\brefiner(y|ies)\\b"
           ]
         },
         {
-          "author": "Editorial Team",
-          "title": "Trump presses Zelenskyy to halt strikes on Russian refineries as US diesel tops $6 a gallon",
+          "author": "Estefano Gomez",
+          "title": "Saudi Arabia reroutes oil exports after Houthi strikes disrupt Yanbu operations",
           "outlet": "Crypto Briefing",
           "published": "September 21, 2026",
-          "publishedAt": "2026-09-21T10:31:07Z",
-          "link": "https://cryptobriefing.com/trump-zelenskyy-russian-refinery-strikes/",
-          "citation": "(U) Editorial Team. \"Trump presses Zelenskyy to halt strikes on Russian refineries as US diesel tops $6 a gallon.\" Crypto Briefing, September 21, 2026. https://cryptobriefing.com/trump-zelenskyy-russian-refinery-strikes/. Accessed September 22, 2026.",
+          "publishedAt": "2026-09-21T14:03:03Z",
+          "link": "https://cryptobriefing.com/saudi-arabia-reroutes-oil-exports-after-houthi-strikes-disrupt-yanbu-operations/",
+          "citation": "(U) Estefano Gomez. \"Saudi Arabia reroutes oil exports after Houthi strikes disrupt Yanbu operations.\" Crypto Briefing, September 21, 2026. https://cryptobriefing.com/saudi-arabia-reroutes-oil-exports-after-houthi-strikes-disrupt-yanbu-operations/. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Charles Kennedy",
+          "title": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
+          "outlet": "OilPrice.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:51:13Z",
+          "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+          "citation": "(U) Charles Kennedy. \"Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu.\" OilPrice.com, September 21, 2026. https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Estefano Gomez",
+          "title": "Ukraine strikes Moscow refinery after Putin’s election win",
+          "outlet": "Crypto Briefing",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T12:32:14Z",
+          "link": "https://cryptobriefing.com/ukraine-strikes-moscow-refinery-after-putins-election-win/",
+          "citation": "(U) Estefano Gomez. \"Ukraine strikes Moscow refinery after Putin’s election win.\" Crypto Briefing, September 21, 2026. https://cryptobriefing.com/ukraine-strikes-moscow-refinery-after-putins-election-win/. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\brefiner(y|ies)\\b"
           ]
@@ -551,9 +641,69 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 3,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Suat Delgen",
+          "title": "Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis",
+          "outlet": "Globalresearch.ca",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T14:38:48Z",
+          "link": "https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187",
+          "citation": "(U) Suat Delgen. \"Saudi Arabia Facing Pressure at The Red Sea Bab al-Mandab Strait. Renewed Confrontation with the Houthis.\" Globalresearch.ca, September 21, 2026. https://www.globalresearch.ca/saudi-arabia-pressure-bab-al-mandab/5941187. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Estefano Gomez",
+          "title": "Saudi Arabia reroutes oil exports after Houthi strikes disrupt Yanbu operations",
+          "outlet": "Crypto Briefing",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T14:03:03Z",
+          "link": "https://cryptobriefing.com/saudi-arabia-reroutes-oil-exports-after-houthi-strikes-disrupt-yanbu-operations/",
+          "citation": "(U) Estefano Gomez. \"Saudi Arabia reroutes oil exports after Houthi strikes disrupt Yanbu operations.\" Crypto Briefing, September 21, 2026. https://cryptobriefing.com/saudi-arabia-reroutes-oil-exports-after-houthi-strikes-disrupt-yanbu-operations/. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "By Mohammed Ghobari and Jana Choukeir",
+          "title": "Houthis push for control of Yemen highlands as Trump reportedly calls off airstrikes",
+          "outlet": "Yahoo Entertainment",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T14:02:00Z",
+          "link": "https://uk.news.yahoo.com/houthis-push-control-yemen-highlands-110616361.html",
+          "citation": "(U) By Mohammed Ghobari and Jana Choukeir. \"Houthis push for control of Yemen highlands as Trump reportedly calls off airstrikes.\" Yahoo Entertainment, September 21, 2026. https://uk.news.yahoo.com/houthis-push-control-yemen-highlands-110616361.html. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Charles Kennedy",
+          "title": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
+          "outlet": "OilPrice.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:51:13Z",
+          "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+          "citation": "(U) Charles Kennedy. \"Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu.\" OilPrice.com, September 21, 2026. https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Houthis target ‘sensitive sites’ in Saudi Arabia (VIDEO)",
+          "outlet": "RT",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T13:11:59Z",
+          "link": "https://www.rt.com/news/646030-saudi-arabia-houthis-strikes/",
+          "citation": "(U) RT. \"Houthis target ‘sensitive sites’ in Saudi Arabia (VIDEO).\" RT, September 21, 2026. https://www.rt.com/news/646030-saudi-arabia-houthis-strikes/. Accessed September 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "John Pike",
           "title": "UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000",
@@ -574,18 +724,6 @@
           "publishedAt": "2026-09-21T11:49:00Z",
           "link": "https://www.channelnewsasia.com/world/houthis-fight-yemen-highlands-control-trump-airstrikes-6399591",
           "citation": "(U) CNA Staff. \"Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes.\" CNA, September 21, 2026. https://www.channelnewsasia.com/world/houthis-fight-yemen-highlands-control-trump-airstrikes-6399591. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Alexandra Stark",
-          "title": "Never Underestimate the Houthis",
-          "outlet": "Rand.org",
-          "published": "September 21, 2026",
-          "publishedAt": "2026-09-21T10:00:00Z",
-          "link": "https://www.rand.org/pubs/commentary/2026/09/never-underestimate-the-houthis.html",
-          "citation": "(U) Alexandra Stark. \"Never Underestimate the Houthis.\" Rand.org, September 21, 2026. https://www.rand.org/pubs/commentary/2026/09/never-underestimate-the-houthis.html. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -735,7 +873,7 @@
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 4,
+      "count": 3,
       "error": null,
       "articles": [
         {
@@ -774,18 +912,6 @@
           "ci_match_patterns": [
             "\\bsvr\\b"
           ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "FBI stop Russian plot to murder prominent dissident in Washington, DC, authorities say",
-          "outlet": "New York Post",
-          "published": "September 16, 2026",
-          "publishedAt": "2026-09-16T15:39:41Z",
-          "link": "https://nypost.com/2026/09/16/us-news/fbi-stopped-russian-plot-to-murder-a-prominent-dissident-in-dc-authorities-say/",
-          "citation": "(U) Associated Press. \"FBI stop Russian plot to murder prominent dissident in Washington, DC, authorities say.\" New York Post, September 16, 2026. https://nypost.com/2026/09/16/us-news/fbi-stopped-russian-plot-to-murder-a-prominent-dissident-in-dc-authorities-say/. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\brussian plots?\\b"
-          ]
         }
       ]
     },
@@ -822,7 +948,7 @@
     },
     {
       "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 2,
+      "count": 1,
       "error": null,
       "articles": [
         {
@@ -835,18 +961,6 @@
           "citation": "(U) Press Trust of India. \"Maharashtra TET papers smuggled in shoe insoles for ₹8K, says chargesheet.\" Business Standard, September 19, 2026. https://www.business-standard.com/india-news/maharashtra-tet-papers-smuggled-in-shoe-insoles-for-8k-says-chargesheet-126091900113_1.html. Accessed September 22, 2026.",
           "ci_match_patterns": [
             "\\bchargesheet\\b"
-          ]
-        },
-        {
-          "author": "Pierluigi Paganini",
-          "title": "Brevo Supply-Chain Attack Infected Over 100,000 Websites",
-          "outlet": "Securityaffairs.com",
-          "published": "September 18, 2026",
-          "publishedAt": "2026-09-18T21:38:15Z",
-          "link": "https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html",
-          "citation": "(U) Pierluigi Paganini. \"Brevo Supply-Chain Attack Infected Over 100,000 Websites.\" Securityaffairs.com, September 18, 2026. https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html. Accessed September 22, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
           ]
         }
       ]

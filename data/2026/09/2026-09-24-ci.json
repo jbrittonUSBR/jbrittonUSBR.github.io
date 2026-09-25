@@ -1,0 +1,1008 @@
+{
+  "pulled_at_utc": "2026-09-24T12:15:34Z",
+  "accessed": "September 24, 2026",
+  "filtered_at_utc": "2026-09-24T12:20:24Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 497,
+  "article_count": 69,
+  "dropped_count": 428,
+  "term_count": 23,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm",
+          "citation": "(U) John Pike. \"IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Eliana Silver",
+          "title": "The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia",
+          "outlet": "Dailymail.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T09:44:21Z",
+          "link": "https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html",
+          "citation": "(U) Eliana Silver. \"The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia.\" Dailymail.com, September 23, 2026. https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Lewrockwell.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:01:00Z",
+          "link": "https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Lewrockwell.com, September 23, 2026. https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Sri Lanka convicts 15 men over deadly bombing that killed two Australians",
+          "outlet": "ABC News (AU)",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T13:23:56Z",
+          "link": "https://www.abc.net.au/news/2026-09-22/sri-lanka-convicts-15-men-over-deadly-easter-bombing/107183542",
+          "citation": "(U) ABC News (AU) Staff. \"Sri Lanka convicts 15 men over deadly bombing that killed two Australians.\" ABC News (AU), September 22, 2026. https://www.abc.net.au/news/2026-09-22/sri-lanka-convicts-15-men-over-deadly-easter-bombing/107183542. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Lewrockwell.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:01:00Z",
+          "link": "https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Lewrockwell.com, September 23, 2026. https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Globalresearch.ca",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T17:12:07Z",
+          "link": "https://www.globalresearch.ca/trump-bibi-plan-war-houthis-blast-riyadh/5941228",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Globalresearch.ca, September 21, 2026. https://www.globalresearch.ca/trump-bibi-plan-war-houthis-blast-riyadh/5941228. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Editor",
+          "title": "Trump Just Declared a National Emergency Over the Power Grid",
+          "outlet": "Activistpost.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T16:02:16Z",
+          "link": "https://activistpost.com/trump-just-declared-a-national-emergency-over-the-power-grid/",
+          "citation": "(U) Editor. \"Trump Just Declared a National Emergency Over the Power Grid.\" Activistpost.com, September 21, 2026. https://activistpost.com/trump-just-declared-a-national-emergency-over-the-power-grid/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "Dewald Swart",
+          "title": "How to Watch the Transformers Movies in Order",
+          "outlet": "Addictivetips.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T08:58:59Z",
+          "link": "https://www.addictivetips.com/media-streaming/transformer-movies-order/",
+          "citation": "(U) Dewald Swart. \"How to Watch the Transformers Movies in Order.\" Addictivetips.com, September 18, 2026. https://www.addictivetips.com/media-streaming/transformer-movies-order/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil",
+          "outlet": "Military.com",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:59:42Z",
+          "link": "https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil",
+          "citation": "(U) MLT Staff. \"Two Cubans and a Venezuelan Indicted for Russian Assassination Plot on US Soil.\" Military.com, September 16, 2026. https://military.com/two-cubans-and-a-venezuelan-indicted-for-russian-assassination-plot-on-us-soil. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "James Tocchio",
+          "title": "Transformers: Beyond Reality Redux Transforms $20 Into Disappointment",
+          "outlet": "UploadVR",
+          "published": "September 16, 2026",
+          "publishedAt": "2026-09-16T14:10:24Z",
+          "link": "https://www.uploadvr.com/transformers-beyond-reality-redux-transforms-20-into-disappointment/",
+          "citation": "(U) James Tocchio. \"Transformers: Beyond Reality Redux Transforms $20 Into Disappointment.\" UploadVR, September 16, 2026. https://www.uploadvr.com/transformers-beyond-reality-redux-transforms-20-into-disappointment/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 9,
+      "error": null,
+      "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "A mass shooting at a house party in South Africa kills 11, including a pregnant woman - AP News",
+          "outlet": "Slashdot.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T11:12:51Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=185746806",
+          "citation": "(U) feedfeeder. \"A mass shooting at a house party in South Africa kills 11, including a pregnant woman - AP News.\" Slashdot.org, September 23, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=185746806. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "New York Post",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T10:36:54Z",
+          "link": "https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/",
+          "citation": "(U) Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" New York Post, September 23, 2026. https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Mass shooting at house party in South Africa leaves 11 dead, 3 wounded: police",
+          "outlet": "CBC News",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T10:17:43Z",
+          "link": "https://www.cbc.ca/news/world/south-africa-shooting-house-party-9.7354813",
+          "citation": "(U) CBC News Staff. \"Mass shooting at house party in South Africa leaves 11 dead, 3 wounded: police.\" CBC News, September 23, 2026. https://www.cbc.ca/news/world/south-africa-shooting-house-party-9.7354813. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "CHARLOTTE GRAHAM-MCLAY Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "Abcnews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T08:37:05Z",
+          "link": "https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405",
+          "citation": "(U) CHARLOTTE GRAHAM-MCLAY Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" Abcnews.com, September 23, 2026. https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "11 killed in mass shooting at house party in South Africa",
+          "outlet": "New York Post",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T07:40:19Z",
+          "link": "https://nypost.com/2026/09/23/world-news/south-africa-house-party-mass-shooting-leaves-11-dead-as-cops-probe-gang-link/",
+          "citation": "(U) Associated Press. \"11 killed in mass shooting at house party in South Africa.\" New York Post, September 23, 2026. https://nypost.com/2026/09/23/world-news/south-africa-house-party-mass-shooting-leaves-11-dead-as-cops-probe-gang-link/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Perkin Amalaraj",
+          "title": "Pregnant woman among 11 killed in mass shooting after gunmen storm house in South Africa",
+          "outlet": "Dailymail.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T07:14:21Z",
+          "link": "https://www.dailymail.com/news/article-16153473/Pregnant-woman-mass-shooting-Durban-South-Africa.html",
+          "citation": "(U) Perkin Amalaraj. \"Pregnant woman among 11 killed in mass shooting after gunmen storm house in South Africa.\" Dailymail.com, September 23, 2026. https://www.dailymail.com/news/article-16153473/Pregnant-woman-mass-shooting-Durban-South-Africa.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "The Associated Press",
+          "title": "A mass shooting at a house in South Africa leaves 11 dead and 3 wounded, police say",
+          "outlet": "Abcnews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T07:08:54Z",
+          "link": "https://abcnews.com/International/wireStory/mass-shooting-house-south-africa-leaves-11-dead-136675033",
+          "citation": "(U) The Associated Press. \"A mass shooting at a house in South Africa leaves 11 dead and 3 wounded, police say.\" Abcnews.com, September 23, 2026. https://abcnews.com/International/wireStory/mass-shooting-house-south-africa-leaves-11-dead-136675033. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "A mass shooting at a house in South Africa leaves 11 dead and 3 wounded",
+          "outlet": "The Times of India",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T07:01:49Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/south-africa-mass-shooting-at-a-house-leaves-11-dead-and-3-wounded/articleshow/134428184.cms",
+          "citation": "(U) AP. \"A mass shooting at a house in South Africa leaves 11 dead and 3 wounded.\" The Times of India, September 23, 2026. https://economictimes.indiatimes.com/news/international/world-news/south-africa-mass-shooting-at-a-house-leaves-11-dead-and-3-wounded/articleshow/134428184.cms. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Eleven killed in mass shooting at house in South Africa",
+          "outlet": "BBC News",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T06:23:58Z",
+          "link": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Eleven killed in mass shooting at house in South Africa.\" BBC News, September 23, 2026. https://www.bbc.co.uk/news/articles/crgjqxzl097eo. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Wayne Flower",
+          "title": "Ice cream killer's vile weasel words to his victim's mum after he mowed down Ethan, 14 - and then helped hack the teen to death",
+          "outlet": "Dailymail.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T04:59:03Z",
+          "link": "https://www.dailymail.com/news/article-16150007/ethan-hoac-killer-begs-mother-forgiveness.html",
+          "citation": "(U) Wayne Flower. \"Ice cream killer's vile weasel words to his victim's mum after he mowed down Ethan, 14 - and then helped hack the teen to death.\" Dailymail.com, September 22, 2026. https://www.dailymail.com/news/article-16150007/ethan-hoac-killer-begs-mother-forgiveness.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "TOI World Desk",
+          "title": "Afghan man arrested over suspected synagogue arson attempt in Germany ahead of holiest Jewish day",
+          "outlet": "The Times of India",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T10:42:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/afghan-man-arrested-over-suspected-synagogue-arson-attempt-in-germany-ahead-of-holiest-jewish-day/articleshow/134366910.cms",
+          "citation": "(U) TOI World Desk. \"Afghan man arrested over suspected synagogue arson attempt in Germany ahead of holiest Jewish day.\" The Times of India, September 20, 2026. https://timesofindia.indiatimes.com/world/europe/afghan-man-arrested-over-suspected-synagogue-arson-attempt-in-germany-ahead-of-holiest-jewish-day/articleshow/134366910.cms. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "At UN, Pezeshkian turns terrorism accusation back on Iran's critics",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-unnews01.htm",
+          "citation": "(U) John Pike. \"At UN, Pezeshkian turns terrorism accusation back on Iran's critics.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-unnews01.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Editor",
+          "title": "Trump Just Declared a National Emergency Over the Power Grid",
+          "outlet": "Activistpost.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T16:02:16Z",
+          "link": "https://activistpost.com/trump-just-declared-a-national-emergency-over-the-power-grid/",
+          "citation": "(U) Editor. \"Trump Just Declared a National Emergency Over the Power Grid.\" Activistpost.com, September 21, 2026. https://activistpost.com/trump-just-declared-a-national-emergency-over-the-power-grid/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "Justine Calma",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "outlet": "The Verge",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T20:28:15Z",
+          "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "citation": "(U) Justine Calma. \"Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems.\" The Verge, September 19, 2026. https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Oliver Haslam",
+          "title": "Meta's new transoceanic undersea cable boasts a whopping petabit of bandwidth — Petal link between US and France will be twice as fast as the last",
+          "outlet": "Tom's Hardware UK",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T11:00:00Z",
+          "link": "https://www.tomshardware.com/networking/metas-new-transoceanic-undersea-cable-boasts-a-whopping-petabit-of-bandwidth-petal-link-between-us-and-france-will-be-twice-as-fast-as-the-last",
+          "citation": "(U) Oliver Haslam. \"Meta's new transoceanic undersea cable boasts a whopping petabit of bandwidth — Petal link between US and France will be twice as fast as the last.\" Tom's Hardware UK, September 23, 2026. https://www.tomshardware.com/networking/metas-new-transoceanic-undersea-cable-boasts-a-whopping-petabit-of-bandwidth-petal-link-between-us-and-france-will-be-twice-as-fast-as-the-last. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bundersea cable\\b"
+          ]
+        },
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Lewrockwell.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:01:00Z",
+          "link": "https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Lewrockwell.com, September 23, 2026. https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "From campus radicals to Beijing's AI sabotage: Rep Randy Fine says 'US fighting to save Western civilization'",
+          "outlet": "Fox News",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T20:27:02Z",
+          "link": "https://www.foxnews.com/politics/campus-radicals-beijings-ai-sabotage-rep-randy-fine-says-us-fighting-save-western-civilization",
+          "citation": "(U) Fox News Staff. \"From campus radicals to Beijing's AI sabotage: Rep Randy Fine says 'US fighting to save Western civilization'.\" Fox News, September 22, 2026. https://www.foxnews.com/politics/campus-radicals-beijings-ai-sabotage-rep-randy-fine-says-us-fighting-save-western-civilization. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "TNN",
+          "title": "Five mild-intensity earthquakes recorded around Koyna dam in Satara district",
+          "outlet": "The Times of India",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T17:54:05Z",
+          "link": "https://timesofindia.indiatimes.com/city/kolhapur/five-mild-intensity-earthquakes-recorded-around-koyna-dam-in-satara-district/articleshow/134418332.cms",
+          "citation": "(U) TNN. \"Five mild-intensity earthquakes recorded around Koyna dam in Satara district.\" The Times of India, September 22, 2026. https://timesofindia.indiatimes.com/city/kolhapur/five-mild-intensity-earthquakes-recorded-around-koyna-dam-in-satara-district/articleshow/134418332.cms. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile",
+          "outlet": "New York Post",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T06:25:15Z",
+          "link": "https://nypost.com/2026/09/20/world-news/saudi-arabia-confirms-yemen-houthi-terrorists-attempted-to-strike-capital-riyadh/",
+          "citation": "(U) Associated Press. \"Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile.\" New York Post, September 20, 2026. https://nypost.com/2026/09/20/world-news/saudi-arabia-confirms-yemen-houthi-terrorists-attempted-to-strike-capital-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "Five terrorists killed in southeast Iran",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-irna07.htm",
+          "citation": "(U) John Pike. \"Five terrorists killed in southeast Iran.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-irna07.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm",
+          "citation": "(U) John Pike. \"IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "New York Post",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T10:36:54Z",
+          "link": "https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/",
+          "citation": "(U) Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" New York Post, September 23, 2026. https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "CHARLOTTE GRAHAM-MCLAY Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "Abcnews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T08:37:05Z",
+          "link": "https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405",
+          "citation": "(U) CHARLOTTE GRAHAM-MCLAY Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" Abcnews.com, September 23, 2026. https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "noreply@blogger.com (Unknown)",
+          "title": "Government upgrades the Prevention of Terrorism Act",
+          "outlet": "Gossiplankanews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T07:15:23Z",
+          "link": "https://english.gossiplankanews.com/2026/09/government-upgrades-prevention-of.html",
+          "citation": "(U) noreply@blogger.com (Unknown). \"Government upgrades the Prevention of Terrorism Act.\" Gossiplankanews.com, September 23, 2026. https://english.gossiplankanews.com/2026/09/government-upgrades-prevention-of.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "T.oI.",
+          "title": "Gaza terrorists heard joking during Oct. 7 attack in newly released intercepted calls [Al-Muhtadi US visa fraud]",
+          "outlet": "Freerepublic.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T05:39:48Z",
+          "link": "https://freerepublic.com/focus/f-news/4396541/posts",
+          "citation": "(U) T.oI.. \"Gaza terrorists heard joking during Oct. 7 attack in newly released intercepted calls [Al-Muhtadi US visa fraud].\" Freerepublic.com, September 23, 2026. https://freerepublic.com/focus/f-news/4396541/posts. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Breaking: Alleged ISIS member arrested in Melbourne",
+          "outlet": "ABC News (AU)",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T02:03:22Z",
+          "link": "https://www.abc.net.au/news/2026-09-23/counter-terrorism-police-arrest-melbourne-man-alleged-isis-link/107185494",
+          "citation": "(U) ABC News (AU) Staff. \"Breaking: Alleged ISIS member arrested in Melbourne.\" ABC News (AU), September 23, 2026. https://www.abc.net.au/news/2026-09-23/counter-terrorism-police-arrest-melbourne-man-alleged-isis-link/107185494. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Jon Stojan",
+          "title": "Guerassim Nikolov explains why autonomous systems are becoming the new insider threat",
+          "outlet": "Digital Journal",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T22:20:47Z",
+          "link": "https://www.digitaljournal.com/article/guerassim-nikolov-explains-why-autonomous-systems-are-becoming-the-new-insider-threat/",
+          "citation": "(U) Jon Stojan. \"Guerassim Nikolov explains why autonomous systems are becoming the new insider threat.\" Digital Journal, September 18, 2026. https://www.digitaljournal.com/article/guerassim-nikolov-explains-why-autonomous-systems-are-becoming-the-new-insider-threat/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Bulgaria investigates fire at weapons site that owner calls sabotage",
+          "outlet": "BBC News",
+          "published": "September 12, 2026",
+          "publishedAt": "2026-09-12T17:38:21Z",
+          "link": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Bulgaria investigates fire at weapons site that owner calls sabotage.\" BBC News, September 12, 2026. https://www.bbc.co.uk/news/articles/cd94kj17zvwo. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "From campus radicals to Beijing's AI sabotage: Rep Randy Fine says 'US fighting to save Western civilization'",
+          "outlet": "Fox News",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T20:27:02Z",
+          "link": "https://www.foxnews.com/politics/campus-radicals-beijings-ai-sabotage-rep-randy-fine-says-us-fighting-save-western-civilization",
+          "citation": "(U) Fox News Staff. \"From campus radicals to Beijing's AI sabotage: Rep Randy Fine says 'US fighting to save Western civilization'.\" Fox News, September 22, 2026. https://www.foxnews.com/politics/campus-radicals-beijings-ai-sabotage-rep-randy-fine-says-us-fighting-save-western-civilization. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Eliana Silver",
+          "title": "The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia",
+          "outlet": "Dailymail.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T09:44:21Z",
+          "link": "https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html",
+          "citation": "(U) Eliana Silver. \"The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia.\" Dailymail.com, September 23, 2026. https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Capital Market",
+          "title": "Benchmarks hold firm; Europe opens higher after Saudi Arabia restarts east-west pipeline",
+          "outlet": "Business Standard",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T08:20:02Z",
+          "link": "https://www.business-standard.com/markets/capital-market-news/benchmarks-hold-firm-europe-opens-higher-after-saudi-arabia-restarts-east-west-pipeline-126092300575_1.html",
+          "citation": "(U) Capital Market. \"Benchmarks hold firm; Europe opens higher after Saudi Arabia restarts east-west pipeline.\" Business Standard, September 23, 2026. https://www.business-standard.com/markets/capital-market-news/benchmarks-hold-firm-europe-opens-higher-after-saudi-arabia-restarts-east-west-pipeline-126092300575_1.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 9,
+      "error": null,
+      "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "New York Post",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T10:36:54Z",
+          "link": "https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/",
+          "citation": "(U) Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" New York Post, September 23, 2026. https://nypost.com/2026/09/23/world-news/australian-man-is-accused-of-being-islamic-state-group-propagandist-who-shared-10000-files-online/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "Eliana Silver",
+          "title": "The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia",
+          "outlet": "Dailymail.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T09:44:21Z",
+          "link": "https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html",
+          "citation": "(U) Eliana Silver. \"The conflict sending global oil prices soaring: How Iran-backed Houthis have seized islands in Red Sea shipping route in escalating war with Saudi Arabia.\" Dailymail.com, September 23, 2026. https://www.dailymail.com/news/article-16153679/The-conflict-sending-global-oil-prices-soaring-Iran-backed-Houthis-seized-islands-Red-Sea-shipping-route-escalating-war-Saudi-Arabia.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Rana Sarkar",
+          "title": "‘Why don’t you give New Jersey to the Israelis?’: Syrian President Ahmed al-Sharaa, a former al-Qaeda commander, recalls his joke to Trump over Golan Heights",
+          "outlet": "The Times of India",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T09:16:40Z",
+          "link": "https://economictimes.indiatimes.com/news/international/us/why-dont-you-give-new-jersey-to-the-israelis-syrian-president-ahmed-al-sharaa-a-former-al-qaeda-commander-recalls-his-joke-to-trump-over-golan-heights/articleshow/134430512.cms",
+          "citation": "(U) Rana Sarkar. \"‘Why don’t you give New Jersey to the Israelis?’: Syrian President Ahmed al-Sharaa, a former al-Qaeda commander, recalls his joke to Trump over Golan Heights.\" The Times of India, September 23, 2026. https://economictimes.indiatimes.com/news/international/us/why-dont-you-give-new-jersey-to-the-israelis-syrian-president-ahmed-al-sharaa-a-former-al-qaeda-commander-recalls-his-joke-to-trump-over-golan-heights/articleshow/134430512.cms. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "CHARLOTTE GRAHAM-MCLAY Associated Press",
+          "title": "Australian man is accused of being Islamic State group propagandist who shared 10,000 files online",
+          "outlet": "Abcnews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T08:37:05Z",
+          "link": "https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405",
+          "citation": "(U) CHARLOTTE GRAHAM-MCLAY Associated Press. \"Australian man is accused of being Islamic State group propagandist who shared 10,000 files online.\" Abcnews.com, September 23, 2026. https://abcnews.com/International/wireStory/australian-man-accused-islamic-state-group-propagandist-shared-136675405. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "Cassie B.",
+          "title": "UK sends refuelling plane to Saudi Arabia as Houthi advance threatens global oil routes",
+          "outlet": "Naturalnews.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-09-23-uk-refuelling-plane-saudi-arabia-houthi.html",
+          "citation": "(U) Cassie B.. \"UK sends refuelling plane to Saudi Arabia as Houthi advance threatens global oil routes.\" Naturalnews.com, September 23, 2026. https://www.naturalnews.com/2026-09-23-uk-refuelling-plane-saudi-arabia-houthi.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Estefano Gomez",
+          "title": "UK deploys RAF tanker to aid Saudi Arabia amid Houthi tensions",
+          "outlet": "Crypto Briefing",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:34:31Z",
+          "link": "https://cryptobriefing.com/uk-deploys-raf-tanker-to-aid-saudi-arabia-amid-houthi-tensions/",
+          "citation": "(U) Estefano Gomez. \"UK deploys RAF tanker to aid Saudi Arabia amid Houthi tensions.\" Crypto Briefing, September 23, 2026. https://cryptobriefing.com/uk-deploys-raf-tanker-to-aid-saudi-arabia-amid-houthi-tensions/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "UK makes military pledge to Saudi Arabia",
+          "outlet": "RT",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:33:01Z",
+          "link": "https://www.rt.com/news/646107-uk-saudi-military-support-houthis/",
+          "citation": "(U) RT. \"UK makes military pledge to Saudi Arabia.\" RT, September 23, 2026. https://www.rt.com/news/646107-uk-saudi-military-support-houthis/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Lewrockwell.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:01:00Z",
+          "link": "https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Lewrockwell.com, September 23, 2026. https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Aidan Wondracz",
+          "title": "Aussie man arrested after being accused of joining ISIS and sharing guide on how to carry out mass attack",
+          "outlet": "Dailymail.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T02:15:50Z",
+          "link": "https://www.dailymail.com/news/article-16153035/Aussie-ISIS-mass-attack-arrested.html",
+          "citation": "(U) Aidan Wondracz. \"Aussie man arrested after being accused of joining ISIS and sharing guide on how to carry out mass attack.\" Dailymail.com, September 23, 2026. https://www.dailymail.com/news/article-16153035/Aussie-ISIS-mass-attack-arrested.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Goodin",
+          "title": "Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks",
+          "outlet": "New York Post",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T17:30:49Z",
+          "link": "https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/",
+          "citation": "(U) Emily Goodin. \"Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks.\" New York Post, September 11, 2026. https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Eimer McAuley",
+          "title": "Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon",
+          "outlet": "TheJournal.ie",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T23:10:44Z",
+          "link": "https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/",
+          "citation": "(U) Eimer McAuley. \"Investigation ongoing after bomb squad responds to package sent to US Customs at Shannon.\" TheJournal.ie, September 9, 2026. https://www.thejournal.ie/shannon-airport-suspicious-package-7156849-Sep2026/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        },
+        {
+          "author": "Emmanuel Detres",
+          "title": "Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations",
+          "outlet": "Inside the Magic",
+          "published": "September 8, 2026",
+          "publishedAt": "2026-09-08T16:15:00Z",
+          "link": "https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/",
+          "citation": "(U) Emmanuel Detres. \"Bomb Squad Evacuation at Florida Airport Triggers Mass Shutdown on Disney Vacations.\" Inside the Magic, September 8, 2026. https://insidethemagic.net/2026/09/miami-airport-disney-world-travel-security-emd1/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bbomb squad\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Whitney",
+          "title": "Trump and Bibi Plan for War While Houthis Blast Riyadh",
+          "outlet": "Lewrockwell.com",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T04:01:00Z",
+          "link": "https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/",
+          "citation": "(U) Mike Whitney. \"Trump and Bibi Plan for War While Houthis Blast Riyadh.\" Lewrockwell.com, September 23, 2026. https://www.lewrockwell.com/2026/09/mike-whitney/trump-and-bibi-plan-for-war-while-houthis-blast-riyadh/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mamita Bhandari",
+          "title": "Is Nepal's flood a harbinger of what's to come in the Himalayas?",
+          "outlet": "NPR",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T11:48:00Z",
+          "link": "https://www.npr.org/2026/09/23/g-s1-144536/floods-climate-nepal-himalayas-dams-hydropower",
+          "citation": "(U) Mamita Bhandari. \"Is Nepal's flood a harbinger of what's to come in the Himalayas?.\" NPR, September 23, 2026. https://www.npr.org/2026/09/23/g-s1-144536/floods-climate-nepal-himalayas-dams-hydropower. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bhydropower\\b",
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm",
+          "citation": "(U) John Pike. \"IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Arthur Parashar",
+          "title": "Was murder on millionaires' row a gangland assassination? Victim, 28, was an international fraudster convicted for gang robberies across London - as detectives hunt killers",
+          "outlet": "Dailymail.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T23:01:55Z",
+          "link": "https://www.dailymail.com/news/article-16151145/Was-murder-millionaires-row-gangland-assassination-Victim-28-international-fraudster-convicted-gang-robberies-London-detectives-hunt-killers.html",
+          "citation": "(U) Arthur Parashar. \"Was murder on millionaires' row a gangland assassination? Victim, 28, was an international fraudster convicted for gang robberies across London - as detectives hunt killers.\" Dailymail.com, September 22, 2026. https://www.dailymail.com/news/article-16151145/Was-murder-millionaires-row-gangland-assassination-Victim-28-international-fraudster-convicted-gang-robberies-London-detectives-hunt-killers.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "intelNews",
+          "title": "Germany charges businesswoman with espionage, expels her alleged Russian handler",
+          "outlet": "Intelnews.org",
+          "published": "September 19, 2026",
+          "publishedAt": "2026-09-19T04:06:00Z",
+          "link": "https://intelnews.org/2026/09/19/01-3457/",
+          "citation": "(U) intelNews. \"Germany charges businesswoman with espionage, expels her alleged Russian handler.\" Intelnews.org, September 19, 2026. https://intelnews.org/2026/09/19/01-3457/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Russia's FSB Nabs Ukrainian Agent Plotting to Bomb Gas Pipeline in Kabardino-Balkaria",
+          "outlet": "Sputnikglobe.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T07:11:37Z",
+          "link": "https://sputnikglobe.com/20260918/russias-fsb-nabs-ukrainian-agent-plotting-to-bomb-gas-pipeline-in-kabardino-balkaria-1124754352.html",
+          "citation": "(U) Sputnik International. \"Russia's FSB Nabs Ukrainian Agent Plotting to Bomb Gas Pipeline in Kabardino-Balkaria.\" Sputnikglobe.com, September 18, 2026. https://sputnikglobe.com/20260918/russias-fsb-nabs-ukrainian-agent-plotting-to-bomb-gas-pipeline-in-kabardino-balkaria-1124754352.html. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Zhang Yajuan, Mu Jia, Yuan Qiwen, Suonan Renqing, Wang Yanan, Xiao Yanping",
+          "title": "Forecasting global monthly mpox trends using an SVR-Bayesian autoregressive-Prophet ensemble model",
+          "outlet": "Nature.com",
+          "published": "September 18, 2026",
+          "publishedAt": "2026-09-18T00:00:00Z",
+          "link": "https://www.nature.com/articles/s41598-026-71399-0.pdf",
+          "citation": "(U) Zhang Yajuan, Mu Jia, Yuan Qiwen, Suonan Renqing, Wang Yanan, Xiao Yanping. \"Forecasting global monthly mpox trends using an SVR-Bayesian autoregressive-Prophet ensemble model.\" Nature.com, September 18, 2026. https://www.nature.com/articles/s41598-026-71399-0.pdf. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bsvr\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "John Pike",
+          "title": "IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan",
+          "outlet": "Globalsecurity.org",
+          "published": "September 23, 2026",
+          "publishedAt": "2026-09-23T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm",
+          "citation": "(U) John Pike. \"IRGC Commander Re[ported Killed In Clashes In Iran's Southeastern City Of Saravan.\" Globalsecurity.org, September 23, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260923-rferl02.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Jewish News Syndicate",
+          "title": "7 Iranians, Hezbollah official to stand trial for 1994 Jewish community center bombing that killed 85",
+          "outlet": "New York Post",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T16:54:57Z",
+          "link": "https://nypost.com/2026/09/22/world-news/argentine-court-orders-eight-suspects-to-trial-for-1995-jewish-community-bombing/",
+          "citation": "(U) Jewish News Syndicate. \"7 Iranians, Hezbollah official to stand trial for 1994 Jewish community center bombing that killed 85.\" New York Post, September 22, 2026. https://nypost.com/2026/09/22/world-news/argentine-court-orders-eight-suspects-to-trial-for-1995-jewish-community-bombing/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "Tousi TV / YouTube",
+          "title": "Skip navigation\nSearch or ask a question\n\n\n\n\nCreate\n\n\nAvatar image\nLIVE: Armed Iranians Assassinate IRGC Police Captain - Trump Shuts Down Iran Airlines",
+          "outlet": "Freerepublic.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T20:38:53Z",
+          "link": "https://freerepublic.com/focus/f-news/4396374/posts",
+          "citation": "(U) Tousi TV / YouTube. \"Skip navigation\nSearch or ask a question\n\n\n\n\nCreate\n\n\nAvatar image\nLIVE: Armed Iranians Assassinate IRGC Police Captain - Trump Shuts Down Iran Airlines.\" Freerepublic.com, September 21, 2026. https://freerepublic.com/focus/f-news/4396374/posts. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Tousi TV / YouTube",
+          "title": "Skip navigationSearch or ask a questionCreateAvatar imageLIVE: Armed Iranians Assassinate IRGC Police Captain - Trump Shuts Down Iran Airlines",
+          "outlet": "Freerepublic.com",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T20:38:53Z",
+          "link": "https://freerepublic.com/focus/f-chat/4396374/posts",
+          "citation": "(U) Tousi TV / YouTube. \"Skip navigationSearch or ask a questionCreateAvatar imageLIVE: Armed Iranians Assassinate IRGC Police Captain - Trump Shuts Down Iran Airlines.\" Freerepublic.com, September 21, 2026. https://freerepublic.com/focus/f-chat/4396374/posts. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Iran dismantles three terrorist operational cells",
+          "outlet": "Globalsecurity.org",
+          "published": "September 20, 2026",
+          "publishedAt": "2026-09-20T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm",
+          "citation": "(U) John Pike. \"Iran dismantles three terrorist operational cells.\" Globalsecurity.org, September 20, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260920-irna08.htm. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Hans von der Burchard",
+          "title": "Finland’s Stubb warns Europe not to ‘overreact’ to Russian threats and sabotage",
+          "outlet": "POLITICO.eu",
+          "published": "September 21, 2026",
+          "publishedAt": "2026-09-21T18:27:12Z",
+          "link": "https://www.politico.eu/article/finland-alexander-stubb-warns-europe-overreaction-russia-threats-sabotage/",
+          "citation": "(U) Hans von der Burchard. \"Finland’s Stubb warns Europe not to ‘overreact’ to Russian threats and sabotage.\" POLITICO.eu, September 21, 2026. https://www.politico.eu/article/finland-alexander-stubb-warns-europe-overreaction-russia-threats-sabotage/. Accessed September 24, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -21,6 +21,18 @@
     return "";
   }
 
+  function pickContains(row, parts, excludeParts) {
+    const keys = Object.keys(row);
+    for (const k of keys) {
+      const n = norm(k);
+      if (!parts.every((p) => n.indexOf(norm(p)) !== -1)) continue;
+      if (excludeParts && excludeParts.some((p) => n.indexOf(norm(p)) !== -1)) continue;
+      const v = row[k];
+      if (v !== undefined && String(v).trim() !== "") return v;
+    }
+    return "";
+  }
+
   function parsePublicPos(val) {
     if (!val) return null;
     const s = String(val).trim();
@@ -36,15 +48,20 @@
   }
 
   function parseLatLon(row) {
-    const lat = pick(row, [
+    let lat = pick(row, [
       "latitude", "lat", "estimatedlatitude", "estimatedlat",
+      "estimatedeventlocationcoordinateslat",
       "y", "alertlat", "publiclat"
     ]);
-    const lon = pick(row, [
+    let lon = pick(row, [
       "longitude", "lon", "lng", "long",
       "estimatedlongitude", "estimatedlon", "estimatedlng",
+      "estimatedeventlocationcoordinateslng",
       "x", "alertlon", "publiclon"
     ]);
+    if (lat === "") lat = pickContains(row, ["lat"], ["lng", "lon", "long", "platitude"]);
+    if (lon === "") lon = pickContains(row, ["lng"], ["lat"]);
+    if (lon === "") lon = pickContains(row, ["lon"], ["lat"]);
     if (lat !== "" && lon !== "" && isFinite(+lat) && isFinite(+lon)) {
       return { lat: +lat, lon: +lon };
     }
@@ -128,10 +145,11 @@
         }
         const group = L.featureGroup();
         pts.forEach(({ row, ll }) => {
-          const topic = pick(row, ["alerttopic", "topic", "hazard", "type"]);
+          const topic = pick(row, ["alerttopics", "alerttopic", "topic", "hazard", "type"]);
           const headline = pick(row, ["headline", "title", "subject", "alert"]);
-          const when = pick(row, ["alerttime", "time", "datetime", "published"]);
+          const when = pick(row, ["alerttimestamp", "alerttime", "time", "datetime", "published"]);
           const id = pick(row, ["alertid", "id"]);
+          const href = pick(row, ["publicposthref", "dataminralerturl", "url", "link"]);
           const m = L.circleMarker([ll.lat, ll.lon], {
             radius: 7,
             color: "#fff",
@@ -144,7 +162,8 @@
             (topic ? "Topic: " + topic + "<br>" : "") +
             (when ? "Time: " + when + "<br>" : "") +
             (id ? "ID: " + id + "<br>" : "") +
-            ll.lat.toFixed(4) + ", " + ll.lon.toFixed(4)
+            ll.lat.toFixed(4) + ", " + ll.lon.toFixed(4) +
+            (href ? "<br><a href=\"" + href + "\" target=\"_blank\" rel=\"noopener\">Open alert</a>" : "")
           );
           group.addLayer(m);
         });

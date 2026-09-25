@@ -23,6 +23,6 @@ permalink: /first-alert/embed/
   <div id="first-alert-map-status">Loading map…</div>
   <div id="first-alert-map"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="{{ '/assets/js/first-alert-map.js' | relative_url }}?v=3"></script>
+  <script src="{{ '/assets/js/first-alert-map.js' | relative_url }}?v=4"></script>
 </body>
 </html>

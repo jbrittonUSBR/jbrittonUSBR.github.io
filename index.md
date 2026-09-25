@@ -13,6 +13,14 @@ title: Home
 <article class="latest">
   <p class="meta">{{ latest.date | date: "%A, %d %B %Y" }}</p>
   <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+  <h3>Daily Brief Archive</h3>
+  {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  <ul class="year-list">
+  {% for year in years %}
+    <li><a href="{{ year.name | prepend: '/' | relative_url }}">{{ year.name }}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
 </article>
 
 <h3>Daily Brief Archive</h3>

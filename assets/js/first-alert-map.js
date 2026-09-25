@@ -136,36 +136,53 @@
           status("CSV loaded (" + table.length + " rows). Headers: " + headers.join(" | ") + ". No numeric lat/lng found.");
           return;
         }
-        const group = L.featureGroup();
+        function cellKey(ll) {
+          return ll.lat.toFixed(4) + "," + ll.lon.toFixed(4);
+        }
+        const buckets = {};
         pts.forEach(function (item) {
-          const row = item.row;
-          const ll = item.ll;
-          const topic = val(row, function (n) { return n.indexOf("topic") !== -1; });
-          const headline = val(row, function (n) { return n === "headline" || n === "title"; });
-          const when = val(row, function (n) { return n.indexOf("time") !== -1 || n.indexOf("stamp") !== -1; });
-          const place = val(row, function (n) { return n.indexOf("locationname") !== -1; });
-          const href = val(row, function (n) { return n.indexOf("href") !== -1 || n.indexOf("alerturl") !== -1; });
+          const k = cellKey(item.ll);
+          if (!buckets[k]) buckets[k] = [];
+          buckets[k].push(item);
+        });
+        const keys = Object.keys(buckets);
+        const group = L.featureGroup();
+        keys.forEach(function (k) {
+          const items = buckets[k];
+          const ll = items[0].ll;
+          const topic = val(items[0].row, function (n) { return n.indexOf("topic") !== -1; });
+          let html = "";
+          items.forEach(function (item, idx) {
+            const row = item.row;
+            const headline = val(row, function (n) { return n === "headline" || n === "title"; });
+            const when = val(row, function (n) { return n.indexOf("time") !== -1 || n.indexOf("stamp") !== -1; });
+            const place = val(row, function (n) { return n.indexOf("locationname") !== -1; });
+            const href = val(row, function (n) { return n.indexOf("href") !== -1 || n.indexOf("alerturl") !== -1; });
+            html += "<div style=\"margin:0 0 8px 0;\">";
+            html += "<strong>" + (items.length > 1 ? (idx + 1) + ". " : "") + (headline || topic || "Alert") + "</strong><br>";
+            if (place) html += place + "<br>";
+            if (when) html += "Time: " + when + "<br>";
+            if (href) html += "<a href=\"" + href + "\" target=\"_blank\" rel=\"noopener\">Open alert</a>";
+            html += "</div>";
+          });
           const m = L.circleMarker([ll.lat, ll.lon], {
-            radius: 7,
+            radius: items.length > 1 ? 9 : 7,
             color: "#fff",
             weight: 1,
             fillColor: topicColor(topic),
             fillOpacity: 0.9
           });
-          m.bindPopup(
-            "<strong>" + (headline || topic || "Alert") + "</strong><br>" +
-            (place ? place + "<br>" : "") +
-            (topic ? "Topic: " + topic + "<br>" : "") +
-            (when ? "Time: " + when + "<br>" : "") +
-            ll.lat.toFixed(4) + ", " + ll.lon.toFixed(4) +
-            (href ? "<br><a href=\"" + href + "\" target=\"_blank\" rel=\"noopener\">Open alert</a>" : "")
-          );
+          const title = items.length > 1 ? items.length + " alerts at this location" : "";
+          m.bindPopup((title ? "<em>" + title + "</em><br>" : "") + html, { maxHeight: 240 });
+          if (items.length > 1) {
+            m.bindTooltip(String(items.length), { permanent: true, direction: "center", className: "fa-count" });
+          }
           group.addLayer(m);
         });
         group.addTo(map);
         map.fitBounds(group.getBounds().pad(0.15));
         setTimeout(function () { map.invalidateSize(); }, 200);
-        status(pts.length + " mapped / " + table.length + " rows.");
+        status(pts.length + " alerts / " + keys.length + " locations / " + table.length + " CSV rows.");
       })
       .catch(function (err) {
         status("Could not load CSV: " + err.message);

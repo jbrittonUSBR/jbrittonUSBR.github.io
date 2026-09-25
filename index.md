@@ -29,10 +29,6 @@ title: Home
   <p class="lede">Dam-related First Alert log.</p>
 </div>
 <p><a href="{{ '/first-alert/' | relative_url }}">Open the First Alert dashboard</a></p>
-<div class="briefing">
-  <h1>Source List for Daily Brief</h1>
-  <p class="lede">Chicago Style citation list with links to the articles.</p>
-</div>
 
 <p><a href="{{ '/first-alert/map/' | relative_url }}">First Alert incident map</a></p>
 <iframe
@@ -40,7 +36,11 @@ title: Home
   src="{{ '/first-alert/embed/' | relative_url }}"
   style="width:100%;height:420px;border:1px solid #ddd4c4;border-radius:4px;"
   loading="lazy"></iframe>
-  
+ 
+ <div class="briefing"> 
+  <h1>Source List for Daily Brief</h1>
+  <p class="lede">Chicago Style citation list with links to the articles.</p>
+</div> 
 {% assign src_pages = site.pages | where_exp: "p", "p.url contains '/sources/'" | sort: "url" | reverse %}
 {% assign latest_src = src_pages.first %}
 {% if latest_src %}

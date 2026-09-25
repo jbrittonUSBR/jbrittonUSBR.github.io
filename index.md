@@ -37,7 +37,7 @@ title: Home
 <p><a href="{{ '/first-alert/map/' | relative_url }}">First Alert incident map</a></p>
 <iframe
   title="First Alert map"
-  src="{{ '/first-alert/map/' | relative_url }}"
+  src="{{ '/first-alert/embed/' | relative_url }}"
   style="width:100%;height:420px;border:1px solid #ddd4c4;border-radius:4px;"
   loading="lazy"></iframe>
   

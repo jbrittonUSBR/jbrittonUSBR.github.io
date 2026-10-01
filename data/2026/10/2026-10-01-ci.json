@@ -1,0 +1,782 @@
+{
+  "pulled_at_utc": "2026-10-01T12:18:07Z",
+  "accessed": "October 1, 2026",
+  "filtered_at_utc": "2026-10-01T12:23:52Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 488,
+  "article_count": 51,
+  "dropped_count": 437,
+  "term_count": 22,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+          "outlet": "Abcnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:52:38Z",
+          "link": "https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Russia pounds the Kyiv region, killing 4 and targeting the power grid.\" Abcnews.com, September 30, 2026. https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Ukrainian drone strike injures 12, mostly students, in Russia – governor",
+          "outlet": "RT",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T10:53:29Z",
+          "link": "https://www.rt.com/russia/646479-drone-ukraine-civilians-bryansk/",
+          "citation": "(U) RT. \"Ukrainian drone strike injures 12, mostly students, in Russia – governor.\" RT, September 30, 2026. https://www.rt.com/russia/646479-drone-ukraine-civilians-bryansk/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Sterling Ashworth",
+          "title": "Saudi Arabia Restarts East-West Pipeline, Bypassing Strait of Hormuz",
+          "outlet": "Naturalnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-09-30-saudi-arabia-restarts-east-west-pipeline-bypassing-hormuz.html",
+          "citation": "(U) Sterling Ashworth. \"Saudi Arabia Restarts East-West Pipeline, Bypassing Strait of Hormuz.\" Naturalnews.com, September 30, 2026. https://www.naturalnews.com/2026-09-30-saudi-arabia-restarts-east-west-pipeline-bypassing-hormuz.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Debaroti Adhikary",
+          "title": "MRPL shares tumble 5% after explosion at Mangaluru plant, thick smoke seen from refinery unit",
+          "outlet": "The Times of India",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T09:11:39Z",
+          "link": "https://economictimes.indiatimes.com/markets/stocks/news/mrpl-shares-tumble-5-after-explosion-at-mangaluru-plant-thick-smoke-seen-from-refinery-unit/articleshow/134589058.cms",
+          "citation": "(U) Debaroti Adhikary. \"MRPL shares tumble 5% after explosion at Mangaluru plant, thick smoke seen from refinery unit.\" The Times of India, September 30, 2026. https://economictimes.indiatimes.com/markets/stocks/news/mrpl-shares-tumble-5-after-explosion-at-mangaluru-plant-thick-smoke-seen-from-refinery-unit/articleshow/134589058.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Deepthi Sanjiv",
+          "title": "Blast inside Mangaluru refinery: Loud explosion sound, dense smoke reported at MRPL",
+          "outlet": "The Times of India",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T07:50:01Z",
+          "link": "https://timesofindia.indiatimes.com/city/mangaluru/blast-inside-mangaluru-refinery-loud-explosion-like-sound-dense-smoke-reported-at-mrpl/articleshow/134585718.cms",
+          "citation": "(U) Deepthi Sanjiv. \"Blast inside Mangaluru refinery: Loud explosion sound, dense smoke reported at MRPL.\" The Times of India, September 30, 2026. https://timesofindia.indiatimes.com/city/mangaluru/blast-inside-mangaluru-refinery-loud-explosion-like-sound-dense-smoke-reported-at-mrpl/articleshow/134585718.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Diana Shtil (Sr. Product Marketing Manager)",
+          "title": "Ransomware Leverage is Growing by the Terabyte: Takeaways from ThreatLabz 2026 Ransomware Report",
+          "outlet": "Zscaler.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T06:47:57Z",
+          "link": "https://www.zscaler.com/blogs/security-research/ransomware-leverage-growing-terabyte-takeaways-threatlabz-2026-ransomware",
+          "citation": "(U) Diana Shtil (Sr. Product Marketing Manager). \"Ransomware Leverage is Growing by the Terabyte: Takeaways from ThreatLabz 2026 Ransomware Report.\" Zscaler.com, September 30, 2026. https://www.zscaler.com/blogs/security-research/ransomware-leverage-growing-terabyte-takeaways-threatlabz-2026-ransomware. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Bikash Singh",
+          "title": "NIA makes second arrest in the improvised explosive device in Manipur",
+          "outlet": "The Times of India",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T16:01:03Z",
+          "link": "https://economictimes.indiatimes.com/news/india/nia-makes-second-arrest-in-the-improvised-explosive-device-moirang-in-manipur/articleshow/134570149.cms",
+          "citation": "(U) Bikash Singh. \"NIA makes second arrest in the improvised explosive device in Manipur.\" The Times of India, September 29, 2026. https://economictimes.indiatimes.com/news/india/nia-makes-second-arrest-in-the-improvised-explosive-device-moirang-in-manipur/articleshow/134570149.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bimprovised explosive\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+          "outlet": "Abcnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:52:38Z",
+          "link": "https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Russia pounds the Kyiv region, killing 4 and targeting the power grid.\" Abcnews.com, September 30, 2026. https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "Mike Adams",
+          "title": "The Rising Drone Threat: Why Our Critical Infrastructure Has Become Dangerously Exposed",
+          "outlet": "Naturalnews.com",
+          "published": "September 25, 2026",
+          "publishedAt": "2026-09-25T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-09-25-rising-drone-threat-critical-infrastructure-in-danger.html",
+          "citation": "(U) Mike Adams. \"The Rising Drone Threat: Why Our Critical Infrastructure Has Become Dangerously Exposed.\" Naturalnews.com, September 25, 2026. https://www.naturalnews.com/2026-09-25-rising-drone-threat-critical-infrastructure-in-danger.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Marina Peña",
+          "title": "Three pedestrians mowed down as car smashes into California grocery store",
+          "outlet": "New York Post",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T16:29:08Z",
+          "link": "https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/",
+          "citation": "(U) Marina Peña. \"Three pedestrians mowed down as car smashes into California grocery store.\" New York Post, September 29, 2026. https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Maisy Rae",
+          "title": "Aussie bloke killed outside his home after allegedly being mowed down by woman known to him",
+          "outlet": "Dailymail.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T02:53:12Z",
+          "link": "https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html",
+          "citation": "(U) Maisy Rae. \"Aussie bloke killed outside his home after allegedly being mowed down by woman known to him.\" Dailymail.com, September 28, 2026. https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Wayne Flower",
+          "title": "Ice cream killer's vile weasel words to his victim's mum after he mowed down Ethan, 14 - and then helped hack the teen to death",
+          "outlet": "Dailymail.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T04:59:03Z",
+          "link": "https://www.dailymail.com/news/article-16150007/ethan-hoac-killer-begs-mother-forgiveness.html",
+          "citation": "(U) Wayne Flower. \"Ice cream killer's vile weasel words to his victim's mum after he mowed down Ethan, 14 - and then helped hack the teen to death.\" Dailymail.com, September 22, 2026. https://www.dailymail.com/news/article-16150007/ethan-hoac-killer-begs-mother-forgiveness.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Alina Maria Stan",
+          "title": "Starlink ground station near Warsaw hit by fire, Poland suspects sabotage",
+          "outlet": "The Next Web",
+          "published": "September 24, 2026",
+          "publishedAt": "2026-09-24T11:14:10Z",
+          "link": "https://thenextweb.com/news/starlink-station-fire-poland-sabotage",
+          "citation": "(U) Alina Maria Stan. \"Starlink ground station near Warsaw hit by fire, Poland suspects sabotage.\" The Next Web, September 24, 2026. https://thenextweb.com/news/starlink-station-fire-poland-sabotage. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Kai Nicol-Schwarz",
+          "title": "OpenAI is sued over rogue AI Hugging Face cyberattack",
+          "outlet": "CNBC",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T10:16:36Z",
+          "link": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+          "citation": "(U) Kai Nicol-Schwarz. \"OpenAI is sued over rogue AI Hugging Face cyberattack.\" CNBC, September 30, 2026. https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Bill Toulas",
+          "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+          "outlet": "BleepingComputer",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T20:56:47Z",
+          "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+          "citation": "(U) Bill Toulas. \"Japan's Keio confirms ransomware attack disrupted business systems.\" BleepingComputer, September 28, 2026. https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Tangara carriages locked down over 'train surfing' and break-in fears",
+          "outlet": "ABC News (AU)",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T20:42:15Z",
+          "link": "https://www.abc.net.au/news/2026-09-30/nsw-tangara-trains-vandalism-security-measures/107207828",
+          "citation": "(U) ABC News (AU) Staff. \"Tangara carriages locked down over 'train surfing' and break-in fears.\" ABC News (AU), September 29, 2026. https://www.abc.net.au/news/2026-09-30/nsw-tangara-trains-vandalism-security-measures/107207828. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
+        {
+          "author": "Times News Network",
+          "title": "Vandalism in varsities not Punjab’s character: Gargajj",
+          "outlet": "The Times of India",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T19:24:22Z",
+          "link": "https://timesofindia.indiatimes.com/city/chandigarh/vandalism-in-varsities-not-punjabs-character-gargajj/articleshow/134571685.cms",
+          "citation": "(U) Times News Network. \"Vandalism in varsities not Punjab’s character: Gargajj.\" The Times of India, September 29, 2026. https://timesofindia.indiatimes.com/city/chandigarh/vandalism-in-varsities-not-punjabs-character-gargajj/articleshow/134571685.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Abia decries vandalism of power assets, public projects",
+          "outlet": "The Punch",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T12:37:57Z",
+          "link": "https://punchng.com/abia-decries-vandalism-of-power-assets-public-projects/",
+          "citation": "(U) Punch Newspapers. \"Abia decries vandalism of power assets, public projects.\" The Punch, September 29, 2026. https://punchng.com/abia-decries-vandalism-of-power-assets-public-projects/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
+        {
+          "author": "John Quintet",
+          "title": "Rogers Outage Hits Waterloo and St. Jacobs After Reported Vandalism",
+          "outlet": "iPhone in Canada",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T19:45:24Z",
+          "link": "https://www.iphoneincanada.ca/2026/09/28/rogers-outage-hits-waterloo-and-st-jacobs-after-reported-vandalism/",
+          "citation": "(U) John Quintet. \"Rogers Outage Hits Waterloo and St. Jacobs After Reported Vandalism.\" iPhone in Canada, September 28, 2026. https://www.iphoneincanada.ca/2026/09/28/rogers-outage-hits-waterloo-and-st-jacobs-after-reported-vandalism/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Reuters",
+          "title": "US forces exit Iraq, emboldening Iran's proxies and Islamic State",
+          "outlet": "The Times of India",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T00:41:52Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/us-forces-exit-iraq-emboldening-irans-proxies-and-islamic-state/articleshow/134576835.cms",
+          "citation": "(U) Reuters. \"US forces exit Iraq, emboldening Iran's proxies and Islamic State.\" The Times of India, September 30, 2026. https://economictimes.indiatimes.com/news/defence/us-forces-exit-iraq-emboldening-irans-proxies-and-islamic-state/articleshow/134576835.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Trisha Mahajan",
+          "title": "'Terrorist pilot planned to crash plane': Israel security minister on flydubai cockpit incident",
+          "outlet": "The Times of India",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:50:58Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/terrorist-pilot-planned-to-crash-plane-israel-security-minister-on-flydubai-cockpit-incident/articleshow/134592703.cms",
+          "citation": "(U) Trisha Mahajan. \"'Terrorist pilot planned to crash plane': Israel security minister on flydubai cockpit incident.\" The Times of India, September 30, 2026. https://timesofindia.indiatimes.com/world/middle-east/terrorist-pilot-planned-to-crash-plane-israel-security-minister-on-flydubai-cockpit-incident/articleshow/134592703.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Jewish News Syndicate",
+          "title": "Connecticut man sentenced to over seven-and-a-half years for trying to support ISIS",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T07:42:45Z",
+          "link": "https://nypost.com/2026/09/30/us-news/connecticut-man-ahmad-elshazly-sentenced-for-trying-to-support-isis/",
+          "citation": "(U) Jewish News Syndicate. \"Connecticut man sentenced to over seven-and-a-half years for trying to support ISIS.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/connecticut-man-ahmad-elshazly-sentenced-for-trying-to-support-isis/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "ANI",
+          "title": "Joint counter terrorist mock exercise conducted at Delhi airport",
+          "outlet": "The Times of India",
+          "published": "September 26, 2026",
+          "publishedAt": "2026-09-26T05:16:29Z",
+          "link": "https://economictimes.indiatimes.com/news/india/joint-counter-terrorist-mock-exercise-conducted-at-delhi-airport/articleshow/134497927.cms",
+          "citation": "(U) ANI. \"Joint counter terrorist mock exercise conducted at Delhi airport.\" The Times of India, September 26, 2026. https://economictimes.indiatimes.com/news/india/joint-counter-terrorist-mock-exercise-conducted-at-delhi-airport/articleshow/134497927.cms. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+          "outlet": "Abcnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:52:38Z",
+          "link": "https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Russia pounds the Kyiv region, killing 4 and targeting the power grid.\" Abcnews.com, September 30, 2026. https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "Kristi Swartz",
+          "title": "Path of planned $3B Georgia pipeline shifted. It now avoids a utility executive’s house.",
+          "outlet": "Atlanta Journal Constitution",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T09:45:14Z",
+          "link": "https://www.ajc.com/business/2026/09/path-of-planned-3b-georgia-pipeline-shifted-it-now-avoids-a-utility-executives-house/",
+          "citation": "(U) Kristi Swartz. \"Path of planned $3B Georgia pipeline shifted. It now avoids a utility executive’s house..\" Atlanta Journal Constitution, September 30, 2026. https://www.ajc.com/business/2026/09/path-of-planned-3b-georgia-pipeline-shifted-it-now-avoids-a-utility-executives-house/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+          "outlet": "BBC News",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:36:23Z",
+          "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Last UK and US troops leave Iraq as anti-Islamic State mission ends.\" BBC News, September 30, 2026. https://www.bbc.co.uk/news/articles/c65ym1dyn92mo. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "US completes troop withdrawal from Iraq after 12 year anti-ISIS mission",
+          "outlet": "Business Standard",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T09:15:25Z",
+          "link": "https://www.business-standard.com/world-news/us-completes-troop-withdrawal-from-iraq-after-12-year-anti-isis-mission-126093000570_1.html",
+          "citation": "(U) AP. \"US completes troop withdrawal from Iraq after 12 year anti-ISIS mission.\" Business Standard, September 30, 2026. https://www.business-standard.com/world-news/us-completes-troop-withdrawal-from-iraq-after-12-year-anti-isis-mission-126093000570_1.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Perkin Amalaraj",
+          "title": "From Saddam's execution to the rise and fall of ISIS: Stunning images illustrate America's two decades in Iraq as final US troops leave today",
+          "outlet": "Dailymail.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T09:02:06Z",
+          "link": "https://www.dailymail.com/news/article-16171791/Saddam-Hussein-US-Iraq-invasion.html",
+          "citation": "(U) Perkin Amalaraj. \"From Saddam's execution to the rise and fall of ISIS: Stunning images illustrate America's two decades in Iraq as final US troops leave today.\" Dailymail.com, September 30, 2026. https://www.dailymail.com/news/article-16171791/Saddam-Hussein-US-Iraq-invasion.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Eleanor  Watson",
+          "title": "U.S. military declares end of anti-ISIS Operation Inherent Resolve in Iraq",
+          "outlet": "CBS News",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T08:54:56Z",
+          "link": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/",
+          "citation": "(U) Eleanor  Watson. \"U.S. military declares end of anti-ISIS Operation Inherent Resolve in Iraq.\" CBS News, September 30, 2026. https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Goodin",
+          "title": "Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks",
+          "outlet": "New York Post",
+          "published": "September 11, 2026",
+          "publishedAt": "2026-09-11T17:30:49Z",
+          "link": "https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/",
+          "citation": "(U) Emily Goodin. \"Trump admin declassifies 9/11 documents on info presidents knew in lead-up to terrorist attacks.\" New York Post, September 11, 2026. https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Russian attacks on Ukraine’s Kyiv region kill four, target power grid",
+          "outlet": "Al Jazeera English",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:32:24Z",
+          "link": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+          "citation": "(U) Al Jazeera English Staff. \"Russian attacks on Ukraine’s Kyiv region kill four, target power grid.\" Al Jazeera English, September 30, 2026. https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "Foreign Ministry summons Russian chargé d'affaires over sabotage attack targeting Milrem Robotics",
+          "outlet": "Globalsecurity.org",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/russia/2026/09/russia-260929-estonia-mfa01.htm",
+          "citation": "(U) John Pike. \"Foreign Ministry summons Russian chargé d'affaires over sabotage attack targeting Milrem Robotics.\" Globalsecurity.org, September 29, 2026. https://www.globalsecurity.org/wmd/library/news/russia/2026/09/russia-260929-estonia-mfa01.htm. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "John Quintet",
+          "title": "Rogers Outage Hits Waterloo and St. Jacobs After Reported Vandalism",
+          "outlet": "iPhone in Canada",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T19:45:24Z",
+          "link": "https://www.iphoneincanada.ca/2026/09/28/rogers-outage-hits-waterloo-and-st-jacobs-after-reported-vandalism/",
+          "citation": "(U) John Quintet. \"Rogers Outage Hits Waterloo and St. Jacobs After Reported Vandalism.\" iPhone in Canada, September 28, 2026. https://www.iphoneincanada.ca/2026/09/28/rogers-outage-hits-waterloo-and-st-jacobs-after-reported-vandalism/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+          "outlet": "Abcnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T11:52:38Z",
+          "link": "https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Russia pounds the Kyiv region, killing 4 and targeting the power grid.\" Abcnews.com, September 30, 2026. https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "KNG",
+          "title": "The Myitsone Dam Project: Development Project or Strategy for Territorial Control?",
+          "outlet": "Kachinnews.com",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T04:26:28Z",
+          "link": "https://kachinnews.com/2026/09/30/the-myitsone-dam-project-development-project-or-strategy-for-territorial-control/",
+          "citation": "(U) KNG. \"The Myitsone Dam Project: Development Project or Strategy for Territorial Control?.\" Kachinnews.com, September 30, 2026. https://kachinnews.com/2026/09/30/the-myitsone-dam-project-development-project-or-strategy-for-territorial-control/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Eamon Javers",
+          "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+          "outlet": "CNBC",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T10:00:01Z",
+          "link": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
+          "citation": "(U) Eamon Javers. \"Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve.\" CNBC, September 30, 2026. https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Carly Page",
+          "title": "DoJ: Uncle Sam bought forensics software from same Russian operation supplying FSB",
+          "outlet": "Theregister.com",
+          "published": "September 24, 2026",
+          "publishedAt": "2026-09-24T13:43:00Z",
+          "link": "https://www.theregister.com/software/2026/09/24/doj-uncle-sam-bought-forensics-software-from-same-russian-operation-supplying-fsb/5298774",
+          "citation": "(U) Carly Page. \"DoJ: Uncle Sam bought forensics software from same Russian operation supplying FSB.\" Theregister.com, September 24, 2026. https://www.theregister.com/software/2026/09/24/doj-uncle-sam-bought-forensics-software-from-same-russian-operation-supplying-fsb/5298774. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Eamon Javers",
+          "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+          "outlet": "CNBC",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T10:00:01Z",
+          "link": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
+          "citation": "(U) Eamon Javers. \"Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve.\" CNBC, September 30, 2026. https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Yevheny Serhiienko",
+          "title": "China Calls Crypto an “Accomplice” to Espionage: What Does It Mean for Crypto Market?",
+          "outlet": "Bitcoinfoundation.org",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T11:58:16Z",
+          "link": "https://bitcoinfoundation.org/news/regulation/china-calls-crypto-an-accomplice-to-espionage-what-does-it-mean-for-crypto-market/",
+          "citation": "(U) Yevheny Serhiienko. \"China Calls Crypto an “Accomplice” to Espionage: What Does It Mean for Crypto Market?.\" Bitcoinfoundation.org, September 29, 2026. https://bitcoinfoundation.org/news/regulation/china-calls-crypto-an-accomplice-to-espionage-what-does-it-mean-for-crypto-market/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Dr. Binoy Kampmark",
+          "title": "Haphazard Luck: Operational Oddities, “Terrorist Proxies” and Royal Air Force (RAF), Fairford",
+          "outlet": "Globalresearch.ca",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T14:27:15Z",
+          "link": "https://www.globalresearch.ca/operational-oddities-terrorist-proxies-raf-fairford/5942134",
+          "citation": "(U) Dr. Binoy Kampmark. \"Haphazard Luck: Operational Oddities, “Terrorist Proxies” and Royal Air Force (RAF), Fairford.\" Globalresearch.ca, September 29, 2026. https://www.globalresearch.ca/operational-oddities-terrorist-proxies-raf-fairford/5942134. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "John Pike",
+          "title": "IRGC: Strait of Hormuz is hunting ground for US underwater vehicles",
+          "outlet": "Globalsecurity.org",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T12:00:00Z",
+          "link": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260928-irna05.htm",
+          "citation": "(U) John Pike. \"IRGC: Strait of Hormuz is hunting ground for US underwater vehicles.\" Globalsecurity.org, September 28, 2026. https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260928-irna05.htm. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "Eliana Silver",
+          "title": "Inside Iran's ruthless Quds Force unit tasked with attacks on foreign soil and overseen by 'Shadow Commander' boss - as UK probes regime link to RAF Fairford bomb plot",
+          "outlet": "Dailymail.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T11:06:53Z",
+          "link": "https://www.dailymail.com/news/article-16165951/Inside-Irans-ruthless-Quds-Force-unit-tasked-attacks-foreign-soil-overseen-Shadow-Commander-boss-UK-probes-regime-link-RAF-Fairford-bomb-plot.html",
+          "citation": "(U) Eliana Silver. \"Inside Iran's ruthless Quds Force unit tasked with attacks on foreign soil and overseen by 'Shadow Commander' boss - as UK probes regime link to RAF Fairford bomb plot.\" Dailymail.com, September 28, 2026. https://www.dailymail.com/news/article-16165951/Inside-Irans-ruthless-Quds-Force-unit-tasked-attacks-foreign-soil-overseen-Shadow-Commander-boss-UK-probes-regime-link-RAF-Fairford-bomb-plot.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bquds force\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Eamon Javers",
+          "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
+          "outlet": "CNBC",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T10:00:01Z",
+          "link": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
+          "citation": "(U) Eamon Javers. \"Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve.\" CNBC, September 30, 2026. https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Dr. Binoy Kampmark",
+          "title": "Haphazard Luck: Operational Oddities, “Terrorist Proxies” and Royal Air Force (RAF), Fairford",
+          "outlet": "Globalresearch.ca",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T14:27:15Z",
+          "link": "https://www.globalresearch.ca/operational-oddities-terrorist-proxies-raf-fairford/5942134",
+          "citation": "(U) Dr. Binoy Kampmark. \"Haphazard Luck: Operational Oddities, “Terrorist Proxies” and Royal Air Force (RAF), Fairford.\" Globalresearch.ca, September 29, 2026. https://www.globalresearch.ca/operational-oddities-terrorist-proxies-raf-fairford/5942134. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "YLE News Staff",
+          "title": "Threat of Russian sabotage in Europe has grown, says Finnish intelligence official",
+          "outlet": "YLE News",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T12:33:58Z",
+          "link": "https://yle.fi/a/74-20248687",
+          "citation": "(U) YLE News Staff. \"Threat of Russian sabotage in Europe has grown, says Finnish intelligence official.\" YLE News, September 28, 2026. https://yle.fi/a/74-20248687. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Vizard",
+          "title": "Survey: Lack of Confidence in Software Supply Chain Security Runs High",
+          "outlet": "DevOps.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T19:03:47Z",
+          "link": "https://devops.com/survey-lack-of-confidence-in-software-supply-chain-security-runs-high/",
+          "citation": "(U) Mike Vizard. \"Survey: Lack of Confidence in Software Supply Chain Security Runs High.\" DevOps.com, September 28, 2026. https://devops.com/survey-lack-of-confidence-in-software-supply-chain-security-runs-high/. Accessed October 1, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

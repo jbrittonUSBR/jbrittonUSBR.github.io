@@ -1,0 +1,1041 @@
+{
+  "pulled_at_utc": "2026-10-05T12:17:46Z",
+  "accessed": "October 5, 2026",
+  "filtered_at_utc": "2026-10-05T12:19:39Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 499,
+  "article_count": 72,
+  "dropped_count": 427,
+  "term_count": 22,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Add As Preferred On Google",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "outlet": "BBC News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:53:38Z",
+          "link": "https://www.bbc.com/news/articles/ckreyjzzzywqo",
+          "citation": "(U) Add As Preferred On Google. \"Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.\" BBC News, October 4, 2026. https://www.bbc.com/news/articles/ckreyjzzzywqo. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "outlet": "BBC News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:48:38Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.\" BBC News, October 4, 2026. https://www.bbc.co.uk/news/articles/ckreyjzzzywqo. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack",
+          "outlet": "Al Jazeera English",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:39:04Z",
+          "link": "https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led",
+          "citation": "(U) Al Jazeera Staff. \"Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack.\" Al Jazeera English, October 4, 2026. https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Houthis claim strike on Saudi Aramco in Riyadh",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T05:37:47Z",
+          "link": "https://www.hurriyetdailynews.com/houthis-claim-strike-on-saudi-aramco-in-riyadh-227668",
+          "citation": "(U) hurriyetdailynews.com. \"Houthis claim strike on Saudi Aramco in Riyadh.\" Hurriyet Daily News, October 4, 2026. https://www.hurriyetdailynews.com/houthis-claim-strike-on-saudi-aramco-in-riyadh-227668. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Houthis claim strike on Saudi energy facility as Yemen fighting intensifies",
+          "outlet": "Al Jazeera English",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T03:33:49Z",
+          "link": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
+          "citation": "(U) Al Jazeera Staff. \"Houthis claim strike on Saudi energy facility as Yemen fighting intensifies.\" Al Jazeera English, October 4, 2026. https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emily Madriga",
+          "title": "One of Ted Kaczynski’s Bombing Victims Was a Friend of Jeffrey Epstein",
+          "outlet": "Thoughtcatalog.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T18:59:30Z",
+          "link": "https://thoughtcatalog.com/emily-madriga/2026/10/one-of-ted-kaczynskis-bombing-victims-was-a-friend-of-jeffrey-epstein/",
+          "citation": "(U) Emily Madriga. \"One of Ted Kaczynski’s Bombing Victims Was a Friend of Jeffrey Epstein.\" Thoughtcatalog.com, October 3, 2026. https://thoughtcatalog.com/emily-madriga/2026/10/one-of-ted-kaczynskis-bombing-victims-was-a-friend-of-jeffrey-epstein/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "Nissan Tzur",
+          "title": "Iranian nationals arrested over alleged plot against UK Jews",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T17:24:05Z",
+          "link": "https://www.israelnationalnews.com/news/434028",
+          "citation": "(U) Nissan Tzur. \"Iranian nationals arrested over alleged plot against UK Jews.\" Israelnationalnews.com, October 3, 2026. https://www.israelnationalnews.com/news/434028. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "'Terrorism Connection' Briton Who Exploded London Climate Tax Camera Sentenced to 15 Years",
+          "outlet": "Breitbart News",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T10:11:53Z",
+          "link": "https://www.breitbart.com/europe/2026/10/03/terrorism-connection-briton-who-exploded-london-climate-tax-camera-sentenced-to-15-years/",
+          "citation": "(U) Oliver JJ Lane. \"'Terrorism Connection' Briton Who Exploded London Climate Tax Camera Sentenced to 15 Years.\" Breitbart News, October 3, 2026. https://www.breitbart.com/europe/2026/10/03/terrorism-connection-briton-who-exploded-london-climate-tax-camera-sentenced-to-15-years/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "TOI Education",
+          "title": "No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution",
+          "outlet": "The Times of India",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:06:16Z",
+          "link": "https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms",
+          "citation": "(U) TOI Education. \"No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution.\" The Times of India, October 3, 2026. https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Türkiye urges end to Houthi attacks on Saudi Arabia",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:52:12Z",
+          "link": "https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618",
+          "citation": "(U) hurriyetdailynews.com. \"Türkiye urges end to Houthi attacks on Saudi Arabia.\" Hurriyet Daily News, October 2, 2026. https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Saudi coalition accuses Houthis of drone attack on Madinah",
+          "outlet": "CNA",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T01:01:39Z",
+          "link": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-attack-madinah-6425761",
+          "citation": "(U) CNA Staff. \"Saudi coalition accuses Houthis of drone attack on Madinah.\" CNA, October 2, 2026. https://www.channelnewsasia.com/world/saudi-arabia-houthis-attack-madinah-6425761. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b",
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+          "outlet": "Al Jazeera English",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:03:14Z",
+          "link": "https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis",
+          "citation": "(U) Al Jazeera Staff. \"Saudi-led coalition says power station attacked in Medina, blames Houthis.\" Al Jazeera English, October 1, 2026. https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "School and nuclear facility hit in latest wave of Russian strikes",
+          "outlet": "ABC News (AU)",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T14:02:23Z",
+          "link": "https://www.abc.net.au/news/2026-10-02/school-and-nuclear-facility-hit-in-latest-russian-air-strikes/107218686",
+          "citation": "(U) ABC News (AU) Staff. \"School and nuclear facility hit in latest wave of Russian strikes.\" ABC News (AU), October 1, 2026. https://www.abc.net.au/news/2026-10-02/school-and-nuclear-facility-hit-in-latest-russian-air-strikes/107218686. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bnuclear (plant|facility|site|power|safety)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Nicholas McEntyre",
+          "title": "Rep. Jayapal doubted Seattle Mayor Katie Wilson’s leadership over mass shooting response in texts with governor",
+          "outlet": "New York Post",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:32:44Z",
+          "link": "https://nypost.com/2026/10/02/us-news/seattle-mayor-katie-wilson-leadership-doubted-by-jayapal-over-mass-shooting-handling/",
+          "citation": "(U) Nicholas McEntyre. \"Rep. Jayapal doubted Seattle Mayor Katie Wilson’s leadership over mass shooting response in texts with governor.\" New York Post, October 2, 2026. https://nypost.com/2026/10/02/us-news/seattle-mayor-katie-wilson-leadership-doubted-by-jayapal-over-mass-shooting-handling/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Marina Peña",
+          "title": "Three pedestrians mowed down as car smashes into California grocery store",
+          "outlet": "New York Post",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T16:29:08Z",
+          "link": "https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/",
+          "citation": "(U) Marina Peña. \"Three pedestrians mowed down as car smashes into California grocery store.\" New York Post, September 29, 2026. https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Maisy Rae",
+          "title": "Aussie bloke killed outside his home after allegedly being mowed down by woman known to him",
+          "outlet": "Dailymail.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T02:53:12Z",
+          "link": "https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html",
+          "citation": "(U) Maisy Rae. \"Aussie bloke killed outside his home after allegedly being mowed down by woman known to him.\" Dailymail.com, September 28, 2026. https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox news",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Freerepublic.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T04:33:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397763/posts",
+          "citation": "(U) Fox news. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Freerepublic.com, October 3, 2026. https://freerepublic.com/focus/f-chat/4397763/posts. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Meenakshi Sinha",
+          "title": "Cable fire disrupts power supply to Indirapuram, power dept suspects arson",
+          "outlet": "The Times of India",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:27:00Z",
+          "link": "https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms",
+          "citation": "(U) Meenakshi Sinha. \"Cable fire disrupts power supply to Indirapuram, power dept suspects arson.\" The Times of India, October 1, 2026. https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Fox News",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T01:53:36Z",
+          "link": "https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage",
+          "citation": "(U) Fox News Staff. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Fox News, October 1, 2026. https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "TikTok couple charged with arson after allegedly setting abandoned home on fire",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T19:18:31Z",
+          "link": "https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/",
+          "citation": "(U) Patrick Reilly. \"TikTok couple charged with arson after allegedly setting abandoned home on fire.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Diego Almada Lopez",
+          "title": "AI tools suspected in Shinhan Bank cyberattack that exposed 25,000 customers",
+          "outlet": "Crypto Briefing",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:03:06Z",
+          "link": "https://cryptobriefing.com/shinhan-bank-ai-cyberattack-25000-customers/",
+          "citation": "(U) Diego Almada Lopez. \"AI tools suspected in Shinhan Bank cyberattack that exposed 25,000 customers.\" Crypto Briefing, October 2, 2026. https://cryptobriefing.com/shinhan-bank-ai-cyberattack-25000-customers/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T16:45:38Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Donald Papp",
+          "title": "Fixing a Power Grid That Loses Over Half Its Power to Inefficiency and Theft",
+          "outlet": "Hackaday",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:00:11Z",
+          "link": "https://hackaday.com/2026/10/03/fixing-a-power-grid-that-loses-over-half-its-power-to-inefficiency-and-theft/",
+          "citation": "(U) Donald Papp. \"Fixing a Power Grid That Loses Over Half Its Power to Inefficiency and Theft.\" Hackaday, October 3, 2026. https://hackaday.com/2026/10/03/fixing-a-power-grid-that-loses-over-half-its-power-to-inefficiency-and-theft/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
+        {
+          "author": "Seth Frantzman",
+          "title": "Syria faces infrastructure sabotage, Islamic State activity amid utility shortages",
+          "outlet": "Longwarjournal.org",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T18:45:34Z",
+          "link": "https://www.longwarjournal.org/archives/2026/10/syria-faces-infrastructure-sabotage-islamic-state-activity-amid-utility-shortages.php",
+          "citation": "(U) Seth Frantzman. \"Syria faces infrastructure sabotage, Islamic State activity amid utility shortages.\" Longwarjournal.org, October 2, 2026. https://www.longwarjournal.org/archives/2026/10/syria-faces-infrastructure-sabotage-islamic-state-activity-amid-utility-shortages.php. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bislamic state\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat",
+          "outlet": "New York Post",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T09:53:35Z",
+          "link": "https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/",
+          "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "US forces exit Iraq, emboldening Iran's proxies and Islamic State",
+          "outlet": "The Times of India",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T00:41:52Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/us-forces-exit-iraq-emboldening-irans-proxies-and-islamic-state/articleshow/134576835.cms",
+          "citation": "(U) Reuters. \"US forces exit Iraq, emboldening Iran's proxies and Islamic State.\" The Times of India, September 30, 2026. https://economictimes.indiatimes.com/news/defence/us-forces-exit-iraq-emboldening-irans-proxies-and-islamic-state/articleshow/134576835.cms. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bislamic state\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Israel National News",
+          "title": "Al Qaeda calls for copycats after attempted hijacking",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T09:16:37Z",
+          "link": "https://www.israelnationalnews.com/news/434067",
+          "citation": "(U) Israel National News. \"Al Qaeda calls for copycats after attempted hijacking.\" Israelnationalnews.com, October 4, 2026. https://www.israelnationalnews.com/news/434067. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "Americanthinker.com Staff",
+          "title": "Of course, the Flydubai event was terrorism",
+          "outlet": "Americanthinker.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T04:00:00Z",
+          "link": "https://www.americanthinker.com/blog/2026/10/of-course-the-flydubai-event-was-terrorism/",
+          "citation": "(U) Americanthinker.com Staff. \"Of course, the Flydubai event was terrorism.\" Americanthinker.com, October 4, 2026. https://www.americanthinker.com/blog/2026/10/of-course-the-flydubai-event-was-terrorism/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Joshua Klein",
+          "title": "Flydubai Captain: Co-Pilot Asked to Pray, Then Struck Him With Axe — Al-Qaeda Propaganda Calls for More Attacks",
+          "outlet": "Breitbart News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T03:13:04Z",
+          "link": "https://www.breitbart.com/politics/2026/10/03/flydubai-captain-co-pilot-asked-to-pray-then-struck-him-with-axe-al-qaeda-propaganda-calls-for-more-attacks/",
+          "citation": "(U) Joshua Klein. \"Flydubai Captain: Co-Pilot Asked to Pray, Then Struck Him With Axe — Al-Qaeda Propaganda Calls for More Attacks.\" Breitbart News, October 4, 2026. https://www.breitbart.com/politics/2026/10/03/flydubai-captain-co-pilot-asked-to-pray-then-struck-him-with-axe-al-qaeda-propaganda-calls-for-more-attacks/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "Editor",
+          "title": "The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism",
+          "outlet": "Activistpost.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T01:02:00Z",
+          "link": "https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/",
+          "citation": "(U) Editor. \"The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism.\" Activistpost.com, October 4, 2026. https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alyssa Guzman",
+          "title": "Portland teen is charged with domestic terrorism and attempted murder after mixing mysterious substance in school cafeteria",
+          "outlet": "Dailymail.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T20:43:46Z",
+          "link": "https://www.dailymail.com/news/article-16180911/teen-charged-domestic-terrorism-chemicals-cafeteria-portland.html",
+          "citation": "(U) Alyssa Guzman. \"Portland teen is charged with domestic terrorism and attempted murder after mixing mysterious substance in school cafeteria.\" Dailymail.com, October 3, 2026. https://www.dailymail.com/news/article-16180911/teen-charged-domestic-terrorism-chemicals-cafeteria-portland.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "MLT Staff",
+          "title": "Former US Marine Charged in Connection to Haiti President’s Assassination",
+          "outlet": "Military.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T19:32:07Z",
+          "link": "https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination",
+          "citation": "(U) MLT Staff. \"Former US Marine Charged in Connection to Haiti President’s Assassination.\" Military.com, October 2, 2026. https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Saurabh Sinha",
+          "title": "Airlines wake up to ‘insider threat’ after flydubai attack",
+          "outlet": "The Times of India",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T07:25:08Z",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms",
+          "citation": "(U) Saurabh Sinha. \"Airlines wake up to ‘insider threat’ after flydubai attack.\" The Times of India, October 2, 2026. https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera",
+          "outlet": "Slashdot.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T11:53:41Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186020278",
+          "citation": "(U) feedfeeder. \"Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera.\" Slashdot.org, October 4, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186020278. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Houthis target Saudi oil facility as hostilities escalate in Yemen",
+          "outlet": "ABC News (AU)",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T22:40:11Z",
+          "link": "https://www.abc.net.au/news/2026-10-04/houthi-saudi-yemen-iraq-middle-east-hostilities/107226524",
+          "citation": "(U) ABC News (AU) Staff. \"Houthis target Saudi oil facility as hostilities escalate in Yemen.\" ABC News (AU), October 3, 2026. https://www.abc.net.au/news/2026-10-04/houthi-saudi-yemen-iraq-middle-east-hostilities/107226524. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Houthis say Saudi Arabia launches dozens of strikes on Yemen capital",
+          "outlet": "CNA",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T21:55:12Z",
+          "link": "https://www.channelnewsasia.com/world/houthis-say-saudi-arabia-launches-dozens-strikes-yemen-capital-6429646",
+          "citation": "(U) CNA Staff. \"Houthis say Saudi Arabia launches dozens of strikes on Yemen capital.\" CNA, October 3, 2026. https://www.channelnewsasia.com/world/houthis-say-saudi-arabia-launches-dozens-strikes-yemen-capital-6429646. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera",
+          "outlet": "Slashdot.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T11:53:41Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186020278",
+          "citation": "(U) feedfeeder. \"Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera.\" Slashdot.org, October 4, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186020278. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Al Qaeda calls for copycats after attempted hijacking",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T09:16:37Z",
+          "link": "https://www.israelnationalnews.com/news/434067",
+          "citation": "(U) Israel National News. \"Al Qaeda calls for copycats after attempted hijacking.\" Israelnationalnews.com, October 4, 2026. https://www.israelnationalnews.com/news/434067. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "NY Post",
+          "title": "Al Qaeda calls for copycats to target US citizens on planes while praising Dubai flight hijacker: ‘America will end’",
+          "outlet": "Freerepublic.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:42:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397872/posts",
+          "citation": "(U) NY Post. \"Al Qaeda calls for copycats to target US citizens on planes while praising Dubai flight hijacker: ‘America will end’.\" Freerepublic.com, October 4, 2026. https://freerepublic.com/focus/f-chat/4397872/posts. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Inside the ‘kill box’: The Yemenis who stayed behind in Houthi-held Mocha",
+          "outlet": "Al Jazeera English",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:31:29Z",
+          "link": "https://www.aljazeera.com/features/2026/10/4/inside-the-kill-box-the-yemenis-who-stayed-behind-in-houthi-held-mocha",
+          "citation": "(U) Al Jazeera English Staff. \"Inside the ‘kill box’: The Yemenis who stayed behind in Houthi-held Mocha.\" Al Jazeera English, October 4, 2026. https://www.aljazeera.com/features/2026/10/4/inside-the-kill-box-the-yemenis-who-stayed-behind-in-houthi-held-mocha. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack",
+          "outlet": "Al Jazeera English",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:39:04Z",
+          "link": "https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led",
+          "citation": "(U) Al Jazeera Staff. \"Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack.\" Al Jazeera English, October 4, 2026. https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Houthis claim strike on Saudi Aramco in Riyadh",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T05:37:47Z",
+          "link": "https://www.hurriyetdailynews.com/houthis-claim-strike-on-saudi-aramco-in-riyadh-227668",
+          "citation": "(U) hurriyetdailynews.com. \"Houthis claim strike on Saudi Aramco in Riyadh.\" Hurriyet Daily News, October 4, 2026. https://www.hurriyetdailynews.com/houthis-claim-strike-on-saudi-aramco-in-riyadh-227668. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "ET Online",
+          "title": "Top Pakistani terrorist 'Hashim Moosa' used Ayurvedic honey remedy to heal bullet wounds in jungle hideout",
+          "outlet": "The Times of India",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T10:07:20Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/top-pakistani-terrorist-hashim-moosa-used-ayurvedic-honey-remedy-to-heal-bullet-wounds-in-jungle-hideout/articleshow/134672979.cms",
+          "citation": "(U) ET Online. \"Top Pakistani terrorist 'Hashim Moosa' used Ayurvedic honey remedy to heal bullet wounds in jungle hideout.\" The Times of India, October 4, 2026. https://economictimes.indiatimes.com/news/defence/top-pakistani-terrorist-hashim-moosa-used-ayurvedic-honey-remedy-to-heal-bullet-wounds-in-jungle-hideout/articleshow/134672979.cms. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "outlet": "BBC News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:48:38Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.\" BBC News, October 4, 2026. https://www.bbc.co.uk/news/articles/ckreyjzzzywqo. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Ionut Ilascu",
+          "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+          "outlet": "BleepingComputer",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T18:33:01Z",
+          "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+          "citation": "(U) Ionut Ilascu. \"Warlock ransomware breach SharePoint in water, telecom operator attacks.\" BleepingComputer, October 2, 2026. https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Editor",
+          "title": "The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism",
+          "outlet": "Activistpost.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T01:02:00Z",
+          "link": "https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/",
+          "citation": "(U) Editor. \"The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism.\" Activistpost.com, October 4, 2026. https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Former US Marine Charged in Connection to Haiti President’s Assassination",
+          "outlet": "Military.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T19:32:07Z",
+          "link": "https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination",
+          "citation": "(U) MLT Staff. \"Former US Marine Charged in Connection to Haiti President’s Assassination.\" Military.com, October 2, 2026. https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Daily Caller News Foundation",
+          "title": "Feds arrest Department of Energy engineer for allegedly helping Houthis",
+          "outlet": "Wnd.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T17:39:13Z",
+          "link": "https://www.wnd.com/2026/10/feds-arrest-department-energy-engineer-allegedly-helping-houthis/",
+          "citation": "(U) Daily Caller News Foundation. \"Feds arrest Department of Energy engineer for allegedly helping Houthis.\" Wnd.com, October 2, 2026. https://www.wnd.com/2026/10/feds-arrest-department-energy-engineer-allegedly-helping-houthis/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+          "outlet": "Internet",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T17:33:16Z",
+          "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign.\" Internet, October 2, 2026. https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat",
+          "outlet": "New York Post",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T09:53:35Z",
+          "link": "https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/",
+          "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "October 4, 2026",
+          "title": "Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence",
+          "outlet": "Hoover.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T00:00:00Z",
+          "link": "https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan",
+          "citation": "(U) October 4, 2026. \"Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence.\" Hoover.org, October 4, 2026. https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:38:46Z",
+          "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bmss\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T16:45:38Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        },
+        {
+          "author": "Alina Maria Stan",
+          "title": "MI5 says over 100 UK academics worked on projects funded by China’s spies",
+          "outlet": "The Next Web",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T14:12:30Z",
+          "link": "https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai",
+          "citation": "(U) Alina Maria Stan. \"MI5 says over 100 UK academics worked on projects funded by China’s spies.\" The Next Web, October 1, 2026. https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Phil Muncaster",
+          "title": "MI5 Warns Over 100 Academics Helped China's Espionage Plans",
+          "outlet": "Infosecurity Magazine",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T07:37:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/",
+          "citation": "(U) Phil Muncaster. \"MI5 Warns Over 100 Academics Helped China's Espionage Plans.\" Infosecurity Magazine, October 1, 2026. https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Editor",
+          "title": "The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism",
+          "outlet": "Activistpost.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T01:02:00Z",
+          "link": "https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/",
+          "citation": "(U) Editor. \"The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism.\" Activistpost.com, October 4, 2026. https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Redhat.com Staff",
+          "title": "What enterprises need to know about the Cyber Resilience Act and software supply chain risk",
+          "outlet": "Redhat.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T00:00:00Z",
+          "link": "https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk",
+          "citation": "(U) Redhat.com Staff. \"What enterprises need to know about the Cyber Resilience Act and software supply chain risk.\" Redhat.com, October 2, 2026. https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        },
+        {
+          "author": "Moshe Bar",
+          "title": "From Software Supply Chains to AI Vulnerabilities: Why Neither Solves Enterprise Linux Security",
+          "outlet": "DevOps.com",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T22:36:34Z",
+          "link": "https://devops.com/from-software-supply-chains-to-ai-vulnerabilities-why-neither-solves-enterprise-linux-security/",
+          "citation": "(U) Moshe Bar. \"From Software Supply Chains to AI Vulnerabilities: Why Neither Solves Enterprise Linux Security.\" DevOps.com, October 1, 2026. https://devops.com/from-software-supply-chains-to-ai-vulnerabilities-why-neither-solves-enterprise-linux-security/. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T11:45:00Z",
+          "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"How Financial Services Companies Can Modernize Their Software Supply Chain.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/how-financial-services-companies-can.html. Accessed October 5, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

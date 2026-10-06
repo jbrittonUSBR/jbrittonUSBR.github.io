@@ -1,0 +1,994 @@
+{
+  "pulled_at_utc": "2026-10-06T12:16:08Z",
+  "accessed": "October 6, 2026",
+  "filtered_at_utc": "2026-10-06T12:18:00Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 490,
+  "article_count": 68,
+  "dropped_count": 422,
+  "term_count": 22,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "HuffPost",
+          "title": "Soldiers Seriously Wounded In Iranian Drone Strike Say Military's Medical System Failed Them",
+          "outlet": "HuffPost",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:57:46Z",
+          "link": "https://www.huffpost.com/entry/iran-us-port-shuaiba-attack-wounded_n_6ac38107e4b0f45fd4cd663a",
+          "citation": "(U) HuffPost. \"Soldiers Seriously Wounded In Iranian Drone Strike Say Military's Medical System Failed Them.\" HuffPost, October 5, 2026. https://www.huffpost.com/entry/iran-us-port-shuaiba-attack-wounded_n_6ac38107e4b0f45fd4cd663a. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "JULIE WATSON, JACK BROOK and KONSTANTIN TOROPIN",
+          "title": "U.S. soldiers wounded in Iranian drone strike say military medical system failed them",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:48:26Z",
+          "link": "https://www.yahoo.com/news/us/articles/soldiers-seriously-wounded-iranian-drone-104826233.html",
+          "citation": "(U) JULIE WATSON, JACK BROOK and KONSTANTIN TOROPIN. \"U.S. soldiers wounded in Iranian drone strike say military medical system failed them.\" Yahoo Entertainment, October 5, 2026. https://www.yahoo.com/news/us/articles/soldiers-seriously-wounded-iranian-drone-104826233.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "JACK BROOK, KONSTANTIN TOROPIN, JULIE WATSON and RUSS BYNUM",
+          "title": "Soldiers and Gold Star families press Army leadership after deadly Iranian drone strike",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:31:34Z",
+          "link": "https://www.yahoo.com/news/us/articles/exclusive-soldiers-gold-star-families-103134796.html",
+          "citation": "(U) JACK BROOK, KONSTANTIN TOROPIN, JULIE WATSON and RUSS BYNUM. \"Soldiers and Gold Star families press Army leadership after deadly Iranian drone strike.\" Yahoo Entertainment, October 5, 2026. https://www.yahoo.com/news/us/articles/exclusive-soldiers-gold-star-families-103134796.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Houthis seize another town in Yemen as they advance toward key city Taiz",
+          "outlet": "Business Standard",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T08:16:54Z",
+          "link": "https://www.business-standard.com/world-news/houthis-seize-another-town-in-yemen-as-they-advance-toward-key-city-taiz-126100500384_1.html",
+          "citation": "(U) AP. \"Houthis seize another town in Yemen as they advance toward key city Taiz.\" Business Standard, October 5, 2026. https://www.business-standard.com/world-news/houthis-seize-another-town-in-yemen-as-they-advance-toward-key-city-taiz-126100500384_1.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AHMED AL-HAJ and SAMY MAGDY",
+          "title": "Saudi-led coalition says its jets are bombing Yemen's Iran-backed Houthi rebels",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T07:20:01Z",
+          "link": "https://www.yahoo.com/news/world/articles/iran-backed-houthis-seize-another-072001134.html",
+          "citation": "(U) AHMED AL-HAJ and SAMY MAGDY. \"Saudi-led coalition says its jets are bombing Yemen's Iran-backed Houthi rebels.\" Yahoo Entertainment, October 5, 2026. https://www.yahoo.com/news/world/articles/iran-backed-houthis-seize-another-072001134.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "RT",
+          "title": "US rushes bombers out of UK base over new terrorist threat – NYT",
+          "outlet": "RT",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T08:53:55Z",
+          "link": "https://www.rt.com/news/646718-us-rushes-bombers-out-uk/",
+          "citation": "(U) RT. \"US rushes bombers out of UK base over new terrorist threat – NYT.\" RT, October 5, 2026. https://www.rt.com/news/646718-us-rushes-bombers-out-uk/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Francine Wolfisz",
+          "title": "'Terrorist' pilot 'dreamed of crashing plane into Tel Aviv's airport' and had planned to hijack flight weeks ago 'but was friends with a crew member on board', sources claim",
+          "outlet": "Dailymail.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T21:50:58Z",
+          "link": "https://www.dailymail.com/news/article-16182531/Terrorist-pilot-dreamed-crashing-plane-Tel-Avivs-airport-planned-hijack-flight-weeks-ago-friends-crew-member-board-sources-claim.html",
+          "citation": "(U) Francine Wolfisz. \"'Terrorist' pilot 'dreamed of crashing plane into Tel Aviv's airport' and had planned to hijack flight weeks ago 'but was friends with a crew member on board', sources claim.\" Dailymail.com, October 4, 2026. https://www.dailymail.com/news/article-16182531/Terrorist-pilot-dreamed-crashing-plane-Tel-Avivs-airport-planned-hijack-flight-weeks-ago-friends-crew-member-board-sources-claim.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "TOI Education",
+          "title": "No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution",
+          "outlet": "The Times of India",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:06:16Z",
+          "link": "https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms",
+          "citation": "(U) TOI Education. \"No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution.\" The Times of India, October 3, 2026. https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Türkiye urges end to Houthi attacks on Saudi Arabia",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:52:12Z",
+          "link": "https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618",
+          "citation": "(U) hurriyetdailynews.com. \"Türkiye urges end to Houthi attacks on Saudi Arabia.\" Hurriyet Daily News, October 2, 2026. https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Saudi coalition accuses Houthis of drone attack on Madinah",
+          "outlet": "CNA",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T01:01:39Z",
+          "link": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-attack-madinah-6425761",
+          "citation": "(U) CNA Staff. \"Saudi coalition accuses Houthis of drone attack on Madinah.\" CNA, October 2, 2026. https://www.channelnewsasia.com/world/saudi-arabia-houthis-attack-madinah-6425761. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b",
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+          "outlet": "Al Jazeera English",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:03:14Z",
+          "link": "https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis",
+          "citation": "(U) Al Jazeera Staff. \"Saudi-led coalition says power station attacked in Medina, blames Houthis.\" Al Jazeera English, October 1, 2026. https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "Mass shooting at Georgia block party leaves 2 dead, 35 injured",
+          "outlet": "Fox News",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T01:59:01Z",
+          "link": "https://www.foxnews.com/us/mass-shooting-georgia-block-party-leaves-2-dead-35-injured",
+          "citation": "(U) Fox News Staff. \"Mass shooting at Georgia block party leaves 2 dead, 35 injured.\" Fox News, October 5, 2026. https://www.foxnews.com/us/mass-shooting-georgia-block-party-leaves-2-dead-35-injured. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Portland teen faces terrorism, attempted murder charges after school cafeteria chemical scare",
+          "outlet": "Fox News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T22:37:06Z",
+          "link": "https://www.foxnews.com/us/portland-teen-faces-terrorism-attempted-murder-charges-after-school-cafeteria-chemical-scare",
+          "citation": "(U) Fox News Staff. \"Portland teen faces terrorism, attempted murder charges after school cafeteria chemical scare.\" Fox News, October 4, 2026. https://www.foxnews.com/us/portland-teen-faces-terrorism-attempted-murder-charges-after-school-cafeteria-chemical-scare. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "KTVU",
+          "title": "Georgia mass shooting: 35 injured, 2 dead after gunfire at block party",
+          "outlet": "Freerepublic.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T22:20:13Z",
+          "link": "https://freerepublic.com/focus/f-news/4397920/posts",
+          "citation": "(U) KTVU. \"Georgia mass shooting: 35 injured, 2 dead after gunfire at block party.\" Freerepublic.com, October 4, 2026. https://freerepublic.com/focus/f-news/4397920/posts. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Kalohe Danbara",
+          "title": "Two killed, dozens hospitalized in mass shooting at homecoming party in Georgia",
+          "outlet": "New York Post",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T18:04:07Z",
+          "link": "https://nypost.com/2026/10/04/us-news/two-killed-dozens-hospitalized-in-mass-shooting-at-homecoming-party-in-georgia/",
+          "citation": "(U) Kalohe Danbara. \"Two killed, dozens hospitalized in mass shooting at homecoming party in Georgia.\" New York Post, October 4, 2026. https://nypost.com/2026/10/04/us-news/two-killed-dozens-hospitalized-in-mass-shooting-at-homecoming-party-in-georgia/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Sam Sachs",
+          "title": "2 dead and 35 injured in mass shooting at Georgia homecoming celebration",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T14:49:32Z",
+          "link": "https://www.yahoo.com/news/us/articles/2-dead-multiple-injured-south-143631377.html",
+          "citation": "(U) Sam Sachs. \"2 dead and 35 injured in mass shooting at Georgia homecoming celebration.\" Yahoo Entertainment, October 4, 2026. https://www.yahoo.com/news/us/articles/2-dead-multiple-injured-south-143631377.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Marina Peña",
+          "title": "Three pedestrians mowed down as car smashes into California grocery store",
+          "outlet": "New York Post",
+          "published": "September 29, 2026",
+          "publishedAt": "2026-09-29T16:29:08Z",
+          "link": "https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/",
+          "citation": "(U) Marina Peña. \"Three pedestrians mowed down as car smashes into California grocery store.\" New York Post, September 29, 2026. https://nypost.com/2026/09/29/us-news/car-crashes-into-los-angeles-grocery-store-hitting-3-people/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Maisy Rae",
+          "title": "Aussie bloke killed outside his home after allegedly being mowed down by woman known to him",
+          "outlet": "Dailymail.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T02:53:12Z",
+          "link": "https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html",
+          "citation": "(U) Maisy Rae. \"Aussie bloke killed outside his home after allegedly being mowed down by woman known to him.\" Dailymail.com, September 28, 2026. https://www.dailymail.com/news/article-16165487/Bradley-Bullock-dead-brisbane-fernvale.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox news",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Freerepublic.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T04:33:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397763/posts",
+          "citation": "(U) Fox news. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Freerepublic.com, October 3, 2026. https://freerepublic.com/focus/f-chat/4397763/posts. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Meenakshi Sinha",
+          "title": "Cable fire disrupts power supply to Indirapuram, power dept suspects arson",
+          "outlet": "The Times of India",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:27:00Z",
+          "link": "https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms",
+          "citation": "(U) Meenakshi Sinha. \"Cable fire disrupts power supply to Indirapuram, power dept suspects arson.\" The Times of India, October 1, 2026. https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Fox News",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T01:53:36Z",
+          "link": "https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage",
+          "citation": "(U) Fox News Staff. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Fox News, October 1, 2026. https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "TikTok couple charged with arson after allegedly setting abandoned home on fire",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T19:18:31Z",
+          "link": "https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/",
+          "citation": "(U) Patrick Reilly. \"TikTok couple charged with arson after allegedly setting abandoned home on fire.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "JACK BROOK, KONSTANTIN TOROPIN, JULIE WATSON and RUSS BYNUM",
+          "title": "Soldiers and Gold Star families press Army leadership after deadly Iranian drone strike",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:31:34Z",
+          "link": "https://www.yahoo.com/news/us/articles/exclusive-soldiers-gold-star-families-103134796.html",
+          "citation": "(U) JACK BROOK, KONSTANTIN TOROPIN, JULIE WATSON and RUSS BYNUM. \"Soldiers and Gold Star families press Army leadership after deadly Iranian drone strike.\" Yahoo Entertainment, October 5, 2026. https://www.yahoo.com/news/us/articles/exclusive-soldiers-gold-star-families-103134796.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Anthony Guerra",
+          "title": "Luminis Health Restores MyChart After Four Weeks, Highlighting Downtime Needs Beyond the EHR",
+          "outlet": "Healthsystemcio.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T11:17:39Z",
+          "link": "https://healthsystemcio.com/2026/10/05/luminis-health-cyberattack-downtime-plans/",
+          "citation": "(U) Anthony Guerra. \"Luminis Health Restores MyChart After Four Weeks, Highlighting Downtime Needs Beyond the EHR.\" Healthsystemcio.com, October 5, 2026. https://healthsystemcio.com/2026/10/05/luminis-health-cyberattack-downtime-plans/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Diego Almada Lopez",
+          "title": "AI tools suspected in Shinhan Bank cyberattack that exposed 25,000 customers",
+          "outlet": "Crypto Briefing",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:03:06Z",
+          "link": "https://cryptobriefing.com/shinhan-bank-ai-cyberattack-25000-customers/",
+          "citation": "(U) Diego Almada Lopez. \"AI tools suspected in Shinhan Bank cyberattack that exposed 25,000 customers.\" Crypto Briefing, October 2, 2026. https://cryptobriefing.com/shinhan-bank-ai-cyberattack-25000-customers/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T16:45:38Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Donald Papp",
+          "title": "Fixing a Power Grid That Loses Over Half Its Power to Inefficiency and Theft",
+          "outlet": "Hackaday",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:00:11Z",
+          "link": "https://hackaday.com/2026/10/03/fixing-a-power-grid-that-loses-over-half-its-power-to-inefficiency-and-theft/",
+          "citation": "(U) Donald Papp. \"Fixing a Power Grid That Loses Over Half Its Power to Inefficiency and Theft.\" Hackaday, October 3, 2026. https://hackaday.com/2026/10/03/fixing-a-power-grid-that-loses-over-half-its-power-to-inefficiency-and-theft/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "California Post via Yahoo",
+          "title": "California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds",
+          "outlet": "Freerepublic.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:53:15Z",
+          "link": "https://freerepublic.com/focus/f-news/4397960/posts",
+          "citation": "(U) California Post via Yahoo. \"California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds.\" Freerepublic.com, October 5, 2026. https://freerepublic.com/focus/f-news/4397960/posts. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Human Rights Watch",
+          "title": "Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys",
+          "outlet": "Human Rights Watch",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T04:00:00Z",
+          "link": "https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys",
+          "citation": "(U) Human Rights Watch. \"Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys.\" Human Rights Watch, October 5, 2026. https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "All U.S. B-1 Bombers Return to U.S. From British Terrorism Alert Air Base",
+          "outlet": "Breitbart News",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:24:19Z",
+          "link": "https://www.breitbart.com/europe/2026/10/05/all-u-s-b-1-bombers-return-to-u-s-from-british-terrorism-alert-air-base/",
+          "citation": "(U) Oliver JJ Lane. \"All U.S. B-1 Bombers Return to U.S. From British Terrorism Alert Air Base.\" Breitbart News, October 5, 2026. https://www.breitbart.com/europe/2026/10/05/all-u-s-b-1-bombers-return-to-u-s-from-british-terrorism-alert-air-base/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "US rushes bombers out of UK base over new terrorist threat – NYT",
+          "outlet": "RT",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T08:53:55Z",
+          "link": "https://www.rt.com/news/646718-us-rushes-bombers-out-uk/",
+          "citation": "(U) RT. \"US rushes bombers out of UK base over new terrorist threat – NYT.\" RT, October 5, 2026. https://www.rt.com/news/646718-us-rushes-bombers-out-uk/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "AHMED AL-HAJ and SAMY MAGDY",
+          "title": "Saudi-led coalition says its jets are bombing Yemen's Iran-backed Houthi rebels",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T07:20:01Z",
+          "link": "https://www.yahoo.com/news/world/articles/iran-backed-houthis-seize-another-072001134.html",
+          "citation": "(U) AHMED AL-HAJ and SAMY MAGDY. \"Saudi-led coalition says its jets are bombing Yemen's Iran-backed Houthi rebels.\" Yahoo Entertainment, October 5, 2026. https://www.yahoo.com/news/world/articles/iran-backed-houthis-seize-another-072001134.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Indonesia arrests 11 over suspected links to terrorist networks",
+          "outlet": "CNA",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T04:05:00Z",
+          "link": "https://www.channelnewsasia.com/asia/indonesia-arrests-11-suspected-terrorists-densus-88-6432196",
+          "citation": "(U) CNA Staff. \"Indonesia arrests 11 over suspected links to terrorist networks.\" CNA, October 5, 2026. https://www.channelnewsasia.com/asia/indonesia-arrests-11-suspected-terrorists-densus-88-6432196. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "MLT Staff",
+          "title": "Former US Marine Charged in Connection to Haiti President’s Assassination",
+          "outlet": "Military.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T19:32:07Z",
+          "link": "https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination",
+          "citation": "(U) MLT Staff. \"Former US Marine Charged in Connection to Haiti President’s Assassination.\" Military.com, October 2, 2026. https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Saurabh Sinha",
+          "title": "Airlines wake up to ‘insider threat’ after flydubai attack",
+          "outlet": "The Times of India",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T07:25:08Z",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms",
+          "citation": "(U) Saurabh Sinha. \"Airlines wake up to ‘insider threat’ after flydubai attack.\" The Times of India, October 2, 2026. https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Frank  Andrews",
+          "title": "Battle with Iran-backed Houthis in Yemen tempers news on oil flow",
+          "outlet": "CBS News",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T11:34:37Z",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb/",
+          "citation": "(U) Frank  Andrews. \"Battle with Iran-backed Houthis in Yemen tempers news on oil flow.\" CBS News, October 5, 2026. https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Rajeev Singh",
+          "title": "Operation 'Yemen Dawn': Saudi-led coalition joins fight to wrest Red Sea from Houthis",
+          "outlet": "The Times of India",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T11:09:16Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/operation-yemen-dawn-saudi-led-coalition-joins-fight-to-wrest-red-sea-from-houthis/articleshow/134700138.cms",
+          "citation": "(U) Rajeev Singh. \"Operation 'Yemen Dawn': Saudi-led coalition joins fight to wrest Red Sea from Houthis.\" The Times of India, October 5, 2026. https://timesofindia.indiatimes.com/world/middle-east/operation-yemen-dawn-saudi-led-coalition-joins-fight-to-wrest-red-sea-from-houthis/articleshow/134700138.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "admin",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T00:36:10Z",
+          "link": "https://thechronicle.com.gh/kyiv-bridge-hit-in-further-russian-drone-attack-as-german-chancellor-makes-surprise-visit/",
+          "citation": "(U) admin. \"Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.\" Thechronicle.com.gh, October 5, 2026. https://thechronicle.com.gh/kyiv-bridge-hit-in-further-russian-drone-attack-as-german-chancellor-makes-surprise-visit/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "Top Pakistani terrorist 'Hashim Moosa' used Ayurvedic honey remedy to heal bullet wounds in jungle hideout",
+          "outlet": "The Times of India",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T10:07:20Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/top-pakistani-terrorist-hashim-moosa-used-ayurvedic-honey-remedy-to-heal-bullet-wounds-in-jungle-hideout/articleshow/134672979.cms",
+          "citation": "(U) ET Online. \"Top Pakistani terrorist 'Hashim Moosa' used Ayurvedic honey remedy to heal bullet wounds in jungle hideout.\" The Times of India, October 4, 2026. https://economictimes.indiatimes.com/news/defence/top-pakistani-terrorist-hashim-moosa-used-ayurvedic-honey-remedy-to-heal-bullet-wounds-in-jungle-hideout/articleshow/134672979.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "outlet": "BBC News",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T08:48:38Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.\" BBC News, October 4, 2026. https://www.bbc.co.uk/news/articles/ckreyjzzzywqo. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Ionut Ilascu",
+          "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+          "outlet": "BleepingComputer",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T18:33:01Z",
+          "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+          "citation": "(U) Ionut Ilascu. \"Warlock ransomware breach SharePoint in water, telecom operator attacks.\" BleepingComputer, October 2, 2026. https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "California Post via Yahoo",
+          "title": "California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds",
+          "outlet": "Freerepublic.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:53:15Z",
+          "link": "https://freerepublic.com/focus/f-news/4397960/posts",
+          "citation": "(U) California Post via Yahoo. \"California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds.\" Freerepublic.com, October 5, 2026. https://freerepublic.com/focus/f-news/4397960/posts. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Suspected assassination attempt involved vehicle owned by Prime Minister’s Office Driver",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T09:18:23Z",
+          "link": "https://www.israelnationalnews.com/news/434131",
+          "citation": "(U) Israel National News. \"Suspected assassination attempt involved vehicle owned by Prime Minister’s Office Driver.\" Israelnationalnews.com, October 5, 2026. https://www.israelnationalnews.com/news/434131. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Josh Blackman",
+          "title": "Alito Hints That The Dobbs Knew A Member of the Majority Would Be Subject To Assassination",
+          "outlet": "Reason",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T02:51:33Z",
+          "link": "https://reason.com/volokh/2026/10/04/alito-hints-that-the-dobbs-knew-a-member-of-the-majority-would-be-subject-to-assassination/",
+          "citation": "(U) Josh Blackman. \"Alito Hints That The Dobbs Knew A Member of the Majority Would Be Subject To Assassination.\" Reason, October 5, 2026. https://reason.com/volokh/2026/10/04/alito-hints-that-the-dobbs-knew-a-member-of-the-majority-would-be-subject-to-assassination/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Mukut Das,Kangkan Kalita",
+          "title": "Ex-Army jawan, Bihar man held over Pak espionage",
+          "outlet": "The Times of India",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T18:20:48Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/ex-army-jawan-bihar-man-held-over-pak-espionage/articleshow/134679324.cms",
+          "citation": "(U) Mukut Das,Kangkan Kalita. \"Ex-Army jawan, Bihar man held over Pak espionage.\" The Times of India, October 4, 2026. https://timesofindia.indiatimes.com/city/guwahati/ex-army-jawan-bihar-man-held-over-pak-espionage/articleshow/134679324.cms. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat",
+          "outlet": "New York Post",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T09:53:35Z",
+          "link": "https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/",
+          "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "October 4, 2026",
+          "title": "Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence",
+          "outlet": "Hoover.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T00:00:00Z",
+          "link": "https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan",
+          "citation": "(U) October 4, 2026. \"Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence.\" Hoover.org, October 4, 2026. https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:38:46Z",
+          "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bmss\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T16:45:38Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        },
+        {
+          "author": "Alina Maria Stan",
+          "title": "MI5 says over 100 UK academics worked on projects funded by China’s spies",
+          "outlet": "The Next Web",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T14:12:30Z",
+          "link": "https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai",
+          "citation": "(U) Alina Maria Stan. \"MI5 says over 100 UK academics worked on projects funded by China’s spies.\" The Next Web, October 1, 2026. https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Phil Muncaster",
+          "title": "MI5 Warns Over 100 Academics Helped China's Espionage Plans",
+          "outlet": "Infosecurity Magazine",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T07:37:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/",
+          "citation": "(U) Phil Muncaster. \"MI5 Warns Over 100 Academics Helped China's Espionage Plans.\" Infosecurity Magazine, October 1, 2026. https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Human Rights Watch",
+          "title": "Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys",
+          "outlet": "Human Rights Watch",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T04:00:00Z",
+          "link": "https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys",
+          "citation": "(U) Human Rights Watch. \"Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys.\" Human Rights Watch, October 5, 2026. https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Editor",
+          "title": "The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism",
+          "outlet": "Activistpost.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T01:02:00Z",
+          "link": "https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/",
+          "citation": "(U) Editor. \"The Post 9/11 Era: 25 Years of Revisionist History and Imperial Terrorism.\" Activistpost.com, October 4, 2026. https://activistpost.com/the-post-9-11-era-25-years-of-revisionist-history-and-imperial-terrorism/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Redhat.com Staff",
+          "title": "What enterprises need to know about the Cyber Resilience Act and software supply chain risk",
+          "outlet": "Redhat.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T00:00:00Z",
+          "link": "https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk",
+          "citation": "(U) Redhat.com Staff. \"What enterprises need to know about the Cyber Resilience Act and software supply chain risk.\" Redhat.com, October 2, 2026. https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        },
+        {
+          "author": "Moshe Bar",
+          "title": "From Software Supply Chains to AI Vulnerabilities: Why Neither Solves Enterprise Linux Security",
+          "outlet": "DevOps.com",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T22:36:34Z",
+          "link": "https://devops.com/from-software-supply-chains-to-ai-vulnerabilities-why-neither-solves-enterprise-linux-security/",
+          "citation": "(U) Moshe Bar. \"From Software Supply Chains to AI Vulnerabilities: Why Neither Solves Enterprise Linux Security.\" DevOps.com, October 1, 2026. https://devops.com/from-software-supply-chains-to-ai-vulnerabilities-why-neither-solves-enterprise-linux-security/. Accessed October 6, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

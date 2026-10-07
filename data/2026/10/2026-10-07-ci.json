@@ -1,0 +1,1066 @@
+{
+  "pulled_at_utc": "2026-10-07T12:18:12Z",
+  "accessed": "October 7, 2026",
+  "filtered_at_utc": "2026-10-07T12:20:22Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 490,
+  "article_count": 75,
+  "dropped_count": 415,
+  "term_count": 21,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Emer Moreau",
+          "title": "Civilian cargo ship sinks and crew is missing after Black Sea drone attack",
+          "outlet": "BBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:53:24Z",
+          "link": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+          "citation": "(U) Emer Moreau. \"Civilian cargo ship sinks and crew is missing after Black Sea drone attack.\" BBC News, October 6, 2026. https://www.bbc.com/news/articles/c8ly0v5r602eo. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Will Hallowell",
+          "title": "Ukraine blitzes Moscow with the second largest drone strike of the war",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:17:52Z",
+          "link": "https://www.dailymail.com/news/article-16186713/Ukraine-blitzes-Moscow-huge-drone-strike.html",
+          "citation": "(U) Will Hallowell. \"Ukraine blitzes Moscow with the second largest drone strike of the war.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16186713/Ukraine-blitzes-Moscow-huge-drone-strike.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "The Associated Press",
+          "title": "Bulgarian PM says drone attack on 2 commercial vessels is 'blatant violation of international law'",
+          "outlet": "Abcnews.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:43:20Z",
+          "link": "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648",
+          "citation": "(U) The Associated Press. \"Bulgarian PM says drone attack on 2 commercial vessels is 'blatant violation of international law'.\" Abcnews.com, October 6, 2026. https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "Massive drone attack kills two in Moscow",
+          "outlet": "RTE",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:18:45Z",
+          "link": "https://www.rte.ie/news/2026/1006/1594202-massive-drone-attack-moscow/",
+          "citation": "(U) RTÉ News. \"Massive drone attack kills two in Moscow.\" RTE, October 6, 2026. https://www.rte.ie/news/2026/1006/1594202-massive-drone-attack-moscow/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Sabine Kinkartz",
+          "title": "Germany faces a triple threat from Russia, China and domestic far-right extremists",
+          "outlet": "DW (English)",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:41:00Z",
+          "link": "https://www.dw.com/en/germany-faces-a-triple-threat-from-russia-china-and-domestic-far-right-extremists/a-79560490",
+          "citation": "(U) Sabine Kinkartz. \"Germany faces a triple threat from Russia, China and domestic far-right extremists.\" DW (English), October 6, 2026. https://www.dw.com/en/germany-faces-a-triple-threat-from-russia-china-and-domestic-far-right-extremists/a-79560490. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Will Hallowell",
+          "title": "Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:34:16Z",
+          "link": "https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html",
+          "citation": "(U) Will Hallowell. \"Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Rashmi Drolia",
+          "title": "IED scars of Bastar: Survivors to get prosthetic limbs",
+          "outlet": "The Times of India",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T19:22:40Z",
+          "link": "https://timesofindia.indiatimes.com/city/raipur/ied-scars-of-bastar-survivors-to-get-prosthetic-limbs/articleshow/134716473.cms",
+          "citation": "(U) Rashmi Drolia. \"IED scars of Bastar: Survivors to get prosthetic limbs.\" The Times of India, October 5, 2026. https://timesofindia.indiatimes.com/city/raipur/ied-scars-of-bastar-survivors-to-get-prosthetic-limbs/articleshow/134716473.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bied\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Saudi-backed Yemeni forces expel the Houthis from several areas around key strait, officials say",
+          "outlet": "The Times of India",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T17:47:13Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say/articleshow/134714158.cms",
+          "citation": "(U) AP. \"Saudi-backed Yemeni forces expel the Houthis from several areas around key strait, officials say.\" The Times of India, October 5, 2026. https://economictimes.indiatimes.com/news/defence/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say/articleshow/134714158.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Yue Yuan, Yu Liu, Jingchun Fan, Zhen Ren",
+          "title": "Exploring the key genes of colorectal “adenoma-cancer” based on graph transformer",
+          "outlet": "Plos.org",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T14:00:00Z",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359785",
+          "citation": "(U) Yue Yuan, Yu Liu, Jingchun Fan, Zhen Ren. \"Exploring the key genes of colorectal “adenoma-cancer” based on graph transformer.\" Plos.org, October 5, 2026. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359785. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "TOI Education",
+          "title": "No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution",
+          "outlet": "The Times of India",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:06:16Z",
+          "link": "https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms",
+          "citation": "(U) TOI Education. \"No IIT, no NIT, yet she helped shape modern AI: Meet Niki Parmar, the Indian researcher behind the Transformer revolution.\" The Times of India, October 3, 2026. https://timesofindia.indiatimes.com/education/news/no-iit-no-nit-yet-she-helped-shape-modern-ai-meet-niki-parmar-the-indian-researcher-behind-the-transformer-revolution/articleshow/134661067.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Türkiye urges end to Houthi attacks on Saudi Arabia",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T06:52:12Z",
+          "link": "https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618",
+          "citation": "(U) hurriyetdailynews.com. \"Türkiye urges end to Houthi attacks on Saudi Arabia.\" Hurriyet Daily News, October 2, 2026. https://www.hurriyetdailynews.com/turkiye-urges-end-to-houthi-attacks-on-saudi-arabia-227618. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "ABC News",
+          "title": "Pentagon to execute convicted Fort Hood mass shooter Nidal Hasan by firing squad...The 2009 mass shooting left 13 people dead and wounded 32 others.",
+          "outlet": "Freerepublic.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T12:12:31Z",
+          "link": "https://freerepublic.com/focus/f-news/4398113/posts",
+          "citation": "(U) ABC News. \"Pentagon to execute convicted Fort Hood mass shooter Nidal Hasan by firing squad...The 2009 mass shooting left 13 people dead and wounded 32 others..\" Freerepublic.com, October 6, 2026. https://freerepublic.com/focus/f-news/4398113/posts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Payal Dhawan",
+          "title": "On way to handball practice, 14-year-old player mowed down by tractor-trolley in Ludhiana, CCTV emerges",
+          "outlet": "The Times of India",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:49:26Z",
+          "link": "https://timesofindia.indiatimes.com/city/ludhiana/on-way-to-handball-practice-14-year-old-player-mowed-down-by-tractor-trolley-in-ludhiana-cctv-emerges/articleshow/134737183.cms",
+          "citation": "(U) Payal Dhawan. \"On way to handball practice, 14-year-old player mowed down by tractor-trolley in Ludhiana, CCTV emerges.\" The Times of India, October 6, 2026. https://timesofindia.indiatimes.com/city/ludhiana/on-way-to-handball-practice-14-year-old-player-mowed-down-by-tractor-trolley-in-ludhiana-cctv-emerges/articleshow/134737183.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox news",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Freerepublic.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T04:33:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397763/posts",
+          "citation": "(U) Fox news. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Freerepublic.com, October 3, 2026. https://freerepublic.com/focus/f-chat/4397763/posts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Meenakshi Sinha",
+          "title": "Cable fire disrupts power supply to Indirapuram, power dept suspects arson",
+          "outlet": "The Times of India",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:27:00Z",
+          "link": "https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms",
+          "citation": "(U) Meenakshi Sinha. \"Cable fire disrupts power supply to Indirapuram, power dept suspects arson.\" The Times of India, October 1, 2026. https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Fox News",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T01:53:36Z",
+          "link": "https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage",
+          "citation": "(U) Fox News Staff. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Fox News, October 1, 2026. https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "TikTok couple charged with arson after allegedly setting abandoned home on fire",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T19:18:31Z",
+          "link": "https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/",
+          "citation": "(U) Patrick Reilly. \"TikTok couple charged with arson after allegedly setting abandoned home on fire.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Dr. Tim Sandle",
+          "title": "Cyberattack attempts on universities highlight a growing risk: Confusion",
+          "outlet": "Digital Journal",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T20:34:23Z",
+          "link": "https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/",
+          "citation": "(U) Dr. Tim Sandle. \"Cyberattack attempts on universities highlight a growing risk: Confusion.\" Digital Journal, October 5, 2026. https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "News On Japan",
+          "title": "Cyberattack on Osaka University Shuts Down 500 Servers",
+          "outlet": "Newsonjapan.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T16:37:00Z",
+          "link": "https://newsonjapan.com/article/150954.php",
+          "citation": "(U) News On Japan. \"Cyberattack on Osaka University Shuts Down 500 Servers.\" Newsonjapan.com, October 5, 2026. https://newsonjapan.com/article/150954.php. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Anthony Guerra",
+          "title": "Luminis Health Restores MyChart After Four Weeks, Highlighting Downtime Needs Beyond the EHR",
+          "outlet": "Healthsystemcio.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T11:17:39Z",
+          "link": "https://healthsystemcio.com/2026/10/05/luminis-health-cyberattack-downtime-plans/",
+          "citation": "(U) Anthony Guerra. \"Luminis Health Restores MyChart After Four Weeks, Highlighting Downtime Needs Beyond the EHR.\" Healthsystemcio.com, October 5, 2026. https://healthsystemcio.com/2026/10/05/luminis-health-cyberattack-downtime-plans/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "California Post via Yahoo",
+          "title": "California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds",
+          "outlet": "Freerepublic.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T10:53:15Z",
+          "link": "https://freerepublic.com/focus/f-news/4397960/posts",
+          "citation": "(U) California Post via Yahoo. \"California realtor, 34, busted at LAX on Chinese espionage charges as creepy texts to Beijing handlers revealed: feds.\" Freerepublic.com, October 5, 2026. https://freerepublic.com/focus/f-news/4397960/posts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Egyptian journalists from fact-checking website facing terrorism charges",
+          "outlet": "BBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T12:12:31Z",
+          "link": "https://www.bbc.co.uk/news/articles/cm70p4r4zw17o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Egyptian journalists from fact-checking website facing terrorism charges.\" BBC News, October 6, 2026. https://www.bbc.co.uk/news/articles/cm70p4r4zw17o. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "ABC News",
+          "title": "Pentagon to execute convicted Fort Hood mass shooter Nidal Hasan by firing squad...The 2009 mass shooting left 13 people dead and wounded 32 others.",
+          "outlet": "Freerepublic.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T12:12:31Z",
+          "link": "https://freerepublic.com/focus/f-news/4398113/posts",
+          "citation": "(U) ABC News. \"Pentagon to execute convicted Fort Hood mass shooter Nidal Hasan by firing squad...The 2009 mass shooting left 13 people dead and wounded 32 others..\" Freerepublic.com, October 6, 2026. https://freerepublic.com/focus/f-news/4398113/posts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Mark Duell",
+          "title": "US withdrew bombers from RAF Fairford 'over fears of Iran plot to launch drone attack similar to Ukraine's 'Operation Spiderweb' strike on Russian aircraft'",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T07:58:11Z",
+          "link": "https://www.dailymail.com/news/article-16186241/US-withdrew-bombers-RAF-Fairford-fears-Iran-plot-Operation-Spiderweb.html",
+          "citation": "(U) Mark Duell. \"US withdrew bombers from RAF Fairford 'over fears of Iran plot to launch drone attack similar to Ukraine's 'Operation Spiderweb' strike on Russian aircraft'.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16186241/US-withdrew-bombers-RAF-Fairford-fears-Iran-plot-Operation-Spiderweb.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Victor Nava",
+          "title": "Concerns over possible Iranian drone attack prompted US to remove bombers from UK base",
+          "outlet": "New York Post",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T05:30:50Z",
+          "link": "https://nypost.com/2026/10/06/world-news/concerns-over-possible-iranian-drone-attack-prompted-us-to-remove-bombers-from-uk-base/",
+          "citation": "(U) Victor Nava. \"Concerns over possible Iranian drone attack prompted US to remove bombers from UK base.\" New York Post, October 6, 2026. https://nypost.com/2026/10/06/world-news/concerns-over-possible-iranian-drone-attack-prompted-us-to-remove-bombers-from-uk-base/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Gary Leff",
+          "title": "United Airline Pilot Who Praised October 7 Terrorist Attack Is Still Flying",
+          "outlet": "Viewfromthewing.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T23:01:08Z",
+          "link": "https://viewfromthewing.com/united-airline-pilot-who-praised-october-7-terrorist-attack-is-still-flying/",
+          "citation": "(U) Gary Leff. \"United Airline Pilot Who Praised October 7 Terrorist Attack Is Still Flying.\" Viewfromthewing.com, October 5, 2026. https://viewfromthewing.com/united-airline-pilot-who-praised-october-7-terrorist-attack-is-still-flying/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "BBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:05:42Z",
+          "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Former German spy chief arrested for espionage and treason.\" BBC News, October 6, 2026. https://www.bbc.co.uk/news/articles/c58jzyer1kr0o. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Former US Marine Charged in Connection to Haiti President’s Assassination",
+          "outlet": "Military.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T19:32:07Z",
+          "link": "https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination",
+          "citation": "(U) MLT Staff. \"Former US Marine Charged in Connection to Haiti President’s Assassination.\" Military.com, October 2, 2026. https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Saurabh Sinha",
+          "title": "Airlines wake up to ‘insider threat’ after flydubai attack",
+          "outlet": "The Times of India",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T07:25:08Z",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms",
+          "citation": "(U) Saurabh Sinha. \"Airlines wake up to ‘insider threat’ after flydubai attack.\" The Times of India, October 2, 2026. https://timesofindia.indiatimes.com/business/india-business/airlines-wake-up-to-insider-threat-after-flydubai-attack/articleshow/134633998.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "RTÉ News",
+          "title": "Yemen's Houthis claim new attack on Riyadh airport",
+          "outlet": "RTE",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:46:06Z",
+          "link": "https://www.rte.ie/news/2026/1006/1594191-houthis-claim-new-attack-on-riyadh-airport/",
+          "citation": "(U) RTÉ News. \"Yemen's Houthis claim new attack on Riyadh airport.\" RTE, October 6, 2026. https://www.rte.ie/news/2026/1006/1594191-houthis-claim-new-attack-on-riyadh-airport/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "Yemen's Houthis claim new attack on Riyadh airport",
+          "outlet": "RTE",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:46:06Z",
+          "link": "https://www.rte.ie/news/2026/1006/1594191-yemen-saudi-arabia/",
+          "citation": "(U) RTÉ News. \"Yemen's Houthis claim new attack on Riyadh airport.\" RTE, October 6, 2026. https://www.rte.ie/news/2026/1006/1594191-yemen-saudi-arabia/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Will Hallowell",
+          "title": "Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:34:16Z",
+          "link": "https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html",
+          "citation": "(U) Will Hallowell. \"Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Yemen's Houthis say they struck Riyadh airport, other Saudi sites",
+          "outlet": "CNA",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T06:12:00Z",
+          "link": "https://www.channelnewsasia.com/world/yemen-houthis-strike-saudi-riyadh-airport-6435476",
+          "citation": "(U) CNA Staff. \"Yemen's Houthis say they struck Riyadh airport, other Saudi sites.\" CNA, October 6, 2026. https://www.channelnewsasia.com/world/yemen-houthis-strike-saudi-riyadh-airport-6435476. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Khabarhub",
+          "title": "Saudi Arabia condemns Houthi strikes after Riyadh airport, Aramco refinery in Rabigh targeted",
+          "outlet": "Khabarhub.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T03:09:07Z",
+          "link": "https://english.khabarhub.com/2026/06/570866/",
+          "citation": "(U) Khabarhub. \"Saudi Arabia condemns Houthi strikes after Riyadh airport, Aramco refinery in Rabigh targeted.\" Khabarhub.com, October 6, 2026. https://english.khabarhub.com/2026/06/570866/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "AP",
+          "title": "Saudi Arabia says 2 airports hit in renewed fighting with Yemen's Houthis",
+          "outlet": "Business Standard",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:15:47Z",
+          "link": "https://www.business-standard.com/world-news/saudi-arabia-says-2-airports-hit-in-renewed-fighting-with-yemen-s-houthis-126100600730_1.html",
+          "citation": "(U) AP. \"Saudi Arabia says 2 airports hit in renewed fighting with Yemen's Houthis.\" Business Standard, October 6, 2026. https://www.business-standard.com/world-news/saudi-arabia-says-2-airports-hit-in-renewed-fighting-with-yemen-s-houthis-126100600730_1.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "Yemen's Houthis claim new attack on Riyadh airport",
+          "outlet": "RTE",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:46:06Z",
+          "link": "https://www.rte.ie/news/2026/1006/1594191-houthis-claim-new-attack-on-riyadh-airport/",
+          "citation": "(U) RTÉ News. \"Yemen's Houthis claim new attack on Riyadh airport.\" RTE, October 6, 2026. https://www.rte.ie/news/2026/1006/1594191-houthis-claim-new-attack-on-riyadh-airport/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "Yemen's Houthis claim new attack on Riyadh airport",
+          "outlet": "RTE",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:46:06Z",
+          "link": "https://www.rte.ie/news/2026/1006/1594191-yemen-saudi-arabia/",
+          "citation": "(U) RTÉ News. \"Yemen's Houthis claim new attack on Riyadh airport.\" RTE, October 6, 2026. https://www.rte.ie/news/2026/1006/1594191-yemen-saudi-arabia/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Will Hallowell",
+          "title": "Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:34:16Z",
+          "link": "https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html",
+          "citation": "(U) Will Hallowell. \"Saudi-backed forces 'run over surrendering Houthi rebels using armoured vehicles' as battle rages over Red Sea shipping route.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16186083/Saudi-backed-forces-drive-surrendering-Houthi-rebels.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Yemen's Houthis say they struck Riyadh airport, other Saudi sites",
+          "outlet": "CNA",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T06:12:00Z",
+          "link": "https://www.channelnewsasia.com/world/yemen-houthis-strike-saudi-riyadh-airport-6435476",
+          "citation": "(U) CNA Staff. \"Yemen's Houthis say they struck Riyadh airport, other Saudi sites.\" CNA, October 6, 2026. https://www.channelnewsasia.com/world/yemen-houthis-strike-saudi-riyadh-airport-6435476. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "TNN",
+          "title": "UP replaces ageing barrage and dam gates to boost irrigation and flood control",
+          "outlet": "The Times of India",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T19:28:14Z",
+          "link": "https://timesofindia.indiatimes.com/city/lucknow/up-replaces-ageing-barrage-and-dam-gates-to-boost-irrigation-and-flood-control/articleshow/134716512.cms",
+          "citation": "(U) TNN. \"UP replaces ageing barrage and dam gates to boost irrigation and flood control.\" The Times of India, October 5, 2026. https://timesofindia.indiatimes.com/city/lucknow/up-replaces-ageing-barrage-and-dam-gates-to-boost-irrigation-and-flood-control/articleshow/134716512.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Ionut Ilascu",
+          "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+          "outlet": "BleepingComputer",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T18:33:01Z",
+          "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+          "citation": "(U) Ionut Ilascu. \"Warlock ransomware breach SharePoint in water, telecom operator attacks.\" BleepingComputer, October 2, 2026. https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "AFP",
+          "title": "Ex-German spy chief arrested on suspicion of espionage",
+          "outlet": "TheJournal.ie",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T12:14:04Z",
+          "link": "https://www.thejournal.ie/august-hanning-arrested-7183885-Oct2026/",
+          "citation": "(U) AFP. \"Ex-German spy chief arrested on suspicion of espionage.\" TheJournal.ie, October 6, 2026. https://www.thejournal.ie/august-hanning-arrested-7183885-Oct2026/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Newsroom",
+          "title": "Former head of Germany’s intelligence service arrested: He is accused of espionage",
+          "outlet": "Protothema.gr",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:55:00Z",
+          "link": "https://en.protothema.gr/2026/10/06/former-head-of-germanys-intelligence-service-arrested-he-is-accused-of-espionage/",
+          "citation": "(U) Newsroom. \"Former head of Germany’s intelligence service arrested: He is accused of espionage.\" Protothema.gr, October 6, 2026. https://en.protothema.gr/2026/10/06/former-head-of-germanys-intelligence-service-arrested-he-is-accused-of-espionage/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Former head of German foreign intelligence suspected of 'treasonous espionage'",
+          "outlet": "CBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:21:27Z",
+          "link": "https://www.cbc.ca/news/world/germany-hanning-manuel-espionage-arrests-9.7370630",
+          "citation": "(U) CBC News Staff. \"Former head of German foreign intelligence suspected of 'treasonous espionage'.\" CBC News, October 6, 2026. https://www.cbc.ca/news/world/germany-hanning-manuel-espionage-arrests-9.7370630. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Ex-German spy chief arrested for espionage and treason",
+          "outlet": "The Local Germany",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:15:49Z",
+          "link": "https://www.thelocal.de/20261006/ex-german-spy-chief-arrested-for-espionage-and-treason",
+          "citation": "(U) AFP. \"Ex-German spy chief arrested for espionage and treason.\" The Local Germany, October 6, 2026. https://www.thelocal.de/20261006/ex-german-spy-chief-arrested-for-espionage-and-treason. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Subhadra Srivastava",
+          "title": "Germany arrests former spy chief over treason and espionage allegations",
+          "outlet": "The Times of India",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:44:12Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/germanys-former-spy-chief-arrested-over-alleged-treason-2000-classified-documents-at-centre-of-probe/articleshow/134737257.cms",
+          "citation": "(U) Subhadra Srivastava. \"Germany arrests former spy chief over treason and espionage allegations.\" The Times of India, October 6, 2026. https://timesofindia.indiatimes.com/world/europe/germanys-former-spy-chief-arrested-over-alleged-treason-2000-classified-documents-at-centre-of-probe/articleshow/134737257.cms. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "DPA",
+          "title": "Germany arrests ex-chief spy on espionage and treason charges",
+          "outlet": "Haaretz",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:42:11Z",
+          "link": "https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000",
+          "citation": "(U) DPA. \"Germany arrests ex-chief spy on espionage and treason charges.\" Haaretz, October 6, 2026. https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions",
+          "outlet": "Sputnikglobe.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:16:30Z",
+          "link": "https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html",
+          "citation": "(U) Sputnik International. \"Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions.\" Sputnikglobe.com, October 6, 2026. https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat",
+          "outlet": "New York Post",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T09:53:35Z",
+          "link": "https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/",
+          "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "October 4, 2026",
+          "title": "Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence",
+          "outlet": "Hoover.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T00:00:00Z",
+          "link": "https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan",
+          "citation": "(U) October 4, 2026. \"Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence.\" Hoover.org, October 4, 2026. https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:38:46Z",
+          "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bmss\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "outlet": "Internet",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T16:45:38Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        },
+        {
+          "author": "Alina Maria Stan",
+          "title": "MI5 says over 100 UK academics worked on projects funded by China’s spies",
+          "outlet": "The Next Web",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T14:12:30Z",
+          "link": "https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai",
+          "citation": "(U) Alina Maria Stan. \"MI5 says over 100 UK academics worked on projects funded by China’s spies.\" The Next Web, October 1, 2026. https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Victor Nava",
+          "title": "Concerns over possible Iranian drone attack prompted US to remove bombers from UK base",
+          "outlet": "New York Post",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T05:30:50Z",
+          "link": "https://nypost.com/2026/10/06/world-news/concerns-over-possible-iranian-drone-attack-prompted-us-to-remove-bombers-from-uk-base/",
+          "citation": "(U) Victor Nava. \"Concerns over possible Iranian drone attack prompted US to remove bombers from UK base.\" New York Post, October 6, 2026. https://nypost.com/2026/10/06/world-news/concerns-over-possible-iranian-drone-attack-prompted-us-to-remove-bombers-from-uk-base/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Mike Schuler",
+          "title": "More Tankers Hit in Hormuz as IRGC Orders Ship to Turn Back",
+          "outlet": "gcaptain.com",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T15:02:18Z",
+          "link": "https://gcaptain.com/more-tankers-hit-in-hormuz-as-irgc-orders-ship-to-turn-back/",
+          "citation": "(U) Mike Schuler. \"More Tankers Hit in Hormuz as IRGC Orders Ship to Turn Back.\" gcaptain.com, October 5, 2026. https://gcaptain.com/more-tankers-hit-in-hormuz-as-irgc-orders-ship-to-turn-back/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "CBC News Staff",
+          "title": "Former head of German foreign intelligence suspected of 'treasonous espionage'",
+          "outlet": "CBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T11:21:27Z",
+          "link": "https://www.cbc.ca/news/world/germany-hanning-manuel-espionage-arrests-9.7370630",
+          "citation": "(U) CBC News Staff. \"Former head of German foreign intelligence suspected of 'treasonous espionage'.\" CBC News, October 6, 2026. https://www.cbc.ca/news/world/germany-hanning-manuel-espionage-arrests-9.7370630. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "BBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:05:42Z",
+          "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Former German spy chief arrested for espionage and treason.\" BBC News, October 6, 2026. https://www.bbc.co.uk/news/articles/c58jzyer1kr0o. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "CNN Staff",
+          "title": "Former German spy chief arrested on treason and espionage allegations | CNN",
+          "outlet": "CNN",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:55:19Z",
+          "link": "https://www.cnn.com/2026/10/06/europe/germany-former-intelligence-chief-arrested-intl",
+          "citation": "(U) CNN Staff. \"Former German spy chief arrested on treason and espionage allegations | CNN.\" CNN, October 6, 2026. https://www.cnn.com/2026/10/06/europe/germany-former-intelligence-chief-arrested-intl. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sabine Kinkartz",
+          "title": "Germany faces a triple threat from Russia, China and domestic far-right extremists",
+          "outlet": "DW (English)",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:41:00Z",
+          "link": "https://www.dw.com/en/germany-faces-a-triple-threat-from-russia-china-and-domestic-far-right-extremists/a-79560490",
+          "citation": "(U) Sabine Kinkartz. \"Germany faces a triple threat from Russia, China and domestic far-right extremists.\" DW (English), October 6, 2026. https://www.dw.com/en/germany-faces-a-triple-threat-from-russia-china-and-domestic-far-right-extremists/a-79560490. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Human Rights Watch",
+          "title": "Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys",
+          "outlet": "Human Rights Watch",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T04:00:00Z",
+          "link": "https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys",
+          "citation": "(U) Human Rights Watch. \"Iraq: Dire Prospects for Alleged ISIS-Linked Men, Boys.\" Human Rights Watch, October 5, 2026. https://www.hrw.org/news/2026/10/05/iraq-dire-prospects-for-alleged-isis-linked-men-boys. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Dr. Tim Sandle",
+          "title": "Cyberattack attempts on universities highlight a growing risk: Confusion",
+          "outlet": "Digital Journal",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T20:34:23Z",
+          "link": "https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/",
+          "citation": "(U) Dr. Tim Sandle. \"Cyberattack attempts on universities highlight a growing risk: Confusion.\" Digital Journal, October 5, 2026. https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+          "outlet": "Internet",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T14:20:43Z",
+          "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests.\" Internet, October 5, 2026. https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html. Accessed October 7, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

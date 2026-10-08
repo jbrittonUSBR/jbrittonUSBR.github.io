@@ -1,0 +1,914 @@
+{
+  "pulled_at_utc": "2026-10-08T12:17:37Z",
+  "accessed": "October 8, 2026",
+  "filtered_at_utc": "2026-10-08T12:21:15Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 498,
+  "article_count": 63,
+  "dropped_count": 435,
+  "term_count": 20,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Bulgaria ends search for missing crew after drone strike sinks cargo ship",
+          "outlet": "Al Jazeera English",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T10:12:04Z",
+          "link": "https://www.aljazeera.com/news/2026/10/7/bulgaria-ends-search-for-missing-crew-after-drone-strike-sinks-cargo-ship",
+          "citation": "(U) Al Jazeera English Staff. \"Bulgaria ends search for missing crew after drone strike sinks cargo ship.\" Al Jazeera English, October 7, 2026. https://www.aljazeera.com/news/2026/10/7/bulgaria-ends-search-for-missing-crew-after-drone-strike-sinks-cargo-ship. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Drone strike sinks ship in NATO waters as Zelenskyy warns of looming ‘massive strike’ - Fox News",
+          "outlet": "Slashdot.org",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T06:32:58Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186057912",
+          "citation": "(U) feedfeeder. \"Drone strike sinks ship in NATO waters as Zelenskyy warns of looming ‘massive strike’ - Fox News.\" Slashdot.org, October 7, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186057912. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Houthi attacks target Riyadh, Aden airport",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T06:20:05Z",
+          "link": "https://www.hurriyetdailynews.com/houthi-attacks-target-riyadh-aden-airport-227821",
+          "citation": "(U) hurriyetdailynews.com. \"Houthi attacks target Riyadh, Aden airport.\" Hurriyet Daily News, October 7, 2026. https://www.hurriyetdailynews.com/houthi-attacks-target-riyadh-aden-airport-227821. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Uzi Baruch",
+          "title": "IDF demolishes home of terrorist who murdered Netanel Shakron",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T11:55:02Z",
+          "link": "https://www.israelnationalnews.com/news/434241",
+          "citation": "(U) Uzi Baruch. \"IDF demolishes home of terrorist who murdered Netanel Shakron.\" Israelnationalnews.com, October 7, 2026. https://www.israelnationalnews.com/news/434241. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Seclists.org Staff",
+          "title": "[0day-rubbish] StreamSets Transformer 3.17.0 auth-mode none fallback and un-sandboxed ScalaDTransform execution to container root (8.1 primary)",
+          "outlet": "Seclists.org",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T17:44:51Z",
+          "link": "https://seclists.org/fulldisclosure/2026/Oct/8",
+          "citation": "(U) Seclists.org Staff. \"[0day-rubbish] StreamSets Transformer 3.17.0 auth-mode none fallback and un-sandboxed ScalaDTransform execution to container root (8.1 primary).\" Seclists.org, October 6, 2026. https://seclists.org/fulldisclosure/2026/Oct/8. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "thepostmillennial.com",
+          "title": "BREAKING: Army sets Dec. 3 firing squad execution for Fort Hood terrorist Nidal Hasan",
+          "outlet": "Freerepublic.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T04:18:12Z",
+          "link": "https://freerepublic.com/focus/f-news/4398237/posts",
+          "citation": "(U) thepostmillennial.com. \"BREAKING: Army sets Dec. 3 firing squad execution for Fort Hood terrorist Nidal Hasan.\" Freerepublic.com, October 7, 2026. https://freerepublic.com/focus/f-news/4398237/posts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "David DeTurris",
+          "title": "Fort Hood killer Nidal Hasan will be executed by firing squad at same military base where he carried out mass shooting as date’s set",
+          "outlet": "New York Post",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T03:48:54Z",
+          "link": "https://nypost.com/2026/10/06/us-news/fort-hood-killer-nidal-hasans-execution-date-set-at-military-base-where-he-carried-out-mass-killing/",
+          "citation": "(U) David DeTurris. \"Fort Hood killer Nidal Hasan will be executed by firing squad at same military base where he carried out mass shooting as date’s set.\" New York Post, October 7, 2026. https://nypost.com/2026/10/06/us-news/fort-hood-killer-nidal-hasans-execution-date-set-at-military-base-where-he-carried-out-mass-killing/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Carlos Garcia",
+          "title": "Army to execute Fort Hood terrorist Nidal Hasan the old-fashioned way — and Republicans are all for it",
+          "outlet": "TheBlaze",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T20:45:00Z",
+          "link": "https://www.theblaze.com/news/trump-firing-squad-fort-hood",
+          "citation": "(U) Carlos Garcia. \"Army to execute Fort Hood terrorist Nidal Hasan the old-fashioned way — and Republicans are all for it.\" TheBlaze, October 6, 2026. https://www.theblaze.com/news/trump-firing-squad-fort-hood. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Jennifer Maas",
+          "title": "Jessica Chastain Stands By Criticizing Apple for Delaying ‘The Savant’ After Charlie Kirk’s Assassination: ‘I Had to Go on Record That I Thought It Was a Mistake’",
+          "outlet": "Variety",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T20:36:30Z",
+          "link": "https://variety.com/2026/tv/news/jessica-chastain-the-savant-delayed-release-apple-mistake-1236903631/",
+          "citation": "(U) Jennifer Maas. \"Jessica Chastain Stands By Criticizing Apple for Delaying ‘The Savant’ After Charlie Kirk’s Assassination: ‘I Had to Go on Record That I Thought It Was a Mistake’.\" Variety, October 6, 2026. https://variety.com/2026/tv/news/jessica-chastain-the-savant-delayed-release-apple-mistake-1236903631/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Payal Dhawan",
+          "title": "On way to handball practice, 14-year-old player mowed down by tractor-trolley in Ludhiana, CCTV emerges",
+          "outlet": "The Times of India",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:49:26Z",
+          "link": "https://timesofindia.indiatimes.com/city/ludhiana/on-way-to-handball-practice-14-year-old-player-mowed-down-by-tractor-trolley-in-ludhiana-cctv-emerges/articleshow/134737183.cms",
+          "citation": "(U) Payal Dhawan. \"On way to handball practice, 14-year-old player mowed down by tractor-trolley in Ludhiana, CCTV emerges.\" The Times of India, October 6, 2026. https://timesofindia.indiatimes.com/city/ludhiana/on-way-to-handball-practice-14-year-old-player-mowed-down-by-tractor-trolley-in-ludhiana-cctv-emerges/articleshow/134737183.cms. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox news",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Freerepublic.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T04:33:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397763/posts",
+          "citation": "(U) Fox news. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Freerepublic.com, October 3, 2026. https://freerepublic.com/focus/f-chat/4397763/posts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Meenakshi Sinha",
+          "title": "Cable fire disrupts power supply to Indirapuram, power dept suspects arson",
+          "outlet": "The Times of India",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:27:00Z",
+          "link": "https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms",
+          "citation": "(U) Meenakshi Sinha. \"Cable fire disrupts power supply to Indirapuram, power dept suspects arson.\" The Times of India, October 1, 2026. https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Fox News",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T01:53:36Z",
+          "link": "https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage",
+          "citation": "(U) Fox News Staff. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Fox News, October 1, 2026. https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "TikTok couple charged with arson after allegedly setting abandoned home on fire",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T19:18:31Z",
+          "link": "https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/",
+          "citation": "(U) Patrick Reilly. \"TikTok couple charged with arson after allegedly setting abandoned home on fire.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Vijeta Uniyal",
+          "title": "Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign",
+          "outlet": "Legalinsurrection.com",
+          "published": "September 28, 2026",
+          "publishedAt": "2026-09-28T17:00:36Z",
+          "link": "https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/",
+          "citation": "(U) Vijeta Uniyal. \"Belgium’s Intelligence Agency: Iran Behind Synagogue Bombing, Arson Campaign.\" Legalinsurrection.com, September 28, 2026. https://legalinsurrection.com/2026/09/belgiums-intelligence-agency-iran-behind-synagogue-bombing-arson-campaign/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b",
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Cyberattack on Arizona’s court system leads to over a million people’s personal information breached",
+          "outlet": "New York Post",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T02:20:50Z",
+          "link": "https://nypost.com/2026/10/06/us-news/cyberattack-on-arizonas-court-system-leads-to-over-a-million-peoples-personal-information-breached/",
+          "citation": "(U) Associated Press. \"Cyberattack on Arizona’s court system leads to over a million people’s personal information breached.\" New York Post, October 7, 2026. https://nypost.com/2026/10/06/us-news/cyberattack-on-arizonas-court-system-leads-to-over-a-million-peoples-personal-information-breached/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Admin",
+          "title": "ASOS Plc Shares Slump After App Users Receive Hack Notification",
+          "outlet": "Insurance Journal",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T12:45:18Z",
+          "link": "https://www.insurancejournal.com/news/international/2026/10/06/888095.htm",
+          "citation": "(U) Admin. \"ASOS Plc Shares Slump After App Users Receive Hack Notification.\" Insurance Journal, October 6, 2026. https://www.insurancejournal.com/news/international/2026/10/06/888095.htm. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bplc\\b"
+          ]
+        },
+        {
+          "author": "Dr. Tim Sandle",
+          "title": "Cyberattack attempts on universities highlight a growing risk: Confusion",
+          "outlet": "Digital Journal",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T20:34:23Z",
+          "link": "https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/",
+          "citation": "(U) Dr. Tim Sandle. \"Cyberattack attempts on universities highlight a growing risk: Confusion.\" Digital Journal, October 5, 2026. https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alina Snisarenko",
+          "title": "Ontario man found guilty of terrorism charge related to neo-Nazi group",
+          "outlet": "CBC News",
+          "published": "September 9, 2026",
+          "publishedAt": "2026-09-09T18:42:06Z",
+          "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420",
+          "citation": "(U) Alina Snisarenko. \"Ontario man found guilty of terrorism charge related to neo-Nazi group.\" CBC News, September 9, 2026. https://www.cbc.ca/news/canada/toronto/ontario-man-guilty-terrorism-charge-9.7337420. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Uzi Baruch",
+          "title": "IDF demolishes home of terrorist who murdered Netanel Shakron",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T11:55:02Z",
+          "link": "https://www.israelnationalnews.com/news/434241",
+          "citation": "(U) Uzi Baruch. \"IDF demolishes home of terrorist who murdered Netanel Shakron.\" Israelnationalnews.com, October 7, 2026. https://www.israelnationalnews.com/news/434241. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Widdecombe suspect in court charged with preparing terrorist acts against Farage",
+          "outlet": "BBC News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T10:32:48Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckj0lj6v3g9vo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Widdecombe suspect in court charged with preparing terrorist acts against Farage.\" BBC News, October 7, 2026. https://www.bbc.co.uk/news/articles/ckj0lj6v3g9vo. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "IDF targets monuments honoring terrorists",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T07:09:29Z",
+          "link": "https://www.israelnationalnews.com/news/434228",
+          "citation": "(U) Israel National News. \"IDF targets monuments honoring terrorists.\" Israelnationalnews.com, October 7, 2026. https://www.israelnationalnews.com/news/434228. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Ian Gallagher",
+          "title": "The mystery of what actually happened at RAF Fairford that's straight out of a Hollywood thriller: Were US bombers targeted by an audacious drone attack straight out of the Ukrainian playbook?",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T23:30:54Z",
+          "link": "https://www.dailymail.com/news/article-16188477/The-mystery-actually-happened-RAF-Fairford-thats-straight-Hollywood-thriller-US-bombers-targeted-audacious-drone-attack-straight-Ukrainian-playbook.html",
+          "citation": "(U) Ian Gallagher. \"The mystery of what actually happened at RAF Fairford that's straight out of a Hollywood thriller: Were US bombers targeted by an audacious drone attack straight out of the Ukrainian playbook?.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16188477/The-mystery-actually-happened-RAF-Fairford-thats-straight-Hollywood-thriller-US-bombers-targeted-audacious-drone-attack-straight-Ukrainian-playbook.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Robert Folker",
+          "title": "'Terrorist hijacker' who tried to undertake 'Israeli 9/11' learned to fly in Britain - reports",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T23:14:17Z",
+          "link": "https://www.dailymail.com/news/article-16188415/Terrorist-hijacker-tried-undertake-Israeli-9-11-learned-fly-Britain-reports.html",
+          "citation": "(U) Robert Folker. \"'Terrorist hijacker' who tried to undertake 'Israeli 9/11' learned to fly in Britain - reports.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16188415/Terrorist-hijacker-tried-undertake-Israeli-9-11-learned-fly-Britain-reports.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+          "outlet": "Fox News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T03:50:51Z",
+          "link": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+          "citation": "(U) Fox News Staff. \"Former German spy chief arrested on suspicion of espionage, attempted treason.\" Fox News, October 7, 2026. https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "admin",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T02:10:01Z",
+          "link": "https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/",
+          "citation": "(U) admin. \"Former German spy chief arrested for espionage and treason.\" Thechronicle.com.gh, October 7, 2026. https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Amine Ayoub",
+          "title": "Why Israel must confront the dangerous Islamist insider threat",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T19:45:00Z",
+          "link": "https://www.israelnationalnews.com/news/434039",
+          "citation": "(U) Amine Ayoub. \"Why Israel must confront the dangerous Islamist insider threat.\" Israelnationalnews.com, October 6, 2026. https://www.israelnationalnews.com/news/434039. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "Deutsche Welle",
+          "title": "Germany's ex-spy chief arrested for espionage (!)",
+          "outlet": "Freerepublic.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T13:21:41Z",
+          "link": "https://freerepublic.com/focus/f-news/4398126/posts",
+          "citation": "(U) Deutsche Welle. \"Germany's ex-spy chief arrested for espionage (!).\" Freerepublic.com, October 6, 2026. https://freerepublic.com/focus/f-news/4398126/posts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "BBC News",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T10:05:42Z",
+          "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Former German spy chief arrested for espionage and treason.\" BBC News, October 6, 2026. https://www.bbc.co.uk/news/articles/c58jzyer1kr0o. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Former US Marine Charged in Connection to Haiti President’s Assassination",
+          "outlet": "Military.com",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T19:32:07Z",
+          "link": "https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination",
+          "citation": "(U) MLT Staff. \"Former US Marine Charged in Connection to Haiti President’s Assassination.\" Military.com, October 2, 2026. https://military.com/former-us-marine-charged-in-connection-to-haiti-presidents-assassination. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh - Al Jazeera",
+          "outlet": "Slashdot.org",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T11:33:08Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186059420",
+          "citation": "(U) feedfeeder. \"Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh - Al Jazeera.\" Slashdot.org, October 7, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186059420. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Newsroom",
+          "title": "Houthis claim responsibility for new attacks on Riyadh airport",
+          "outlet": "Protothema.gr",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T11:56:00Z",
+          "link": "https://en.protothema.gr/2026/10/07/houthis-claim-responsibility-for-new-attacks-on-riyadh-airport/",
+          "citation": "(U) Newsroom. \"Houthis claim responsibility for new attacks on Riyadh airport.\" Protothema.gr, October 7, 2026. https://en.protothema.gr/2026/10/07/houthis-claim-responsibility-for-new-attacks-on-riyadh-airport/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh - Al Jazeera",
+          "outlet": "Slashdot.org",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T11:33:08Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186059420",
+          "citation": "(U) feedfeeder. \"Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh - Al Jazeera.\" Slashdot.org, October 7, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186059420. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Houthis Attack Aden Airport as Fighting Intensifies in Yemen",
+          "outlet": "gcaptain.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T09:56:31Z",
+          "link": "https://gcaptain.com/houthis-attack-aden-airport-as-fighting-intensifies-in-yemen/",
+          "citation": "(U) Reuters. \"Houthis Attack Aden Airport as Fighting Intensifies in Yemen.\" gcaptain.com, October 7, 2026. https://gcaptain.com/houthis-attack-aden-airport-as-fighting-intensifies-in-yemen/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Army repels ISWAP attack in Borno, kills 25 terrorists",
+          "outlet": "The Punch",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T09:08:00Z",
+          "link": "https://punchng.com/army-repels-iswap-attack-in-borno-kills-25-terrorists/",
+          "citation": "(U) Punch Newspapers. \"Army repels ISWAP attack in Borno, kills 25 terrorists.\" The Punch, October 7, 2026. https://punchng.com/army-repels-iswap-attack-in-borno-kills-25-terrorists/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "TNN",
+          "title": "UP replaces ageing barrage and dam gates to boost irrigation and flood control",
+          "outlet": "The Times of India",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T19:28:14Z",
+          "link": "https://timesofindia.indiatimes.com/city/lucknow/up-replaces-ageing-barrage-and-dam-gates-to-boost-irrigation-and-flood-control/articleshow/134716512.cms",
+          "citation": "(U) TNN. \"UP replaces ageing barrage and dam gates to boost irrigation and flood control.\" The Times of India, October 5, 2026. https://timesofindia.indiatimes.com/city/lucknow/up-replaces-ageing-barrage-and-dam-gates-to-boost-irrigation-and-flood-control/articleshow/134716512.cms. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+          "outlet": "Securityaffairs.com",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T07:49:27Z",
+          "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+          "citation": "(U) Pierluigi Paganini. \"Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure.\" Securityaffairs.com, October 4, 2026. https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:36:33Z",
+          "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Ionut Ilascu",
+          "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+          "outlet": "BleepingComputer",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T18:33:01Z",
+          "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+          "citation": "(U) Ionut Ilascu. \"Warlock ransomware breach SharePoint in water, telecom operator attacks.\" BleepingComputer, October 2, 2026. https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Esme Nicholson",
+          "title": "Former German spy chief to face charges of espionage and attempted treason",
+          "outlet": "NPR",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T08:43:59Z",
+          "link": "https://www.npr.org/2026/10/07/nx-s1-5992954/former-german-spy-chief-to-face-charges-of-espionage-and-attempted-treason",
+          "citation": "(U) Esme Nicholson. \"Former German spy chief to face charges of espionage and attempted treason.\" NPR, October 7, 2026. https://www.npr.org/2026/10/07/nx-s1-5992954/former-german-spy-chief-to-face-charges-of-espionage-and-attempted-treason. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "Germany arrests former BND spy chief on suspicion of espionage, treason",
+          "outlet": "Intelnews.org",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T04:38:00Z",
+          "link": "https://intelnews.org/2026/10/07/01-3462/",
+          "citation": "(U) intelNews. \"Germany arrests former BND spy chief on suspicion of espionage, treason.\" Intelnews.org, October 7, 2026. https://intelnews.org/2026/10/07/01-3462/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+          "outlet": "Fox News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T03:50:51Z",
+          "link": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+          "citation": "(U) Fox News Staff. \"Former German spy chief arrested on suspicion of espionage, attempted treason.\" Fox News, October 7, 2026. https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "admin",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T02:10:01Z",
+          "link": "https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/",
+          "citation": "(U) admin. \"Former German spy chief arrested for espionage and treason.\" Thechronicle.com.gh, October 7, 2026. https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions",
+          "outlet": "Sputnikglobe.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:16:30Z",
+          "link": "https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html",
+          "citation": "(U) Sputnik International. \"Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions.\" Sputnikglobe.com, October 6, 2026. https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat",
+          "outlet": "New York Post",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T09:53:35Z",
+          "link": "https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/",
+          "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "October 4, 2026",
+          "title": "Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence",
+          "outlet": "Hoover.org",
+          "published": "October 4, 2026",
+          "publishedAt": "2026-10-04T00:00:00Z",
+          "link": "https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan",
+          "citation": "(U) October 4, 2026. \"Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence.\" Hoover.org, October 4, 2026. https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+          "outlet": "Internet",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T14:38:46Z",
+          "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bmss\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Ian Gallagher",
+          "title": "The mystery of what actually happened at RAF Fairford that's straight out of a Hollywood thriller: Were US bombers targeted by an audacious drone attack straight out of the Ukrainian playbook?",
+          "outlet": "Dailymail.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T23:30:54Z",
+          "link": "https://www.dailymail.com/news/article-16188477/The-mystery-actually-happened-RAF-Fairford-thats-straight-Hollywood-thriller-US-bombers-targeted-audacious-drone-attack-straight-Ukrainian-playbook.html",
+          "citation": "(U) Ian Gallagher. \"The mystery of what actually happened at RAF Fairford that's straight out of a Hollywood thriller: Were US bombers targeted by an audacious drone attack straight out of the Ukrainian playbook?.\" Dailymail.com, October 6, 2026. https://www.dailymail.com/news/article-16188477/The-mystery-actually-happened-RAF-Fairford-thats-straight-Hollywood-thriller-US-bombers-targeted-audacious-drone-attack-straight-Ukrainian-playbook.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+          "outlet": "Fox News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T03:50:51Z",
+          "link": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+          "citation": "(U) Fox News Staff. \"Former German spy chief arrested on suspicion of espionage, attempted treason.\" Fox News, October 7, 2026. https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "admin",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T02:10:01Z",
+          "link": "https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/",
+          "citation": "(U) admin. \"Former German spy chief arrested for espionage and treason.\" Thechronicle.com.gh, October 7, 2026. https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Former German spy chief arrested over alleged espionage and treason",
+          "outlet": "ABC News (AU)",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T14:32:08Z",
+          "link": "https://www.abc.net.au/news/2026-10-07/german-spy-chief-teason-allegations/107236556",
+          "citation": "(U) ABC News (AU) Staff. \"Former German spy chief arrested over alleged espionage and treason.\" ABC News (AU), October 6, 2026. https://www.abc.net.au/news/2026-10-07/german-spy-chief-teason-allegations/107236556. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "David Gilmour",
+          "title": "Ex-German Spy Chief Arrested Arrested Over Alleged Foreign Intelligence Plot: ‘Treasonous Espionage’",
+          "outlet": "Mediaite",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T13:26:46Z",
+          "link": "https://www.mediaite.com/media/news/ex-german-spy-chief-arrested-arrested-over-alleged-foreign-intelligence-plot-treasonous-espionage/",
+          "citation": "(U) David Gilmour. \"Ex-German Spy Chief Arrested Arrested Over Alleged Foreign Intelligence Plot: ‘Treasonous Espionage’.\" Mediaite, October 6, 2026. https://www.mediaite.com/media/news/ex-german-spy-chief-arrested-arrested-over-alleged-foreign-intelligence-plot-treasonous-espionage/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Deutsche Welle",
+          "title": "Germany's ex-spy chief arrested for espionage (!)",
+          "outlet": "Freerepublic.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T13:21:41Z",
+          "link": "https://freerepublic.com/focus/f-news/4398126/posts",
+          "citation": "(U) Deutsche Welle. \"Germany's ex-spy chief arrested for espionage (!).\" Freerepublic.com, October 6, 2026. https://freerepublic.com/focus/f-news/4398126/posts. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Dr. Tim Sandle",
+          "title": "Cyberattack attempts on universities highlight a growing risk: Confusion",
+          "outlet": "Digital Journal",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T20:34:23Z",
+          "link": "https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/",
+          "citation": "(U) Dr. Tim Sandle. \"Cyberattack attempts on universities highlight a growing risk: Confusion.\" Digital Journal, October 5, 2026. https://www.digitaljournal.com/article/cyberattack-attempts-on-universities-highlight-a-growing-risk-confusion/. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+          "outlet": "Internet",
+          "published": "October 5, 2026",
+          "publishedAt": "2026-10-05T14:20:43Z",
+          "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests.\" Internet, October 5, 2026. https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html. Accessed October 8, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

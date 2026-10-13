@@ -1,0 +1,1010 @@
+{
+  "pulled_at_utc": "2026-10-13T12:19:49Z",
+  "accessed": "October 13, 2026",
+  "filtered_at_utc": "2026-10-13T12:22:19Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 491,
+  "article_count": 69,
+  "dropped_count": 422,
+  "term_count": 23,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "RT",
+          "title": "Drone strike kills dozens near Sudan displacement camp – rights group",
+          "outlet": "Rt-english.com",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T10:45:01Z",
+          "link": "https://rt-english.com/africa/647083-drone-strike-kills-dozens-sudan/",
+          "citation": "(U) RT. \"Drone strike kills dozens near Sudan displacement camp – rights group.\" Rt-english.com, October 12, 2026. https://rt-english.com/africa/647083-drone-strike-kills-dozens-sudan/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "outlet": "BBC News",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T10:28:47Z",
+          "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Saudi minister vows 'serious response' to Houthi attacks on airports.\" BBC News, October 12, 2026. https://www.bbc.co.uk/news/articles/cjly0zqq27e4o. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Pranjal Pandey",
+          "title": "Houthis blame Saudi Arabia for another strike on Sanaa's airport",
+          "outlet": "The Times of India",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T14:29:59Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/houthis-blame-saudi-arabia-for-another-strike-on-sanaas-airport/articleshow/134872073.cms",
+          "citation": "(U) Pranjal Pandey. \"Houthis blame Saudi Arabia for another strike on Sanaa's airport.\" The Times of India, October 11, 2026. https://timesofindia.indiatimes.com/world/middle-east/houthis-blame-saudi-arabia-for-another-strike-on-sanaas-airport/articleshow/134872073.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "James Tapsfield",
+          "title": "Andy Burnham risks wrath of Trump by condemning 'abhorrent' US plan to livestream firing squad for terrorist",
+          "outlet": "Dailymail.com",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T18:06:00Z",
+          "link": "https://www.dailymail.com/news/article-16200565/Burnham-risks-wrath-Trump-condemning-US-livestream-execution.html",
+          "citation": "(U) James Tapsfield. \"Andy Burnham risks wrath of Trump by condemning 'abhorrent' US plan to livestream firing squad for terrorist.\" Dailymail.com, October 11, 2026. https://www.dailymail.com/news/article-16200565/Burnham-risks-wrath-Trump-condemning-US-livestream-execution.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Pennsylvania mass shooting: What we know about 9 people killed - USA Today",
+          "outlet": "Slashdot.org",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T17:12:19Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186154764",
+          "citation": "(U) feedfeeder. \"Pennsylvania mass shooting: What we know about 9 people killed - USA Today.\" Slashdot.org, October 11, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186154764. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Olivia Jenkins and Antonia O'Flaherty",
+          "title": "Sister of 13yo critically injured in alleged arson pleads with other teens",
+          "outlet": "ABC News (AU)",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T05:34:32Z",
+          "link": "https://www.abc.net.au/news/2026-10-09/sister-melbourne-teenager-burned-alleged-botched-arson/107247014",
+          "citation": "(U) Olivia Jenkins and Antonia O'Flaherty. \"Sister of 13yo critically injured in alleged arson pleads with other teens.\" ABC News (AU), October 9, 2026. https://www.abc.net.au/news/2026-10-09/sister-melbourne-teenager-burned-alleged-botched-arson/107247014. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox news",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Freerepublic.com",
+          "published": "October 3, 2026",
+          "publishedAt": "2026-10-03T04:33:00Z",
+          "link": "https://freerepublic.com/focus/f-chat/4397763/posts",
+          "citation": "(U) Fox news. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Freerepublic.com, October 3, 2026. https://freerepublic.com/focus/f-chat/4397763/posts. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "intelNews",
+          "title": "U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia",
+          "outlet": "Intelnews.org",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T20:04:00Z",
+          "link": "https://intelnews.org/2026/10/01/01-3460/",
+          "citation": "(U) intelNews. \"U.S. charges Cuban national with conspiracy to finance terrorism on behalf of Russia.\" Intelnews.org, October 1, 2026. https://intelnews.org/2026/10/01/01-3460/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bfinance terrorism\\b"
+          ]
+        },
+        {
+          "author": "Meenakshi Sinha",
+          "title": "Cable fire disrupts power supply to Indirapuram, power dept suspects arson",
+          "outlet": "The Times of India",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T19:27:00Z",
+          "link": "https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms",
+          "citation": "(U) Meenakshi Sinha. \"Cable fire disrupts power supply to Indirapuram, power dept suspects arson.\" The Times of India, October 1, 2026. https://timesofindia.indiatimes.com/city/noida/cable-fire-disrupts-power-supply-to-indirapuram-power-dept-suspects-arson/articleshow/134626652.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "TikTok couple charged with arson after house fire causes $10K in damage",
+          "outlet": "Fox News",
+          "published": "October 1, 2026",
+          "publishedAt": "2026-10-01T01:53:36Z",
+          "link": "https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage",
+          "citation": "(U) Fox News Staff. \"TikTok couple charged with arson after house fire causes $10K in damage.\" Fox News, October 1, 2026. https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "TikTok couple charged with arson after allegedly setting abandoned home on fire",
+          "outlet": "New York Post",
+          "published": "September 30, 2026",
+          "publishedAt": "2026-09-30T19:18:31Z",
+          "link": "https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/",
+          "citation": "(U) Patrick Reilly. \"TikTok couple charged with arson after allegedly setting abandoned home on fire.\" New York Post, September 30, 2026. https://nypost.com/2026/09/30/us-news/tiktok-couple-charged-with-arson-after-allegedly-setting-abandoned-home-on-fire/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Reuters",
+          "title": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on King Khalid international airport",
+          "outlet": "The Times of India",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T05:52:01Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-on-king-khalid-international-airport/articleshow/134883579.cms",
+          "citation": "(U) Reuters. \"Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on King Khalid international airport.\" The Times of India, October 12, 2026. https://economictimes.indiatimes.com/news/international/world-news/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-on-king-khalid-international-airport/articleshow/134883579.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Kamal Ahmed",
+          "title": "‘If nothing is done, it’s almost inevitable’: Ukraine’s Yuriy Ryzhenkov on why steelmaking is on the brink of collapse as Russian bombing intensifies",
+          "outlet": "Fortune",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T05:00:00Z",
+          "link": "https://fortune.com/2026/10/12/ukraine-yuriy-ryzhenkov-metinvest-steelmaking-brink-collapse-russian-bombing-intensifies/",
+          "citation": "(U) Kamal Ahmed. \"‘If nothing is done, it’s almost inevitable’: Ukraine’s Yuriy Ryzhenkov on why steelmaking is on the brink of collapse as Russian bombing intensifies.\" Fortune, October 12, 2026. https://fortune.com/2026/10/12/ukraine-yuriy-ryzhenkov-metinvest-steelmaking-brink-collapse-russian-bombing-intensifies/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "OFFGRID Survival",
+          "title": "AI Insiders Expect a Cyberattack on Banks, Power or Water Within 12 Months",
+          "outlet": "Offgridsurvival.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T18:37:02Z",
+          "link": "https://offgridsurvival.com/ai-insiders-expect-a-cyberattack-on-banks-power-or-water-within-12-months/",
+          "citation": "(U) OFFGRID Survival. \"AI Insiders Expect a Cyberattack on Banks, Power or Water Within 12 Months.\" Offgridsurvival.com, October 9, 2026. https://offgridsurvival.com/ai-insiders-expect-a-cyberattack-on-banks-power-or-water-within-12-months/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Victor Li",
+          "title": "Ex-employee sues Sheppard Mullin over cyberattack exposing sensitive personal data",
+          "outlet": "Abajournal.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T17:20:00Z",
+          "link": "https://www.abajournal.com/news/article/ex-employee-sues-sheppard-mullin-over-cyberattack-exposing-sensitive-personal-data",
+          "citation": "(U) Victor Li. \"Ex-employee sues Sheppard Mullin over cyberattack exposing sensitive personal data.\" Abajournal.com, October 9, 2026. https://www.abajournal.com/news/article/ex-employee-sues-sheppard-mullin-over-cyberattack-exposing-sensitive-personal-data. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Pierluigi Paganini",
+          "title": "Italy’s Foreign Ministry Under Cyberattack as Embassy Sites Come Under Review",
+          "outlet": "Securityaffairs.com",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T19:33:08Z",
+          "link": "https://securityaffairs.com/200650/cyber-warfare-2/italys-foreign-ministry-under-cyberattack-as-embassy-sites-come-under-review.html",
+          "citation": "(U) Pierluigi Paganini. \"Italy’s Foreign Ministry Under Cyberattack as Embassy Sites Come Under Review.\" Securityaffairs.com, October 8, 2026. https://securityaffairs.com/200650/cyber-warfare-2/italys-foreign-ministry-under-cyberattack-as-embassy-sites-come-under-review.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Darren Bernhardt",
+          "title": "Canadian Mennonite University warns of data breach in cyberattack",
+          "outlet": "CBC News",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T17:03:33Z",
+          "link": "https://www.cbc.ca/news/canada/manitoba/cyber-hack-canadian-mennonite-university-9.7373948",
+          "citation": "(U) Darren Bernhardt. \"Canadian Mennonite University warns of data breach in cyberattack.\" CBC News, October 8, 2026. https://www.cbc.ca/news/canada/manitoba/cyber-hack-canadian-mennonite-university-9.7373948. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Admin",
+          "title": "Texas Agency Sues to Stop Release of Data Center Records, Citing Terrorist Risk",
+          "outlet": "Insurance Journal",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T16:30:26Z",
+          "link": "https://www.insurancejournal.com/news/southcentral/2026/10/08/888504.htm",
+          "citation": "(U) Admin. \"Texas Agency Sues to Stop Release of Data Center Records, Citing Terrorist Risk.\" Insurance Journal, October 8, 2026. https://www.insurancejournal.com/news/southcentral/2026/10/08/888504.htm. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Julianne Hill",
+          "title": "Arizona’s court system hit by cyberattack",
+          "outlet": "Abajournal.com",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T16:12:00Z",
+          "link": "https://www.abajournal.com/news/article/arizonas-court-system-hit-by-cyberattack",
+          "citation": "(U) Julianne Hill. \"Arizona’s court system hit by cyberattack.\" Abajournal.com, October 8, 2026. https://www.abajournal.com/news/article/arizonas-court-system-hit-by-cyberattack. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chris Bradford",
+          "title": "Disturbing video shows moment Houthi terrorists bombed Saudi Arabia’s Riyadh airport, killing 13 people",
+          "outlet": "New York Post",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:14:24Z",
+          "link": "https://nypost.com/2026/10/12/world-news/disturbing-video-shows-moment-houthi-terrorists-bombed-saudi-arabias-riyadh-airport-killing-13-people/",
+          "citation": "(U) Chris Bradford. \"Disturbing video shows moment Houthi terrorists bombed Saudi Arabia’s Riyadh airport, killing 13 people.\" New York Post, October 12, 2026. https://nypost.com/2026/10/12/world-news/disturbing-video-shows-moment-houthi-terrorists-bombed-saudi-arabias-riyadh-airport-killing-13-people/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Will Hallowell",
+          "title": "Saudi Arabia's terrified Crown prince MBS 'is moving between heavily guarded palaces with bunkers as Houthi attacks intensify'",
+          "outlet": "Dailymail.com",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T08:01:52Z",
+          "link": "https://www.dailymail.com/news/article-16201757/Saudi-prince-heavily-guarded-palaces-bunkers-Houthi-attacks.html",
+          "citation": "(U) Will Hallowell. \"Saudi Arabia's terrified Crown prince MBS 'is moving between heavily guarded palaces with bunkers as Houthi attacks intensify'.\" Dailymail.com, October 12, 2026. https://www.dailymail.com/news/article-16201757/Saudi-prince-heavily-guarded-palaces-bunkers-Houthi-attacks.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Charles Clover",
+          "title": "Houthis show military reach with deadly missile strikes on Riyadh",
+          "outlet": "The Irish Times",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T06:42:11Z",
+          "link": "https://www.irishtimes.com/world/middle-east/2026/10/12/houthis-show-military-reach-with-deadly-missile-strikes-on-riyadh/",
+          "citation": "(U) Charles Clover. \"Houthis show military reach with deadly missile strikes on Riyadh.\" The Irish Times, October 12, 2026. https://www.irishtimes.com/world/middle-east/2026/10/12/houthis-show-military-reach-with-deadly-missile-strikes-on-riyadh/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Debjit Sinha",
+          "title": "Iran-US war: Is key Donald Trump ally Saudi Arabia losing battle against Iran-backed Houthis in Yemen?",
+          "outlet": "The Times of India",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T14:50:33Z",
+          "link": "https://economictimes.indiatimes.com/news/international/us/iran-us-war-is-key-donald-trump-ally-saudi-arabia-losing-battle-against-iran-backed-houthis-in-yemen/articleshow/134872291.cms",
+          "citation": "(U) Debjit Sinha. \"Iran-US war: Is key Donald Trump ally Saudi Arabia losing battle against Iran-backed Houthis in Yemen?.\" The Times of India, October 11, 2026. https://economictimes.indiatimes.com/news/international/us/iran-us-war-is-key-donald-trump-ally-saudi-arabia-losing-battle-against-iran-backed-houthis-in-yemen/articleshow/134872291.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Associated Press",
+          "title": "Saudi Arabia extends airport closure after 12 killed in suspected Houthi terrorist attack",
+          "outlet": "New York Post",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T11:56:11Z",
+          "link": "https://nypost.com/2026/10/11/world-news/saudi-arabia-extends-airport-closure-after-12-killed-in-suspected-houthi-terrorist-attack/",
+          "citation": "(U) Associated Press. \"Saudi Arabia extends airport closure after 12 killed in suspected Houthi terrorist attack.\" New York Post, October 11, 2026. https://nypost.com/2026/10/11/world-news/saudi-arabia-extends-airport-closure-after-12-killed-in-suspected-houthi-terrorist-attack/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Saudi Arabia extends closure of airport after 12 killed in suspected Houthi missile attack",
+          "outlet": "The Times of India",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T10:51:30Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/saudi-arabia-extends-closure-of-airport-after-12-killed-in-suspected-houthi-missile-attack/articleshow/134869031.cms",
+          "citation": "(U) AP. \"Saudi Arabia extends closure of airport after 12 killed in suspected Houthi missile attack.\" The Times of India, October 11, 2026. https://economictimes.indiatimes.com/news/international/world-news/saudi-arabia-extends-closure-of-airport-after-12-killed-in-suspected-houthi-missile-attack/articleshow/134869031.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        },
+        {
+          "author": "Jordan Green, Investigative Reporter",
+          "title": "Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ",
+          "outlet": "Raw Story",
+          "published": "September 15, 2026",
+          "publishedAt": "2026-09-15T11:52:04Z",
+          "link": "https://www.rawstory.com/raw-investigates/antifascist/",
+          "citation": "(U) Jordan Green, Investigative Reporter. \"Pentagon insider smears antifascists who unmasked Nazi terrorists later convicted by DOJ.\" Raw Story, September 15, 2026. https://www.rawstory.com/raw-investigates/antifascist/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "MEMRI",
+          "title": "Al-Qaeda In The Indian Subcontinent (AQIS) Magazine Hails Co-Pilot Of Israel-Bound Flydubai Plane As 'Great Hero,' Tells 'Muslim Commercial Pilots': 'Take This Weapon And Crash It Into Aircraft And Airports Full Of Zionists, From Tel Aviv To Washington'",
+          "outlet": "Freerepublic.com",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T21:49:48Z",
+          "link": "https://freerepublic.com/focus/f-news/4398828/posts",
+          "citation": "(U) MEMRI. \"Al-Qaeda In The Indian Subcontinent (AQIS) Magazine Hails Co-Pilot Of Israel-Bound Flydubai Plane As 'Great Hero,' Tells 'Muslim Commercial Pilots': 'Take This Weapon And Crash It Into Aircraft And Airports Full Of Zionists, From Tel Aviv To Washington'.\" Freerepublic.com, October 11, 2026. https://freerepublic.com/focus/f-news/4398828/posts. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+          "outlet": "Internet",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T17:58:02Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories.\" Internet, October 8, 2026. https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "KIRSTEN GRIESHABER Associated Press",
+          "title": "Germany's former intelligence chief faces espionage allegations",
+          "outlet": "Abcnews.com",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T13:01:41Z",
+          "link": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
+          "citation": "(U) KIRSTEN GRIESHABER Associated Press. \"Germany's former intelligence chief faces espionage allegations.\" Abcnews.com, October 7, 2026. https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+          "outlet": "Fox News",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T03:50:51Z",
+          "link": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+          "citation": "(U) Fox News Staff. \"Former German spy chief arrested on suspicion of espionage, attempted treason.\" Fox News, October 7, 2026. https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "admin",
+          "title": "Former German spy chief arrested for espionage and treason",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 7, 2026",
+          "publishedAt": "2026-10-07T02:10:01Z",
+          "link": "https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/",
+          "citation": "(U) admin. \"Former German spy chief arrested for espionage and treason.\" Thechronicle.com.gh, October 7, 2026. https://thechronicle.com.gh/former-german-spy-chief-arrested-for-espionage-and-treason/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Amine Ayoub",
+          "title": "Why Israel must confront the dangerous Islamist insider threat",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T19:45:00Z",
+          "link": "https://www.israelnationalnews.com/news/434039",
+          "citation": "(U) Amine Ayoub. \"Why Israel must confront the dangerous Islamist insider threat.\" Israelnationalnews.com, October 6, 2026. https://www.israelnationalnews.com/news/434039. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Punch Newspapers",
+          "title": "Insecurity: Police train 30 officers in drone technology to tackle terrorism, banditry",
+          "outlet": "The Punch",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T13:20:39Z",
+          "link": "https://punchng.com/insecurity-police-train-30-officers-in-drone-technology-to-tackle-terrorism-banditry/",
+          "citation": "(U) Punch Newspapers. \"Insecurity: Police train 30 officers in drone technology to tackle terrorism, banditry.\" The Punch, October 11, 2026. https://punchng.com/insecurity-police-train-30-officers-in-drone-technology-to-tackle-terrorism-banditry/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "editors@tomshardware.com (Jowi Morales) , Jowi Morales",
+          "title": "Russian disinformation bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+          "outlet": "Tom's Hardware UK",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T13:15:09Z",
+          "link": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+          "citation": "(U) editors@tomshardware.com (Jowi Morales) , Jowi Morales. \"Russian disinformation bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers.\" Tom's Hardware UK, October 11, 2026. https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Richard Connor",
+          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
+          "outlet": "DW (English)",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T10:41:00Z",
+          "link": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277",
+          "citation": "(U) Richard Connor. \"Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict.\" DW (English), October 12, 2026. https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Iran offers to mediate between Saudi Arabia, Houthis amid regional escalation",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:55:29Z",
+          "link": "https://www.hurriyetdailynews.com/iran-offers-to-mediate-between-saudi-arabia-houthis-amid-regional-escalation-228039",
+          "citation": "(U) hurriyetdailynews.com. \"Iran offers to mediate between Saudi Arabia, Houthis amid regional escalation.\" Hurriyet Daily News, October 12, 2026. https://www.hurriyetdailynews.com/iran-offers-to-mediate-between-saudi-arabia-houthis-amid-regional-escalation-228039. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Iran War Updates: Deadly Houthi attacks keep Saudi airport closed as Trump considers U.S. strikes in Yemen - CBS News",
+          "outlet": "Slashdot.org",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:53:16Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186257142",
+          "citation": "(U) feedfeeder. \"Iran War Updates: Deadly Houthi attacks keep Saudi airport closed as Trump considers U.S. strikes in Yemen - CBS News.\" Slashdot.org, October 12, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186257142. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Giants Brigades lead southern Yemen fightback against the Houthis",
+          "outlet": "Al Jazeera English",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:30:30Z",
+          "link": "https://www.aljazeera.com/news/2026/10/12/giants-brigades-leads-southern-yemen-fightback-against-the-houthis",
+          "citation": "(U) Al Jazeera Staff. \"Giants Brigades lead southern Yemen fightback against the Houthis.\" Al Jazeera English, October 12, 2026. https://www.aljazeera.com/news/2026/10/12/giants-brigades-leads-southern-yemen-fightback-against-the-houthis. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Soldiers kill 40 terrorists planning attack in Borno",
+          "outlet": "The Punch",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:26:06Z",
+          "link": "https://punchng.com/soldiers-kill-40-terrorists-planning-attack-in-borno/",
+          "citation": "(U) Punch Newspapers. \"Soldiers kill 40 terrorists planning attack in Borno.\" The Punch, October 12, 2026. https://punchng.com/soldiers-kill-40-terrorists-planning-attack-in-borno/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Australians in Riyadh told to shelter as Saudis and Houthis trade attacks",
+          "outlet": "ABC News (AU)",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:14:48Z",
+          "link": "https://www.abc.net.au/news/2026-10-12/saudi-arabia-and-yemen-houthis-trade-new-attacks/107257992",
+          "citation": "(U) ABC News (AU) Staff. \"Australians in Riyadh told to shelter as Saudis and Houthis trade attacks.\" ABC News (AU), October 12, 2026. https://www.abc.net.au/news/2026-10-12/saudi-arabia-and-yemen-houthis-trade-new-attacks/107257992. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Chris Bradford",
+          "title": "Disturbing video shows moment Houthi terrorists bombed Saudi Arabia’s Riyadh airport, killing 13 people",
+          "outlet": "New York Post",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T11:14:24Z",
+          "link": "https://nypost.com/2026/10/12/world-news/disturbing-video-shows-moment-houthi-terrorists-bombed-saudi-arabias-riyadh-airport-killing-13-people/",
+          "citation": "(U) Chris Bradford. \"Disturbing video shows moment Houthi terrorists bombed Saudi Arabia’s Riyadh airport, killing 13 people.\" New York Post, October 12, 2026. https://nypost.com/2026/10/12/world-news/disturbing-video-shows-moment-houthi-terrorists-bombed-saudi-arabias-riyadh-airport-killing-13-people/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Jenni Reid",
+          "title": "Global travel warnings after Iran-backed Houthi militants strike Riyadh airport",
+          "outlet": "CNBC",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T10:48:00Z",
+          "link": "https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html",
+          "citation": "(U) Jenni Reid. \"Global travel warnings after Iran-backed Houthi militants strike Riyadh airport.\" CNBC, October 12, 2026. https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Cassie B.",
+          "title": "Trump weighs joining Saudi war on Houthis after American killed in airport strike",
+          "outlet": "Naturalnews.com",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-12-trump-weighs-joining-saudi-war-houthis-american.html",
+          "citation": "(U) Cassie B.. \"Trump weighs joining Saudi war on Houthis after American killed in airport strike.\" Naturalnews.com, October 12, 2026. https://www.naturalnews.com/2026-10-12-trump-weighs-joining-saudi-war-houthis-american.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "NYT",
+          "title": "Saudi Arabia has few options as Houthis aim at heart of its ambitions",
+          "outlet": "Business Standard",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T03:13:40Z",
+          "link": "https://www.business-standard.com/world-news/saudi-arabia-has-few-options-as-houthis-aim-at-heart-of-its-ambitions-126101200078_1.html",
+          "citation": "(U) NYT. \"Saudi Arabia has few options as Houthis aim at heart of its ambitions.\" Business Standard, October 12, 2026. https://www.business-standard.com/world-news/saudi-arabia-has-few-options-as-houthis-aim-at-heart-of-its-ambitions-126101200078_1.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Why are Saudi defences struggling to rebuff Houthi attacks?",
+          "outlet": "The Times of India",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T18:01:46Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/why-are-saudi-defences-struggling-to-rebuff-houthi-attacks/articleshow/134875724.cms",
+          "citation": "(U) AFP. \"Why are Saudi defences struggling to rebuff Houthi attacks?.\" The Times of India, October 11, 2026. https://economictimes.indiatimes.com/news/defence/why-are-saudi-defences-struggling-to-rebuff-houthi-attacks/articleshow/134875724.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Hannah Kim",
+          "title": "Houthi Missile Strike Kills 12 at Riyadh Airport in Deadliest Attack on Saudi Arabia in Over a Decade",
+          "outlet": "Ibtimes.com.au",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T11:20:04Z",
+          "link": "https://www.ibtimes.com.au/riyadh-airport-missile-strike-kills-12-1876519",
+          "citation": "(U) Hannah Kim. \"Houthi Missile Strike Kills 12 at Riyadh Airport in Deadliest Attack on Saudi Arabia in Over a Decade.\" Ibtimes.com.au, October 11, 2026. https://www.ibtimes.com.au/riyadh-airport-missile-strike-kills-12-1876519. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "Tension spikes in West Asia as Saudi coalition threatens retaliation after deadly Houthi strike on Riyadh airport",
+          "outlet": "The Times of India",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T07:26:39Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/tension-spikes-in-west-asia-as-saudi-coalition-threatens-retaliation-after-deadly-houthi-strike-on-riyadh-airport/articleshow/134866792.cms",
+          "citation": "(U) ET Online. \"Tension spikes in West Asia as Saudi coalition threatens retaliation after deadly Houthi strike on Riyadh airport.\" The Times of India, October 11, 2026. https://economictimes.indiatimes.com/news/defence/tension-spikes-in-west-asia-as-saudi-coalition-threatens-retaliation-after-deadly-houthi-strike-on-riyadh-airport/articleshow/134866792.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "ISAAC AKWETEY-OKUNOR",
+          "title": "Illegal mining silts Birim River, Kibi water treatment plant shut down",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T00:17:28Z",
+          "link": "https://thechronicle.com.gh/illegal-mining-silts-birim-river-kibi-water-treatment-plant-shut-down/",
+          "citation": "(U) ISAAC AKWETEY-OKUNOR. \"Illegal mining silts Birim River, Kibi water treatment plant shut down.\" Thechronicle.com.gh, October 12, 2026. https://thechronicle.com.gh/illegal-mining-silts-birim-river-kibi-water-treatment-plant-shut-down/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bwater (utility|treatment|system|plant|infrastructure|distribution)\\b"
+          ]
+        },
+        {
+          "author": "OFFGRID Survival",
+          "title": "AI Insiders Expect a Cyberattack on Banks, Power or Water Within 12 Months",
+          "outlet": "Offgridsurvival.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T18:37:02Z",
+          "link": "https://offgridsurvival.com/ai-insiders-expect-a-cyberattack-on-banks-power-or-water-within-12-months/",
+          "citation": "(U) OFFGRID Survival. \"AI Insiders Expect a Cyberattack on Banks, Power or Water Within 12 Months.\" Offgridsurvival.com, October 9, 2026. https://offgridsurvival.com/ai-insiders-expect-a-cyberattack-on-banks-power-or-water-within-12-months/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "For 100 years, a dam trapped 3 million cubic yards of toxic mining waste in Montana. Engineers removed it; what happened to the river next was remarkable",
+          "outlet": "The Times of India",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T18:11:57Z",
+          "link": "https://economictimes.indiatimes.com/magazines/panache/for-100-years-a-dam-trapped-3-million-cubic-yards-of-toxic-mining-waste-in-montana-engineers-removed-it-what-happened-to-the-river-next-was-remarkable/articleshow/134840265.cms",
+          "citation": "(U) ET Online. \"For 100 years, a dam trapped 3 million cubic yards of toxic mining waste in Montana. Engineers removed it; what happened to the river next was remarkable.\" The Times of India, October 9, 2026. https://economictimes.indiatimes.com/magazines/panache/for-100-years-a-dam-trapped-3-million-cubic-yards-of-toxic-mining-waste-in-montana-engineers-removed-it-what-happened-to-the-river-next-was-remarkable/articleshow/134840265.cms. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "CNA Staff",
+          "title": "Poland holds suspect in alleged assassination plot against PM Tusk",
+          "outlet": "CNA",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T01:51:08Z",
+          "link": "https://www.channelnewsasia.com/world/poland-suspect-alleged-assassination-plot-pm-donald-tusk-6451726",
+          "citation": "(U) CNA Staff. \"Poland holds suspect in alleged assassination plot against PM Tusk.\" CNA, October 12, 2026. https://www.channelnewsasia.com/world/poland-suspect-alleged-assassination-plot-pm-donald-tusk-6451726. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Poland detains man suspected of planning assassination of PM Tusk",
+          "outlet": "BBC News",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T17:27:24Z",
+          "link": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Poland detains man suspected of planning assassination of PM Tusk.\" BBC News, October 11, 2026. https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Clea Caulcutt",
+          "title": "Polish police warn of possible assassination plot against Donald Tusk",
+          "outlet": "POLITICO.eu",
+          "published": "October 11, 2026",
+          "publishedAt": "2026-10-11T13:27:16Z",
+          "link": "https://www.politico.eu/article/poland-donald-tusk-police-warn-of-possible-plot-against-pm/",
+          "citation": "(U) Clea Caulcutt. \"Polish police warn of possible assassination plot against Donald Tusk.\" POLITICO.eu, October 11, 2026. https://www.politico.eu/article/poland-donald-tusk-police-warn-of-possible-plot-against-pm/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Sam Skove",
+          "title": "Russian Sabotage in Europe Is No Longer ‘Symbolic’",
+          "outlet": "Foreign Policy",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T18:51:28Z",
+          "link": "http://foreignpolicy.com/2026/10/09/russia-sabotage-europe-attacks-hybrid-warfare-estonia/",
+          "citation": "(U) Sam Skove. \"Russian Sabotage in Europe Is No Longer ‘Symbolic’.\" Foreign Policy, October 9, 2026. http://foreignpolicy.com/2026/10/09/russia-sabotage-europe-attacks-hybrid-warfare-estonia/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Ryan Lucas",
+          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
+          "outlet": "NPR",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T09:00:00Z",
+          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions",
+          "outlet": "Sputnikglobe.com",
+          "published": "October 6, 2026",
+          "publishedAt": "2026-10-06T08:16:30Z",
+          "link": "https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html",
+          "citation": "(U) Sputnik International. \"Russia's FSB Detains Resident of Tambov Plotting Car Bombings on Ukraine's Instructions.\" Sputnikglobe.com, October 6, 2026. https://sputnikglobe.com/20261006/russias-fsb-detains-resident-of-tambov-plotting-car-bombings-on-ukraines-instructions-1124841359.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Khabarhub",
+          "title": "The Changing Face of Chinese Espionage Strategies",
+          "outlet": "Khabarhub.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T05:45:29Z",
+          "link": "https://english.khabarhub.com/2026/09/571301/",
+          "citation": "(U) Khabarhub. \"The Changing Face of Chinese Espionage Strategies.\" Khabarhub.com, October 9, 2026. https://english.khabarhub.com/2026/09/571301/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Tom Layton",
+          "title": "University launches probe into academics' research after MI5 warning over Chinese intelligence links",
+          "outlet": "Dailymail.com",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T18:26:13Z",
+          "link": "https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html",
+          "citation": "(U) Tom Layton. \"University launches probe into academics' research after MI5 warning over Chinese intelligence links.\" Dailymail.com, October 8, 2026. https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bchinese intelligence\\b"
+          ]
+        },
+        {
+          "author": "David S. Cohen",
+          "title": "The Case for Economic Espionage",
+          "outlet": "Foreign Affairs",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T12:59:17Z",
+          "link": "https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen",
+          "citation": "(U) David S. Cohen. \"The Case for Economic Espionage.\" Foreign Affairs, October 8, 2026. https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Charles Clover",
+          "title": "Houthis show military reach with deadly missile strikes on Riyadh",
+          "outlet": "The Irish Times",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T06:42:11Z",
+          "link": "https://www.irishtimes.com/world/middle-east/2026/10/12/houthis-show-military-reach-with-deadly-missile-strikes-on-riyadh/",
+          "citation": "(U) Charles Clover. \"Houthis show military reach with deadly missile strikes on Riyadh.\" The Irish Times, October 12, 2026. https://www.irishtimes.com/world/middle-east/2026/10/12/houthis-show-military-reach-with-deadly-missile-strikes-on-riyadh/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+          "outlet": "Fox News",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T00:34:53Z",
+          "link": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
+          "citation": "(U) Fox News Staff. \"Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war.\" Fox News, October 12, 2026. https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Tousi TV",
+          "title": "IRGC Order UK Police Crackdown On London Iranians - Clashes Erupt In Middle East",
+          "outlet": "Freerepublic.com",
+          "published": "October 10, 2026",
+          "publishedAt": "2026-10-10T17:10:26Z",
+          "link": "https://freerepublic.com/focus/f-bloggers/4398703/posts",
+          "citation": "(U) Tousi TV. \"IRGC Order UK Police Crackdown On London Iranians - Clashes Erupt In Middle East.\" Freerepublic.com, October 10, 2026. https://freerepublic.com/focus/f-bloggers/4398703/posts. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "CNA Staff",
+          "title": "Poland holds suspect in alleged assassination plot against PM Tusk",
+          "outlet": "CNA",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T01:51:08Z",
+          "link": "https://www.channelnewsasia.com/world/poland-suspect-alleged-assassination-plot-pm-donald-tusk-6451726",
+          "citation": "(U) CNA Staff. \"Poland holds suspect in alleged assassination plot against PM Tusk.\" CNA, October 12, 2026. https://www.channelnewsasia.com/world/poland-suspect-alleged-assassination-plot-pm-donald-tusk-6451726. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Macron’s nuclear throwdown, Mossad’s man in Germany, Ukraine in flames: RT stories that shaped the week",
+          "outlet": "RT",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T21:04:53Z",
+          "link": "https://www.rt.com/news/646985-rt-top-stories-macron-germany-houthis/",
+          "citation": "(U) RT. \"Macron’s nuclear throwdown, Mossad’s man in Germany, Ukraine in flames: RT stories that shaped the week.\" RT, October 9, 2026. https://www.rt.com/news/646985-rt-top-stories-macron-germany-houthis/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Macron’s nuclear throwdown, Mossad’s man in Germany, Ukraine in flames: RT stories that shaped the week",
+          "outlet": "Rt-english.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T21:04:53Z",
+          "link": "https://rt-english.com/news/646985-rt-top-stories-macron-germany-houthis/",
+          "citation": "(U) RT. \"Macron’s nuclear throwdown, Mossad’s man in Germany, Ukraine in flames: RT stories that shaped the week.\" Rt-english.com, October 9, 2026. https://rt-english.com/news/646985-rt-top-stories-macron-germany-houthis/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Sam Skove",
+          "title": "Russian Sabotage in Europe Is No Longer ‘Symbolic’",
+          "outlet": "Foreign Policy",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T18:51:28Z",
+          "link": "http://foreignpolicy.com/2026/10/09/russia-sabotage-europe-attacks-hybrid-warfare-estonia/",
+          "citation": "(U) Sam Skove. \"Russian Sabotage in Europe Is No Longer ‘Symbolic’.\" Foreign Policy, October 9, 2026. http://foreignpolicy.com/2026/10/09/russia-sabotage-europe-attacks-hybrid-warfare-estonia/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Bill Toulas",
+          "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+          "outlet": "BleepingComputer",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T20:09:45Z",
+          "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+          "citation": "(U) Bill Toulas. \"Ransomware attack disrupts Japan's IDCF Cloud used by govt clients.\" BleepingComputer, October 8, 2026. https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/. Accessed October 13, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

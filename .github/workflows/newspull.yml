@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
@@ -55,5 +57,11 @@ jobs:
             echo "No sources change"
           else
             git commit -m "sources and ci json"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main
+              git push origin HEAD:main && exit 0
+              echo "push rejected, retry $i"
+              sleep 5
+            done
+            exit 1
           fi

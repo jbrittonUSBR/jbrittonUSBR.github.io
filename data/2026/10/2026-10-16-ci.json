@@ -1,0 +1,1145 @@
+{
+  "pulled_at_utc": "2026-10-16T15:44:43Z",
+  "accessed": "October 16, 2026",
+  "filtered_at_utc": "2026-10-16T15:47:35Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 481,
+  "article_count": 79,
+  "dropped_count": 402,
+  "term_count": 25,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "France 24",
+          "title": "Ukraine's Zelensky defies Trump with Russian refinery strikes (today 10/15)",
+          "outlet": "Freerepublic.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:36:47Z",
+          "link": "https://freerepublic.com/focus/f-news/4399260/posts",
+          "citation": "(U) France 24. \"Ukraine's Zelensky defies Trump with Russian refinery strikes (today 10/15).\" Freerepublic.com, October 15, 2026. https://freerepublic.com/focus/f-news/4399260/posts. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Ukraine Resumes Attacks on Russian Oil Refineries, Officials Say, as US Relations Teeter",
+          "outlet": "Military.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:52:50Z",
+          "link": "https://military.com/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter",
+          "citation": "(U) MLT Staff. \"Ukraine Resumes Attacks on Russian Oil Refineries, Officials Say, as US Relations Teeter.\" Military.com, October 15, 2026. https://military.com/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Daniel McLaughlin",
+          "title": "‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:30:00Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/",
+          "citation": "(U) Daniel McLaughlin. \"‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
+        {
+          "author": "David Faris",
+          "title": "The Saudi Phase of the Iran War Signals More Chaos to Come",
+          "outlet": "Thenation.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:00:00Z",
+          "link": "https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/",
+          "citation": "(U) David Faris. \"The Saudi Phase of the Iran War Signals More Chaos to Come.\" Thenation.com, October 15, 2026. https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Swedish man detained over Kiev sabotage plot – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:14:01Z",
+          "link": "https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/",
+          "citation": "(U) RT. \"Swedish man detained over Kiev sabotage plot – FSB.\" Rt-english.com, October 15, 2026. https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "By Daniel Flynn and Max Hunder",
+          "title": "Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'",
+          "outlet": "Yahoo Entertainment",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:04:48Z",
+          "link": "https://uk.news.yahoo.com/zelenskiy-says-ukraine-resume-strikes-060307306.html",
+          "citation": "(U) By Daniel Flynn and Max Hunder. \"Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'.\" Yahoo Entertainment, October 15, 2026. https://uk.news.yahoo.com/zelenskiy-says-ukraine-resume-strikes-060307306.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Conor Lally",
+          "title": "Two arrests made over Waterford petrol bombing that claimed four lives",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:19:40Z",
+          "link": "https://www.irishtimes.com/crime-law/2026/10/15/two-arrests-made-over-waterford-petrol-bombing-that-claimed-four-lives/",
+          "citation": "(U) Conor Lally. \"Two arrests made over Waterford petrol bombing that claimed four lives.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/crime-law/2026/10/15/two-arrests-made-over-waterford-petrol-bombing-that-claimed-four-lives/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Pluginboutique.com Staff",
+          "title": "Up to 95% off Solid State Logic including SSL Fusion Vintage Drive, SSL Fusion Transformer, SSL Fusion Stereo Image and more at Plugin Boutique until the 1st of November, 2026",
+          "outlet": "Pluginboutique.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T12:00:49Z",
+          "link": "https://www.pluginboutique.com/product/81-Bundles/39-Effects-Bundles/14036-Solid-State-Logic-SSL-Fusion-Bundle",
+          "citation": "(U) Pluginboutique.com Staff. \"Up to 95% off Solid State Logic including SSL Fusion Vintage Drive, SSL Fusion Transformer, SSL Fusion Stereo Image and more at Plugin Boutique until the 1st of November, 2026.\" Pluginboutique.com, October 14, 2026. https://www.pluginboutique.com/product/81-Bundles/39-Effects-Bundles/14036-Solid-State-Logic-SSL-Fusion-Bundle. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Poulomi Ghosh",
+          "title": "Who is Alexandros Paporakis who plotted alleged mass shooting at Hindu temple in Aurora? What his manifesto targeting Indians revealed",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:17:21Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/who-is-alexandros-paporakis-who-plotted-alleged-mass-shooting-at-hindu-temple-in-aurora-what-his-manifesto-targeting-indians-revealed/articleshow/134967765.cms",
+          "citation": "(U) Poulomi Ghosh. \"Who is Alexandros Paporakis who plotted alleged mass shooting at Hindu temple in Aurora? What his manifesto targeting Indians revealed.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/us/who-is-alexandros-paporakis-who-plotted-alleged-mass-shooting-at-hindu-temple-in-aurora-what-his-manifesto-targeting-indians-revealed/articleshow/134967765.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Sarjna Rai",
+          "title": "India condemns alleged mass shooting plot targeting Hindu temple in US",
+          "outlet": "Business Standard",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:19:32Z",
+          "link": "https://www.business-standard.com/world-news/india-condemns-alleged-mass-shooting-plot-targeting-hindu-temple-in-us-126101500822_1.html",
+          "citation": "(U) Sarjna Rai. \"India condemns alleged mass shooting plot targeting Hindu temple in US.\" Business Standard, October 15, 2026. https://www.business-standard.com/world-news/india-condemns-alleged-mass-shooting-plot-targeting-hindu-temple-in-us-126101500822_1.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Police arrest US teen in alleged Illinois Hindu temple mass shooting plot",
+          "outlet": "Al Jazeera English",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T07:54:50Z",
+          "link": "https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot",
+          "citation": "(U) Al Jazeera Staff. \"Police arrest US teen in alleged Illinois Hindu temple mass shooting plot.\" Al Jazeera English, October 15, 2026. https://www.aljazeera.com/news/2026/10/15/us-police-arrest-illinois-teen-in-alleged-hindu-temple-mass-shooting-plot. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "The Associated Press",
+          "title": "Teen accused of plotting mass shooting at Chicago-area Hindu temple",
+          "outlet": "Abcnews.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T06:57:03Z",
+          "link": "https://abcnews.com/US/wireStory/teen-accused-plotting-mass-shooting-chicago-area-hindu-137275418",
+          "citation": "(U) The Associated Press. \"Teen accused of plotting mass shooting at Chicago-area Hindu temple.\" Abcnews.com, October 15, 2026. https://abcnews.com/US/wireStory/teen-accused-plotting-mass-shooting-chicago-area-hindu-137275418. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Tom Lawrence",
+          "title": "Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T09:18:33Z",
+          "link": "https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html",
+          "citation": "(U) Tom Lawrence. \"Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Sabrina Penty",
+          "title": "Man and woman are arrested over arson attack that killed Irish couple and two of their children",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:22:18Z",
+          "link": "https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html",
+          "citation": "(U) Sabrina Penty. \"Man and woman are arrested over arson attack that killed Irish couple and two of their children.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Sabrina Penty",
+          "title": "Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T09:02:05Z",
+          "link": "https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html",
+          "citation": "(U) Sabrina Penty. \"Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Conor Lally",
+          "title": "Waterford family ‘murdered by gang in arson attack over €20,000 drug debt’, son says",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T05:00:01Z",
+          "link": "https://www.irishtimes.com/crime-law/2026/10/15/waterford-family-murdered-by-gang-in-arson-attack-over-20000-drug-debt-son-says/",
+          "citation": "(U) Conor Lally. \"Waterford family ‘murdered by gang in arson attack over €20,000 drug debt’, son says.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/crime-law/2026/10/15/waterford-family-murdered-by-gang-in-arson-attack-over-20000-drug-debt-son-says/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Garreth Macnamee",
+          "title": "Gardai fear more violence after couple and children 'killed in arson attack over €20,000 drug debt' - as two other youngsters remain fighting for their lives",
+          "outlet": "Dailymail.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T22:52:43Z",
+          "link": "https://www.dailymail.com/news/article-16210189/Gardai-violence-couple-children-killed-arson-attack.html",
+          "citation": "(U) Garreth Macnamee. \"Gardai fear more violence after couple and children 'killed in arson attack over €20,000 drug debt' - as two other youngsters remain fighting for their lives.\" Dailymail.com, October 14, 2026. https://www.dailymail.com/news/article-16210189/Gardai-violence-couple-children-killed-arson-attack.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Olivia Kelleher",
+          "title": "Perpetrators of Waterford arson attack asked to hand themselves in, as vigil held for victims",
+          "outlet": "TheJournal.ie",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T20:20:38Z",
+          "link": "https://www.thejournal.ie/waterford-arson-attack-vigil-7193637-Oct2026/",
+          "citation": "(U) Olivia Kelleher. \"Perpetrators of Waterford arson attack asked to hand themselves in, as vigil held for victims.\" TheJournal.ie, October 14, 2026. https://www.thejournal.ie/waterford-arson-attack-vigil-7193637-Oct2026/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Times News Network",
+          "title": "SIT to probe suspected extremist links of synagogue arson accused in Kochi",
+          "outlet": "The Times of India",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T16:09:52Z",
+          "link": "https://timesofindia.indiatimes.com/city/kochi/sit-to-probe-suspected-extremist-links-of-synagogue-arson-accused-in-kochi/articleshow/134946568.cms",
+          "citation": "(U) Times News Network. \"SIT to probe suspected extremist links of synagogue arson accused in Kochi.\" The Times of India, October 14, 2026. https://timesofindia.indiatimes.com/city/kochi/sit-to-probe-suspected-extremist-links-of-synagogue-arson-accused-in-kochi/articleshow/134946568.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Marc O'Driscoll",
+          "title": "Vigil planned for family killed in Waterford arson",
+          "outlet": "RTE",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T16:01:39Z",
+          "link": "https://www.rte.ie/news/2026/1014/1595397-waterford-vigil/",
+          "citation": "(U) Marc O'Driscoll. \"Vigil planned for family killed in Waterford arson.\" RTE, October 14, 2026. https://www.rte.ie/news/2026/1014/1595397-waterford-vigil/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Rajeev Singh",
+          "title": "Video: Loud booms rock Yemen presidential palace as Houthis fire several missiles",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:00:42Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/video-loud-booms-rock-yemen-presidential-palace-as-houthis-fire-several-missiles/articleshow/134970385.cms",
+          "citation": "(U) Rajeev Singh. \"Video: Loud booms rock Yemen presidential palace as Houthis fire several missiles.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/middle-east/video-loud-booms-rock-yemen-presidential-palace-as-houthis-fire-several-missiles/articleshow/134970385.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Arden McLeod",
+          "title": "Cybercriminals may have accessed medical diagnoses in Burnaby school district attack: officials",
+          "outlet": "CBC News",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T05:10:58Z",
+          "link": "https://www.cbc.ca/news/canada/british-columbia/buranby-schools-cyberattack-update-9.7381425",
+          "citation": "(U) Arden McLeod. \"Cybercriminals may have accessed medical diagnoses in Burnaby school district attack: officials.\" CBC News, October 15, 2026. https://www.cbc.ca/news/canada/british-columbia/buranby-schools-cyberattack-update-9.7381425. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Lucas Nolan",
+          "title": "Cyberattack Heated Fridges Up to 122 Degrees at Supermarkets Across France",
+          "outlet": "Breitbart News",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T17:01:59Z",
+          "link": "https://www.breitbart.com/tech/2026/10/14/cyberattack-heated-fridges-up-to-122-degrees-at-supermarkets-across-france/",
+          "citation": "(U) Lucas Nolan. \"Cyberattack Heated Fridges Up to 122 Degrees at Supermarkets Across France.\" Breitbart News, October 14, 2026. https://www.breitbart.com/tech/2026/10/14/cyberattack-heated-fridges-up-to-122-degrees-at-supermarkets-across-france/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Mike Adams",
+          "title": "The French Freezer Hack Wasn’t Really a Cyberattack … It Was an Invitation",
+          "outlet": "Naturalnews.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-14-french-freezer-hack-wasnt-really-a-cyberattack.html",
+          "citation": "(U) Mike Adams. \"The French Freezer Hack Wasn’t Really a Cyberattack … It Was an Invitation.\" Naturalnews.com, October 14, 2026. https://www.naturalnews.com/2026-10-14-french-freezer-hack-wasnt-really-a-cyberattack.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "admin",
+          "title": "Eastern States’ Grocers Shut Online Systems After Cyberattack",
+          "outlet": "Insurance Journal",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T05:00:17Z",
+          "link": "https://www.insurancejournal.com/news/east/2026/10/14/888832.htm",
+          "citation": "(U) admin. \"Eastern States’ Grocers Shut Online Systems After Cyberattack.\" Insurance Journal, October 14, 2026. https://www.insurancejournal.com/news/east/2026/10/14/888832.htm. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Jessica Lyons",
+          "title": "Ransomware gets personal: 'We-know-where-you-are kind of stuff'",
+          "outlet": "Theregister.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T05:00:00Z",
+          "link": "https://www.theregister.com/cyber-crime/2026/10/14/ransomware-gets-personal-we-know-where-you-are-kind-of-stuff/5302939",
+          "citation": "(U) Jessica Lyons. \"Ransomware gets personal: 'We-know-where-you-are kind of stuff'.\" Theregister.com, October 14, 2026. https://www.theregister.com/cyber-crime/2026/10/14/ransomware-gets-personal-we-know-where-you-are-kind-of-stuff/5302939. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Proshun Chakraborty",
+          "title": "Gosikhurd Dam Fills To 100%, But Totladoh Storage Falls To 45%",
+          "outlet": "The Times of India",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T18:53:08Z",
+          "link": "https://timesofindia.indiatimes.com/city/nagpur/gosikhurd-dam-fills-to-100-but-totladoh-storage-falls-to-45/articleshow/134950240.cms",
+          "citation": "(U) Proshun Chakraborty. \"Gosikhurd Dam Fills To 100%, But Totladoh Storage Falls To 45%.\" The Times of India, October 14, 2026. https://timesofindia.indiatimes.com/city/nagpur/gosikhurd-dam-fills-to-100-but-totladoh-storage-falls-to-45/articleshow/134950240.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Lucas Nolan",
+          "title": "Cyberattack Heated Fridges Up to 122 Degrees at Supermarkets Across France",
+          "outlet": "Breitbart News",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T17:01:59Z",
+          "link": "https://www.breitbart.com/tech/2026/10/14/cyberattack-heated-fridges-up-to-122-degrees-at-supermarkets-across-france/",
+          "citation": "(U) Lucas Nolan. \"Cyberattack Heated Fridges Up to 122 Degrees at Supermarkets Across France.\" Breitbart News, October 14, 2026. https://www.breitbart.com/tech/2026/10/14/cyberattack-heated-fridges-up-to-122-degrees-at-supermarkets-across-france/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "ET Online",
+          "title": "Who blew up the Nord Stream pipelines? Germany’s sabotage trial reopens Europe’s biggest energy mystery years after the Baltic Sea explosions",
+          "outlet": "The Times of India",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T15:51:08Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/who-blew-up-the-nord-stream-pipelines-germanys-sabotage-trial-reopens-europes-biggest-energy-mystery-years-after-the-baltic-sea-explosions/articleshow/134945378.cms",
+          "citation": "(U) ET Online. \"Who blew up the Nord Stream pipelines? Germany’s sabotage trial reopens Europe’s biggest energy mystery years after the Baltic Sea explosions.\" The Times of India, October 14, 2026. https://economictimes.indiatimes.com/news/international/world-news/who-blew-up-the-nord-stream-pipelines-germanys-sabotage-trial-reopens-europes-biggest-energy-mystery-years-after-the-baltic-sea-explosions/articleshow/134945378.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "The Irish Times Staff",
+          "title": "Nord Stream pipeline sabotage may not have been a crime, say accused’s lawyers",
+          "outlet": "The Irish Times",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T15:36:07Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/10/14/nord-stream-pipeline-sabotage-may-not-have-been-a-crime-say-accuseds-lawyers/",
+          "citation": "(U) The Irish Times Staff. \"Nord Stream pipeline sabotage may not have been a crime, say accused’s lawyers.\" The Irish Times, October 14, 2026. https://www.irishtimes.com/world/europe/2026/10/14/nord-stream-pipeline-sabotage-may-not-have-been-a-crime-say-accuseds-lawyers/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Perkin Amalaraj",
+          "title": "Houthis 'have started producing their own advanced missiles using Chinese parts'",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T08:17:29Z",
+          "link": "https://www.dailymail.com/news/article-16210897/Houthis-China-advanced-missiles-Chinese-parts.html",
+          "citation": "(U) Perkin Amalaraj. \"Houthis 'have started producing their own advanced missiles using Chinese parts'.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210897/Houthis-China-advanced-missiles-Chinese-parts.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "PTI",
+          "title": "Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:40:40Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms",
+          "citation": "(U) PTI. \"Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "David Faris",
+          "title": "The Saudi Phase of the Iran War Signals More Chaos to Come",
+          "outlet": "Thenation.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:00:00Z",
+          "link": "https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/",
+          "citation": "(U) David Faris. \"The Saudi Phase of the Iran War Signals More Chaos to Come.\" Thenation.com, October 15, 2026. https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Swedish man detained over Kiev sabotage plot – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:14:01Z",
+          "link": "https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/",
+          "citation": "(U) RT. \"Swedish man detained over Kiev sabotage plot – FSB.\" Rt-english.com, October 15, 2026. https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Karan Manral",
+          "title": "'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:22:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms",
+          "citation": "(U) Karan Manral. \"'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "David DiMolfetta and John Croxton",
+          "title": "OpenAI bugging case highlights AI’s insider threat problem",
+          "outlet": "Nextgov",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T21:02:00Z",
+          "link": "https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/",
+          "citation": "(U) David DiMolfetta and John Croxton. \"OpenAI bugging case highlights AI’s insider threat problem.\" Nextgov, October 14, 2026. https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+          "outlet": "Internet",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T17:58:02Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories.\" Internet, October 8, 2026. https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "PTI",
+          "title": "Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:40:40Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms",
+          "citation": "(U) PTI. \"Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Kim Zetter",
+          "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+          "outlet": "Zetter-zeroday.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T09:37:24Z",
+          "link": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+          "citation": "(U) Kim Zetter. \"Who Is Planting Backdoors in Ledger Crypto Wallets?.\" Zetter-zeroday.com, October 14, 2026. https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bzero-?day\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "France 24",
+          "title": "Ukraine's Zelensky defies Trump with Russian refinery strikes (today 10/15)",
+          "outlet": "Freerepublic.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:36:47Z",
+          "link": "https://freerepublic.com/focus/f-news/4399260/posts",
+          "citation": "(U) France 24. \"Ukraine's Zelensky defies Trump with Russian refinery strikes (today 10/15).\" Freerepublic.com, October 15, 2026. https://freerepublic.com/focus/f-news/4399260/posts. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "MLT Staff",
+          "title": "Ukraine Resumes Attacks on Russian Oil Refineries, Officials Say, as US Relations Teeter",
+          "outlet": "Military.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:52:50Z",
+          "link": "https://military.com/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter",
+          "citation": "(U) MLT Staff. \"Ukraine Resumes Attacks on Russian Oil Refineries, Officials Say, as US Relations Teeter.\" Military.com, October 15, 2026. https://military.com/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Daniel McLaughlin",
+          "title": "‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:30:00Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/",
+          "citation": "(U) Daniel McLaughlin. \"‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
+        {
+          "author": "David Faris",
+          "title": "The Saudi Phase of the Iran War Signals More Chaos to Come",
+          "outlet": "Thenation.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:00:00Z",
+          "link": "https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/",
+          "citation": "(U) David Faris. \"The Saudi Phase of the Iran War Signals More Chaos to Come.\" Thenation.com, October 15, 2026. https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "HuffPost",
+          "title": "‘We’re Done’: Ukraine Resumes Attacks On Russian Oil Refineries As Zelenskyy Loses Patience With Trump",
+          "outlet": "HuffPost",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:30:50Z",
+          "link": "https://www.huffpost.com/entry/zelenskyy-trump-energy-ceasefire_n_6ad0a7ade4b08a0fe855f9ac",
+          "citation": "(U) HuffPost. \"‘We’re Done’: Ukraine Resumes Attacks On Russian Oil Refineries As Zelenskyy Loses Patience With Trump.\" HuffPost, October 15, 2026. https://www.huffpost.com/entry/zelenskyy-trump-energy-ceasefire_n_6ad0a7ade4b08a0fe855f9ac. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "AFP",
+          "title": "Saudi Arabia accuses Iran of encouraging Houthis in latest escalation",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:42:45Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/saudi-arabia-blames-iran-for-houthi-escalation-amid-intensifying-conflict/articleshow/134971264.cms",
+          "citation": "(U) AFP. \"Saudi Arabia accuses Iran of encouraging Houthis in latest escalation.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/international/world-news/saudi-arabia-blames-iran-for-houthi-escalation-amid-intensifying-conflict/articleshow/134971264.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Saudi-led coalition says Houthis attempted to attack dozens of Saudi facilities",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:32:08Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/escalating-conflict-houthis-launch-multiple-attacks-on-saudi-facilities-casualties-reported/articleshow/134971126.cms",
+          "citation": "(U) Reuters. \"Saudi-led coalition says Houthis attempted to attack dozens of Saudi facilities.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/defence/escalating-conflict-houthis-launch-multiple-attacks-on-saudi-facilities-casualties-reported/articleshow/134971126.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Saudi Arabia accuses Iran of encouraging Houthis in latest escalation",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:31:52Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/at-least-12-sites-attacked-as-houthis-fire-missiles-on-saudi-airports-ports-and-oil-facilities/articleshow/134970997.cms",
+          "citation": "(U) AFP. \"Saudi Arabia accuses Iran of encouraging Houthis in latest escalation.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/international/world-news/at-least-12-sites-attacked-as-houthis-fire-missiles-on-saudi-airports-ports-and-oil-facilities/articleshow/134970997.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+          "outlet": "BBC News",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:31:26Z",
+          "link": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Houthi missile attack on Yemeni presidential palace kills two, minister says.\" BBC News, October 15, 2026. https://www.bbc.co.uk/news/articles/cm62y6lp73zdo. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Two killed in Houthi missile attack on Yemeni government headquarters",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:23:20Z",
+          "link": "https://www.israelnationalnews.com/news/434675",
+          "citation": "(U) Israel National News. \"Two killed in Houthi missile attack on Yemeni government headquarters.\" Israelnationalnews.com, October 15, 2026. https://www.israelnationalnews.com/news/434675. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Houthis fire missiles at presidential palace in Yemen's Aden, officials say",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:18:35Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/houthis-fire-missiles-at-presidential-palace-in-yemens-aden-officials-say/articleshow/134970821.cms",
+          "citation": "(U) Reuters. \"Houthis fire missiles at presidential palace in Yemen's Aden, officials say.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/international/world-news/houthis-fire-missiles-at-presidential-palace-in-yemens-aden-officials-say/articleshow/134970821.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Daniel McLaughlin",
+          "title": "‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T13:30:00Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/",
+          "citation": "(U) Daniel McLaughlin. \"‘Energy ceasefire’ a mirage as Ukraine races to repair and protect critical infrastructure.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/world/europe/2026/10/15/energy-ceasefire-a-mirage-as-ukraine-races-to-repair-and-protect-critical-infrastructure/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
+          "outlet": "CBC News",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T11:11:36Z",
+          "link": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475",
+          "citation": "(U) CBC News Staff. \"Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S..\" CBC News, October 15, 2026. https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Citizenlab.ca Staff",
+          "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+          "outlet": "Citizenlab.ca",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:43:36Z",
+          "link": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+          "citation": "(U) Citizenlab.ca Staff. \"Zero-Click Spyware Delivered via Targeted Ads: AdFection.\" Citizenlab.ca, October 15, 2026. https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Edison Reed",
+          "title": "Survey: AI Tools Linked to Rise in Ransomware Attacks",
+          "outlet": "Naturalnews.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-15-ai-tools-linked-rise-in-ransomware-attacks.html",
+          "citation": "(U) Edison Reed. \"Survey: AI Tools Linked to Rise in Ransomware Attacks.\" Naturalnews.com, October 15, 2026. https://www.naturalnews.com/2026-10-15-ai-tools-linked-rise-in-ransomware-attacks.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Police secure conviction of 19 for terrorism, others in Kebbi",
+          "outlet": "The Punch",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T19:39:13Z",
+          "link": "https://punchng.com/police-secure-conviction-of-19-for-terrorism-others-in-kebbi/",
+          "citation": "(U) Punch Newspapers. \"Police secure conviction of 19 for terrorism, others in Kebbi.\" The Punch, October 14, 2026. https://punchng.com/police-secure-conviction-of-19-for-terrorism-others-in-kebbi/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mike Adams",
+          "title": "The French Freezer Hack Wasn’t Really a Cyberattack … It Was an Invitation",
+          "outlet": "Naturalnews.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-14-french-freezer-hack-wasnt-really-a-cyberattack.html",
+          "citation": "(U) Mike Adams. \"The French Freezer Hack Wasn’t Really a Cyberattack … It Was an Invitation.\" Naturalnews.com, October 14, 2026. https://www.naturalnews.com/2026-10-14-french-freezer-hack-wasnt-really-a-cyberattack.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "X",
+          "title": "This is what Dutch supermarkets look like after a suspected cyberattack.",
+          "outlet": "Freerepublic.com",
+          "published": "October 13, 2026",
+          "publishedAt": "2026-10-13T16:19:39Z",
+          "link": "https://freerepublic.com/focus/f-chat/4399034/posts",
+          "citation": "(U) X. \"This is what Dutch supermarkets look like after a suspected cyberattack..\" Freerepublic.com, October 13, 2026. https://freerepublic.com/focus/f-chat/4399034/posts. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "ISAAC AKWETEY-OKUNOR",
+          "title": "Illegal mining silts Birim River, Kibi water treatment plant shut down",
+          "outlet": "Thechronicle.com.gh",
+          "published": "October 12, 2026",
+          "publishedAt": "2026-10-12T00:17:28Z",
+          "link": "https://thechronicle.com.gh/illegal-mining-silts-birim-river-kibi-water-treatment-plant-shut-down/",
+          "citation": "(U) ISAAC AKWETEY-OKUNOR. \"Illegal mining silts Birim River, Kibi water treatment plant shut down.\" Thechronicle.com.gh, October 12, 2026. https://thechronicle.com.gh/illegal-mining-silts-birim-river-kibi-water-treatment-plant-shut-down/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bwater (utility|treatment|system|plant|infrastructure|distribution)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Citizenlab.ca Staff",
+          "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+          "outlet": "Citizenlab.ca",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:43:36Z",
+          "link": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+          "citation": "(U) Citizenlab.ca Staff. \"Zero-Click Spyware Delivered via Targeted Ads: AdFection.\" Citizenlab.ca, October 15, 2026. https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Karan Manral",
+          "title": "'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:22:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms",
+          "citation": "(U) Karan Manral. \"'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Garrison Vance",
+          "title": "How Iranâs Shifting Focus of Warfare Threatens American Bases and Global Stability",
+          "outlet": "Naturalnews.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-15-iran-shifting-warfare-bases-sabotage-attacks-uk-chief.html",
+          "citation": "(U) Garrison Vance. \"How Iranâs Shifting Focus of Warfare Threatens American Bases and Global Stability.\" Naturalnews.com, October 15, 2026. https://www.naturalnews.com/2026-10-15-iran-shifting-warfare-bases-sabotage-attacks-uk-chief.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "RT",
+          "title": "Swedish man detained over Kiev sabotage plot – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:14:01Z",
+          "link": "https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/",
+          "citation": "(U) RT. \"Swedish man detained over Kiev sabotage plot – FSB.\" Rt-english.com, October 15, 2026. https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Karan Manral",
+          "title": "'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:22:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms",
+          "citation": "(U) Karan Manral. \"'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB",
+          "outlet": "Sputnikglobe.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T07:05:36Z",
+          "link": "https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html",
+          "citation": "(U) Sputnik International. \"Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB.\" Sputnikglobe.com, October 15, 2026. https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Russia arrests Japanese journalist on espionage charges (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T10:40:43Z",
+          "link": "https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/",
+          "citation": "(U) RT. \"Russia arrests Japanese journalist on espionage charges (VIDEO).\" Rt-english.com, October 14, 2026. https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Russia arrests Japanese reporter for alleged espionage",
+          "outlet": "Al Jazeera English",
+          "published": "October 13, 2026",
+          "publishedAt": "2026-10-13T18:49:26Z",
+          "link": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
+          "citation": "(U) Al Jazeera Staff. \"Russia arrests Japanese reporter for alleged espionage.\" Al Jazeera English, October 13, 2026. https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "HuffPost",
+          "title": "Poland Blames Starlink Sabotage On Russia",
+          "outlet": "HuffPost",
+          "published": "October 13, 2026",
+          "publishedAt": "2026-10-13T11:15:45Z",
+          "link": "https://www.huffpost.com/entry/poland-blames-starlink-sabotage-on-russia_n_6ace11c4e4b0649434775c30",
+          "citation": "(U) HuffPost. \"Poland Blames Starlink Sabotage On Russia.\" HuffPost, October 13, 2026. https://www.huffpost.com/entry/poland-blames-starlink-sabotage-on-russia_n_6ace11c4e4b0649434775c30. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Khabarhub",
+          "title": "The Changing Face of Chinese Espionage Strategies",
+          "outlet": "Khabarhub.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T05:45:29Z",
+          "link": "https://english.khabarhub.com/2026/09/571301/",
+          "citation": "(U) Khabarhub. \"The Changing Face of Chinese Espionage Strategies.\" Khabarhub.com, October 9, 2026. https://english.khabarhub.com/2026/09/571301/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Tom Layton",
+          "title": "University launches probe into academics' research after MI5 warning over Chinese intelligence links",
+          "outlet": "Dailymail.com",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T18:26:13Z",
+          "link": "https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html",
+          "citation": "(U) Tom Layton. \"University launches probe into academics' research after MI5 warning over Chinese intelligence links.\" Dailymail.com, October 8, 2026. https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bchinese intelligence\\b"
+          ]
+        },
+        {
+          "author": "David S. Cohen",
+          "title": "The Case for Economic Espionage",
+          "outlet": "Foreign Affairs",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T12:59:17Z",
+          "link": "https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen",
+          "citation": "(U) David S. Cohen. \"The Case for Economic Espionage.\" Foreign Affairs, October 8, 2026. https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "RFE/RL staff",
+          "title": "Nord Stream Sabotage Trial Begins With Explosive Allegations Against Ukraine",
+          "outlet": "OilPrice.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T14:00:00Z",
+          "link": "https://oilprice.com/Geopolitics/Europe/Nord-Stream-Sabotage-Trial-Begins-With-Explosive-Allegations-Against-Ukraine.html",
+          "citation": "(U) RFE/RL staff. \"Nord Stream Sabotage Trial Begins With Explosive Allegations Against Ukraine.\" OilPrice.com, October 14, 2026. https://oilprice.com/Geopolitics/Europe/Nord-Stream-Sabotage-Trial-Begins-With-Explosive-Allegations-Against-Ukraine.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Jenn Gidman with Newser.AI",
+          "title": "Russia Detains Japanese Reporter on Espionage Charges",
+          "outlet": "Newser",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T12:08:59Z",
+          "link": "https://www.newser.com/story/398114/russia-detains-japanese-reporter-on-espionage-charges.html",
+          "citation": "(U) Jenn Gidman with Newser.AI. \"Russia Detains Japanese Reporter on Espionage Charges.\" Newser, October 14, 2026. https://www.newser.com/story/398114/russia-detains-japanese-reporter-on-espionage-charges.html. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Russia arrests Japanese journalist on espionage charges (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T10:40:43Z",
+          "link": "https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/",
+          "citation": "(U) RT. \"Russia arrests Japanese journalist on espionage charges (VIDEO).\" Rt-english.com, October 14, 2026. https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Russia arrests Japanese journalist on alleged espionage",
+          "outlet": "BBC News",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T04:10:49Z",
+          "link": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Russia arrests Japanese journalist on alleged espionage.\" BBC News, October 14, 2026. https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Janet Worthington",
+          "title": "Your Software Supply Chain Risk Doesn’t Stop at Your Suppliers",
+          "outlet": "Forrester.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:23:52Z",
+          "link": "https://www.forrester.com/blogs/your-software-supply-chain-risk-doesnt-stop-at-your-suppliers/",
+          "citation": "(U) Janet Worthington. \"Your Software Supply Chain Risk Doesn’t Stop at Your Suppliers.\" Forrester.com, October 15, 2026. https://www.forrester.com/blogs/your-software-supply-chain-risk-doesnt-stop-at-your-suppliers/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsoftware supply\\b"
+          ]
+        },
+        {
+          "author": "Citizenlab.ca Staff",
+          "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+          "outlet": "Citizenlab.ca",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:43:36Z",
+          "link": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+          "citation": "(U) Citizenlab.ca Staff. \"Zero-Click Spyware Delivered via Targeted Ads: AdFection.\" Citizenlab.ca, October 15, 2026. https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Glenn Taylor",
+          "title": "Container Shipping’s Red Sea Comeback is Outpacing the Risk Warnings",
+          "outlet": "WWD",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T17:35:17Z",
+          "link": "http://wwd.com/sourcing-journal/logistics/red-sea-return-suez-canal-container-shipping-comeback-risk-houthis-1239347017/",
+          "citation": "(U) Glenn Taylor. \"Container Shipping’s Red Sea Comeback is Outpacing the Risk Warnings.\" WWD, October 14, 2026. http://wwd.com/sourcing-journal/logistics/red-sea-return-suez-canal-container-shipping-comeback-risk-houthis-1239347017/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

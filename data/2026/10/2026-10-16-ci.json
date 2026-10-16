@@ -1,18 +1,18 @@
 {
-  "pulled_at_utc": "2026-10-16T15:44:43Z",
+  "pulled_at_utc": "2026-10-16T16:14:25Z",
   "accessed": "October 16, 2026",
-  "filtered_at_utc": "2026-10-16T15:47:35Z",
+  "filtered_at_utc": "2026-10-16T16:16:57Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
   "source_article_count": 481,
-  "article_count": 79,
-  "dropped_count": 402,
+  "article_count": 76,
+  "dropped_count": 405,
   "term_count": 25,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 6,
+      "count": 5,
       "error": null,
       "articles": [
         {
@@ -74,18 +74,6 @@
           "ci_match_patterns": [
             "\\bsabotage\\b",
             "\\bfsb\\b"
-          ]
-        },
-        {
-          "author": "By Daniel Flynn and Max Hunder",
-          "title": "Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'",
-          "outlet": "Yahoo Entertainment",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T12:04:48Z",
-          "link": "https://uk.news.yahoo.com/zelenskiy-says-ukraine-resume-strikes-060307306.html",
-          "citation": "(U) By Daniel Flynn and Max Hunder. \"Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'.\" Yahoo Entertainment, October 15, 2026. https://uk.news.yahoo.com/zelenskiy-says-ukraine-resume-strikes-060307306.html. Accessed October 16, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b"
           ]
         }
       ]
@@ -476,7 +464,7 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 4,
+      "count": 3,
       "error": null,
       "articles": [
         {
@@ -514,18 +502,6 @@
           "ci_match_patterns": [
             "\\bsabotage\\b",
             "\\bfsb\\b"
-          ]
-        },
-        {
-          "author": "Karan Manral",
-          "title": "'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia",
-          "outlet": "The Times of India",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T10:22:49Z",
-          "link": "https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms",
-          "citation": "(U) Karan Manral. \"'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms. Accessed October 16, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
           ]
         }
       ]
@@ -601,7 +577,7 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 5,
+      "count": 3,
       "error": null,
       "articles": [
         {
@@ -639,38 +615,26 @@
           "ci_match_patterns": [
             "\\bcritical infrastructure\\b"
           ]
-        },
-        {
-          "author": "David Faris",
-          "title": "The Saudi Phase of the Iran War Signals More Chaos to Come",
-          "outlet": "Thenation.com",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T13:00:00Z",
-          "link": "https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/",
-          "citation": "(U) David Faris. \"The Saudi Phase of the Iran War Signals More Chaos to Come.\" Thenation.com, October 15, 2026. https://www.thenation.com/article/world/iran-war-saudi-arabia-houthis-trump/. Accessed October 16, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "HuffPost",
-          "title": "‘We’re Done’: Ukraine Resumes Attacks On Russian Oil Refineries As Zelenskyy Loses Patience With Trump",
-          "outlet": "HuffPost",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T12:30:50Z",
-          "link": "https://www.huffpost.com/entry/zelenskyy-trump-energy-ceasefire_n_6ad0a7ade4b08a0fe855f9ac",
-          "citation": "(U) HuffPost. \"‘We’re Done’: Ukraine Resumes Attacks On Russian Oil Refineries As Zelenskyy Loses Patience With Trump.\" HuffPost, October 15, 2026. https://www.huffpost.com/entry/zelenskyy-trump-energy-ceasefire_n_6ad0a7ade4b08a0fe855f9ac. Accessed October 16, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b"
-          ]
         }
       ]
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 6,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Kai Greet",
+          "title": "Houthi Militants Score Apparent Hit Against Saudi Typhoon",
+          "outlet": "Theaviationist.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T15:52:10Z",
+          "link": "https://theaviationist.com/2026/10/15/houthi-militants-score-apparent-hit-against-saudi-typhoon/",
+          "citation": "(U) Kai Greet. \"Houthi Militants Score Apparent Hit Against Saudi Typhoon.\" Theaviationist.com, October 15, 2026. https://theaviationist.com/2026/10/15/houthi-militants-score-apparent-hit-against-saudi-typhoon/. Accessed October 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "AFP",
           "title": "Saudi Arabia accuses Iran of encouraging Houthis in latest escalation",

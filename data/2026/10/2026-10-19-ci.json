@@ -1,0 +1,1031 @@
+{
+  "pulled_at_utc": "2026-10-19T12:36:24Z",
+  "accessed": "October 19, 2026",
+  "filtered_at_utc": "2026-10-19T12:40:49Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 483,
+  "article_count": 70,
+  "dropped_count": 413,
+  "term_count": 24,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "RTÉ Radio 1",
+          "title": "Ukraine launches drone attack in St. Petersburg in defiance of Donald Trump",
+          "outlet": "Omny.fm",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T12:00:13Z",
+          "link": "https://omny.fm/shows/this-week/ukraine-launches-drone-attack-in-st-petersburg-in-defiance-of-donald-trump",
+          "citation": "(U) RTÉ Radio 1. \"Ukraine launches drone attack in St. Petersburg in defiance of Donald Trump.\" Omny.fm, October 18, 2026. https://omny.fm/shows/this-week/ukraine-launches-drone-attack-in-st-petersburg-in-defiance-of-donald-trump. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Jacopo Barigazzi",
+          "title": "Ukraine strikes oil facility in St. Petersburg as part of ‘massive’ drone attack",
+          "outlet": "POLITICO.eu",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:40:31Z",
+          "link": "https://www.politico.eu/article/ukraine-strikes-oil-facility-st-petersburg-part-massive-drone-attack/",
+          "citation": "(U) Jacopo Barigazzi. \"Ukraine strikes oil facility in St. Petersburg as part of ‘massive’ drone attack.\" POLITICO.eu, October 18, 2026. https://www.politico.eu/article/ukraine-strikes-oil-facility-st-petersburg-part-massive-drone-attack/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
+          "outlet": "Al Jazeera English",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:34:09Z",
+          "link": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+          "citation": "(U) Al Jazeera Staff. \"Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites.\" Al Jazeera English, October 18, 2026. https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Russia says Ukrainian drone attack hits oil sites",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:15:41Z",
+          "link": "https://www.hurriyetdailynews.com/russia-says-ukrainian-drone-attack-hits-oil-sites-228272",
+          "citation": "(U) hurriyetdailynews.com. \"Russia says Ukrainian drone attack hits oil sites.\" Hurriyet Daily News, October 18, 2026. https://www.hurriyetdailynews.com/russia-says-ukrainian-drone-attack-hits-oil-sites-228272. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Sam Lawley",
+          "title": "Russian oil terminal and data centre in St Petersburg ablaze as Kyiv launches massive drone attack after Trump's decision to waive sanctions and 'slow down' satellites",
+          "outlet": "Dailymail.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T08:03:33Z",
+          "link": "https://www.dailymail.com/news/article-16218265/Russian-oil-St-Petersburg-Kyiv-drone-Trump-sanctions.html",
+          "citation": "(U) Sam Lawley. \"Russian oil terminal and data centre in St Petersburg ablaze as Kyiv launches massive drone attack after Trump's decision to waive sanctions and 'slow down' satellites.\" Dailymail.com, October 18, 2026. https://www.dailymail.com/news/article-16218265/Russian-oil-St-Petersburg-Kyiv-drone-Trump-sanctions.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Newsroom",
+          "title": "Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze",
+          "outlet": "Protothema.gr",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T07:09:43Z",
+          "link": "https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/",
+          "citation": "(U) Newsroom. \"Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze.\" Protothema.gr, October 18, 2026. https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Press Trust of India",
+          "title": "Indian Embassy in Saudi Arabia issues safety advisory amid Houthi attacks",
+          "outlet": "Business Standard",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:46:58Z",
+          "link": "https://www.business-standard.com/world-news/indian-embassy-in-saudi-arabia-issues-safety-advisory-amid-houthi-attacks-126101800198_1.html",
+          "citation": "(U) Press Trust of India. \"Indian Embassy in Saudi Arabia issues safety advisory amid Houthi attacks.\" Business Standard, October 18, 2026. https://www.business-standard.com/world-news/indian-embassy-in-saudi-arabia-issues-safety-advisory-amid-houthi-attacks-126101800198_1.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Press Trust of India",
+          "title": "Gujarat chemical plant blast kills 5, injures 5 in Bharuch district",
+          "outlet": "Business Standard",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T05:33:09Z",
+          "link": "https://www.business-standard.com/india-news/gujarat-chemical-plant-blast-kills-5-injures-5-in-bharuch-district-126101700247_1.html",
+          "citation": "(U) Press Trust of India. \"Gujarat chemical plant blast kills 5, injures 5 in Bharuch district.\" Business Standard, October 17, 2026. https://www.business-standard.com/india-news/gujarat-chemical-plant-blast-kills-5-injures-5-in-bharuch-district-126101700247_1.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bchemical plant\\b"
+          ]
+        },
+        {
+          "author": "TOI Science Desk",
+          "title": "At 10 in war-torn Syria, Ahmed Ibrahim tried to build a Lego prosthetic hand for a friend injured in a bombing; now in Canada, he has won funding to develop an AI-powered robotic hand",
+          "outlet": "The Times of India",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T04:20:02Z",
+          "link": "https://timesofindia.indiatimes.com/science/discovery/at-10-in-war-torn-syria-ahmed-ibrahim-tried-to-build-a-lego-prosthetic-hand-for-a-friend-injured-in-a-bombing-now-in-canada-he-has-won-funding-to-develop-an-ai-powered-robotic-hand/articleshow/134983651.cms",
+          "citation": "(U) TOI Science Desk. \"At 10 in war-torn Syria, Ahmed Ibrahim tried to build a Lego prosthetic hand for a friend injured in a bombing; now in Canada, he has won funding to develop an AI-powered robotic hand.\" The Times of India, October 17, 2026. https://timesofindia.indiatimes.com/science/discovery/at-10-in-war-torn-syria-ahmed-ibrahim-tried-to-build-a-lego-prosthetic-hand-for-a-friend-injured-in-a-bombing-now-in-canada-he-has-won-funding-to-develop-an-ai-powered-robotic-hand/articleshow/134983651.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Rivers pipeline explosion: 20 injured as monarch blames ignored warning",
+          "outlet": "The Punch",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T23:36:55Z",
+          "link": "https://punchng.com/rivers-pipeline-explosion-20-injured-as-monarch-blames-ignored-warning/",
+          "citation": "(U) Punch Newspapers. \"Rivers pipeline explosion: 20 injured as monarch blames ignored warning.\" The Punch, October 16, 2026. https://punchng.com/rivers-pipeline-explosion-20-injured-as-monarch-blames-ignored-warning/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Omagh Bombing Inquiry- Officer says investigations didn't follow guidelines",
+          "outlet": "BBC News",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T17:32:48Z",
+          "link": "https://www.bbc.co.uk/news/articles/c6vgjpr3rz1ko",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Omagh Bombing Inquiry- Officer says investigations didn't follow guidelines.\" BBC News, October 16, 2026. https://www.bbc.co.uk/news/articles/c6vgjpr3rz1ko. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bbombing\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Newsroom",
+          "title": "Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze",
+          "outlet": "Protothema.gr",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T07:09:43Z",
+          "link": "https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/",
+          "citation": "(U) Newsroom. \"Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze.\" Protothema.gr, October 18, 2026. https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "KCTV5",
+          "title": "Wichita police respond to ‘mass casualty’ incident involving vehicle at Stryker Sports Complex",
+          "outlet": "Freerepublic.com",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T21:52:24Z",
+          "link": "https://freerepublic.com/focus/f-news/4399548/posts",
+          "citation": "(U) KCTV5. \"Wichita police respond to ‘mass casualty’ incident involving vehicle at Stryker Sports Complex.\" Freerepublic.com, October 17, 2026. https://freerepublic.com/focus/f-news/4399548/posts. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "Accused teen killer's own dashcam could prove murder of two girls mowed down, lawyer says: 'not an accident'",
+          "outlet": "Fox News",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T11:00:04Z",
+          "link": "https://www.foxnews.com/us/accused-teen-killer-dashcam-prove-murder-two-girls-mowed-down-lawyer-says-not-accident",
+          "citation": "(U) Fox News Staff. \"Accused teen killer's own dashcam could prove murder of two girls mowed down, lawyer says: 'not an accident'.\" Fox News, October 18, 2026. https://www.foxnews.com/us/accused-teen-killer-dashcam-prove-murder-two-girls-mowed-down-lawyer-says-not-accident. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Chris Bradford",
+          "title": "Accused NJ teen stalker indicted a year later for murdering two girls, 17, mowed down on e-bikes",
+          "outlet": "New York Post",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T17:22:07Z",
+          "link": "https://nypost.com/2026/10/15/us-news/accused-nj-teen-stalker-indicted-a-year-later-for-murdering-two-girls-17-mowed-down-on-e-bikes/",
+          "citation": "(U) Chris Bradford. \"Accused NJ teen stalker indicted a year later for murdering two girls, 17, mowed down on e-bikes.\" New York Post, October 15, 2026. https://nypost.com/2026/10/15/us-news/accused-nj-teen-stalker-indicted-a-year-later-for-murdering-two-girls-17-mowed-down-on-e-bikes/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Tom Lawrence",
+          "title": "Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T09:18:33Z",
+          "link": "https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html",
+          "citation": "(U) Tom Lawrence. \"Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 10,
+      "error": null,
+      "articles": [
+        {
+          "author": "Sophie Finn",
+          "title": "Funeral details announced for members of the English family killed in an arson attack",
+          "outlet": "TheJournal.ie",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T07:48:18Z",
+          "link": "https://www.thejournal.ie/english-family-funeral-waterford-7195098-Oct2026/",
+          "citation": "(U) Sophie Finn. \"Funeral details announced for members of the English family killed in an arson attack.\" TheJournal.ie, October 16, 2026. https://www.thejournal.ie/english-family-funeral-waterford-7195098-Oct2026/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Paul Reynolds",
+          "title": "Two people remain in custody over Waterford arson attack",
+          "outlet": "RTE",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T05:21:55Z",
+          "link": "https://www.rte.ie/news/2026/1016/1595588-waterford-fire-investigation/",
+          "citation": "(U) Paul Reynolds. \"Two people remain in custody over Waterford arson attack.\" RTE, October 16, 2026. https://www.rte.ie/news/2026/1016/1595588-waterford-fire-investigation/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Marc O'Driscoll",
+          "title": "Funeral details announced for four killed in arson attack",
+          "outlet": "RTE",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T19:05:58Z",
+          "link": "https://www.rte.ie/news/ireland/2026/1015/1595571-waterford-funeral-details/",
+          "citation": "(U) Marc O'Driscoll. \"Funeral details announced for four killed in arson attack.\" RTE, October 15, 2026. https://www.rte.ie/news/ireland/2026/1015/1595571-waterford-funeral-details/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Sabrina Penty",
+          "title": "Man and woman are arrested over arson attack that killed Irish couple and two of their children",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:22:18Z",
+          "link": "https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html",
+          "citation": "(U) Sabrina Penty. \"Man and woman are arrested over arson attack that killed Irish couple and two of their children.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Sabrina Penty",
+          "title": "Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T09:02:05Z",
+          "link": "https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html",
+          "citation": "(U) Sabrina Penty. \"Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Conor Lally",
+          "title": "Waterford family ‘murdered by gang in arson attack over €20,000 drug debt’, son says",
+          "outlet": "The Irish Times",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T05:00:01Z",
+          "link": "https://www.irishtimes.com/crime-law/2026/10/15/waterford-family-murdered-by-gang-in-arson-attack-over-20000-drug-debt-son-says/",
+          "citation": "(U) Conor Lally. \"Waterford family ‘murdered by gang in arson attack over €20,000 drug debt’, son says.\" The Irish Times, October 15, 2026. https://www.irishtimes.com/crime-law/2026/10/15/waterford-family-murdered-by-gang-in-arson-attack-over-20000-drug-debt-son-says/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Garreth Macnamee",
+          "title": "Gardai fear more violence after couple and children 'killed in arson attack over €20,000 drug debt' - as two other youngsters remain fighting for their lives",
+          "outlet": "Dailymail.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T22:52:43Z",
+          "link": "https://www.dailymail.com/news/article-16210189/Gardai-violence-couple-children-killed-arson-attack.html",
+          "citation": "(U) Garreth Macnamee. \"Gardai fear more violence after couple and children 'killed in arson attack over €20,000 drug debt' - as two other youngsters remain fighting for their lives.\" Dailymail.com, October 14, 2026. https://www.dailymail.com/news/article-16210189/Gardai-violence-couple-children-killed-arson-attack.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Olivia Kelleher",
+          "title": "Perpetrators of Waterford arson attack asked to hand themselves in, as vigil held for victims",
+          "outlet": "TheJournal.ie",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T20:20:38Z",
+          "link": "https://www.thejournal.ie/waterford-arson-attack-vigil-7193637-Oct2026/",
+          "citation": "(U) Olivia Kelleher. \"Perpetrators of Waterford arson attack asked to hand themselves in, as vigil held for victims.\" TheJournal.ie, October 14, 2026. https://www.thejournal.ie/waterford-arson-attack-vigil-7193637-Oct2026/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Times News Network",
+          "title": "SIT to probe suspected extremist links of synagogue arson accused in Kochi",
+          "outlet": "The Times of India",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T16:09:52Z",
+          "link": "https://timesofindia.indiatimes.com/city/kochi/sit-to-probe-suspected-extremist-links-of-synagogue-arson-accused-in-kochi/articleshow/134946568.cms",
+          "citation": "(U) Times News Network. \"SIT to probe suspected extremist links of synagogue arson accused in Kochi.\" The Times of India, October 14, 2026. https://timesofindia.indiatimes.com/city/kochi/sit-to-probe-suspected-extremist-links-of-synagogue-arson-accused-in-kochi/articleshow/134946568.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Marc O'Driscoll",
+          "title": "Vigil planned for family killed in Waterford arson",
+          "outlet": "RTE",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T16:01:39Z",
+          "link": "https://www.rte.ie/news/2026/1014/1595397-waterford-vigil/",
+          "citation": "(U) Marc O'Driscoll. \"Vigil planned for family killed in Waterford arson.\" RTE, October 14, 2026. https://www.rte.ie/news/2026/1014/1595397-waterford-vigil/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chase Codewell",
+          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Daily Hodl Agent",
+          "title": "Florida Dermatology Group Hit by Cyberattack, Social Security Numbers, Financial Details, and Medical Records of 85,585 Patients at Risk",
+          "outlet": "The Daily Hodl",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T14:30:07Z",
+          "link": "https://dailyhodl.com/2026/10/17/florida-dermatology-group-hit-by-cyberattack-social-security-numbers-and-medical-records-of-85585-patients-at-risk/",
+          "citation": "(U) Daily Hodl Agent. \"Florida Dermatology Group Hit by Cyberattack, Social Security Numbers, Financial Details, and Medical Records of 85,585 Patients at Risk.\" The Daily Hodl, October 17, 2026. https://dailyhodl.com/2026/10/17/florida-dermatology-group-hit-by-cyberattack-social-security-numbers-and-medical-records-of-85585-patients-at-risk/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Matt Novak",
+          "title": "Japan’s False Emergency Alert for a 9.9 Earthquake Wasn’t a Cyberattack",
+          "outlet": "Gizmodo.com",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T18:10:38Z",
+          "link": "https://gizmodo.com/japans-false-emergency-alert-for-a-9-9-earthquake-wasnt-a-cyberattack-2000827000",
+          "citation": "(U) Matt Novak. \"Japan’s False Emergency Alert for a 9.9 Earthquake Wasn’t a Cyberattack.\" Gizmodo.com, October 16, 2026. https://gizmodo.com/japans-false-emergency-alert-for-a-9-9-earthquake-wasnt-a-cyberattack-2000827000. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Admin",
+          "title": "As French Supermarkets Try to Restock, They Are Told Cyberattack May Be Ongoing",
+          "outlet": "Insurance Journal",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T15:36:05Z",
+          "link": "https://www.insurancejournal.com/news/international/2026/10/16/889220.htm",
+          "citation": "(U) Admin. \"As French Supermarkets Try to Restock, They Are Told Cyberattack May Be Ongoing.\" Insurance Journal, October 16, 2026. https://www.insurancejournal.com/news/international/2026/10/16/889220.htm. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "LANCASTERONLINE | Staff",
+          "title": "Giant Food Stores website, app still down as parent company urged to file criminal complaint over cyberattack",
+          "outlet": "LancasterOnline",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T14:33:00Z",
+          "link": "https://lancasteronline.com/news/local/giant-food-stores-website-app-still-down-as-parent-company-urged-to-file-criminal-complaint/article_428ec231-fb2d-46a4-a3a4-eb198a9afbca.html",
+          "citation": "(U) LANCASTERONLINE | Staff. \"Giant Food Stores website, app still down as parent company urged to file criminal complaint over cyberattack.\" LancasterOnline, October 16, 2026. https://lancasteronline.com/news/local/giant-food-stores-website-app-still-down-as-parent-company-urged-to-file-criminal-complaint/article_428ec231-fb2d-46a4-a3a4-eb198a9afbca.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "staff@bgr.com (Jonathan Sayers)",
+          "title": "A Cyberattack Destroyed Millions Of Dollars Worth Of Food, Exposing A Big Problem With Connected Tech",
+          "outlet": "BGR",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T10:15:00Z",
+          "link": "https://www.bgr.com/2288582/big-problem-connected-tech-cyberattack-supermarket-food-loss/",
+          "citation": "(U) staff@bgr.com (Jonathan Sayers). \"A Cyberattack Destroyed Millions Of Dollars Worth Of Food, Exposing A Big Problem With Connected Tech.\" BGR, October 16, 2026. https://www.bgr.com/2288582/big-problem-connected-tech-cyberattack-supermarket-food-loss/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sergiu Gatlan",
+          "title": "BAE Systems cyberattack disrupts US federal court operations",
+          "outlet": "BleepingComputer",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T07:37:35Z",
+          "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+          "citation": "(U) Sergiu Gatlan. \"BAE Systems cyberattack disrupts US federal court operations.\" BleepingComputer, October 16, 2026. https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chase Codewell",
+          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Front Page Magazine",
+          "title": "Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot",
+          "outlet": "Freerepublic.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:50:25Z",
+          "link": "https://freerepublic.com/focus/f-bloggers/4399600/posts",
+          "citation": "(U) Front Page Magazine. \"Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot.\" Freerepublic.com, October 18, 2026. https://freerepublic.com/focus/f-bloggers/4399600/posts. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "Drew Gorman",
+          "title": "What in the World?",
+          "outlet": "Foreign Policy",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T20:20:28Z",
+          "link": "http://foreignpolicy.com/2026/10/16/news-quiz-houthi-saudi-strikes-trump-commercials-india-protests/",
+          "citation": "(U) Drew Gorman. \"What in the World?.\" Foreign Policy, October 16, 2026. http://foreignpolicy.com/2026/10/16/news-quiz-houthi-saudi-strikes-trump-commercials-india-protests/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Perkin Amalaraj",
+          "title": "Houthis 'have started producing their own advanced missiles using Chinese parts'",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T08:17:29Z",
+          "link": "https://www.dailymail.com/news/article-16210897/Houthis-China-advanced-missiles-Chinese-parts.html",
+          "citation": "(U) Perkin Amalaraj. \"Houthis 'have started producing their own advanced missiles using Chinese parts'.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210897/Houthis-China-advanced-missiles-Chinese-parts.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Front Page Magazine",
+          "title": "Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot",
+          "outlet": "Freerepublic.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:50:25Z",
+          "link": "https://freerepublic.com/focus/f-bloggers/4399600/posts",
+          "citation": "(U) Front Page Magazine. \"Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot.\" Freerepublic.com, October 18, 2026. https://freerepublic.com/focus/f-bloggers/4399600/posts. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "Newsroom",
+          "title": "Outrage in Britain: Convicted ISIS terrorist linked to executions was shopping near King Charles’s castle",
+          "outlet": "Protothema.gr",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T08:01:00Z",
+          "link": "https://en.protothema.gr/2026/10/18/outrage-in-britain-convicted-isis-terrorist-linked-to-executions-was-shopping-near-king-charless-castle/",
+          "citation": "(U) Newsroom. \"Outrage in Britain: Convicted ISIS terrorist linked to executions was shopping near King Charles’s castle.\" Protothema.gr, October 18, 2026. https://en.protothema.gr/2026/10/18/outrage-in-britain-convicted-isis-terrorist-linked-to-executions-was-shopping-near-king-charless-castle/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Gabriel Millard-clothier, Abul Taher",
+          "title": "Monster who guarded Isis executions but can't be deported over concerns that HIS life would be in danger is spotted shopping in the King's local Co-op",
+          "outlet": "Dailymail.com",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T22:42:52Z",
+          "link": "https://www.dailymail.com/news/article-16217337/Monster-Isis-executions-deported-life-danger-spotted-Kings-op.html",
+          "citation": "(U) Gabriel Millard-clothier, Abul Taher. \"Monster who guarded Isis executions but can't be deported over concerns that HIS life would be in danger is spotted shopping in the King's local Co-op.\" Dailymail.com, October 17, 2026. https://www.dailymail.com/news/article-16217337/Monster-Isis-executions-deported-life-danger-spotted-Kings-op.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "David DiMolfetta and John Croxton",
+          "title": "OpenAI bugging case highlights AI’s insider threat problem",
+          "outlet": "Nextgov",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T21:02:00Z",
+          "link": "https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/",
+          "citation": "(U) David DiMolfetta and John Croxton. \"OpenAI bugging case highlights AI’s insider threat problem.\" Nextgov, October 14, 2026. https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+          "outlet": "Internet",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T17:58:02Z",
+          "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories.\" Internet, October 8, 2026. https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "PTI",
+          "title": "Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T14:40:40Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms",
+          "citation": "(U) PTI. \"Any terrorist act originating from Pakistan will draw even stronger response: Rajnath Singh.\" The Times of India, October 15, 2026. https://economictimes.indiatimes.com/news/defence/any-terrorist-act-originating-from-pakistan-will-draw-even-stronger-response-rajnath-singh/articleshow/134970450.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Newsroom",
+          "title": "Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze",
+          "outlet": "Protothema.gr",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T07:09:43Z",
+          "link": "https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/",
+          "citation": "(U) Newsroom. \"Massive Ukrainian drone attack on St Petersburg sets oil terminal ablaze.\" Protothema.gr, October 18, 2026. https://en.protothema.gr/2026/10/18/massive-ukrainian-drone-attack-on-st-petersburg-sets-oil-terminal-ablaze/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chase Codewell",
+          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Ayush Pandey",
+          "title": "US Congressman’s Krishnamoorthi’s office receives suspicious package as FBI probes nationwide mail threats",
+          "outlet": "The Times of India",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T01:48:25Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/us-congressmans-krishnamoorthis-office-receives-suspicious-package-as-fbi-probes-nationwide-mail-threats/articleshow/135022675.cms",
+          "citation": "(U) Ayush Pandey. \"US Congressman’s Krishnamoorthi’s office receives suspicious package as FBI probes nationwide mail threats.\" The Times of India, October 18, 2026. https://timesofindia.indiatimes.com/world/us/us-congressmans-krishnamoorthis-office-receives-suspicious-package-as-fbi-probes-nationwide-mail-threats/articleshow/135022675.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bsuspicious package\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mariem Bah",
+          "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+          "outlet": "Al Jazeera English",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T11:11:26Z",
+          "link": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis",
+          "citation": "(U) Mariem Bah. \"What help can Egypt offer Saudi Arabia in the war against the Houthis?.\" Al Jazeera English, October 18, 2026. https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Front Page Magazine",
+          "title": "Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot",
+          "outlet": "Freerepublic.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:50:25Z",
+          "link": "https://freerepublic.com/focus/f-bloggers/4399600/posts",
+          "citation": "(U) Front Page Magazine. \"Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot.\" Freerepublic.com, October 18, 2026. https://freerepublic.com/focus/f-bloggers/4399600/posts. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bal[- ]?qaeda\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Saudi coalition says two pilots killed in chopper crash near Yemen",
+          "outlet": "CNA",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T08:14:26Z",
+          "link": "https://www.channelnewsasia.com/world/saudi-arabia-helicopter-crash-houthis-yemen-6469396",
+          "citation": "(U) CNA Staff. \"Saudi coalition says two pilots killed in chopper crash near Yemen.\" CNA, October 18, 2026. https://www.channelnewsasia.com/world/saudi-arabia-helicopter-crash-houthis-yemen-6469396. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mariem Bah",
+          "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+          "outlet": "Al Jazeera English",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T11:11:26Z",
+          "link": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis",
+          "citation": "(U) Mariem Bah. \"What help can Egypt offer Saudi Arabia in the war against the Houthis?.\" Al Jazeera English, October 18, 2026. https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Chase Codewell",
+          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Joshua Klein",
+          "title": "Trump: Israel Has Been ‘Very Helpful’ to Saudi Arabia Against Houthis — Abraham Accords ‘More Than Ever’ Possible",
+          "outlet": "Breitbart News",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T21:58:38Z",
+          "link": "https://www.breitbart.com/politics/2026/10/16/trump-israel-has-been-very-helpful-to-saudi-arabia-against-houthis-abraham-accords-more-than-ever-possible/",
+          "citation": "(U) Joshua Klein. \"Trump: Israel Has Been ‘Very Helpful’ to Saudi Arabia Against Houthis — Abraham Accords ‘More Than Ever’ Possible.\" Breitbart News, October 16, 2026. https://www.breitbart.com/politics/2026/10/16/trump-israel-has-been-very-helpful-to-saudi-arabia-against-houthis-abraham-accords-more-than-ever-possible/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Kevin Breuninger",
+          "title": "AI 'espionage' is a reality that companies need to be 'wary of,' DNI Jay Clayton says",
+          "outlet": "CNBC",
+          "published": "October 16, 2026",
+          "publishedAt": "2026-10-16T14:02:14Z",
+          "link": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+          "citation": "(U) Kevin Breuninger. \"AI 'espionage' is a reality that companies need to be 'wary of,' DNI Jay Clayton says.\" CNBC, October 16, 2026. https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Iva Greene",
+          "title": "California Auditor: 57 Dams in Poor or Unsatisfactory Condition",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-california-auditor-57-dams-in-poor-condition.html",
+          "citation": "(U) Iva Greene. \"California Auditor: 57 Dams in Poor or Unsatisfactory Condition.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-california-auditor-57-dams-in-poor-condition.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Eels keep dying in hydro dam turbines. A new design could change that",
+          "outlet": "CBC News",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T18:00:00Z",
+          "link": "https://www.cbc.ca/news/climate/what-on-earth-eels-hydro-dams-9.7381506",
+          "citation": "(U) CBC News Staff. \"Eels keep dying in hydro dam turbines. A new design could change that.\" CBC News, October 15, 2026. https://www.cbc.ca/news/climate/what-on-earth-eels-hydro-dams-9.7381506. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "RT",
+          "title": "Swedish man detained over Kiev sabotage plot – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:14:01Z",
+          "link": "https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/",
+          "citation": "(U) RT. \"Swedish man detained over Kiev sabotage plot – FSB.\" Rt-english.com, October 15, 2026. https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Karan Manral",
+          "title": "'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia",
+          "outlet": "The Times of India",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T10:22:49Z",
+          "link": "https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms",
+          "citation": "(U) Karan Manral. \"'Planned terrorist acts on behalf of Ukraine': Swedish national arrested in Russia.\" The Times of India, October 15, 2026. https://timesofindia.indiatimes.com/world/europe/planned-terrorist-acts-on-behalf-of-ukraine-russia-arrests-swedish-man-charges-him-with-illegal-border-crossing/articleshow/134964299.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Sputnik International",
+          "title": "Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB",
+          "outlet": "Sputnikglobe.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T07:05:36Z",
+          "link": "https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html",
+          "citation": "(U) Sputnik International. \"Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB.\" Sputnikglobe.com, October 15, 2026. https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Russia arrests Japanese journalist on espionage charges (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T10:40:43Z",
+          "link": "https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/",
+          "citation": "(U) RT. \"Russia arrests Japanese journalist on espionage charges (VIDEO).\" Rt-english.com, October 14, 2026. https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b",
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Russia arrests Japanese reporter for alleged espionage",
+          "outlet": "Al Jazeera English",
+          "published": "October 13, 2026",
+          "publishedAt": "2026-10-13T18:49:26Z",
+          "link": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
+          "citation": "(U) Al Jazeera Staff. \"Russia arrests Japanese reporter for alleged espionage.\" Al Jazeera English, October 13, 2026. https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "HuffPost",
+          "title": "Poland Blames Starlink Sabotage On Russia",
+          "outlet": "HuffPost",
+          "published": "October 13, 2026",
+          "publishedAt": "2026-10-13T11:15:45Z",
+          "link": "https://www.huffpost.com/entry/poland-blames-starlink-sabotage-on-russia_n_6ace11c4e4b0649434775c30",
+          "citation": "(U) HuffPost. \"Poland Blames Starlink Sabotage On Russia.\" HuffPost, October 13, 2026. https://www.huffpost.com/entry/poland-blames-starlink-sabotage-on-russia_n_6ace11c4e4b0649434775c30. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Bernard Keane",
+          "title": "Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws",
+          "outlet": "Crikey",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T22:56:26Z",
+          "link": "http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/",
+          "citation": "(U) Bernard Keane. \"Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws.\" Crikey, October 15, 2026. http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Khabarhub",
+          "title": "The Changing Face of Chinese Espionage Strategies",
+          "outlet": "Khabarhub.com",
+          "published": "October 9, 2026",
+          "publishedAt": "2026-10-09T05:45:29Z",
+          "link": "https://english.khabarhub.com/2026/09/571301/",
+          "citation": "(U) Khabarhub. \"The Changing Face of Chinese Espionage Strategies.\" Khabarhub.com, October 9, 2026. https://english.khabarhub.com/2026/09/571301/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Tom Layton",
+          "title": "University launches probe into academics' research after MI5 warning over Chinese intelligence links",
+          "outlet": "Dailymail.com",
+          "published": "October 8, 2026",
+          "publishedAt": "2026-10-08T18:26:13Z",
+          "link": "https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html",
+          "citation": "(U) Tom Layton. \"University launches probe into academics' research after MI5 warning over Chinese intelligence links.\" Dailymail.com, October 8, 2026. https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bchinese intelligence\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Aadrita Halder",
+          "title": "'Broad, troubling trend': US lawmakers urge FBI probe into mass shooting plot at Illinois Hindu temple",
+          "outlet": "The Times of India",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T03:58:09Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/broad-troubling-trend-us-lawmakers-urge-fbi-probe-into-mass-shooting-plot-at-illinois-hindu-temple/articleshow/135006991.cms",
+          "citation": "(U) Aadrita Halder. \"'Broad, troubling trend': US lawmakers urge FBI probe into mass shooting plot at Illinois Hindu temple.\" The Times of India, October 17, 2026. https://timesofindia.indiatimes.com/world/us/broad-troubling-trend-us-lawmakers-urge-fbi-probe-into-mass-shooting-plot-at-illinois-hindu-temple/articleshow/135006991.cms. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Front Page Magazine",
+          "title": "Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot",
+          "outlet": "Freerepublic.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T10:50:25Z",
+          "link": "https://freerepublic.com/focus/f-bloggers/4399600/posts",
+          "citation": "(U) Front Page Magazine. \"Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot.\" Freerepublic.com, October 18, 2026. https://freerepublic.com/focus/f-bloggers/4399600/posts. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bal[- ]?qaeda\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chase Codewell",
+          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
+          "outlet": "Naturalnews.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
+          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Ionut Ilascu",
+          "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+          "outlet": "BleepingComputer",
+          "published": "October 17, 2026",
+          "publishedAt": "2026-10-17T15:18:51Z",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+          "citation": "(U) Ionut Ilascu. \"Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack.\" BleepingComputer, October 17, 2026. https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/. Accessed October 19, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

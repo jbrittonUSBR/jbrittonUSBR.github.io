@@ -1,28 +1,76 @@
 {
-  "pulled_at_utc": "2026-10-20T12:05:06Z",
+  "pulled_at_utc": "2026-10-20T16:29:29Z",
   "accessed": "October 20, 2026",
-  "filtered_at_utc": "2026-10-20T12:10:43Z",
+  "filtered_at_utc": "2026-10-20T16:34:34Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 489,
-  "article_count": 64,
-  "dropped_count": 425,
+  "source_article_count": 486,
+  "article_count": 78,
+  "dropped_count": 408,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 1,
+      "count": 5,
       "error": null,
       "articles": [
         {
-          "author": "Mohammad Mansour",
-          "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-          "outlet": "Al Jazeera English",
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "outlet": "BBC News",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T10:49:23Z",
-          "link": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit",
-          "citation": "(U) Mohammad Mansour. \"Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit.\" Al Jazeera English, October 19, 2026. https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T16:20:51Z",
+          "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say.\" BBC News, October 19, 2026. https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Emma Graham, Spencer Kimball",
+          "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+          "outlet": "CNBC",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T15:24:48Z",
+          "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "citation": "(U) Emma Graham, Spencer Kimball. \"Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom.\" CNBC, October 19, 2026. https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Sudan: 80 people killed in UAV attack at transporation station",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:48:00Z",
+          "link": "https://www.israelnationalnews.com/flashes/695659",
+          "citation": "(U) Israel National News. \"Sudan: 80 people killed in UAV attack at transporation station.\" Israelnationalnews.com, October 19, 2026. https://www.israelnationalnews.com/flashes/695659. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\buav\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Sudan drone strike kills 11 at displacement camp – official",
+          "outlet": "Rt-english.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:29:04Z",
+          "link": "https://rt-english.com/africa/647393-sudan-rsf-drone-attack-displacement-camp/",
+          "citation": "(U) RT. \"Sudan drone strike kills 11 at displacement camp – official.\" Rt-english.com, October 19, 2026. https://rt-english.com/africa/647393-sudan-rsf-drone-attack-displacement-camp/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Saudi-Houthi disruption spreads",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:28:14Z",
+          "link": "https://www.hurriyetdailynews.com/saudi-houthi-disruption-spreads-228333",
+          "citation": "(U) hurriyetdailynews.com. \"Saudi-Houthi disruption spreads.\" Hurriyet Daily News, October 19, 2026. https://www.hurriyetdailynews.com/saudi-houthi-disruption-spreads-228333. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -31,9 +79,22 @@
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 2,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Fox 10 Phoenix",
+          "title": "'Picking off people': Valley man accused of plotting mass casualty attack with infamous OKC bombing 'cookbook'",
+          "outlet": "Freerepublic.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:20:37Z",
+          "link": "https://freerepublic.com/focus/f-news/4399767/posts",
+          "citation": "(U) Fox 10 Phoenix. \"'Picking off people': Valley man accused of plotting mass casualty attack with infamous OKC bombing 'cookbook'.\" Freerepublic.com, October 19, 2026. https://freerepublic.com/focus/f-news/4399767/posts. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b",
+            "\\bbombing\\b"
+          ]
+        },
         {
           "author": "Ayush Pandey",
           "title": "Pakistan army officer killed in IED blast during Balochistan operation",
@@ -149,9 +210,21 @@
     },
     {
       "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
-      "count": 4,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Fox News Staff",
+          "title": "LSU student and firefighter fiancé mowed down near campus, impaired underage driver arrested",
+          "outlet": "Fox News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T15:44:36Z",
+          "link": "https://www.foxnews.com/us/lsu-student-firefighter-fiance-mowed-down-near-campus-impaired-underage-driver-arrested",
+          "citation": "(U) Fox News Staff. \"LSU student and firefighter fiancé mowed down near campus, impaired underage driver arrested.\" Fox News, October 19, 2026. https://www.foxnews.com/us/lsu-student-firefighter-fiance-mowed-down-near-campus-impaired-underage-driver-arrested. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
         {
           "author": "PTI",
           "title": "Eight workers mowed down by speeding car in Punjab's Sangrur; 12 injured",
@@ -204,9 +277,21 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 9,
+      "count": 8,
       "error": null,
       "articles": [
+        {
+          "author": "Sarah Burns",
+          "title": "Waterford arson victims were ‘a beautiful family who did no wrong’, funeral told",
+          "outlet": "The Irish Times",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:09:46Z",
+          "link": "https://www.irishtimes.com/ireland/2026/10/19/waterford-arson-victims-were-a-beautiful-family-who-did-no-wrong-funeral-told/",
+          "citation": "(U) Sarah Burns. \"Waterford arson victims were ‘a beautiful family who did no wrong’, funeral told.\" The Irish Times, October 19, 2026. https://www.irishtimes.com/ireland/2026/10/19/waterford-arson-victims-were-a-beautiful-family-who-did-no-wrong-funeral-told/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
         {
           "author": "Andrew Walsh",
           "title": "Funeral of four family members killed in Waterford arson attack to take place today",
@@ -290,30 +375,6 @@
           "ci_match_patterns": [
             "\\barson\\b"
           ]
-        },
-        {
-          "author": "Sabrina Penty",
-          "title": "Man and woman are arrested over arson attack that killed Irish couple and two of their children",
-          "outlet": "Dailymail.com",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T14:22:18Z",
-          "link": "https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html",
-          "citation": "(U) Sabrina Penty. \"Man and woman are arrested over arson attack that killed Irish couple and two of their children.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16212079/Man-woman-arrested-arson-attack-killed-Irish-couple-two-children.html. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
-        },
-        {
-          "author": "Sabrina Penty",
-          "title": "Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt",
-          "outlet": "Dailymail.com",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T09:02:05Z",
-          "link": "https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html",
-          "citation": "(U) Sabrina Penty. \"Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
@@ -322,6 +383,42 @@
       "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Jeffery Tram",
+          "title": "Cybersecurity firm hired by Hamilton says director arrested by FBI didn't handle city's ransomware response",
+          "outlet": "CBC News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:12:57Z",
+          "link": "https://www.cbc.ca/news/canada/hamilton/ed-dubrovsky-cypfer-hamilton-ransom-fbi-arrest-9.7383552",
+          "citation": "(U) Jeffery Tram. \"Cybersecurity firm hired by Hamilton says director arrested by FBI didn't handle city's ransomware response.\" CBC News, October 19, 2026. https://www.cbc.ca/news/canada/hamilton/ed-dubrovsky-cypfer-hamilton-ransom-fbi-arrest-9.7383552. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Sead Fadilpašić",
+          "title": "US federal court work hit after BAE Systems cyberattack affects bankruptcy court systems",
+          "outlet": "TechRadar",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T15:15:00Z",
+          "link": "https://www.techradar.com/pro/security/us-federal-court-work-hit-after-bae-systems-cyberattack-affects-bankruptcy-court-systems",
+          "citation": "(U) Sead Fadilpašić. \"US federal court work hit after BAE Systems cyberattack affects bankruptcy court systems.\" TechRadar, October 19, 2026. https://www.techradar.com/pro/security/us-federal-court-work-hit-after-bae-systems-cyberattack-affects-bankruptcy-court-systems. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "LANCASTERONLINE | Staff",
+          "title": "Giant Food Stores offers discount as website, app remain down following cyberattack [update]",
+          "outlet": "LancasterOnline",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T12:14:00Z",
+          "link": "https://lancasteronline.com/news/local/giant-food-stores-offers-discount-as-website-app-remain-down-following-cyberattack-update/article_e967ec80-b4ab-4566-b11a-b1bb1b56b157.html",
+          "citation": "(U) LANCASTERONLINE | Staff. \"Giant Food Stores offers discount as website, app remain down following cyberattack [update].\" LancasterOnline, October 19, 2026. https://lancasteronline.com/news/local/giant-food-stores-offers-discount-as-website-app-remain-down-following-cyberattack-update/article_e967ec80-b4ab-4566-b11a-b1bb1b56b157.html. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "News On Japan",
           "title": "Qilin Threatens to Release Data Stolen in Keio Railway Cyberattack",
@@ -357,50 +454,26 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Matt Novak",
-          "title": "Japan’s False Emergency Alert for a 9.9 Earthquake Wasn’t a Cyberattack",
-          "outlet": "Gizmodo.com",
-          "published": "October 16, 2026",
-          "publishedAt": "2026-10-16T18:10:38Z",
-          "link": "https://gizmodo.com/japans-false-emergency-alert-for-a-9-9-earthquake-wasnt-a-cyberattack-2000827000",
-          "citation": "(U) Matt Novak. \"Japan’s False Emergency Alert for a 9.9 Earthquake Wasn’t a Cyberattack.\" Gizmodo.com, October 16, 2026. https://gizmodo.com/japans-false-emergency-alert-for-a-9-9-earthquake-wasnt-a-cyberattack-2000827000. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Admin",
-          "title": "As French Supermarkets Try to Restock, They Are Told Cyberattack May Be Ongoing",
-          "outlet": "Insurance Journal",
-          "published": "October 16, 2026",
-          "publishedAt": "2026-10-16T15:36:05Z",
-          "link": "https://www.insurancejournal.com/news/international/2026/10/16/889220.htm",
-          "citation": "(U) Admin. \"As French Supermarkets Try to Restock, They Are Told Cyberattack May Be Ongoing.\" Insurance Journal, October 16, 2026. https://www.insurancejournal.com/news/international/2026/10/16/889220.htm. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "LANCASTERONLINE | Staff",
-          "title": "Giant Food Stores website, app still down as parent company urged to file criminal complaint over cyberattack",
-          "outlet": "LancasterOnline",
-          "published": "October 16, 2026",
-          "publishedAt": "2026-10-16T14:33:00Z",
-          "link": "https://lancasteronline.com/news/local/giant-food-stores-website-app-still-down-as-parent-company-urged-to-file-criminal-complaint/article_428ec231-fb2d-46a4-a3a4-eb198a9afbca.html",
-          "citation": "(U) LANCASTERONLINE | Staff. \"Giant Food Stores website, app still down as parent company urged to file criminal complaint over cyberattack.\" LancasterOnline, October 16, 2026. https://lancasteronline.com/news/local/giant-food-stores-website-app-still-down-as-parent-company-urged-to-file-criminal-complaint/article_428ec231-fb2d-46a4-a3a4-eb198a9afbca.html. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 3,
+      "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Zelensky says Ukraine received no warning from partners as Russia hits power grid again",
+          "outlet": "New York Post",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:16:53Z",
+          "link": "https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/",
+          "citation": "(U) Associated Press. \"Zelensky says Ukraine received no warning from partners as Russia hits power grid again.\" New York Post, October 19, 2026. https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
         {
           "author": "Edison Reed",
           "title": "650 MW Nuclear Plant Proposed in Virginia, Targeting Early 2030s Operation",
@@ -441,7 +514,7 @@
     },
     {
       "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
-      "count": 2,
+      "count": 1,
       "error": null,
       "articles": [
         {
@@ -455,18 +528,6 @@
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b",
             "\\bal[- ]?qaeda\\b"
-          ]
-        },
-        {
-          "author": "Drew Gorman",
-          "title": "What in the World?",
-          "outlet": "Foreign Policy",
-          "published": "October 16, 2026",
-          "publishedAt": "2026-10-16T20:20:28Z",
-          "link": "http://foreignpolicy.com/2026/10/16/news-quiz-houthi-saudi-strikes-trump-commercials-india-protests/",
-          "citation": "(U) Drew Gorman. \"What in the World?.\" Foreign Policy, October 16, 2026. http://foreignpolicy.com/2026/10/16/news-quiz-houthi-saudi-strikes-trump-commercials-india-protests/. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
           ]
         }
       ]
@@ -492,19 +553,57 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 1,
+      "count": 4,
       "error": null,
       "articles": [
         {
-          "author": "Michelle Grattan, Professorial Fellow, University of Canberra",
-          "title": "Independent MP Helen Haines critically injured in attack, PM says counter-terrorism team activated, 43-year-old man arrested",
-          "outlet": "The Conversation Africa",
+          "author": "Fox 10 Phoenix",
+          "title": "'Picking off people': Valley man accused of plotting mass casualty attack with infamous OKC bombing 'cookbook'",
+          "outlet": "Freerepublic.com",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T10:13:43Z",
-          "link": "https://theconversation.com/independent-mp-helen-haines-critically-injured-in-attack-pm-says-counter-terrorism-team-activated-43-year-old-man-arrested-47823",
-          "citation": "(U) Michelle Grattan, Professorial Fellow, University of Canberra. \"Independent MP Helen Haines critically injured in attack, PM says counter-terrorism team activated, 43-year-old man arrested.\" The Conversation Africa, October 19, 2026. https://theconversation.com/independent-mp-helen-haines-critically-injured-in-attack-pm-says-counter-terrorism-team-activated-43-year-old-man-arrested-47823. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T16:20:37Z",
+          "link": "https://freerepublic.com/focus/f-news/4399767/posts",
+          "citation": "(U) Fox 10 Phoenix. \"'Picking off people': Valley man accused of plotting mass casualty attack with infamous OKC bombing 'cookbook'.\" Freerepublic.com, October 19, 2026. https://freerepublic.com/focus/f-news/4399767/posts. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b",
+            "\\bbombing\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Germany summons Iran envoy following 'malicious' assassination plots",
+          "outlet": "The Local Germany",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:12:43Z",
+          "link": "https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots",
+          "citation": "(U) AFP. \"Germany summons Iran envoy following 'malicious' assassination plots.\" The Local Germany, October 19, 2026. https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "2 terrorists planning immenent terror attack arrested",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T12:33:21Z",
+          "link": "https://www.israelnationalnews.com/flashes/695652",
+          "citation": "(U) Israel National News. \"2 terrorists planning immenent terror attack arrested.\" Israelnationalnews.com, October 19, 2026. https://www.israelnationalnews.com/flashes/695652. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Doctor who joined ISIS receives 27-month sentence",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T12:23:22Z",
+          "link": "https://www.israelnationalnews.com/news/434837",
+          "citation": "(U) Israel National News. \"Doctor who joined ISIS receives 27-month sentence.\" Israelnationalnews.com, October 19, 2026. https://www.israelnationalnews.com/news/434837. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
           ]
         }
       ]
@@ -561,9 +660,21 @@
     },
     {
       "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
+        {
+          "author": "Associated Press",
+          "title": "Zelensky says Ukraine received no warning from partners as Russia hits power grid again",
+          "outlet": "New York Post",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:16:53Z",
+          "link": "https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/",
+          "citation": "(U) Associated Press. \"Zelensky says Ukraine received no warning from partners as Russia hits power grid again.\" New York Post, October 19, 2026. https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bpower grid\\b"
+          ]
+        },
         {
           "author": "Edison Reed",
           "title": "650 MW Nuclear Plant Proposed in Virginia, Targeting Early 2030s Operation",
@@ -580,79 +691,151 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 6,
+      "count": 12,
       "error": null,
       "articles": [
         {
-          "author": "Pranjal Pandey",
-          "title": "At least 20 Yemeni fighters killed as Houthis target military camp with ballistic missiles",
-          "outlet": "The Times of India",
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "outlet": "BBC News",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T11:14:11Z",
-          "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms",
-          "citation": "(U) Pranjal Pandey. \"At least 20 Yemeni fighters killed as Houthis target military camp with ballistic missiles.\" The Times of India, October 19, 2026. https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T16:20:51Z",
+          "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say.\" BBC News, October 19, 2026. https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         },
         {
-          "author": "AFP",
-          "title": "Houthi attack on Yemen govt camp kills over 30",
-          "outlet": "The Times of India",
+          "author": "feedfeeder",
+          "title": "Houthi rebels strike a government military camp in southern Yemen, killing at least 53 fighters - AP News",
+          "outlet": "Slashdot.org",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T11:07:03Z",
-          "link": "https://economictimes.indiatimes.com/news/defence/houthi-rebels-strike-a-government-military-camp-in-southern-yemen-killing-at-least-20-fighters/articleshow/135046959.cms",
-          "citation": "(U) AFP. \"Houthi attack on Yemen govt camp kills over 30.\" The Times of India, October 19, 2026. https://economictimes.indiatimes.com/news/defence/houthi-rebels-strike-a-government-military-camp-in-southern-yemen-killing-at-least-20-fighters/articleshow/135046959.cms. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T15:33:09Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186373040",
+          "citation": "(U) feedfeeder. \"Houthi rebels strike a government military camp in southern Yemen, killing at least 53 fighters - AP News.\" Slashdot.org, October 19, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186373040. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         },
         {
-          "author": "AP",
-          "title": "Houthi rebels strike a government military camp in southern Yemen, killing at least 20 fighters",
-          "outlet": "The Times of India",
+          "author": "Emma Graham, Spencer Kimball",
+          "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+          "outlet": "CNBC",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T11:07:03Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/houthi-rebels-strike-a-government-military-camp-in-southern-yemen-killing-at-least-20-fighters/articleshow/135046959.cms",
-          "citation": "(U) AP. \"Houthi rebels strike a government military camp in southern Yemen, killing at least 20 fighters.\" The Times of India, October 19, 2026. https://economictimes.indiatimes.com/news/international/world-news/houthi-rebels-strike-a-government-military-camp-in-southern-yemen-killing-at-least-20-fighters/articleshow/135046959.cms. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T15:24:48Z",
+          "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "citation": "(U) Emma Graham, Spencer Kimball. \"Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom.\" CNBC, October 19, 2026. https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         },
         {
-          "author": "Mohammad Mansour",
-          "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-          "outlet": "Al Jazeera English",
+          "author": "Ariel Zilber",
+          "title": "Saudi Arabia scraps in-person investor summit as Houthi missile attacks rattle kingdom",
+          "outlet": "New York Post",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T10:49:23Z",
-          "link": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit",
-          "citation": "(U) Mohammad Mansour. \"Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit.\" Al Jazeera English, October 19, 2026. https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T15:18:29Z",
+          "link": "https://nypost.com/2026/10/19/business/saudi-arabia-scraps-in-person-investor-summit-as-houthi-missile-attacks-rattle-kingdom/",
+          "citation": "(U) Ariel Zilber. \"Saudi Arabia scraps in-person investor summit as Houthi missile attacks rattle kingdom.\" New York Post, October 19, 2026. https://nypost.com/2026/10/19/business/saudi-arabia-scraps-in-person-investor-summit-as-houthi-missile-attacks-rattle-kingdom/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Alex Berry",
+          "title": "Houthi strike on Yemen government military camp kills at least 50",
+          "outlet": "DW (English)",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:39:00Z",
+          "link": "https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163",
+          "citation": "(U) Alex Berry. \"Houthi strike on Yemen government military camp kills at least 50.\" DW (English), October 19, 2026. https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "50 dead in Houthi attack on Yemen govt camp - officials",
+          "outlet": "RTE",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:15:38Z",
+          "link": "https://www.rte.ie/news/middle-east/2026/1019/1595991-houthi-attack-yemen/",
+          "citation": "(U) RTÉ News. \"50 dead in Houthi attack on Yemen govt camp - officials.\" RTE, October 19, 2026. https://www.rte.ie/news/middle-east/2026/1019/1595991-houthi-attack-yemen/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Houthi attack on Yemeni government forces kills 53: officials",
+          "outlet": "CBC News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:13:36Z",
+          "link": "https://www.cbc.ca/news/world/houthi-attack-yemen-government-forces-camp-9.7386538",
+          "citation": "(U) CBC News Staff. \"Houthi attack on Yemeni government forces kills 53: officials.\" CBC News, October 19, 2026. https://www.cbc.ca/news/world/houthi-attack-yemen-government-forces-camp-9.7386538. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         },
         {
           "author": "Estefano Gomez",
-          "title": "Houthi attack on Yemeni military camp kills 18, escalating conflict",
+          "title": "Houthi missile strike kills 53 at Yemen training camp, escalating conflict",
           "outlet": "Crypto Briefing",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T09:43:32Z",
-          "link": "https://cryptobriefing.com/houthi-attack-on-yemeni-military-camp-kills-18-escalating-conflict/",
-          "citation": "(U) Estefano Gomez. \"Houthi attack on Yemeni military camp kills 18, escalating conflict.\" Crypto Briefing, October 19, 2026. https://cryptobriefing.com/houthi-attack-on-yemeni-military-camp-kills-18-escalating-conflict/. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T13:53:03Z",
+          "link": "https://cryptobriefing.com/houthi-missile-strike-kills-53-at-yemen-training-camp-escalating-conflict/",
+          "citation": "(U) Estefano Gomez. \"Houthi missile strike kills 53 at Yemen training camp, escalating conflict.\" Crypto Briefing, October 19, 2026. https://cryptobriefing.com/houthi-missile-strike-kills-53-at-yemen-training-camp-escalating-conflict/. Accessed October 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         },
         {
-          "author": "Al Jazeera English Staff",
-          "title": "Yemen: The Saada Bus Bombing",
+          "author": "The Associated Press",
+          "title": "Houthi rebels strike government military base in southern Yemen, killing 53",
+          "outlet": "Haaretz",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:28:24Z",
+          "link": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
+          "citation": "(U) The Associated Press. \"Houthi rebels strike government military base in southern Yemen, killing 53.\" Haaretz, October 19, 2026. https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Saudi-Houthi disruption spreads",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:28:14Z",
+          "link": "https://www.hurriyetdailynews.com/saudi-houthi-disruption-spreads-228333",
+          "citation": "(U) hurriyetdailynews.com. \"Saudi-Houthi disruption spreads.\" Hurriyet Daily News, October 19, 2026. https://www.hurriyetdailynews.com/saudi-houthi-disruption-spreads-228333. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera Staff",
+          "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
           "outlet": "Al Jazeera English",
           "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T08:18:13Z",
-          "link": "https://www.aljazeera.com/video/featured-documentaries/2018/12/22/yemen-the-saada-bus-bombing",
-          "citation": "(U) Al Jazeera English Staff. \"Yemen: The Saada Bus Bombing.\" Al Jazeera English, October 19, 2026. https://www.aljazeera.com/video/featured-documentaries/2018/12/22/yemen-the-saada-bus-bombing. Accessed October 20, 2026.",
+          "publishedAt": "2026-10-19T12:51:46Z",
+          "link": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa",
+          "citation": "(U) Al Jazeera Staff. \"At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa.\" Al Jazeera English, October 19, 2026. https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa. Accessed October 20, 2026.",
           "ci_match_patterns": [
-            "\\bbombing\\b"
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Doctor who joined ISIS receives 27-month sentence",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T12:23:22Z",
+          "link": "https://www.israelnationalnews.com/news/434837",
+          "citation": "(U) Israel National News. \"Doctor who joined ISIS receives 27-month sentence.\" Israelnationalnews.com, October 19, 2026. https://www.israelnationalnews.com/news/434837. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
           ]
         }
       ]
@@ -713,6 +896,18 @@
       "error": null,
       "articles": [
         {
+          "author": "KHALED KAZZIHA, The Associated Press",
+          "title": "Ethiopia’s prime minister won a Nobel Peace Prize for making peace with Eritrea. Now the former allies could go to war",
+          "outlet": "Fortune",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:10:38Z",
+          "link": "https://fortune.com/2026/10/19/ethiopia-eritrea-war-tigray-nile-dam-regional-conflict/",
+          "citation": "(U) KHALED KAZZIHA, The Associated Press. \"Ethiopia’s prime minister won a Nobel Peace Prize for making peace with Eritrea. Now the former allies could go to war.\" Fortune, October 19, 2026. https://fortune.com/2026/10/19/ethiopia-eritrea-war-tigray-nile-dam-regional-conflict/. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
           "author": "Iva Greene",
           "title": "California Auditor: 57 Dams in Poor or Unsatisfactory Condition",
           "outlet": "Naturalnews.com",
@@ -723,60 +918,25 @@
           "ci_match_patterns": [
             "\\bdam(s)?\\b"
           ]
-        },
-        {
-          "author": "CBC News Staff",
-          "title": "Eels keep dying in hydro dam turbines. A new design could change that",
-          "outlet": "CBC News",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T18:00:00Z",
-          "link": "https://www.cbc.ca/news/climate/what-on-earth-eels-hydro-dams-9.7381506",
-          "citation": "(U) CBC News Staff. \"Eels keep dying in hydro dam turbines. A new design could change that.\" CBC News, October 15, 2026. https://www.cbc.ca/news/climate/what-on-earth-eels-hydro-dams-9.7381506. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdam(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 3,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "ET Online",
-          "title": "Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe",
-          "outlet": "The Times of India",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T19:09:51Z",
-          "link": "https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms",
-          "citation": "(U) ET Online. \"Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms. Accessed October 20, 2026.",
+          "author": "AFP",
+          "title": "Germany summons Iran envoy following 'malicious' assassination plots",
+          "outlet": "The Local Germany",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:12:43Z",
+          "link": "https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots",
+          "citation": "(U) AFP. \"Germany summons Iran envoy following 'malicious' assassination plots.\" The Local Germany, October 19, 2026. https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots. Accessed October 20, 2026.",
           "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Hakeem Irfan Rashid",
-          "title": "Army officers' wife booked for 'espionage'",
-          "outlet": "The Times of India",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T18:19:44Z",
-          "link": "https://economictimes.indiatimes.com/news/india/wife-of-army-officer-in-jammu-and-kashmir-arrested-for-espionage-ties-with-chinese-operatives/articleshow/135033839.cms",
-          "citation": "(U) Hakeem Irfan Rashid. \"Army officers' wife booked for 'espionage'.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/news/india/wife-of-army-officer-in-jammu-and-kashmir-arrested-for-espionage-ties-with-chinese-operatives/articleshow/135033839.cms. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "ET Entertainment Desk",
-          "title": "Tiger Shroff attack: 5 Bollywood stars who faced assassination attempts on them in the past",
-          "outlet": "The Times of India",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T15:56:14Z",
-          "link": "https://economictimes.indiatimes.com/magazines/panache/tiger-shroff-attack-5-bollywood-stars-who-faced-assassination-attempts-on-them-in-the-past/articleshow/135030476.cms",
-          "citation": "(U) ET Entertainment Desk. \"Tiger Shroff attack: 5 Bollywood stars who faced assassination attempts on them in the past.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/magazines/panache/tiger-shroff-attack-5-bollywood-stars-who-faced-assassination-attempts-on-them-in-the-past/articleshow/135030476.cms. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b"
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
           ]
         }
       ]
@@ -786,6 +946,18 @@
       "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Michael Kan",
+          "title": "Starlink Faces Third Attempted Arson Attack In Europe",
+          "outlet": "PCMag.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:33:49Z",
+          "link": "https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe",
+          "citation": "(U) Michael Kan. \"Starlink Faces Third Attempted Arson Attack In Europe.\" PCMag.com, October 19, 2026. https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
         {
           "author": "RT",
           "title": "Swedish man detained over Kiev sabotage plot – FSB",
@@ -836,18 +1008,6 @@
             "\\bespionage\\b",
             "\\bfsb\\b"
           ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Russia arrests Japanese reporter for alleged espionage",
-          "outlet": "Al Jazeera English",
-          "published": "October 13, 2026",
-          "publishedAt": "2026-10-13T18:49:26Z",
-          "link": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
-          "citation": "(U) Al Jazeera Staff. \"Russia arrests Japanese reporter for alleged espionage.\" Al Jazeera English, October 13, 2026. https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged. Accessed October 20, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
@@ -884,9 +1044,22 @@
     },
     {
       "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
+        {
+          "author": "AFP",
+          "title": "Germany summons Iran envoy following 'malicious' assassination plots",
+          "outlet": "The Local Germany",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T13:12:43Z",
+          "link": "https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots",
+          "citation": "(U) AFP. \"Germany summons Iran envoy following 'malicious' assassination plots.\" The Local Germany, October 19, 2026. https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots. Accessed October 20, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Aadrita Halder",
           "title": "'Broad, troubling trend': US lawmakers urge FBI probe into mass shooting plot at Illinois Hindu temple",

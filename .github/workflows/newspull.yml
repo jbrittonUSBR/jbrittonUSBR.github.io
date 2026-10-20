@@ -2,7 +2,7 @@ name: Weekday news pull
 
 on:
   schedule:
-    - cron: "0 12 * * 1-5"
+    - cron: "0 10 * * 1-5"   # 10:00 UTC = 4:00 AM MDT
   workflow_dispatch:
 
 permissions:

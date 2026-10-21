@@ -1,20 +1,45 @@
 {
-  "pulled_at_utc": "2026-10-21T12:18:02Z",
+  "pulled_at_utc": "2026-10-21T14:59:51Z",
   "accessed": "October 21, 2026",
-  "filtered_at_utc": "2026-10-21T12:24:05Z",
+  "filtered_at_utc": "2026-10-21T15:07:19Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 485,
+  "source_article_count": 487,
   "article_count": 73,
-  "dropped_count": 412,
-  "term_count": 25,
+  "dropped_count": 414,
+  "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 5,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Imogen Garfinkel",
+          "title": "ISIS militants slaughter up to 70 civilians, with some burned alive, amid growing clashes with Al Qaeda rivals in Mali",
+          "outlet": "Dailymail.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T14:51:37Z",
+          "link": "https://www.dailymail.com/news/article-16223483/ISIS-militants-slaughter-70-civilians-burned-alive-amid-growing-clashes-Al-Qaeda-rivals-Mali.html",
+          "citation": "(U) Imogen Garfinkel. \"ISIS militants slaughter up to 70 civilians, with some burned alive, amid growing clashes with Al Qaeda rivals in Mali.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16223483/ISIS-militants-slaughter-70-civilians-burned-alive-amid-growing-clashes-Al-Qaeda-rivals-Mali.html. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "South Sudan accuses neighbor of deadly drone strike",
+          "outlet": "Rt-english.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T14:37:55Z",
+          "link": "https://rt-english.com/africa/647440-south-sudan-accuses-neighbor-drone-strike/",
+          "citation": "(U) RT. \"South Sudan accuses neighbor of deadly drone strike.\" Rt-english.com, October 20, 2026. https://rt-english.com/africa/647440-south-sudan-accuses-neighbor-drone-strike/. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "feedfeeder",
           "title": "Drone strike in disputed Sudan-South Sudan area kills dozens, minister says - Reuters",
@@ -99,9 +124,21 @@
     },
     {
       "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
-      "count": 4,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Amandine Nadja, Resinta Sulistiyandari",
+          "title": "Batam-Bintan blackout: Police probe possible negligence, sabotage",
+          "outlet": "Antaranews.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T13:49:09Z",
+          "link": "https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage",
+          "citation": "(U) Amandine Nadja, Resinta Sulistiyandari. \"Batam-Bintan blackout: Police probe possible negligence, sabotage.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
         {
           "author": "RealClearWire",
           "title": "Houthis are testing the limits of collective defense",
@@ -343,9 +380,21 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 8,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Ionut Arghire",
+          "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+          "outlet": "Securityweek.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T13:02:18Z",
+          "link": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
+          "citation": "(U) Ionut Arghire. \"Ahold Delhaize Restoring Services Disrupted by Cyberattack.\" Securityweek.com, October 20, 2026. https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Carly Page",
           "title": "Bullhorn sees red after cyberattack knocks recruitment platform offline",
@@ -450,6 +499,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Amandine Nadja, Resinta Sulistiyandari",
+          "title": "Batam-Bintan blackout: Police probe possible negligence, sabotage",
+          "outlet": "Antaranews.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T13:49:09Z",
+          "link": "https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage",
+          "citation": "(U) Amandine Nadja, Resinta Sulistiyandari. \"Batam-Bintan blackout: Police probe possible negligence, sabotage.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
           "author": "AP",
           "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
           "outlet": "The Times of India",
@@ -483,18 +544,6 @@
           "citation": "(U) Edison Reed. \"650 MW Nuclear Plant Proposed in Virginia, Targeting Early 2030s Operation.\" Naturalnews.com, October 19, 2026. https://www.naturalnews.com/2026-10-19-nuclear-plant-proposed-virginia-targeting-2030-operation.html. Accessed October 21, 2026.",
           "ci_match_patterns": [
             "\\bnuclear (plant|facility|site|power|safety)\\b"
-          ]
-        },
-        {
-          "author": "Bloomberg",
-          "title": "Nord Stream Sabotage Suspect Faces German War Crime Charge",
-          "outlet": "gcaptain.com",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T18:22:25Z",
-          "link": "https://gcaptain.com/nord-stream-sabotage-suspect-faces-german-war-crime-charge/",
-          "citation": "(U) Bloomberg. \"Nord Stream Sabotage Suspect Faces German War Crime Charge.\" gcaptain.com, October 18, 2026. https://gcaptain.com/nord-stream-sabotage-suspect-faces-german-war-crime-charge/. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
           ]
         }
       ]
@@ -539,9 +588,34 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 1,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist",
+          "outlet": "Breitbart News",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T14:38:35Z",
+          "link": "https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/",
+          "citation": "(U) Oliver JJ Lane. \"Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist.\" Breitbart News, October 20, 2026. https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bextremist(s| group)?\\b"
+          ]
+        },
+        {
+          "author": "Sabrina Penty",
+          "title": "Far-left activist known to police is arrested over arson attack that destroyed historic town hall during French riots",
+          "outlet": "Dailymail.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T13:50:08Z",
+          "link": "https://www.dailymail.com/news/article-16223691/Far-left-activist-arrested-arson-attack-town-hall-riots-france.html",
+          "citation": "(U) Sabrina Penty. \"Far-left activist known to police is arrested over arson attack that destroyed historic town hall during French riots.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16223691/Far-left-activist-arrested-arson-attack-town-hall-riots-france.html. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
         {
           "author": "Kurt Zindulka",
           "title": "'Colossal Failure': Limoges Mayor Claims National Police Ran Out of Ammo Amid City Hall Arson Attack",
@@ -670,9 +744,58 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 8,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Imogen Garfinkel",
+          "title": "ISIS militants slaughter up to 70 civilians, with some burned alive, amid growing clashes with Al Qaeda rivals in Mali",
+          "outlet": "Dailymail.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T14:51:37Z",
+          "link": "https://www.dailymail.com/news/article-16223483/ISIS-militants-slaughter-70-civilians-burned-alive-amid-growing-clashes-Al-Qaeda-rivals-Mali.html",
+          "citation": "(U) Imogen Garfinkel. \"ISIS militants slaughter up to 70 civilians, with some burned alive, amid growing clashes with Al Qaeda rivals in Mali.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16223483/ISIS-militants-slaughter-70-civilians-burned-alive-amid-growing-clashes-Al-Qaeda-rivals-Mali.html. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bal[- ]?qaeda\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Maziar Motamedi",
+          "title": "Iran denies collapse is close as US claims IRGC running out of money",
+          "outlet": "Al Jazeera English",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T12:29:58Z",
+          "link": "https://www.aljazeera.com/news/2026/10/20/iran-denies-collapse-is-close-as-us-claims-irgc-running-out-of-money",
+          "citation": "(U) Maziar Motamedi. \"Iran denies collapse is close as US claims IRGC running out of money.\" Al Jazeera English, October 20, 2026. https://www.aljazeera.com/news/2026/10/20/iran-denies-collapse-is-close-as-us-claims-irgc-running-out-of-money. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\birgc\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "Death toll in Houthi attack on Yemeni government forces rises to 73: governor",
+          "outlet": "CBC News",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T12:24:07Z",
+          "link": "https://www.cbc.ca/news/world/houthi-attack-yemen-forces-rises-9.7388015",
+          "citation": "(U) CBC News Staff. \"Death toll in Houthi attack on Yemeni government forces rises to 73: governor.\" CBC News, October 20, 2026. https://www.cbc.ca/news/world/houthi-attack-yemen-forces-rises-9.7388015. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "AP",
+          "title": "Death toll rises to 73 in Houthi strike on Yemen training camp in deadliest attack in months",
+          "outlet": "The Times of India",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T12:22:32Z",
+          "link": "https://economictimes.indiatimes.com/news/defence/death-toll-rises-to-73-in-houthi-strike-on-yemen-training-camp-in-deadliest-attack-in-months/articleshow/135069873.cms",
+          "citation": "(U) AP. \"Death toll rises to 73 in Houthi strike on Yemen training camp in deadliest attack in months.\" The Times of India, October 20, 2026. https://economictimes.indiatimes.com/news/defence/death-toll-rises-to-73-in-houthi-strike-on-yemen-training-camp-in-deadliest-attack-in-months/articleshow/135069873.cms. Accessed October 21, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "AP",
           "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols",
@@ -681,90 +804,6 @@
           "publishedAt": "2026-10-20T12:11:09Z",
           "link": "https://economictimes.indiatimes.com/news/defence/the-uk-expands-military-support-for-saudi-arabia-against-houthis-to-include-defensive-air-patrols/articleshow/135069753.cms",
           "citation": "(U) AP. \"The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols.\" The Times of India, October 20, 2026. https://economictimes.indiatimes.com/news/defence/the-uk-expands-military-support-for-saudi-arabia-against-houthis-to-include-defensive-air-patrols/articleshow/135069753.cms. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Islamic State-linked militants kill at least 48 civilians in eastern Mali, sources say",
-          "outlet": "The Times of India",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:51:44Z",
-          "link": "https://economictimes.indiatimes.com/news/defence/islamic-state-linked-militants-kill-at-least-48-civilians-in-eastern-mali-sources-say/articleshow/135069061.cms",
-          "citation": "(U) Reuters. \"Islamic State-linked militants kill at least 48 civilians in eastern Mali, sources say.\" The Times of India, October 20, 2026. https://economictimes.indiatimes.com/news/defence/islamic-state-linked-militants-kill-at-least-48-civilians-in-eastern-mali-sources-say/articleshow/135069061.cms. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bislamic state\\b"
-          ]
-        },
-        {
-          "author": "Daniel Khalili-Tari",
-          "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
-          "outlet": "Al Jazeera English",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:37:43Z",
-          "link": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks",
-          "citation": "(U) Daniel Khalili-Tari. \"UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks.\" Al Jazeera English, October 20, 2026. https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "hurriyetdailynews.com",
-          "title": "UK to deploy fighter jets to help protect Saudi from Houthi attacks",
-          "outlet": "Hurriyet Daily News",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:30:44Z",
-          "link": "https://www.hurriyetdailynews.com/uk-to-deploy-fighter-jets-to-help-protect-saudi-from-houthi-attacks-228377",
-          "citation": "(U) hurriyetdailynews.com. \"UK to deploy fighter jets to help protect Saudi from Houthi attacks.\" Hurriyet Daily News, October 20, 2026. https://www.hurriyetdailynews.com/uk-to-deploy-fighter-jets-to-help-protect-saudi-from-houthi-attacks-228377. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "CNA Staff",
-          "title": "UK to deploy fighter jets to help protect Saudi from Houthi attacks",
-          "outlet": "CNA",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:25:00Z",
-          "link": "https://www.channelnewsasia.com/world/uk-deploy-fighter-jets-protect-saudi-houthi-attacks-6475431",
-          "citation": "(U) CNA Staff. \"UK to deploy fighter jets to help protect Saudi from Houthi attacks.\" CNA, October 20, 2026. https://www.channelnewsasia.com/world/uk-deploy-fighter-jets-protect-saudi-houthi-attacks-6475431. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "https://www.facebook.com/bbcnews",
-          "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
-          "outlet": "BBC News",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:23:01Z",
-          "link": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo",
-          "citation": "(U) https://www.facebook.com/bbcnews. \"UK to deploy jets to defend Saudi Arabia from Houthi attacks.\" BBC News, October 20, 2026. https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Simon Kent",
-          "title": "UK Dispatches Fighter Jets to Defend Saudi Arabia from Houthi Attacks",
-          "outlet": "Breitbart News",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:19:53Z",
-          "link": "https://www.breitbart.com/europe/2026/10/20/uk-dispatches-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/",
-          "citation": "(U) Simon Kent. \"UK Dispatches Fighter Jets to Defend Saudi Arabia from Houthi Attacks.\" Breitbart News, October 20, 2026. https://www.breitbart.com/europe/2026/10/20/uk-dispatches-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Mark Nicol, Martin Robinson",
-          "title": "RAF fighter jets set to be used to defend Saudi Arabia from Houthi aerial attacks",
-          "outlet": "Dailymail.com",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T11:03:10Z",
-          "link": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html",
-          "citation": "(U) Mark Nicol, Martin Robinson. \"RAF fighter jets set to be used to defend Saudi Arabia from Houthi aerial attacks.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html. Accessed October 21, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -854,7 +893,7 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 3,
+      "count": 2,
       "error": null,
       "articles": [
         {
@@ -881,24 +920,12 @@
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]
-        },
-        {
-          "author": "Diego Almada Lopez",
-          "title": "Trump administration warns businesses of AI espionage risks",
-          "outlet": "Crypto Briefing",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T19:43:55Z",
-          "link": "https://cryptobriefing.com/trump-administration-ai-espionage-warning/",
-          "citation": "(U) Diego Almada Lopez. \"Trump administration warns businesses of AI espionage risks.\" Crypto Briefing, October 19, 2026. https://cryptobriefing.com/trump-administration-ai-espionage-warning/. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 5,
+      "count": 4,
       "error": null,
       "articles": [
         {
@@ -948,19 +975,6 @@
           "citation": "(U) Sputnik International. \"Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB.\" Sputnikglobe.com, October 15, 2026. https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html. Accessed October 21, 2026.",
           "ci_match_patterns": [
             "\\bsabotage\\b",
-            "\\bfsb\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "Russia arrests Japanese journalist on espionage charges (VIDEO)",
-          "outlet": "Rt-english.com",
-          "published": "October 14, 2026",
-          "publishedAt": "2026-10-14T10:40:43Z",
-          "link": "https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/",
-          "citation": "(U) RT. \"Russia arrests Japanese journalist on espionage charges (VIDEO).\" Rt-english.com, October 14, 2026. https://rt-english.com/russia/647188-japan-journalist-fsb-arrest/. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b",
             "\\bfsb\\b"
           ]
         }
@@ -1035,35 +1049,16 @@
       "error": null,
       "articles": [
         {
-          "author": "Front Page Magazine",
-          "title": "Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot",
-          "outlet": "Freerepublic.com",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T10:50:25Z",
-          "link": "https://freerepublic.com/focus/f-bloggers/4399600/posts",
-          "citation": "(U) Front Page Magazine. \"Canada Frees ‘Deradicalized’ Al Qaeda Terrorist in Parliament Bomb Plot.\" Freerepublic.com, October 18, 2026. https://freerepublic.com/focus/f-bloggers/4399600/posts. Accessed October 21, 2026.",
+          "author": "Oliver JJ Lane",
+          "title": "Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist",
+          "outlet": "Breitbart News",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T14:38:35Z",
+          "link": "https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/",
+          "citation": "(U) Oliver JJ Lane. \"Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist.\" Breitbart News, October 20, 2026. https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/. Accessed October 21, 2026.",
           "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\bal[- ]?qaeda\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 1,
-      "error": null,
-      "articles": [
-        {
-          "author": "Chase Codewell",
-          "title": "Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks",
-          "outlet": "Naturalnews.com",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T06:00:00Z",
-          "link": "https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html",
-          "citation": "(U) Chase Codewell. \"Bill Gates Warns of “Grim” Cyberattack Surprises, Citing AI Risks.\" Naturalnews.com, October 18, 2026. https://www.naturalnews.com/2026-10-18-bill-gates-warns-grim-cyberattack-surprises-ai.html. Accessed October 21, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
+            "\\barson\\b",
+            "\\bextremist(s| group)?\\b"
           ]
         }
       ]

@@ -1,20 +1,68 @@
 {
-  "pulled_at_utc": "2026-10-22T12:03:56Z",
+  "pulled_at_utc": "2026-10-22T15:00:01Z",
   "accessed": "October 22, 2026",
-  "filtered_at_utc": "2026-10-22T12:10:55Z",
+  "filtered_at_utc": "2026-10-22T15:06:34Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 491,
-  "article_count": 77,
-  "dropped_count": 414,
-  "term_count": 25,
+  "source_article_count": 487,
+  "article_count": 78,
+  "dropped_count": 409,
+  "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 4,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "Kremlin warned Germany after Leipzig airport sabotage that it won’t be the last attack, WSJ reports - Meduza",
+          "outlet": "Slashdot.org",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T14:33:07Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186395836",
+          "citation": "(U) feedfeeder. \"Kremlin warned Germany after Leipzig airport sabotage that it won’t be the last attack, WSJ reports - Meduza.\" Slashdot.org, October 21, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186395836. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford",
+          "outlet": "Breitbart News",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:37:38Z",
+          "link": "https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/",
+          "citation": "(U) Oliver JJ Lane. \"Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford.\" Breitbart News, October 21, 2026. https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "Stephen Quillen",
+          "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
+          "outlet": "Al Jazeera English",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:25:50Z",
+          "link": "https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict",
+          "citation": "(U) Stephen Quillen. \"Are the UK, France being pulled into the Saudi-Houthi conflict?.\" Al Jazeera English, October 21, 2026. https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "German sniper detained after deserting Ukrainian Army – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:47:04Z",
+          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
+          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
         {
           "author": "Fox News Staff",
           "title": "How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught",
@@ -25,42 +73,6 @@
           "citation": "(U) Fox News Staff. \"How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught.\" Fox News, October 21, 2026. https://www.foxnews.com/politics/saudi-arabia-defense-vulnerabilities-trump-problem-houthi-onslaught. Accessed October 22, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Nils Adler",
-          "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
-          "outlet": "Al Jazeera English",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T10:22:35Z",
-          "link": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond",
-          "citation": "(U) Nils Adler. \"WW1 to Houthis: British jets for Saudi Arabia build on long military bond.\" Al Jazeera English, October 21, 2026. https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "TOI World Desk",
-          "title": "New York built a dam in 1836 to feed a canal; 190 years later, Lake Moraine remains lowered for a major rehabilitation project",
-          "outlet": "The Times of India",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T09:24:31Z",
-          "link": "https://timesofindia.indiatimes.com/world/us/new-york-built-a-dam-in-1836-to-feed-a-canal-190-years-later-lake-moraine-remains-lowered-for-a-major-rehabilitation-project/articleshow/135087814.cms",
-          "citation": "(U) TOI World Desk. \"New York built a dam in 1836 to feed a canal; 190 years later, Lake Moraine remains lowered for a major rehabilitation project.\" The Times of India, October 21, 2026. https://timesofindia.indiatimes.com/world/us/new-york-built-a-dam-in-1836-to-feed-a-canal-190-years-later-lake-moraine-remains-lowered-for-a-major-rehabilitation-project/articleshow/135087814.cms. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bdam(s)?\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
-          "outlet": "Al Jazeera English",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T08:25:45Z",
-          "link": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
-          "citation": "(U) Al Jazeera Staff. \"Drone attack in disputed Sudan-South Sudan border region kills at least 153.\" Al Jazeera English, October 21, 2026. https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
         }
       ]
@@ -346,29 +358,22 @@
       ]
     },
     {
-      "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 1,
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 5,
       "error": null,
       "articles": [
         {
-          "author": "Imogen Garfinkel",
-          "title": "Israel eliminates Hamas October 7 terrorist who killed and abducted Shani Louk before parading her semi-naked body in the back of a truck in scenes that sickened the world",
-          "outlet": "Dailymail.com",
+          "author": "Sead Fadilpašić",
+          "title": "State Bank of India reports cyberattack — thousands of customer records affected, here's what we know",
+          "outlet": "TechRadar",
           "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T07:43:10Z",
-          "link": "https://www.dailymail.com/news/article-16225759/Israel-eliminates-Hamas-October-7-terrorist-killed-abducted-Shani-Louk-parading-semi-naked-body-truck-scenes-sickened-world.html",
-          "citation": "(U) Imogen Garfinkel. \"Israel eliminates Hamas October 7 terrorist who killed and abducted Shani Louk before parading her semi-naked body in the back of a truck in scenes that sickened the world.\" Dailymail.com, October 21, 2026. https://www.dailymail.com/news/article-16225759/Israel-eliminates-Hamas-October-7-terrorist-killed-abducted-Shani-Louk-parading-semi-naked-body-truck-scenes-sickened-world.html. Accessed October 22, 2026.",
+          "publishedAt": "2026-10-21T14:16:20Z",
+          "link": "https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know",
+          "citation": "(U) Sead Fadilpašić. \"State Bank of India reports cyberattack — thousands of customer records affected, here's what we know.\" TechRadar, October 21, 2026. https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know. Accessed October 22, 2026.",
           "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
+            "\\bcyber ?attack\\b"
           ]
-        }
-      ]
-    },
-    {
-      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 6,
-      "error": null,
-      "articles": [
+        },
         {
           "author": "Admin",
           "title": "Cyberattack Hits India’s Largest Bank, Exposes Customer Data",
@@ -416,38 +421,27 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "CISA",
-          "title": "#StopRansomware: SafePay Ransomware",
-          "outlet": "Cisa.gov",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T19:18:07Z",
-          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
-          "citation": "(U) CISA. \"#StopRansomware: SafePay Ransomware.\" Cisa.gov, October 19, 2026. https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
-          ]
-        },
-        {
-          "author": "Bill Toulas",
-          "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-          "outlet": "BleepingComputer",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T18:51:13Z",
-          "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-          "citation": "(U) Bill Toulas. \"Bullhorn takes staffing platform offline to contain cyberattack.\" BleepingComputer, October 19, 2026. https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 4,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Punch Newspapers",
+          "title": "Army foils pipeline vandalism attempt, arrests 18-Year-old suspect in Benue",
+          "outlet": "The Punch",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T14:39:04Z",
+          "link": "https://punchng.com/army-foils-pipeline-vandalism-attempt-arrests-18-year-old-suspect-in-benue/",
+          "citation": "(U) Punch Newspapers. \"Army foils pipeline vandalism attempt, arrests 18-Year-old suspect in Benue.\" The Punch, October 21, 2026. https://punchng.com/army-foils-pipeline-vandalism-attempt-arrests-18-year-old-suspect-in-benue/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bvandalism\\b"
+          ]
+        },
         {
           "author": "Diana Brown",
           "title": "Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers",
@@ -470,30 +464,6 @@
           "citation": "(U) Amandine Nadja, Resinta Sulistiyandari. \"Batam-Bintan blackout: Police probe possible negligence, sabotage.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage. Accessed October 22, 2026.",
           "ci_match_patterns": [
             "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "AP",
-          "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
-          "outlet": "The Times of India",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T19:36:40Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/zelenskyy-says-ukraine-got-no-early-warning-from-partners-as-russia-hits-the-power-grid-again/articleshow/135055865.cms",
-          "citation": "(U) AP. \"Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again.\" The Times of India, October 19, 2026. https://economictimes.indiatimes.com/news/international/world-news/zelenskyy-says-ukraine-got-no-early-warning-from-partners-as-russia-hits-the-power-grid-again/articleshow/135055865.cms. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bpower grid\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Zelensky says Ukraine received no warning from partners as Russia hits power grid again",
-          "outlet": "New York Post",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T16:16:53Z",
-          "link": "https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/",
-          "citation": "(U) Associated Press. \"Zelensky says Ukraine received no warning from partners as Russia hits power grid again.\" New York Post, October 19, 2026. https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bpower grid\\b"
           ]
         }
       ]
@@ -550,9 +520,21 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford",
+          "outlet": "Breitbart News",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:37:38Z",
+          "link": "https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/",
+          "citation": "(U) Oliver JJ Lane. \"Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford.\" Breitbart News, October 21, 2026. https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
         {
           "author": "Prisca Triferna, Resinta Sulistiyandari",
           "title": "Prabowo calls forest fires \"environmental terrorism\", orders probe",
@@ -650,7 +632,7 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 5,
+      "count": 3,
       "error": null,
       "articles": [
         {
@@ -688,30 +670,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Diana Brown",
-          "title": "Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers",
-          "outlet": "Talosintelligence.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T10:00:00Z",
-          "link": "https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/",
-          "citation": "(U) Diana Brown. \"Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers.\" Talosintelligence.com, October 21, 2026. https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
-          ]
-        },
-        {
-          "author": "TOI Edit",
-          "title": "World’s refinery",
-          "outlet": "The Times of India",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T02:12:04Z",
-          "link": "https://timesofindia.indiatimes.com/toi-blogs/from-toi-print/worlds-refinery/articleshow/135079903.cms",
-          "citation": "(U) TOI Edit. \"World’s refinery.\" The Times of India, October 21, 2026. https://timesofindia.indiatimes.com/toi-blogs/from-toi-print/worlds-refinery/articleshow/135079903.cms. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b"
-          ]
         }
       ]
     },
@@ -720,6 +678,30 @@
       "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
+          "outlet": "Al Jazeera English",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:25:50Z",
+          "link": "https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict",
+          "citation": "(U) Stephen Quillen. \"Are the UK, France being pulled into the Saudi-Houthi conflict?.\" Al Jazeera English, October 21, 2026. https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "hurriyetdailynews.com",
+          "title": "Houthis step up attacks in Yemen as camp strike toll rises",
+          "outlet": "Hurriyet Daily News",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:38:00Z",
+          "link": "https://www.hurriyetdailynews.com/houthis-step-up-attacks-in-yemen-as-camp-strike-toll-rises-228434",
+          "citation": "(U) hurriyetdailynews.com. \"Houthis step up attacks in Yemen as camp strike toll rises.\" Hurriyet Daily News, October 21, 2026. https://www.hurriyetdailynews.com/houthis-step-up-attacks-in-yemen-as-camp-strike-toll-rises-228434. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Fox News Staff",
           "title": "How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught",
@@ -767,30 +749,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Garrison Vance",
-          "title": "Yemeni Prime Minister and His Cabinet Survive Houthi Missile Attack on Aden Presidential Palace",
-          "outlet": "Naturalnews.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T06:00:00Z",
-          "link": "https://www.naturalnews.com/2026-10-21-yemeni-pm-cabinet-survive-houthi-missile-attack.html",
-          "citation": "(U) Garrison Vance. \"Yemeni Prime Minister and His Cabinet Survive Houthi Missile Attack on Aden Presidential Palace.\" Naturalnews.com, October 21, 2026. https://www.naturalnews.com/2026-10-21-yemeni-pm-cabinet-survive-houthi-missile-attack.html. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "admin",
-          "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
-          "outlet": "Thechronicle.com.gh",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T05:51:53Z",
-          "link": "https://thechronicle.com.gh/uk-to-deploy-jets-to-defend-saudi-arabia-from-houthi-attacks/",
-          "citation": "(U) admin. \"UK to deploy jets to defend Saudi Arabia from Houthi attacks.\" Thechronicle.com.gh, October 21, 2026. https://thechronicle.com.gh/uk-to-deploy-jets-to-defend-saudi-arabia-from-houthi-attacks/. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
@@ -815,7 +773,7 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 5,
+      "count": 4,
       "error": null,
       "articles": [
         {
@@ -865,18 +823,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "CISA",
-          "title": "#StopRansomware: SafePay Ransomware",
-          "outlet": "Cisa.gov",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T19:18:07Z",
-          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
-          "citation": "(U) CISA. \"#StopRansomware: SafePay Ransomware.\" Cisa.gov, October 19, 2026. https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
-          ]
         }
       ]
     },
@@ -917,6 +863,18 @@
       "error": null,
       "articles": [
         {
+          "author": "AFP",
+          "title": "Moscow accuses Japan of using journalists for espionage",
+          "outlet": "The Times of India",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:38:06Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms",
+          "citation": "(U) AFP. \"Moscow accuses Japan of using journalists for espionage.\" The Times of India, October 21, 2026. https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
           "author": "admin",
           "title": "Two Russian-speaking men arrested in Denmark on suspicion of espionage",
           "outlet": "Protothema.gr",
@@ -927,27 +885,26 @@
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]
-        },
-        {
-          "author": "Stewart Lewis",
-          "title": "ISIS terrorist from Ontario gets additional 50 years in U.S. prison for stabbing guard in the eye",
-          "outlet": "National Post",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T17:09:04Z",
-          "link": "https://nationalpost.com/news/canada/isis-terrorist-from-ontario-gets-additional-50-years-in-u-s-prison-for-stabbing-guard-in-the-eye",
-          "citation": "(U) Stewart Lewis. \"ISIS terrorist from Ontario gets additional 50 years in U.S. prison for stabbing guard in the eye.\" National Post, October 20, 2026. https://nationalpost.com/news/canada/isis-terrorist-from-ontario-gets-additional-50-years-in-u-s-prison-for-stabbing-guard-in-the-eye. Accessed October 22, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\bisis\\b"
-          ]
         }
       ]
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 4,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "RT",
+          "title": "German sniper detained after deserting Ukrainian Army – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:47:04Z",
+          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
+          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
         {
           "author": "Michael Kan",
           "title": "Starlink Faces Third Attempted Arson Attack In Europe",
@@ -1065,9 +1022,45 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 2,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford",
+          "outlet": "Breitbart News",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:37:38Z",
+          "link": "https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/",
+          "citation": "(U) Oliver JJ Lane. \"Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford.\" Breitbart News, October 21, 2026. https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "German sniper detained after deserting Ukrainian Army – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:47:04Z",
+          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
+          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Moscow accuses Japan of using journalists for espionage",
+          "outlet": "The Times of India",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:38:06Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms",
+          "citation": "(U) AFP. \"Moscow accuses Japan of using journalists for espionage.\" The Times of India, October 21, 2026. https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Katherine Lawton",
           "title": "Two men arrested over suspected RAF Fairford 'terror plot' are rearrested on suspicion of helping Iran's intelligence service",
@@ -1097,9 +1090,21 @@
     },
     {
       "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
+        {
+          "author": "Sead Fadilpašić",
+          "title": "State Bank of India reports cyberattack — thousands of customer records affected, here's what we know",
+          "outlet": "TechRadar",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T14:16:20Z",
+          "link": "https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know",
+          "citation": "(U) Sead Fadilpašić. \"State Bank of India reports cyberattack — thousands of customer records affected, here's what we know.\" TechRadar, October 21, 2026. https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know. Accessed October 22, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Anamarija Pogorelec",
           "title": "DevGuard: Open-source vulnerability management for the software supply chain",

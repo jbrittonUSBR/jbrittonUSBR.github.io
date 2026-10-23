@@ -1,0 +1,968 @@
+{
+  "pulled_at_utc": "2026-10-23T14:50:58Z",
+  "accessed": "October 23, 2026",
+  "filtered_at_utc": "2026-10-23T14:57:14Z",
+  "filter": "manual_title_review_terrorism_or_CI",
+  "source_file": "newspull_merged.json",
+  "source_article_count": 481,
+  "article_count": 66,
+  "dropped_count": 415,
+  "term_count": 22,
+  "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
+  "results": [
+    {
+      "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Alex Berry",
+          "title": "Germany arrests Ukrainian man suspected of spying for Russia",
+          "outlet": "DW (English)",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:43:00Z",
+          "link": "https://www.dw.com/en/germany-arrests-ukrainian-russian-spy-espionage/a-79732373",
+          "citation": "(U) Alex Berry. \"Germany arrests Ukrainian man suspected of spying for Russia.\" DW (English), October 22, 2026. https://www.dw.com/en/germany-arrests-ukrainian-russian-spy-espionage/a-79732373. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Amandine Nadja, Resinta Sulistiyandari",
+          "title": "Batam-Bintan blackout: Police probe possible negligence, sabotage",
+          "outlet": "Antaranews.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T13:49:09Z",
+          "link": "https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage",
+          "citation": "(U) Amandine Nadja, Resinta Sulistiyandari. \"Batam-Bintan blackout: Police probe possible negligence, sabotage.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436809/batam-bintan-blackout-police-probe-possible-negligence-sabotage. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "RealClearWire",
+          "title": "Houthis are testing the limits of collective defense",
+          "outlet": "Wnd.com",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T19:39:20Z",
+          "link": "https://www.wnd.com/2026/10/houthis-are-testing-limits-collective-defense/",
+          "citation": "(U) RealClearWire. \"Houthis are testing the limits of collective defense.\" Wnd.com, October 18, 2026. https://www.wnd.com/2026/10/houthis-are-testing-limits-collective-defense/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Max Seddon",
+          "title": "Ukraine defies Trump by launching its largest-ever drone attack on St Petersburg",
+          "outlet": "The Irish Times",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T19:00:00Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/10/19/ukraine-defies-trump-by-launching-its-largest-ever-drone-attack-on-st-petersburg/",
+          "citation": "(U) Max Seddon. \"Ukraine defies Trump by launching its largest-ever drone attack on St Petersburg.\" The Irish Times, October 18, 2026. https://www.irishtimes.com/world/europe/2026/10/19/ukraine-defies-trump-by-launching-its-largest-ever-drone-attack-on-st-petersburg/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
+      "count": 8,
+      "error": null,
+      "articles": [
+        {
+          "author": "TNN",
+          "title": "Mother-son duo mowed down by train in Bodeli",
+          "outlet": "The Times of India",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T18:54:21Z",
+          "link": "https://timesofindia.indiatimes.com/city/vadodara/mother-son-duo-mowed-down-by-train-in-bodeli/articleshow/135075882.cms",
+          "citation": "(U) TNN. \"Mother-son duo mowed down by train in Bodeli.\" The Times of India, October 20, 2026. https://timesofindia.indiatimes.com/city/vadodara/mother-son-duo-mowed-down-by-train-in-bodeli/articleshow/135075882.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Jamie Boys",
+          "title": "Uber driver who mowed down and killed customer after he was sick in the back seat of his car is acquitted of murder",
+          "outlet": "Dailymail.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T18:41:59Z",
+          "link": "https://www.dailymail.com/news/article-16223885/Uber-driver-mowed-killed-customer-sick-seat-car-acquitted-murder.html",
+          "citation": "(U) Jamie Boys. \"Uber driver who mowed down and killed customer after he was sick in the back seat of his car is acquitted of murder.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16223885/Uber-driver-mowed-killed-customer-sick-seat-car-acquitted-murder.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Patrick Reilly",
+          "title": "Store owner ‘intentionally’ mowed down 14-year-old bicylist because he thought he was a burglar: cops",
+          "outlet": "New York Post",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T17:43:46Z",
+          "link": "https://nypost.com/2026/10/20/us-news/store-owner-intentionally-mowed-down-14-year-old-bicylist-because-he-thought-he-was-a-burglar-cops/",
+          "citation": "(U) Patrick Reilly. \"Store owner ‘intentionally’ mowed down 14-year-old bicylist because he thought he was a burglar: cops.\" New York Post, October 20, 2026. https://nypost.com/2026/10/20/us-news/store-owner-intentionally-mowed-down-14-year-old-bicylist-because-he-thought-he-was-a-burglar-cops/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "LSU student and firefighter fiancé mowed down near campus, impaired underage driver arrested",
+          "outlet": "Fox News",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T15:44:36Z",
+          "link": "https://www.foxnews.com/us/lsu-student-firefighter-fiance-mowed-down-near-campus-impaired-underage-driver-arrested",
+          "citation": "(U) Fox News Staff. \"LSU student and firefighter fiancé mowed down near campus, impaired underage driver arrested.\" Fox News, October 19, 2026. https://www.foxnews.com/us/lsu-student-firefighter-fiance-mowed-down-near-campus-impaired-underage-driver-arrested. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "PTI",
+          "title": "Eight workers mowed down by speeding car in Punjab's Sangrur; 12 injured",
+          "outlet": "The Times of India",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T15:34:49Z",
+          "link": "https://economictimes.indiatimes.com/news/india/eight-workers-mowed-down-by-speeding-car-in-punjabs-sangrur-12-injured/articleshow/135031156.cms",
+          "citation": "(U) PTI. \"Eight workers mowed down by speeding car in Punjab's Sangrur; 12 injured.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/news/india/eight-workers-mowed-down-by-speeding-car-in-punjabs-sangrur-12-injured/articleshow/135031156.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Accused teen killer's own dashcam could prove murder of two girls mowed down, lawyer says: 'not an accident'",
+          "outlet": "Fox News",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T11:00:04Z",
+          "link": "https://www.foxnews.com/us/accused-teen-killer-dashcam-prove-murder-two-girls-mowed-down-lawyer-says-not-accident",
+          "citation": "(U) Fox News Staff. \"Accused teen killer's own dashcam could prove murder of two girls mowed down, lawyer says: 'not an accident'.\" Fox News, October 18, 2026. https://www.foxnews.com/us/accused-teen-killer-dashcam-prove-murder-two-girls-mowed-down-lawyer-says-not-accident. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Chris Bradford",
+          "title": "Accused NJ teen stalker indicted a year later for murdering two girls, 17, mowed down on e-bikes",
+          "outlet": "New York Post",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T17:22:07Z",
+          "link": "https://nypost.com/2026/10/15/us-news/accused-nj-teen-stalker-indicted-a-year-later-for-murdering-two-girls-17-mowed-down-on-e-bikes/",
+          "citation": "(U) Chris Bradford. \"Accused NJ teen stalker indicted a year later for murdering two girls, 17, mowed down on e-bikes.\" New York Post, October 15, 2026. https://nypost.com/2026/10/15/us-news/accused-nj-teen-stalker-indicted-a-year-later-for-murdering-two-girls-17-mowed-down-on-e-bikes/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
+        {
+          "author": "Tom Lawrence",
+          "title": "Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears",
+          "outlet": "Dailymail.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T09:18:33Z",
+          "link": "https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html",
+          "citation": "(U) Tom Lawrence. \"Trail of blood more than a mile long led to dying headteacher who had been mowed down and dragged beneath car, murder trial hears.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210925/Trail-blood-mile-long-dying-headteacher-murder-trial.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
+      "count": 7,
+      "error": null,
+      "articles": [
+        {
+          "author": "Hugh Dooley",
+          "title": "Man accused of Dublin mosque arson attack has date set to enter plea",
+          "outlet": "The Irish Times",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T12:03:30Z",
+          "link": "https://www.irishtimes.com/crime-law/courts/2026/10/22/man-accused-of-dublin-mosque-arson-attack-has-date-set-to-enter-plea/",
+          "citation": "(U) Hugh Dooley. \"Man accused of Dublin mosque arson attack has date set to enter plea.\" The Irish Times, October 22, 2026. https://www.irishtimes.com/crime-law/courts/2026/10/22/man-accused-of-dublin-mosque-arson-attack-has-date-set-to-enter-plea/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Ali NI, Rahmad Nasution",
+          "title": "Papua police arrest suspect in 2021 PT Unggul camp arson",
+          "outlet": "Antaranews.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T02:53:25Z",
+          "link": "https://en.antaranews.com/news/436645/papua-police-arrest-suspect-in-2021-pt-unggul-camp-arson",
+          "citation": "(U) Ali NI, Rahmad Nasution. \"Papua police arrest suspect in 2021 PT Unggul camp arson.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436645/papua-police-arrest-suspect-in-2021-pt-unggul-camp-arson. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Caitlin Leng",
+          "title": "Thousands of mourners come together for funeral of innocent family who were killed in 'act of evil' arson attack",
+          "outlet": "Dailymail.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T18:48:48Z",
+          "link": "https://www.dailymail.com/news/article-16221401/Thousands-mourners-funeral-innocent-family-killed-evil-arson-attack.html",
+          "citation": "(U) Caitlin Leng. \"Thousands of mourners come together for funeral of innocent family who were killed in 'act of evil' arson attack.\" Dailymail.com, October 19, 2026. https://www.dailymail.com/news/article-16221401/Thousands-mourners-funeral-innocent-family-killed-evil-arson-attack.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Sarah Burns",
+          "title": "Waterford arson victims were ‘a beautiful family who did no wrong’, funeral told",
+          "outlet": "The Irish Times",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T16:09:46Z",
+          "link": "https://www.irishtimes.com/ireland/2026/10/19/waterford-arson-victims-were-a-beautiful-family-who-did-no-wrong-funeral-told/",
+          "citation": "(U) Sarah Burns. \"Waterford arson victims were ‘a beautiful family who did no wrong’, funeral told.\" The Irish Times, October 19, 2026. https://www.irishtimes.com/ireland/2026/10/19/waterford-arson-victims-were-a-beautiful-family-who-did-no-wrong-funeral-told/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Andrew Walsh",
+          "title": "Funeral of four family members killed in Waterford arson attack to take place today",
+          "outlet": "TheJournal.ie",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T06:56:41Z",
+          "link": "https://www.thejournal.ie/funeral-waterford-english-family-arson-attack-7197725-Oct2026/",
+          "citation": "(U) Andrew Walsh. \"Funeral of four family members killed in Waterford arson attack to take place today.\" TheJournal.ie, October 19, 2026. https://www.thejournal.ie/funeral-waterford-english-family-arson-attack-7197725-Oct2026/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Marc O'Driscoll",
+          "title": "Funeral to take place in Waterford after arson attack",
+          "outlet": "RTE",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T23:00:01Z",
+          "link": "https://www.rte.ie/news/ireland/2026/1019/1595884-waterford-funeral/",
+          "citation": "(U) Marc O'Driscoll. \"Funeral to take place in Waterford after arson attack.\" RTE, October 18, 2026. https://www.rte.ie/news/ireland/2026/1019/1595884-waterford-funeral/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Admin",
+          "title": "The Cost of Losing Your Cool: Tally the Losses of a Supermarket Cyberattack",
+          "outlet": "Insurance Journal",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T05:03:23Z",
+          "link": "https://www.insurancejournal.com/news/national/2026/10/22/889881.htm",
+          "citation": "(U) Admin. \"The Cost of Losing Your Cool: Tally the Losses of a Supermarket Cyberattack.\" Insurance Journal, October 22, 2026. https://www.insurancejournal.com/news/national/2026/10/22/889881.htm. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
+      "count": 6,
+      "error": null,
+      "articles": [
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Charlie Cooper",
+          "title": "Britain pays for more gas pipeline capacity from Europe amid supply fears",
+          "outlet": "POLITICO.eu",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T10:02:59Z",
+          "link": "https://www.politico.eu/article/britain-forced-hike-gas-imports-europe-amid-energy-security-fears-winter/",
+          "citation": "(U) Charlie Cooper. \"Britain pays for more gas pipeline capacity from Europe amid supply fears.\" POLITICO.eu, October 22, 2026. https://www.politico.eu/article/britain-forced-hike-gas-imports-europe-amid-energy-security-fears-winter/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Faiz Rahman Siddiqui",
+          "title": "Three held in connection with theft of transformer parts",
+          "outlet": "The Times of India",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T17:54:50Z",
+          "link": "https://timesofindia.indiatimes.com/city/kanpur/three-held-in-connection-with-theft-of-transformer-parts/articleshow/135098263.cms",
+          "citation": "(U) Faiz Rahman Siddiqui. \"Three held in connection with theft of transformer parts.\" The Times of India, October 21, 2026. https://timesofindia.indiatimes.com/city/kanpur/three-held-in-connection-with-theft-of-transformer-parts/articleshow/135098263.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\btransformers?\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Moscow and Beijing could seal major gas pipeline deal by year-end – Russian deputy PM",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T15:18:06Z",
+          "link": "https://rt-english.com/russia/647478-russia-china-new-gas-pipeline/",
+          "citation": "(U) RT. \"Moscow and Beijing could seal major gas pipeline deal by year-end – Russian deputy PM.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647478-russia-china-new-gas-pipeline/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Punch Newspapers",
+          "title": "Army foils pipeline vandalism attempt, arrests 18-Year-old suspect in Benue",
+          "outlet": "The Punch",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T14:39:04Z",
+          "link": "https://punchng.com/army-foils-pipeline-vandalism-attempt-arrests-18-year-old-suspect-in-benue/",
+          "citation": "(U) Punch Newspapers. \"Army foils pipeline vandalism attempt, arrests 18-Year-old suspect in Benue.\" The Punch, October 21, 2026. https://punchng.com/army-foils-pipeline-vandalism-attempt-arrests-18-year-old-suspect-in-benue/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b",
+            "\\bvandalism\\b"
+          ]
+        },
+        {
+          "author": "Diana Brown",
+          "title": "Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers",
+          "outlet": "Talosintelligence.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T10:00:00Z",
+          "link": "https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/",
+          "citation": "(U) Diana Brown. \"Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers.\" Talosintelligence.com, October 21, 2026. https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "DVE OR \"Patriot Front\" OR RMVE OR accelerationist AND (plot OR arrest OR charged OR attack)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Venkatesh Rao",
+          "title": "The Accelerationist Case for Frontier Pacing",
+          "outlet": "Oreilly.com",
+          "published": "September 22, 2026",
+          "publishedAt": "2026-09-22T15:57:06Z",
+          "link": "https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting",
+          "citation": "(U) Venkatesh Rao. \"The Accelerationist Case for Frontier Pacing.\" Oreilly.com, September 22, 2026. https://www.oreilly.com/radar/the-accelerationist-case-for-frontier-pacing/#BlogPosting. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\baccelerationist\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Perkin Amalaraj",
+          "title": "Far-left activist arrested over arson attack that destroyed town hall during French riots is prosecuted for 'attempting to murder a policeman'",
+          "outlet": "Dailymail.com",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T13:44:31Z",
+          "link": "https://www.dailymail.com/news/article-16230001/Far-left-activist-arson-murder-charges-France-riots.html",
+          "citation": "(U) Perkin Amalaraj. \"Far-left activist arrested over arson attack that destroyed town hall during French riots is prosecuted for 'attempting to murder a policeman'.\" Dailymail.com, October 22, 2026. https://www.dailymail.com/news/article-16230001/Far-left-activist-arson-murder-charges-France-riots.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Chris Bradford",
+          "title": "Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America",
+          "outlet": "New York Post",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T12:21:05Z",
+          "link": "https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/",
+          "citation": "(U) Chris Bradford. \"Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America.\" New York Post, October 22, 2026. https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Rep. Keith Self targeted in alleged assassination plot by Texas teen: report",
+          "outlet": "Fox News",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:32:23Z",
+          "link": "https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report",
+          "citation": "(U) Fox News Staff. \"Rep. Keith Self targeted in alleged assassination plot by Texas teen: report.\" Fox News, October 22, 2026. https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Online Editor",
+          "title": "Two Suspected Terrorist Associates Arrested in Baramulla, Turkish-Made Pistol, Two IEDs Recovered",
+          "outlet": "Kashmirnewsbureau.com",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T08:32:51Z",
+          "link": "https://kashmirnewsbureau.com/two-suspected-terrorist-associates-arrested-in-baramulla-turkish-made-pistol-two-ieds-recovered/",
+          "citation": "(U) Online Editor. \"Two Suspected Terrorist Associates Arrested in Baramulla, Turkish-Made Pistol, Two IEDs Recovered.\" Kashmirnewsbureau.com, October 22, 2026. https://kashmirnewsbureau.com/two-suspected-terrorist-associates-arrested-in-baramulla-turkish-made-pistol-two-ieds-recovered/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Insider threat\" OR ((employee OR contractor) AND (sabotage OR classified) AND (arrest OR charged))",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+          "outlet": "Internet",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:45:00Z",
+          "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat.\" Internet, October 22, 2026. https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        },
+        {
+          "author": "David DiMolfetta and John Croxton",
+          "title": "OpenAI bugging case highlights AI’s insider threat problem",
+          "outlet": "Nextgov",
+          "published": "October 14, 2026",
+          "publishedAt": "2026-10-14T21:02:00Z",
+          "link": "https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/",
+          "citation": "(U) David DiMolfetta and John Croxton. \"OpenAI bugging case highlights AI’s insider threat problem.\" Nextgov, October 14, 2026. https://www.nextgov.com/artificial-intelligence/2026/10/openai-bugging-case-highlights-ais-insider-threat-problem/416596/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\binsider threat\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Mark Nicol",
+          "title": "Glaring military 'gaps' in 'hostile' High North are leaving UK vulnerable to Russian subs and sabotage, report",
+          "outlet": "Dailymail.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T23:02:11Z",
+          "link": "https://www.dailymail.com/news/article-16226903/Glaring-military-gaps-hostile-High-North-leaving-UK-vulnerable-Russian-subs-sabotage-report.html",
+          "citation": "(U) Mark Nicol. \"Glaring military 'gaps' in 'hostile' High North are leaving UK vulnerable to Russian subs and sabotage, report.\" Dailymail.com, October 21, 2026. https://www.dailymail.com/news/article-16226903/Glaring-military-gaps-hostile-High-North-leaving-UK-vulnerable-Russian-subs-sabotage-report.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Chinese AI tool behind cyberattacks in Japan: Security firm",
+          "outlet": "CNA",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T05:28:00Z",
+          "link": "https://www.channelnewsasia.com/east-asia/china-ai-tool-artex-japan-cyberattack-6474611",
+          "citation": "(U) CNA Staff. \"Chinese AI tool behind cyberattacks in Japan: Security firm.\" CNA, October 20, 2026. https://www.channelnewsasia.com/east-asia/china-ai-tool-artex-japan-cyberattack-6474611. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Sinisa Markovic",
+          "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
+          "outlet": "Help Net Security",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T13:10:28Z",
+          "link": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+          "citation": "(U) Sinisa Markovic. \"LiteLLM hit by second supply chain attack this year, users urged to rotate credentials.\" Help Net Security, October 22, 2026. https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
+      "count": 3,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chris Bradford",
+          "title": "Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America",
+          "outlet": "New York Post",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T12:21:05Z",
+          "link": "https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/",
+          "citation": "(U) Chris Bradford. \"Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America.\" New York Post, October 22, 2026. https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Rep. Keith Self targeted in alleged assassination plot by Texas teen: report",
+          "outlet": "Fox News",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:32:23Z",
+          "link": "https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report",
+          "citation": "(U) Fox News Staff. \"Rep. Keith Self targeted in alleged assassination plot by Texas teen: report.\" Fox News, October 22, 2026. https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Jenn Gidman with Newser.AI",
+          "title": "US Yanks Staff From Saudi Arabia Amid Houthi Threat",
+          "outlet": "Newser",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T10:52:42Z",
+          "link": "https://www.newser.com/story/398600/us-yanks-staff-from-saudi-arabia-amid-houthi-threat.html",
+          "citation": "(U) Jenn Gidman with Newser.AI. \"US Yanks Staff From Saudi Arabia Amid Houthi Threat.\" Newser, October 22, 2026. https://www.newser.com/story/398600/us-yanks-staff-from-saudi-arabia-amid-houthi-threat.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"suspicious activity\" OR \"suspicious package\") AND (airport OR station OR substation OR \"federal building\")",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Stephen Quillen",
+          "title": "UK arrests British-Iranian suspect over RAF ‘plot’: What we know",
+          "outlet": "Al Jazeera English",
+          "published": "October 2, 2026",
+          "publishedAt": "2026-10-02T09:03:21Z",
+          "link": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know",
+          "citation": "(U) Stephen Quillen. \"UK arrests British-Iranian suspect over RAF ‘plot’: What we know.\" Al Jazeera English, October 2, 2026. https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "PTI",
+          "title": "Indian injured in drone attack targeting Shaybah oilfield in Saudi Arabia",
+          "outlet": "BusinessLine",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T07:16:34Z",
+          "link": "https://www.thehindubusinessline.com/news/indian-injured-in-drone-attack-targeting-shaybah-oilfield-in-saudi-arabia/article71610540.ece",
+          "citation": "(U) PTI. \"Indian injured in drone attack targeting Shaybah oilfield in Saudi Arabia.\" BusinessLine, October 22, 2026. https://www.thehindubusinessline.com/news/indian-injured-in-drone-attack-targeting-shaybah-oilfield-in-saudi-arabia/article71610540.ece. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Trending Desk",
+          "title": "Dam in China trapped millions of tonnes of water, rising 7 feet daily and threatening millions. How did engineers avert disaster?",
+          "outlet": "The Times of India",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T16:20:25Z",
+          "link": "https://economictimes.indiatimes.com/news/new-updates/dam-in-china-trapped-millions-of-tonnes-of-water-rising-7-feet-daily-and-threatening-millions-how-did-engineers-avert-disaster/articleshow/135072730.cms",
+          "citation": "(U) Trending Desk. \"Dam in China trapped millions of tonnes of water, rising 7 feet daily and threatening millions. How did engineers avert disaster?.\" The Times of India, October 20, 2026. https://economictimes.indiatimes.com/news/new-updates/dam-in-china-trapped-millions-of-tonnes-of-water-rising-7-feet-daily-and-threatening-millions-how-did-engineers-avert-disaster/articleshow/135072730.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Chris Bradford",
+          "title": "Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America",
+          "outlet": "New York Post",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T12:21:05Z",
+          "link": "https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/",
+          "citation": "(U) Chris Bradford. \"Texas teen, 17, inspired by ISIS to plot assassination of GOP rep pushing for Sharia-free America.\" New York Post, October 22, 2026. https://nypost.com/2026/10/22/us-news/fbi-arrests-boy-17-for-plotting-to-assassinate-texas-congressman-on-behalf-of-isis/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Fox News Staff",
+          "title": "Rep. Keith Self targeted in alleged assassination plot by Texas teen: report",
+          "outlet": "Fox News",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:32:23Z",
+          "link": "https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report",
+          "citation": "(U) Fox News Staff. \"Rep. Keith Self targeted in alleged assassination plot by Texas teen: report.\" Fox News, October 22, 2026. https://www.foxnews.com/politics/rep-keith-self-targeted-alleged-assassination-plot-texas-teen-report. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Ramon Tomey",
+          "title": "DNI Clayton: AI espionage threat is a “reality” for both government agencies and private companies",
+          "outlet": "Naturalnews.com",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T06:00:00Z",
+          "link": "https://www.naturalnews.com/2026-10-22-dni-clayton-ai-espionage-threat-a-reality.html",
+          "citation": "(U) Ramon Tomey. \"DNI Clayton: AI espionage threat is a “reality” for both government agencies and private companies.\" Naturalnews.com, October 22, 2026. https://www.naturalnews.com/2026-10-22-dni-clayton-ai-espionage-threat-a-reality.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Jasmyn Jordan",
+          "title": "Exclusive — Juvenile Arrested by FBI for ISIS Terror Attack Plot May Have Also Planned to Assassinate Sharia-Free America Caucus Co-Founder Rep. Keith Self",
+          "outlet": "Breitbart News",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T00:05:00Z",
+          "link": "https://www.breitbart.com/politics/2026/10/21/exclusive-juvenile-arrested-by-fbi-for-isis-terror-attack-plot-may-have-also-planned-to-assassinate-sharia-free-america-caucus-co-founder-rep-keith-self/",
+          "citation": "(U) Jasmyn Jordan. \"Exclusive — Juvenile Arrested by FBI for ISIS Terror Attack Plot May Have Also Planned to Assassinate Sharia-Free America Caucus Co-Founder Rep. Keith Self.\" Breitbart News, October 22, 2026. https://www.breitbart.com/politics/2026/10/21/exclusive-juvenile-arrested-by-fbi-for-isis-terror-attack-plot-may-have-also-planned-to-assassinate-sharia-free-america-caucus-co-founder-rep-keith-self/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
+      "count": 5,
+      "error": null,
+      "articles": [
+        {
+          "author": "Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University",
+          "title": "From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage",
+          "outlet": "The Conversation Africa",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T11:07:34Z",
+          "link": "https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285",
+          "citation": "(U) Elena Grossfeld, Researcher at the King's Centre for the Study of Intelligence, King's College London; Swedish Defence University. \"From elite spies to ‘gig-economy’ operatives: the changing face of Russian sabotage.\" The Conversation Africa, October 22, 2026. https://theconversation.com/from-elite-spies-to-gig-economy-operatives-the-changing-face-of-russian-sabotage-294285. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Love affair to staged arrest: how a Romanian from England was jailed in Russia as a spy",
+          "outlet": "New York Post",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T08:59:42Z",
+          "link": "https://nypost.com/2026/10/22/world-news/romanian-man-david-adrian-kercso-sentenced-to-15-years-in-russian-prison-for-spying-but-fsb-arrest-video-was-staged-report/",
+          "citation": "(U) Reuters. \"Love affair to staged arrest: how a Romanian from England was jailed in Russia as a spy.\" New York Post, October 22, 2026. https://nypost.com/2026/10/22/world-news/romanian-man-david-adrian-kercso-sentenced-to-15-years-in-russian-prison-for-spying-but-fsb-arrest-video-was-staged-report/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "German sniper detained after deserting Ukrainian Army – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:47:04Z",
+          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
+          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "Michael Kan",
+          "title": "Starlink Faces Third Attempted Arson Attack In Europe",
+          "outlet": "PCMag.com",
+          "published": "October 19, 2026",
+          "publishedAt": "2026-10-19T14:33:49Z",
+          "link": "https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe",
+          "citation": "(U) Michael Kan. \"Starlink Faces Third Attempted Arson Attack In Europe.\" PCMag.com, October 19, 2026. https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Swedish man detained over Kiev sabotage plot – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T12:14:01Z",
+          "link": "https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/",
+          "citation": "(U) RT. \"Swedish man detained over Kiev sabotage plot – FSB.\" Rt-english.com, October 15, 2026. https://rt-english.com/russia/647243-fsb-swedish-mercenary-plot/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\bfsb\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
+      "count": 2,
+      "error": null,
+      "articles": [
+        {
+          "author": "ET Online",
+          "title": "Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe",
+          "outlet": "The Times of India",
+          "published": "October 18, 2026",
+          "publishedAt": "2026-10-18T19:09:51Z",
+          "link": "https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms",
+          "citation": "(U) ET Online. \"Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Bernard Keane",
+          "title": "Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws",
+          "outlet": "Crikey",
+          "published": "October 15, 2026",
+          "publishedAt": "2026-10-15T22:56:26Z",
+          "link": "http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/",
+          "citation": "(U) Bernard Keane. \"Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws.\" Crikey, October 15, 2026. http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
+      "count": 1,
+      "error": null,
+      "articles": [
+        {
+          "author": "Israel National News",
+          "title": "UK police re-arrest two suspects in Iranian plot targeting US bomber base",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T01:12:08Z",
+          "link": "https://www.israelnationalnews.com/news/434923",
+          "citation": "(U) Israel National News. \"UK police re-arrest two suspects in Iranian plot targeting US bomber base.\" Israelnationalnews.com, October 21, 2026. https://www.israelnationalnews.com/news/434923. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Oliver JJ Lane",
+          "title": "Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford",
+          "outlet": "Breitbart News",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T13:37:38Z",
+          "link": "https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/",
+          "citation": "(U) Oliver JJ Lane. \"Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford.\" Breitbart News, October 21, 2026. https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "German sniper detained after deserting Ukrainian Army – FSB",
+          "outlet": "Rt-english.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:47:04Z",
+          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
+          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bfsb\\b"
+          ]
+        },
+        {
+          "author": "AFP",
+          "title": "Moscow accuses Japan of using journalists for espionage",
+          "outlet": "The Times of India",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T12:38:06Z",
+          "link": "https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms",
+          "citation": "(U) AFP. \"Moscow accuses Japan of using journalists for espionage.\" The Times of India, October 21, 2026. https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Katherine Lawton",
+          "title": "Two men arrested over suspected RAF Fairford 'terror plot' are rearrested on suspicion of helping Iran's intelligence service",
+          "outlet": "Dailymail.com",
+          "published": "October 20, 2026",
+          "publishedAt": "2026-10-20T17:07:20Z",
+          "link": "https://www.dailymail.com/news/article-16224395/Two-men-arrested-suspected-RAF-Fairford-terror-plot-rearrested-suspicion-helping-Irans-intelligence-service.html",
+          "citation": "(U) Katherine Lawton. \"Two men arrested over suspected RAF Fairford 'terror plot' are rearrested on suspicion of helping Iran's intelligence service.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16224395/Two-men-arrested-suspected-RAF-Fairford-terror-plot-rearrested-suspicion-helping-Irans-intelligence-service.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
+      "count": 4,
+      "error": null,
+      "articles": [
+        {
+          "author": "Sinisa Markovic",
+          "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
+          "outlet": "Help Net Security",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T13:10:28Z",
+          "link": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+          "citation": "(U) Sinisa Markovic. \"LiteLLM hit by second supply chain attack this year, users urged to rotate credentials.\" Help Net Security, October 22, 2026. https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
+          "author": "info@thehackernews.com (The Hacker News)",
+          "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+          "outlet": "Internet",
+          "published": "October 22, 2026",
+          "publishedAt": "2026-10-22T04:21:26Z",
+          "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+          "citation": "(U) info@thehackernews.com (The Hacker News). \"China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack.\" Internet, October 22, 2026. https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
+          "author": "Microsoft Security Research and Microsoft Threat Intelligence",
+          "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+          "outlet": "Microsoft.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T18:23:55Z",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+          "citation": "(U) Microsoft Security Research and Microsoft Threat Intelligence. \"AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise.\" Microsoft.com, October 21, 2026. https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
+          "author": "Jessica Lyons",
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "outlet": "Theregister.com",
+          "published": "October 21, 2026",
+          "publishedAt": "2026-10-21T18:22:20Z",
+          "link": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "citation": "(U) Jessica Lyons. \"LiteLLM supply chain attack hoovers up passwords and secrets.\" Theregister.com, October 21, 2026. https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548. Accessed October 23, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        }
+      ]
+    }
+  ]
+}

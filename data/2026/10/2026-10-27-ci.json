@@ -1,13 +1,13 @@
 {
-  "pulled_at_utc": "2026-10-27T14:31:54Z",
+  "pulled_at_utc": "2026-10-27T15:48:44Z",
   "accessed": "October 27, 2026",
-  "filtered_at_utc": "2026-10-27T14:38:28Z",
+  "filtered_at_utc": "2026-10-27T15:55:32Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 479,
-  "article_count": 61,
-  "dropped_count": 418,
-  "term_count": 22,
+  "source_article_count": 472,
+  "article_count": 56,
+  "dropped_count": 416,
+  "term_count": 19,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
@@ -79,25 +79,6 @@
       ]
     },
     {
-      "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 1,
-      "error": null,
-      "articles": [
-        {
-          "author": "Times News Network",
-          "title": "Land, money dispute, broken marriage alliance behind Bengaluru battery IED blast; 3 held",
-          "outlet": "The Times of India",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T16:25:12Z",
-          "link": "https://timesofindia.indiatimes.com/city/bengaluru/land-money-dispute-broken-marriage-alliance-behind-bengaluru-battery-ied-blast-3-held/articleshow/135194563.cms",
-          "citation": "(U) Times News Network. \"Land, money dispute, broken marriage alliance behind Bengaluru battery IED blast; 3 held.\" The Times of India, October 25, 2026. https://timesofindia.indiatimes.com/city/bengaluru/land-money-dispute-broken-marriage-alliance-behind-bengaluru-battery-ied-blast-3-held/articleshow/135194563.cms. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bied\\b"
-          ]
-        }
-      ]
-    },
-    {
       "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
       "count": 1,
       "error": null,
@@ -121,6 +102,18 @@
       "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "Derek VanBuskirk",
+          "title": "Police Arrest 15-Year-Old After Mass Shooting, Sending 6 Children To Hospital",
+          "outlet": "The Daily Caller",
+          "published": "October 26, 2026",
+          "publishedAt": "2026-10-26T14:56:39Z",
+          "link": "https://dailycaller.com/2026/10/26/15-year-old-after-mass-shooting-tallahassee-florida-anthony-rivers-iii",
+          "citation": "(U) Derek VanBuskirk. \"Police Arrest 15-Year-Old After Mass Shooting, Sending 6 Children To Hospital.\" The Daily Caller, October 26, 2026. https://dailycaller.com/2026/10/26/15-year-old-after-mass-shooting-tallahassee-florida-anthony-rivers-iii. Accessed October 27, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "AWR Hawkins",
           "title": "Report: Armed Citizens Stopped 36.6 Percent of 'Active Shooter Incidents' From 2014 Through 2025",
@@ -146,18 +139,6 @@
           ]
         },
         {
-          "author": "feedfeeder",
-          "title": "Mass shooting outside FAMU stadium wounds 11, including 6 children - USA Today",
-          "outlet": "Slashdot.org",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T19:53:39Z",
-          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186453018",
-          "citation": "(U) feedfeeder. \"Mass shooting outside FAMU stadium wounds 11, including 6 children - USA Today.\" Slashdot.org, October 25, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186453018. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
           "author": "Iyanna Muhammad",
           "title": "Florida A&M Massacre: Homecoming Mass Shooting … Dozens Of Victims! (Video)",
           "outlet": "Mediatakeout.com",
@@ -173,7 +154,7 @@
     },
     {
       "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
-      "count": 3,
+      "count": 2,
       "error": null,
       "articles": [
         {
@@ -196,18 +177,6 @@
           "publishedAt": "2026-10-22T20:51:02Z",
           "link": "https://www.dailymail.com/news/article-16231261/Controversial-One-Nation-cartoon-showing-Australian-politicians-deliberately-mowed-car-resurfaces-horrific-attack-MP-Helen-Haines-sparking-fiery-debate.html",
           "citation": "(U) Daily. \"Controversial One Nation cartoon showing Australian politicians being deliberately mowed down by a car resurfaces after horrific attack on MP Helen Haines - sparking fiery debate.\" Dailymail.com, October 22, 2026. https://www.dailymail.com/news/article-16231261/Controversial-One-Nation-cartoon-showing-Australian-politicians-deliberately-mowed-car-resurfaces-horrific-attack-MP-Helen-Haines-sparking-fiery-debate.html. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bmowed down\\b"
-          ]
-        },
-        {
-          "author": "TNN",
-          "title": "Mother-son duo mowed down by train in Bodeli",
-          "outlet": "The Times of India",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T18:54:21Z",
-          "link": "https://timesofindia.indiatimes.com/city/vadodara/mother-son-duo-mowed-down-by-train-in-bodeli/articleshow/135075882.cms",
-          "citation": "(U) TNN. \"Mother-son duo mowed down by train in Bodeli.\" The Times of India, October 20, 2026. https://timesofindia.indiatimes.com/city/vadodara/mother-son-duo-mowed-down-by-train-in-bodeli/articleshow/135075882.cms. Accessed October 27, 2026.",
           "ci_match_patterns": [
             "\\bmowed down\\b"
           ]
@@ -449,42 +418,34 @@
       ]
     },
     {
-      "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 2,
-      "error": null,
-      "articles": [
-        {
-          "author": "Tsvetana Paraskova",
-          "title": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
-          "outlet": "OilPrice.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T11:30:00Z",
-          "link": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
-          "citation": "(U) Tsvetana Paraskova. \"Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline.\" OilPrice.com, October 26, 2026. https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Sputnik International",
-          "title": "Houthis Claim Attack on Oil Pumping Stations in Saudi Arabia",
-          "outlet": "Sputnikglobe.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T10:47:00Z",
-          "link": "https://sputnikglobe.com/20261026/houthis-claim-attack-on-oil-pumping-stations-in-saudi-arabia-1124939482.html",
-          "citation": "(U) Sputnik International. \"Houthis Claim Attack on Oil Pumping Stations in Saudi Arabia.\" Sputnikglobe.com, October 26, 2026. https://sputnikglobe.com/20261026/houthis-claim-attack-on-oil-pumping-stations-in-saudi-arabia-1124939482.html. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        }
-      ]
-    },
-    {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
       "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Human Rights Watch",
+          "title": "Yemen: Houthi Attack on Taizz Road Threatens Lives, Welfare",
+          "outlet": "Human Rights Watch",
+          "published": "October 26, 2026",
+          "publishedAt": "2026-10-26T15:30:00Z",
+          "link": "https://www.hrw.org/news/2026/10/26/yemen-houthi-attack-on-taizz-road-threatens-lives-welfare",
+          "citation": "(U) Human Rights Watch. \"Yemen: Houthi Attack on Taizz Road Threatens Lives, Welfare.\" Human Rights Watch, October 26, 2026. https://www.hrw.org/news/2026/10/26/yemen-houthi-attack-on-taizz-road-threatens-lives-welfare. Accessed October 27, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "SAMY MAGDY Associated Press",
+          "title": "Egypt's parliament authorizes military support for Saudi Arabia to defend against Houthi attacks",
+          "outlet": "Abcnews.com",
+          "published": "October 26, 2026",
+          "publishedAt": "2026-10-26T15:19:42Z",
+          "link": "https://abcnews.com/Business/wireStory/egypts-parliament-authorizes-military-support-saudi-arabia-defend-137574313",
+          "citation": "(U) SAMY MAGDY Associated Press. \"Egypt's parliament authorizes military support for Saudi Arabia to defend against Houthi attacks.\" Abcnews.com, October 26, 2026. https://abcnews.com/Business/wireStory/egypts-parliament-authorizes-military-support-saudi-arabia-defend-137574313. Accessed October 27, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Reuters",
           "title": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
@@ -529,31 +490,6 @@
           "publishedAt": "2026-10-26T11:33:27Z",
           "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186460304",
           "citation": "(U) feedfeeder. \"Saudi air defences intercept Houthi barrage near Mecca - Al Jazeera.\" Slashdot.org, October 26, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186460304. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Tsvetana Paraskova",
-          "title": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
-          "outlet": "OilPrice.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T11:30:00Z",
-          "link": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
-          "citation": "(U) Tsvetana Paraskova. \"Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline.\" OilPrice.com, October 26, 2026. https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Sputnik International",
-          "title": "Houthis Claim Attack on Oil Pumping Stations in Saudi Arabia",
-          "outlet": "Sputnikglobe.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T10:47:00Z",
-          "link": "https://sputnikglobe.com/20261026/houthis-claim-attack-on-oil-pumping-stations-in-saudi-arabia-1124939482.html",
-          "citation": "(U) Sputnik International. \"Houthis Claim Attack on Oil Pumping Stations in Saudi Arabia.\" Sputnikglobe.com, October 26, 2026. https://sputnikglobe.com/20261026/houthis-claim-attack-on-oil-pumping-stations-in-saudi-arabia-1124939482.html. Accessed October 27, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -877,25 +813,6 @@
           "citation": "(U) October 25, 2026. \"Research as Cover: How Chinese Intelligence Uses Think Tanks and Consultancies.\" Substack.com, October 25, 2026. https://asiacrimecentury.substack.com/p/research-as-cover-how-chinese-intelligence. Accessed October 27, 2026.",
           "ci_match_patterns": [
             "\\bchinese intelligence\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 1,
-      "error": null,
-      "articles": [
-        {
-          "author": "Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan",
-          "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-          "outlet": "Microsoft.com",
-          "published": "October 23, 2026",
-          "publishedAt": "2026-10-23T18:12:19Z",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-          "citation": "(U) Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan. \"Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks.\" Microsoft.com, October 23, 2026. https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/. Accessed October 27, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
           ]
         }
       ]

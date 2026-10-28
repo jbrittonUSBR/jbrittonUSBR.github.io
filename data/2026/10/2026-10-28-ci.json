@@ -1,29 +1,42 @@
 {
-  "pulled_at_utc": "2026-10-28T14:21:04Z",
+  "pulled_at_utc": "2026-10-28T16:32:16Z",
   "accessed": "October 28, 2026",
-  "filtered_at_utc": "2026-10-28T14:27:27Z",
+  "filtered_at_utc": "2026-10-28T16:39:14Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 484,
-  "article_count": 71,
-  "dropped_count": 413,
+  "source_article_count": 487,
+  "article_count": 67,
+  "dropped_count": 420,
   "term_count": 21,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
         {
-          "author": "Al Jazeera Staff",
-          "title": "Drone strike kills at least 21 and injures 40 in Sudan’s Nyala",
-          "outlet": "Al Jazeera English",
+          "author": "Kangkan Kalita",
+          "title": "‘Dao’ becomes symbol of Adi resistance to Siang dam",
+          "outlet": "The Times of India",
           "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T08:35:27Z",
-          "link": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala",
-          "citation": "(U) Al Jazeera Staff. \"Drone strike kills at least 21 and injures 40 in Sudan’s Nyala.\" Al Jazeera English, October 27, 2026. https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala. Accessed October 28, 2026.",
+          "publishedAt": "2026-10-27T15:53:17Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/dao-becomes-symbol-of-adi-resistance-to-siang-dam/articleshow/135239677.cms",
+          "citation": "(U) Kangkan Kalita. \"‘Dao’ becomes symbol of Adi resistance to Siang dam.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/city/guwahati/dao-becomes-symbol-of-adi-resistance-to-siang-dam/articleshow/135239677.cms. Accessed October 28, 2026.",
           "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Aryan Singh",
+          "title": "Watch: Houthis release dramatic drone strike footage from Saudi border regions",
+          "outlet": "The Times of India",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T15:19:15Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/watch-houthis-release-dramatic-drone-strike-footage-from-saudi-border-regions/articleshow/135238777.cms",
+          "citation": "(U) Aryan Singh. \"Watch: Houthis release dramatic drone strike footage from Saudi border regions.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/world/middle-east/watch-houthis-release-dramatic-drone-strike-footage-from-saudi-border-regions/articleshow/135238777.cms. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b",
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
         }
@@ -69,9 +82,21 @@
     },
     {
       "query": "\"Vehicle ramming\" OR \"vehicle as a weapon\" OR \"drove into a crowd\" OR \"mowed down\"",
-      "count": 3,
+      "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "Jack Toledo",
+          "title": "Speeding underage drunk driver mowed down two sorority sisters, both 19, then sped off without stopping to check on them, lawsuit alleges",
+          "outlet": "Dailymail.com",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T14:49:12Z",
+          "link": "https://www.dailymail.com/news/article-16242161/ishan-pandhare-cal-poly-dui-hit-run.html",
+          "citation": "(U) Jack Toledo. \"Speeding underage drunk driver mowed down two sorority sisters, both 19, then sped off without stopping to check on them, lawsuit alleges.\" Dailymail.com, October 27, 2026. https://www.dailymail.com/news/article-16242161/ishan-pandhare-cal-poly-dui-hit-run.html. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bmowed down\\b"
+          ]
+        },
         {
           "author": "TOI World Desk",
           "title": "A Sydney couple turned a 1907 tram substation in Rozelle into a four-bedroom family home, and the historic former transport building sold at auction for $3.9 million",
@@ -203,9 +228,21 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 6,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Connor Jones",
+          "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
+          "outlet": "Theregister.com",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T16:15:00Z",
+          "link": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+          "citation": "(U) Connor Jones. \"Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack.\" Theregister.com, October 27, 2026. https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Sophie McEvoy",
           "title": "Warhorse Studios hit by cyberattack, company systems and data affected",
@@ -282,9 +319,33 @@
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 3,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "Bikash Singh",
+          "title": "Arunachal Pradesh faces protests over 11,000-MW Siang dam, 1,605-MW Subansiri project",
+          "outlet": "The Times of India",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T16:12:40Z",
+          "link": "https://economictimes.indiatimes.com/news/india/arunachal-pradesh-faces-protests-over-11000-mw-siang-dam-1605-mw-subansiri-project/articleshow/135240109.cms",
+          "citation": "(U) Bikash Singh. \"Arunachal Pradesh faces protests over 11,000-MW Siang dam, 1,605-MW Subansiri project.\" The Times of India, October 27, 2026. https://economictimes.indiatimes.com/news/india/arunachal-pradesh-faces-protests-over-11000-mw-siang-dam-1605-mw-subansiri-project/articleshow/135240109.cms. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Uttam Sinha",
+          "title": "River, Dam & Protest: Be Smart",
+          "outlet": "The Times of India",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T16:04:43Z",
+          "link": "https://timesofindia.indiatimes.com/toi-plus/infrastructure/river-dam-protest-be-smart/articleshow/135239823.cms",
+          "citation": "(U) Uttam Sinha. \"River, Dam & Protest: Be Smart.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/toi-plus/infrastructure/river-dam-protest-be-smart/articleshow/135239823.cms. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "The Associated Press",
           "title": "German court rejects bid to end Ukrainian ex-officer's trial over Nord Stream pipeline blasts",
@@ -326,7 +387,7 @@
     },
     {
       "query": "Surveillance AND (\"pre-operational\" OR dissident OR \"murder for hire\" OR substation OR airport OR dam OR \"military base\")",
-      "count": 3,
+      "count": 2,
       "error": null,
       "articles": [
         {
@@ -352,18 +413,6 @@
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
           ]
-        },
-        {
-          "author": "Cathrin Schaer",
-          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
-          "outlet": "DW (English)",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T09:13:00Z",
-          "link": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemens-houthis-up-pressure/a-79735138",
-          "citation": "(U) Cathrin Schaer. \"Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure.\" DW (English), October 25, 2026. https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemens-houthis-up-pressure/a-79735138. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
@@ -372,6 +421,19 @@
       "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "bbc",
+          "title": "Two charged over alleged plot to assist Iran in RAF Fairford incident",
+          "outlet": "Freerepublic.com",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T14:47:19Z",
+          "link": "https://freerepublic.com/focus/f-news/4400767/posts",
+          "citation": "(U) bbc. \"Two charged over alleged plot to assist Iran in RAF Fairford incident.\" Freerepublic.com, October 27, 2026. https://freerepublic.com/focus/f-news/4400767/posts. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
         {
           "author": "Matt Ford",
           "title": "Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'",
@@ -408,19 +470,6 @@
             "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
             "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
           ]
-        },
-        {
-          "author": "JILL LAWLESS",
-          "title": "2 men charged over suspected Iran-linked plot at U.S. bomber base in England",
-          "outlet": "Yahoo Entertainment",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T09:10:07Z",
-          "link": "https://www.yahoo.com/news/world/articles/uk-prosecutors-2-men-charged-091007409.html",
-          "citation": "(U) JILL LAWLESS. \"2 men charged over suspected Iran-linked plot at U.S. bomber base in England.\" Yahoo Entertainment, October 27, 2026. https://www.yahoo.com/news/world/articles/uk-prosecutors-2-men-charged-091007409.html. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
         }
       ]
     },
@@ -445,7 +494,7 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 5,
+      "count": 2,
       "error": null,
       "articles": [
         {
@@ -471,43 +520,6 @@
           "citation": "(U) Reuters. \"Yemen’s Houthis Say They Hit Saudi Ras Tanura Oil Refinery With Missile.\" gcaptain.com, October 27, 2026. https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/. Accessed October 28, 2026.",
           "ci_match_patterns": [
             "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "The Associated Press",
-          "title": "German court rejects bid to end Ukrainian ex-officer's trial over Nord Stream pipeline blasts",
-          "outlet": "Abcnews.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T12:24:50Z",
-          "link": "https://abcnews.com/International/wireStory/german-court-rejects-bid-end-ukrainian-officers-trial-137598323",
-          "citation": "(U) The Associated Press. \"German court rejects bid to end Ukrainian ex-officer's trial over Nord Stream pipeline blasts.\" Abcnews.com, October 27, 2026. https://abcnews.com/International/wireStory/german-court-rejects-bid-end-ukrainian-officers-trial-137598323. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
-          ]
-        },
-        {
-          "author": "ET Online",
-          "title": "Yemen's Houthis say they launched an attack on Saudi Ras Tanura oil refinery",
-          "outlet": "The Times of India",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T11:16:14Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/yemens-houthis-say-they-launched-an-attack-on-saudi-ras-tanura-oil-refinery/articleshow/135232208.cms",
-          "citation": "(U) ET Online. \"Yemen's Houthis say they launched an attack on Saudi Ras Tanura oil refinery.\" The Times of India, October 27, 2026. https://economictimes.indiatimes.com/news/international/world-news/yemens-houthis-say-they-launched-an-attack-on-saudi-ras-tanura-oil-refinery/articleshow/135232208.cms. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Houthis say 2 dead at gas station as fighting around Taiz intensifies, and other Mideast news",
-          "outlet": "WDIV ClickOnDetroit",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T09:42:07Z",
-          "link": "https://www.clickondetroit.com/news/world/2026/10/27/houthis-say-2-dead-at-gas-station-as-fighting-around-taiz-intensifies-and-other-mideast-news/",
-          "citation": "(U) Associated Press. \"Houthis say 2 dead at gas station as fighting around Taiz intensifies, and other Mideast news.\" WDIV ClickOnDetroit, October 27, 2026. https://www.clickondetroit.com/news/world/2026/10/27/houthis-say-2-dead-at-gas-station-as-fighting-around-taiz-intensifies-and-other-mideast-news/. Accessed October 28, 2026.",
-          "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
         }
@@ -515,106 +527,19 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 8,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "Rajeev Singh",
-          "title": "Houthis attack Saudi defence ministry in Riyadh; bomb airport, airbase & refinery",
+          "author": "Kangkan Kalita",
+          "title": "‘Dao’ becomes symbol of Adi resistance to Siang dam",
           "outlet": "The Times of India",
           "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T14:10:11Z",
-          "link": "https://timesofindia.indiatimes.com/world/middle-east/houthis-attack-saudi-defence-ministry-in-riyadh-bomb-airport-airbase-refinery/articleshow/135236826.cms",
-          "citation": "(U) Rajeev Singh. \"Houthis attack Saudi defence ministry in Riyadh; bomb airport, airbase & refinery.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/world/middle-east/houthis-attack-saudi-defence-ministry-in-riyadh-bomb-airport-airbase-refinery/articleshow/135236826.cms. Accessed October 28, 2026.",
+          "publishedAt": "2026-10-27T15:53:17Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/dao-becomes-symbol-of-adi-resistance-to-siang-dam/articleshow/135239677.cms",
+          "citation": "(U) Kangkan Kalita. \"‘Dao’ becomes symbol of Adi resistance to Siang dam.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/city/guwahati/dao-becomes-symbol-of-adi-resistance-to-siang-dam/articleshow/135239677.cms. Accessed October 28, 2026.",
           "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Yemen’s Houthis Say They Hit Saudi Ras Tanura Oil Refinery With Missile",
-          "outlet": "gcaptain.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T14:05:44Z",
-          "link": "https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/",
-          "citation": "(U) Reuters. \"Yemen’s Houthis Say They Hit Saudi Ras Tanura Oil Refinery With Missile.\" gcaptain.com, October 27, 2026. https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Estefano Gomez",
-          "title": "Houthis claim missile strike on Saudi Defence Ministry in Riyadh",
-          "outlet": "Crypto Briefing",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T13:50:38Z",
-          "link": "https://cryptobriefing.com/houthis-claim-missile-strike-on-saudi-defence-ministry-in-riyadh/",
-          "citation": "(U) Estefano Gomez. \"Houthis claim missile strike on Saudi Defence Ministry in Riyadh.\" Crypto Briefing, October 27, 2026. https://cryptobriefing.com/houthis-claim-missile-strike-on-saudi-defence-ministry-in-riyadh/. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Matt Ford",
-          "title": "Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'",
-          "outlet": "DW (English)",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T12:16:00Z",
-          "link": "https://www.dw.com/en/jordan-acknowledges-civilian-casualties-in-syria-airstrike-against-islamic-state/a-79775653",
-          "citation": "(U) Matt Ford. \"Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'.\" DW (English), October 27, 2026. https://www.dw.com/en/jordan-acknowledges-civilian-casualties-in-syria-airstrike-against-islamic-state/a-79775653. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bislamic state\\b"
-          ]
-        },
-        {
-          "author": "ET Online",
-          "title": "Yemen's Houthis say they launched an attack on Saudi Ras Tanura oil refinery",
-          "outlet": "The Times of India",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T11:16:14Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/yemens-houthis-say-they-launched-an-attack-on-saudi-ras-tanura-oil-refinery/articleshow/135232208.cms",
-          "citation": "(U) ET Online. \"Yemen's Houthis say they launched an attack on Saudi Ras Tanura oil refinery.\" The Times of India, October 27, 2026. https://economictimes.indiatimes.com/news/international/world-news/yemens-houthis-say-they-launched-an-attack-on-saudi-ras-tanura-oil-refinery/articleshow/135232208.cms. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Rikard Jozwiak",
-          "title": "Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?",
-          "outlet": "Radio Free Europe/ Radio Liberty",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T10:55:02Z",
-          "link": "https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html",
-          "citation": "(U) Rikard Jozwiak. \"Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?.\" Radio Free Europe/ Radio Liberty, October 27, 2026. https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bgru\\b"
-          ]
-        },
-        {
-          "author": "Bloomberg",
-          "title": "Saudi Arabia's battle with Yemen's Houthi shifts fears to non-oil economy",
-          "outlet": "Business Standard",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T10:12:11Z",
-          "link": "https://www.business-standard.com/world-news/saudi-arabia-s-battle-with-yemen-s-houthi-shifts-fears-to-non-oil-economy-126102700895_1.html",
-          "citation": "(U) Bloomberg. \"Saudi Arabia's battle with Yemen's Houthi shifts fears to non-oil economy.\" Business Standard, October 27, 2026. https://www.business-standard.com/world-news/saudi-arabia-s-battle-with-yemen-s-houthi-shifts-fears-to-non-oil-economy-126102700895_1.html. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Houthis say 2 dead at gas station as fighting around Taiz intensifies, and other Mideast news",
-          "outlet": "WDIV ClickOnDetroit",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T09:42:07Z",
-          "link": "https://www.clickondetroit.com/news/world/2026/10/27/houthis-say-2-dead-at-gas-station-as-fighting-around-taiz-intensifies-and-other-mideast-news/",
-          "citation": "(U) Associated Press. \"Houthis say 2 dead at gas station as fighting around Taiz intensifies, and other Mideast news.\" WDIV ClickOnDetroit, October 27, 2026. https://www.clickondetroit.com/news/world/2026/10/27/houthis-say-2-dead-at-gas-station-as-fighting-around-taiz-intensifies-and-other-mideast-news/. Accessed October 28, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
+            "\\bdam(s)?\\b"
           ]
         }
       ]
@@ -659,9 +584,21 @@
     },
     {
       "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
-      "count": 5,
+      "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Uttam Sinha",
+          "title": "River, Dam & Protest: Be Smart",
+          "outlet": "The Times of India",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T16:04:43Z",
+          "link": "https://timesofindia.indiatimes.com/toi-plus/infrastructure/river-dam-protest-be-smart/articleshow/135239823.cms",
+          "citation": "(U) Uttam Sinha. \"River, Dam & Protest: Be Smart.\" The Times of India, October 27, 2026. https://timesofindia.indiatimes.com/toi-plus/infrastructure/river-dam-protest-be-smart/articleshow/135239823.cms. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "Christopher Day",
           "title": "Whole-of-state defense: How SLED agencies can secure critical infrastructure in the AI era",
@@ -922,9 +859,22 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 3,
+      "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "bbc",
+          "title": "Two charged over alleged plot to assist Iran in RAF Fairford incident",
+          "outlet": "Freerepublic.com",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T14:47:19Z",
+          "link": "https://freerepublic.com/focus/f-news/4400767/posts",
+          "citation": "(U) bbc. \"Two charged over alleged plot to assist Iran in RAF Fairford incident.\" Freerepublic.com, October 27, 2026. https://freerepublic.com/focus/f-news/4400767/posts. Accessed October 28, 2026.",
+          "ci_match_patterns": [
+            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
+            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
+          ]
+        },
         {
           "author": "Ioana Târziu",
           "title": "Nicușor Dan, after SRI revealed the sabotage network coordinated by Russia: A serious violation of the country’s sovereignty and security | Prime Minister’s message",

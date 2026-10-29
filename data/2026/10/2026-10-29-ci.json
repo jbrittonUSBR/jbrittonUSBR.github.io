@@ -1,51 +1,52 @@
 {
-  "pulled_at_utc": "2026-10-29T12:05:49Z",
+  "pulled_at_utc": "2026-10-29T16:49:14Z",
   "accessed": "October 29, 2026",
-  "filtered_at_utc": "2026-10-29T12:11:57Z",
+  "filtered_at_utc": "2026-10-29T16:55:49Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 491,
+  "source_article_count": 492,
   "article_count": 72,
-  "dropped_count": 419,
+  "dropped_count": 420,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 2,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "Reuters",
-          "title": "Ukraine drone attack damages industrial infrastructure in Russia's Novomoskovsk, governor says",
-          "outlet": "The Times of India",
+          "author": "The Associated Press",
+          "title": "Mali drone strike kills 13 civilians, activists say; army says it targeted militants",
+          "outlet": "Abcnews.com",
           "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T05:02:25Z",
-          "link": "https://economictimes.indiatimes.com/news/defence/ukraine-drone-attack-damages-industrial-infrastructure-in-russias-novomoskovsk-governor-says/articleshow/135252672.cms",
-          "citation": "(U) Reuters. \"Ukraine drone attack damages industrial infrastructure in Russia's Novomoskovsk, governor says.\" The Times of India, October 28, 2026. https://economictimes.indiatimes.com/news/defence/ukraine-drone-attack-damages-industrial-infrastructure-in-russias-novomoskovsk-governor-says/articleshow/135252672.cms. Accessed October 29, 2026.",
+          "publishedAt": "2026-10-28T15:39:33Z",
+          "link": "https://abcnews.com/International/wireStory/mali-drone-strike-kills-13-civilians-activists-army-137642600",
+          "citation": "(U) The Associated Press. \"Mali drone strike kills 13 civilians, activists say; army says it targeted militants.\" Abcnews.com, October 28, 2026. https://abcnews.com/International/wireStory/mali-drone-strike-kills-13-civilians-activists-army-137642600. Accessed October 29, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Fox News Staff",
-          "title": "Halima Salman convicted of receiving ISIS military training in Syria, faces 10 years in prison",
-          "outlet": "Fox News",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T03:20:45Z",
-          "link": "https://www.foxnews.com/us/halima-salman-convicted-receiving-isis-military-training-syria-faces-10-years-prison",
-          "citation": "(U) Fox News Staff. \"Halima Salman convicted of receiving ISIS military training in Syria, faces 10 years in prison.\" Fox News, October 28, 2026. https://www.foxnews.com/us/halima-salman-convicted-receiving-isis-military-training-syria-faces-10-years-prison. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
           ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 2,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Rachel Bowman",
+          "title": "Female terrorist sobs and tries to blame her father as she is convicted of training with ISIS",
+          "outlet": "Dailymail.com",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:20:15Z",
+          "link": "https://www.dailymail.com/news/article-16245519/american-woman-isis-fighter-training-terrorist-conviction-halima-salman.html",
+          "citation": "(U) Rachel Bowman. \"Female terrorist sobs and tries to blame her father as she is convicted of training with ISIS.\" Dailymail.com, October 28, 2026. https://www.dailymail.com/news/article-16245519/american-woman-isis-fighter-training-terrorist-conviction-halima-salman.html. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
         {
           "author": "ABC News (AU) Staff",
           "title": "Teen charged over Sydney house fire with 88yo woman inside",
@@ -74,7 +75,7 @@
     },
     {
       "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
-      "count": 2,
+      "count": 1,
       "error": null,
       "articles": [
         {
@@ -87,18 +88,6 @@
           "citation": "(U) YASSIR ABDALLA Associated Press. \"Large parts of Sudan's capital lose power after drone attack.\" Abcnews.com, October 27, 2026. https://abcnews.com/International/wireStory/large-parts-sudans-capital-lose-power-after-drone-137614732. Accessed October 29, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Chun Yang, Yining Ma",
-          "title": "Multi-scale feature fusion network optimization and edge intelligent detection for transmission line insulator",
-          "outlet": "Plos.org",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T14:00:00Z",
-          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361403",
-          "citation": "(U) Chun Yang, Yining Ma. \"Multi-scale feature fusion network optimization and edge intelligent detection for transmission line insulator.\" Plos.org, October 26, 2026. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361403. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\btransmission (line|tower|grid)\\b"
           ]
         }
       ]
@@ -270,20 +259,31 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 1,
+      "count": 2,
       "error": null,
       "articles": [
         {
-          "author": "Lee Ying Shan",
-          "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-          "outlet": "CNBC",
+          "author": "Ashok Pradhan",
+          "title": "From hydrogen buses to nuclear power, green energy to drive Odisha’s next industrial wave: Vishal Dev",
+          "outlet": "The Times of India",
           "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T05:52:51Z",
-          "link": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-          "citation": "(U) Lee Ying Shan. \"Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries.\" CNBC, October 28, 2026. https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html. Accessed October 29, 2026.",
+          "publishedAt": "2026-10-28T15:35:38Z",
+          "link": "https://timesofindia.indiatimes.com/city/bhubaneswar/from-hydrogen-buses-to-nuclear-power-green-energy-to-drive-odishas-next-industrial-wave-vishal-dev/articleshow/135271601.cms",
+          "citation": "(U) Ashok Pradhan. \"From hydrogen buses to nuclear power, green energy to drive Odisha’s next industrial wave: Vishal Dev.\" The Times of India, October 28, 2026. https://timesofindia.indiatimes.com/city/bhubaneswar/from-hydrogen-buses-to-nuclear-power-green-energy-to-drive-odishas-next-industrial-wave-vishal-dev/articleshow/135271601.cms. Accessed October 29, 2026.",
           "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
+            "\\bnuclear (plant|facility|site|power|safety)\\b"
+          ]
+        },
+        {
+          "author": "Phil Muncaster",
+          "title": "Energy Giant Engie Notifies Customers of Supply Chain Breach",
+          "outlet": "Infosecurity Magazine",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:05:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/",
+          "citation": "(U) Phil Muncaster. \"Energy Giant Engie Notifies Customers of Supply Chain Breach.\" Infosecurity Magazine, October 28, 2026. https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
           ]
         }
       ]
@@ -293,6 +293,66 @@
       "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Elena Vega",
+          "title": "Cyberattack Diverted Ambulances From New Mexico's Only Level I Trauma Center as Hackers Claim Patient Data Theft",
+          "outlet": "Medical Daily",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T15:26:49Z",
+          "link": "https://www.medicaldaily.com/unm-health-cyberattack-ambulance-diversion-data-claims-480515",
+          "citation": "(U) Elena Vega. \"Cyberattack Diverted Ambulances From New Mexico's Only Level I Trauma Center as Hackers Claim Patient Data Theft.\" Medical Daily, October 28, 2026. https://www.medicaldaily.com/unm-health-cyberattack-ambulance-diversion-data-claims-480515. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Belgium tax agency hit by cyberattack, shuts online portal",
+          "outlet": "CNA",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:41:00Z",
+          "link": "https://www.channelnewsasia.com/business/belgium-tax-agency-hit-cyberattack-shuts-online-portal-6500376",
+          "citation": "(U) CNA Staff. \"Belgium tax agency hit by cyberattack, shuts online portal.\" CNA, October 28, 2026. https://www.channelnewsasia.com/business/belgium-tax-agency-hit-cyberattack-shuts-online-portal-6500376. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sinisa Markovic",
+          "title": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+          "outlet": "Help Net Security",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:28:43Z",
+          "link": "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/",
+          "citation": "(U) Sinisa Markovic. \"345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD.\" Help Net Security, October 28, 2026. https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Joseph James",
+          "title": "UNM Hospital Cyberattack Diverted Albuquerque Ambulances and Limited New Patients for Two Hours as Clinics Canceled Appointments",
+          "outlet": "Medical Daily",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T12:39:42Z",
+          "link": "https://www.medicaldaily.com/unm-health-cybersecurity-event-ambulance-diversion-480507",
+          "citation": "(U) Joseph James. \"UNM Hospital Cyberattack Diverted Albuquerque Ambulances and Limited New Patients for Two Hours as Clinics Canceled Appointments.\" Medical Daily, October 28, 2026. https://www.medicaldaily.com/unm-health-cybersecurity-event-ambulance-diversion-480507. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sead Fadilpašić",
+          "title": "Japanese internet giant GMO tells customers to shut down and disconnect PCs from the internet following data breach and ransomware threat",
+          "outlet": "TechRadar",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T12:15:00Z",
+          "link": "https://www.techradar.com/pro/security/japanese-internet-giant-gmo-tells-customers-to-shut-down-and-disconnect-pcs-from-the-internet-following-data-breach-and-ransomware-threat",
+          "citation": "(U) Sead Fadilpašić. \"Japanese internet giant GMO tells customers to shut down and disconnect PCs from the internet following data breach and ransomware threat.\" TechRadar, October 28, 2026. https://www.techradar.com/pro/security/japanese-internet-giant-gmo-tells-customers-to-shut-down-and-disconnect-pcs-from-the-internet-following-data-breach-and-ransomware-threat. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bransomware\\b"
+          ]
+        },
         {
           "author": "feedfeeder",
           "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
@@ -339,66 +399,6 @@
           "citation": "(U) Bill Toulas. \"UNM Health ransomware attack disrupts patient care, surgeries.\" BleepingComputer, October 27, 2026. https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/. Accessed October 29, 2026.",
           "ci_match_patterns": [
             "\\bransomware\\b"
-          ]
-        },
-        {
-          "author": "DrUsmanSaleem",
-          "title": "Kingdom Come Developer Warhorse Studios Confirms Cyberattack, Company Data Accessed",
-          "outlet": "Techpowerup.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T20:02:01Z",
-          "link": "https://www.techpowerup.com/354191/kingdom-come-developer-warhorse-studios-confirms-cyberattack-company-data-accessed",
-          "citation": "(U) DrUsmanSaleem. \"Kingdom Come Developer Warhorse Studios Confirms Cyberattack, Company Data Accessed.\" Techpowerup.com, October 27, 2026. https://www.techpowerup.com/354191/kingdom-come-developer-warhorse-studios-confirms-cyberattack-company-data-accessed. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Jessica Lyons",
-          "title": "AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
-          "outlet": "Theregister.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T19:11:02Z",
-          "link": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
-          "citation": "(U) Jessica Lyons. \"AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours.\" Theregister.com, October 27, 2026. https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bindustrial control\\b"
-          ]
-        },
-        {
-          "author": "Mark Warren",
-          "title": "\"This is a serious incident\": Kingdom Come: Deliverance 2 devs Warhorse hit by cyberattack targeting their systems and data",
-          "outlet": "Rock Paper Shotgun",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T17:00:00Z",
-          "link": "https://www.rockpapershotgun.com/this-is-a-serious-incident-kingdom-come-deliverance-2-devs-warhorse-hit-by-cyberattack-targeting-their-systems-and-data",
-          "citation": "(U) Mark Warren. \"\"This is a serious incident\": Kingdom Come: Deliverance 2 devs Warhorse hit by cyberattack targeting their systems and data.\" Rock Paper Shotgun, October 27, 2026. https://www.rockpapershotgun.com/this-is-a-serious-incident-kingdom-come-deliverance-2-devs-warhorse-hit-by-cyberattack-targeting-their-systems-and-data. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Robert Purchese",
-          "title": "\"This is a serious incident\" - Kingdom Come: Deliverance developer Warhorse suffers cyberattack",
-          "outlet": "Eurogamer.net",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T16:53:16Z",
-          "link": "https://www.eurogamer.net/warhorse-cyberattack-kingdom-come-deliverance",
-          "citation": "(U) Robert Purchese. \"\"This is a serious incident\" - Kingdom Come: Deliverance developer Warhorse suffers cyberattack.\" Eurogamer.net, October 27, 2026. https://www.eurogamer.net/warhorse-cyberattack-kingdom-come-deliverance. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Connor Jones",
-          "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
-          "outlet": "Theregister.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T16:15:00Z",
-          "link": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
-          "citation": "(U) Connor Jones. \"Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack.\" Theregister.com, October 27, 2026. https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
           ]
         }
       ]
@@ -479,9 +479,22 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 3,
+      "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "Rachel Bowman",
+          "title": "Female terrorist sobs and tries to blame her father as she is convicted of training with ISIS",
+          "outlet": "Dailymail.com",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:20:15Z",
+          "link": "https://www.dailymail.com/news/article-16245519/american-woman-isis-fighter-training-terrorist-conviction-halima-salman.html",
+          "citation": "(U) Rachel Bowman. \"Female terrorist sobs and tries to blame her father as she is convicted of training with ISIS.\" Dailymail.com, October 28, 2026. https://www.dailymail.com/news/article-16245519/american-woman-isis-fighter-training-terrorist-conviction-halima-salman.html. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b",
+            "\\bisis\\b"
+          ]
+        },
         {
           "author": "CBS News Staff",
           "title": "American who was ISIS teen bride convicted of getting weapons training",
@@ -564,6 +577,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Cheng Yuan, Shichang Shang, Jinghao Zhang, Yang Zhang, Bin Zhou",
+          "title": "IV-PAFNet: Infrared-visible cross-modal alignment and fusion network for nighttime UAV object detection",
+          "outlet": "Plos.org",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:00:00Z",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361401",
+          "citation": "(U) Cheng Yuan, Shichang Shang, Jinghao Zhang, Yang Zhang, Bin Zhou. \"IV-PAFNet: Infrared-visible cross-modal alignment and fusion network for nighttime UAV object detection.\" Plos.org, October 28, 2026. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361401. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\buav\\b"
+          ]
+        },
+        {
           "author": "RTÉ News",
           "title": "Oil up over 1% after Saudi Arabian refinery attack",
           "outlet": "RTE",
@@ -573,73 +598,25 @@
           "citation": "(U) RTÉ News. \"Oil up over 1% after Saudi Arabian refinery attack.\" RTE, October 28, 2026. https://www.rte.ie/news/business/2026/1028/1597079-world-oil-prices/. Accessed October 29, 2026.",
           "ci_match_patterns": [
             "\\brefiner(y|ies)\\b"
-          ]
-        },
-        {
-          "author": "mint",
-          "title": "Saudi Arabia vs Houthi rebels: It's time to look beyond the US",
-          "outlet": "Livemint",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T09:30:53Z",
-          "link": "https://www.livemint.com/opinion/online-views/saudi-arabia-vs-houthi-rebels-time-to-look-beyond-the-us-11793113556230.html",
-          "citation": "(U) mint. \"Saudi Arabia vs Houthi rebels: It's time to look beyond the US.\" Livemint, October 28, 2026. https://www.livemint.com/opinion/online-views/saudi-arabia-vs-houthi-rebels-time-to-look-beyond-the-us-11793113556230.html. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
           ]
         }
       ]
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 4,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "RTÉ News",
-          "title": "Oil up over 1% after Saudi Arabian refinery attack",
-          "outlet": "RTE",
+          "author": "Kangkan Kalita",
+          "title": "Heavy security on bridge leading to Siang dam drilling sites",
+          "outlet": "The Times of India",
           "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T11:51:36Z",
-          "link": "https://www.rte.ie/news/business/2026/1028/1597079-world-oil-prices/",
-          "citation": "(U) RTÉ News. \"Oil up over 1% after Saudi Arabian refinery attack.\" RTE, October 28, 2026. https://www.rte.ie/news/business/2026/1028/1597079-world-oil-prices/. Accessed October 29, 2026.",
+          "publishedAt": "2026-10-28T15:48:31Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/heavy-security-on-bridge-leading-to-siang-dam-drilling-sites/articleshow/135271947.cms",
+          "citation": "(U) Kangkan Kalita. \"Heavy security on bridge leading to Siang dam drilling sites.\" The Times of India, October 28, 2026. https://timesofindia.indiatimes.com/city/guwahati/heavy-security-on-bridge-leading-to-siang-dam-drilling-sites/articleshow/135271947.cms. Accessed October 29, 2026.",
           "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b"
-          ]
-        },
-        {
-          "author": "CBS News Staff",
-          "title": "American who was ISIS teen bride convicted of getting weapons training",
-          "outlet": "CBS News",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T11:06:42Z",
-          "link": "https://www.cbsnews.com/news/us-woman-isis-teen-bride-convicted-weapons-training-new-york/",
-          "citation": "(U) CBS News Staff. \"American who was ISIS teen bride convicted of getting weapons training.\" CBS News, October 28, 2026. https://www.cbsnews.com/news/us-woman-isis-teen-bride-convicted-weapons-training-new-york/. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
-          ]
-        },
-        {
-          "author": "mint",
-          "title": "Saudi Arabia vs Houthi rebels: It's time to look beyond the US",
-          "outlet": "Livemint",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T09:30:53Z",
-          "link": "https://www.livemint.com/opinion/online-views/saudi-arabia-vs-houthi-rebels-time-to-look-beyond-the-us-11793113556230.html",
-          "citation": "(U) mint. \"Saudi Arabia vs Houthi rebels: It's time to look beyond the US.\" Livemint, October 28, 2026. https://www.livemint.com/opinion/online-views/saudi-arabia-vs-houthi-rebels-time-to-look-beyond-the-us-11793113556230.html. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "ISIS-supporting minor attacks cop guarding Israeli Embassy in Belgrade with knives – before being fatally shot: report",
-          "outlet": "New York Post",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T09:04:44Z",
-          "link": "https://nypost.com/2026/10/28/world-news/isis-supporting-minor-attacks-cop-guarding-israeli-embassy-in-belgrade-with-knives-before-being-fatally-shot-report/",
-          "citation": "(U) Associated Press. \"ISIS-supporting minor attacks cop guarding Israeli Embassy in Belgrade with knives – before being fatally shot: report.\" New York Post, October 28, 2026. https://nypost.com/2026/10/28/world-news/isis-supporting-minor-attacks-cop-guarding-israeli-embassy-in-belgrade-with-knives-before-being-fatally-shot-report/. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
+            "\\bdam(s)?\\b"
           ]
         }
       ]
@@ -751,9 +728,21 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 2,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Espionage threats blur lines between security and dissent in Iran",
+          "outlet": "Al Jazeera English",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:03:08Z",
+          "link": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents",
+          "citation": "(U) Al Jazeera Staff. \"Espionage threats blur lines between security and dissent in Iran.\" Al Jazeera English, October 28, 2026. https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "PTI",
           "title": "Andhra police arrest two more in Pakistan-linked espionage case",
@@ -971,9 +960,21 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 2,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Al Jazeera Staff",
+          "title": "Espionage threats blur lines between security and dissent in Iran",
+          "outlet": "Al Jazeera English",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:03:08Z",
+          "link": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents",
+          "citation": "(U) Al Jazeera Staff. \"Espionage threats blur lines between security and dissent in Iran.\" Al Jazeera English, October 28, 2026. https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "bbc",
           "title": "Two charged over alleged plot to assist Iran in RAF Fairford incident",
@@ -1007,6 +1008,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Phil Muncaster",
+          "title": "Energy Giant Engie Notifies Customers of Supply Chain Breach",
+          "outlet": "Infosecurity Magazine",
+          "published": "October 28, 2026",
+          "publishedAt": "2026-10-28T14:05:00Z",
+          "link": "https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/",
+          "citation": "(U) Phil Muncaster. \"Energy Giant Engie Notifies Customers of Supply Chain Breach.\" Infosecurity Magazine, October 28, 2026. https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/. Accessed October 29, 2026.",
+          "ci_match_patterns": [
+            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+          ]
+        },
+        {
           "author": "Redhat.com Staff",
           "title": "Securing the enterprise software supply chain in the AI era",
           "outlet": "Redhat.com",
@@ -1019,27 +1032,15 @@
           ]
         },
         {
-          "author": "Diego Almada Lopez",
-          "title": "LiteLLM traces supply chain attack to a GitHub key nobody revoked",
-          "outlet": "Crypto Briefing",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T20:38:11Z",
-          "link": "https://cryptobriefing.com/litellm-supply-chain-attack-exposed-github-key/",
-          "citation": "(U) Diego Almada Lopez. \"LiteLLM traces supply chain attack to a GitHub key nobody revoked.\" Crypto Briefing, October 26, 2026. https://cryptobriefing.com/litellm-supply-chain-attack-exposed-github-key/. Accessed October 29, 2026.",
+          "author": "Redhat.com Staff",
+          "title": "Red Hat Survey Shows Blind Spots in Swiss Enterprise Software Supply Chains",
+          "outlet": "Redhat.com",
+          "published": "October 27, 2026",
+          "publishedAt": "2026-10-27T00:00:00Z",
+          "link": "https://www.redhat.com/en/about/press-releases/red-hat-survey-shows-blind-spots-swiss-enterprise-software-supply-chains",
+          "citation": "(U) Redhat.com Staff. \"Red Hat Survey Shows Blind Spots in Swiss Enterprise Software Supply Chains.\" Redhat.com, October 27, 2026. https://www.redhat.com/en/about/press-releases/red-hat-survey-shows-blind-spots-swiss-enterprise-software-supply-chains. Accessed October 29, 2026.",
           "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Jessica Lyons",
-          "title": "LiteLLM supply chain attack started with an exposed master key",
-          "outlet": "Theregister.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T20:30:53Z",
-          "link": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
-          "citation": "(U) Jessica Lyons. \"LiteLLM supply chain attack started with an exposed master key.\" Theregister.com, October 26, 2026. https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544. Accessed October 29, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
+            "\\bsoftware supply\\b"
           ]
         }
       ]

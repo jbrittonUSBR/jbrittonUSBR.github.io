@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 import requests
 
 API_URL = "https://newsapi.org/v2/everything"
-MAX_RESULTS = 20
+MAX_RESULTS = 100
 REQUEST_PAUSE_SEC = 0.4
 
 # Incident-first queries. NewsAPI /v2/everything: AND/OR/NOT and "phrases".

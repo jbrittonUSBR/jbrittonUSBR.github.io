@@ -1,20 +1,68 @@
 {
-  "pulled_at_utc": "2026-10-30T13:00:20Z",
+  "pulled_at_utc": "2026-10-30T16:37:55Z",
   "accessed": "October 30, 2026",
-  "filtered_at_utc": "2026-10-30T13:07:16Z",
+  "filtered_at_utc": "2026-10-30T16:44:38Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2326,
-  "article_count": 323,
-  "dropped_count": 2003,
-  "term_count": 25,
+  "source_article_count": 1938,
+  "article_count": 269,
+  "dropped_count": 1669,
+  "term_count": 21,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 17,
+      "count": 19,
       "error": null,
       "articles": [
+        {
+          "author": "admin",
+          "title": "Greek PM Calls for Global Maritime Truce After Greek Ship Sunk in Drone Attack",
+          "outlet": "Insurance Journal",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T16:07:56Z",
+          "link": "https://www.insurancejournal.com/news/international/2026/10/29/890791.htm",
+          "citation": "(U) admin. \"Greek PM Calls for Global Maritime Truce After Greek Ship Sunk in Drone Attack.\" Insurance Journal, October 29, 2026. https://www.insurancejournal.com/news/international/2026/10/29/890791.htm. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Russian drone strike kills at least 14 on Ukrainian rail platform",
+          "outlet": "New York Post",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T13:54:32Z",
+          "link": "https://nypost.com/2026/10/29/world-news/russian-drone-strike-kills-at-least-14-on-ukrainian-rail-platform/",
+          "citation": "(U) Reuters. \"Russian drone strike kills at least 14 on Ukrainian rail platform.\" New York Post, October 29, 2026. https://nypost.com/2026/10/29/world-news/russian-drone-strike-kills-at-least-14-on-ukrainian-rail-platform/. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "After drone strike: ZIM cargo ship sinks in Black Sea",
+          "outlet": "Israelnationalnews.com",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T13:54:00Z",
+          "link": "https://www.israelnationalnews.com/news/435351",
+          "citation": "(U) Israel National News. \"After drone strike: ZIM cargo ship sinks in Black Sea.\" Israelnationalnews.com, October 29, 2026. https://www.israelnationalnews.com/news/435351. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "ABC News (AU) Staff",
+          "title": "Russian drone strike on Ukrainian train platform kills 14",
+          "outlet": "ABC News (AU)",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T13:47:47Z",
+          "link": "https://www.abc.net.au/news/2026-10-30/russian-drone-strike-kills-at-least-14-at-rail-platform/107325816",
+          "citation": "(U) ABC News (AU) Staff. \"Russian drone strike on Ukrainian train platform kills 14.\" ABC News (AU), October 29, 2026. https://www.abc.net.au/news/2026-10-30/russian-drone-strike-kills-at-least-14-at-rail-platform/107325816. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "https://www.facebook.com/bbcnews",
           "title": "Russian drone attack on Ukrainian train station kills at least 13, officials say",
@@ -193,30 +241,6 @@
           "citation": "(U) The Associated Press. \"Mali drone strike kills 13 civilians, activists say; army says it targeted militants.\" Abcnews.com, October 28, 2026. https://abcnews.com/International/wireStory/mali-drone-strike-kills-13-civilians-activists-army-137642600. Accessed October 30, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Ukraine drone attack damages industrial infrastructure in Russia's Novomoskovsk, governor says",
-          "outlet": "The Times of India",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T05:02:25Z",
-          "link": "https://economictimes.indiatimes.com/news/defence/ukraine-drone-attack-damages-industrial-infrastructure-in-russias-novomoskovsk-governor-says/articleshow/135252672.cms",
-          "citation": "(U) Reuters. \"Ukraine drone attack damages industrial infrastructure in Russia's Novomoskovsk, governor says.\" The Times of India, October 28, 2026. https://economictimes.indiatimes.com/news/defence/ukraine-drone-attack-damages-industrial-infrastructure-in-russias-novomoskovsk-governor-says/articleshow/135252672.cms. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Fox News Staff",
-          "title": "Halima Salman convicted of receiving ISIS military training in Syria, faces 10 years in prison",
-          "outlet": "Fox News",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T03:20:45Z",
-          "link": "https://www.foxnews.com/us/halima-salman-convicted-receiving-isis-military-training-syria-faces-10-years-prison",
-          "citation": "(U) Fox News Staff. \"Halima Salman convicted of receiving ISIS military training in Syria, faces 10 years in prison.\" Fox News, October 28, 2026. https://www.foxnews.com/us/halima-salman-convicted-receiving-isis-military-training-syria-faces-10-years-prison. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
           ]
         }
       ]
@@ -1152,7 +1176,7 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 2,
+      "count": 1,
       "error": null,
       "articles": [
         {
@@ -1166,26 +1190,86 @@
           "ci_match_patterns": [
             "\\bnuclear (plant|facility|site|power|safety)\\b"
           ]
-        },
-        {
-          "author": "AP",
-          "title": "Houthis strike Aden airport after evacuation warning, halting air traffic in southern Yemen",
-          "outlet": "The Times of India",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T19:17:18Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/houthis-strike-aden-airport-after-evacuation-warning-halting-air-traffic-in-southern-yemen/articleshow/135278666.cms",
-          "citation": "(U) AP. \"Houthis strike Aden airport after evacuation warning, halting air traffic in southern Yemen.\" The Times of India, October 28, 2026. https://economictimes.indiatimes.com/news/international/world-news/houthis-strike-aden-airport-after-evacuation-warning-halting-air-traffic-in-southern-yemen/articleshow/135278666.cms. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 31,
+      "count": 36,
       "error": null,
       "articles": [
+        {
+          "author": "HuffPost",
+          "title": "Pentagon Treating Military Base Freezer Malfunctions As Suspected Cyberattack, Officials Say",
+          "outlet": "HuffPost",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T16:28:56Z",
+          "link": "https://www.huffpost.com/entry/military-base-cyberattacks_n_6ae372f0e4b0a2cccd470dbd",
+          "citation": "(U) HuffPost. \"Pentagon Treating Military Base Freezer Malfunctions As Suspected Cyberattack, Officials Say.\" HuffPost, October 29, 2026. https://www.huffpost.com/entry/military-base-cyberattacks_n_6ae372f0e4b0a2cccd470dbd. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "RFE/RL's Moldovan Service",
+          "title": "Moldovan President Calls Security Meeting After Massive Data Breach",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T15:55:21Z",
+          "link": "https://www.rferl.org/a/moldova-cyberattack-data-breach-750000-sandu/33886733.html",
+          "citation": "(U) RFE/RL's Moldovan Service. \"Moldovan President Calls Security Meeting After Massive Data Breach.\" Radio Free Europe/ Radio Liberty, October 29, 2026. https://www.rferl.org/a/moldova-cyberattack-data-breach-750000-sandu/33886733.html. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "NY Post",
+          "title": "Pentagon treating military base freezer malfunctions as suspected cyberattack: officials",
+          "outlet": "Freerepublic.com",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T15:42:28Z",
+          "link": "https://freerepublic.com/focus/f-news/4401035/posts",
+          "citation": "(U) NY Post. \"Pentagon treating military base freezer malfunctions as suspected cyberattack: officials.\" Freerepublic.com, October 29, 2026. https://freerepublic.com/focus/f-news/4401035/posts. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Taegan Goddard",
+          "title": "Pentagon Treating Freezer Malfunctions as Cyberattack",
+          "outlet": "Politicalwire.com",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T15:14:00Z",
+          "link": "https://politicalwire.com/2026/10/29/pentagon-treating-freezer-malfunctions-as-cyberattack/",
+          "citation": "(U) Taegan Goddard. \"Pentagon Treating Freezer Malfunctions as Cyberattack.\" Politicalwire.com, October 29, 2026. https://politicalwire.com/2026/10/29/pentagon-treating-freezer-malfunctions-as-cyberattack/. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Connor Jones",
+          "title": "Belgium's tax agency confirms cyberattack, pulls services offline",
+          "outlet": "Theregister.com",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T14:47:40Z",
+          "link": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+          "citation": "(U) Connor Jones. \"Belgium's tax agency confirms cyberattack, pulls services offline.\" Theregister.com, October 29, 2026. https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sead Fadilpašić",
+          "title": "Data breach at Sony ISP subsidiary exposes 2.5 million customer records as Japan hit with another major cyberattack",
+          "outlet": "TechRadar",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T13:05:00Z",
+          "link": "https://www.techradar.com/pro/security/data-breach-at-sony-isp-subsidiary-exposes-2-5-million-customer-records-as-japan-hit-with-another-major-cyberattack",
+          "citation": "(U) Sead Fadilpašić. \"Data breach at Sony ISP subsidiary exposes 2.5 million customer records as Japan hit with another major cyberattack.\" TechRadar, October 29, 2026. https://www.techradar.com/pro/security/data-breach-at-sony-isp-subsidiary-exposes-2-5-million-customer-records-as-japan-hit-with-another-major-cyberattack. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "benedict.collins@futurenet.com (Benedict Collins) , Benedict Collins",
           "title": "‘Bad actor’ cyberattack on FEC obscures political spending by donors and SuperPACs days before US midterm elections",
@@ -1545,18 +1629,6 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "iTnews Staff",
-          "title": "Russia-linked hackers use decentralised network in Ukraine cyberattack",
-          "outlet": "iTnews",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T19:08:23Z",
-          "link": "https://www.itnews.com.au/news/russia-linked-hackers-use-decentralised-network-in-ukraine-cyberattack-629846?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Technology+feed",
-          "citation": "(U) iTnews Staff. \"Russia-linked hackers use decentralised network in Ukraine cyberattack.\" iTnews, October 22, 2026. https://www.itnews.com.au/news/russia-linked-hackers-use-decentralised-network-in-ukraine-cyberattack-629846?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Technology+feed. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
@@ -1781,7 +1853,7 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 20,
+      "count": 19,
       "error": null,
       "articles": [
         {
@@ -2014,18 +2086,6 @@
           "ci_match_patterns": [
             "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
             "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Fox News Staff",
-          "title": "Feds crack down on stolen car pipeline to Mexican cartels as 13 charged in border scheme",
-          "outlet": "Fox News",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T07:27:58Z",
-          "link": "https://www.foxnews.com/us/mexican-cartels-stolen-vehicles-el-paso",
-          "citation": "(U) Fox News Staff. \"Feds crack down on stolen car pipeline to Mexican cartels as 13 charged in border scheme.\" Fox News, October 27, 2026. https://www.foxnews.com/us/mexican-cartels-stolen-vehicles-el-paso. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
           ]
         }
       ]
@@ -2262,7 +2322,7 @@
     },
     {
       "query": "Neoluddite OR \"neo-Luddite\" OR (\"data center\" AND (attack OR protest OR sabotage))",
-      "count": 3,
+      "count": 2,
       "error": null,
       "articles": [
         {
@@ -2288,18 +2348,6 @@
           "ci_match_patterns": [
             "\\bpower grid\\b"
           ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Zelensky says Ukraine received no warning from partners as Russia hits power grid again",
-          "outlet": "New York Post",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T16:16:53Z",
-          "link": "https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/",
-          "citation": "(U) Associated Press. \"Zelensky says Ukraine received no warning from partners as Russia hits power grid again.\" New York Post, October 19, 2026. https://nypost.com/2026/10/19/world-news/zelensky-says-ukraine-received-no-warning-from-partners-as-russia-hits-power-grid-again/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bpower grid\\b"
-          ]
         }
       ]
     },
@@ -2308,6 +2356,18 @@
       "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Ashok Pradhan",
+          "title": "Odisha clears 22 projects worth Rs 3,855cr, 7,000 jobs in pipeline",
+          "outlet": "The Times of India",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T15:51:19Z",
+          "link": "https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-clears-22-projects-worth-rs-3855cr-7000-jobs-in-pipeline/articleshow/135322713.cms",
+          "citation": "(U) Ashok Pradhan. \"Odisha clears 22 projects worth Rs 3,855cr, 7,000 jobs in pipeline.\" The Times of India, October 29, 2026. https://timesofindia.indiatimes.com/city/bhubaneswar/odisha-clears-22-projects-worth-rs-3855cr-7000-jobs-in-pipeline/articleshow/135322713.cms. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
         {
           "author": "Sterling Ashworth",
           "title": "Saudi Oil Exports Fight Back: East-West Pipeline Resumes Flows Amid War Risks and Shipping Disruptions",
@@ -2400,19 +2460,6 @@
           "publishedAt": "2026-10-28T05:52:51Z",
           "link": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
           "citation": "(U) Lee Ying Shan. \"Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries.\" CNBC, October 28, 2026. https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "BL Mangaluru Bureau",
-          "title": "Crude oil futures gain after Houthi attack on Saudi refinery",
-          "outlet": "BusinessLine",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T04:13:54Z",
-          "link": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-gain-after-houthi-attack-on-saudi-refinery/article71634280.ece",
-          "citation": "(U) BL Mangaluru Bureau. \"Crude oil futures gain after Houthi attack on Saudi refinery.\" BusinessLine, October 28, 2026. https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-gain-after-houthi-attack-on-saudi-refinery/article71634280.ece. Accessed October 30, 2026.",
           "ci_match_patterns": [
             "\\brefiner(y|ies)\\b",
             "\\bhouthi(s)?\\b"
@@ -2608,6 +2655,30 @@
       "error": null,
       "articles": [
         {
+          "author": "HuffPost",
+          "title": "Pentagon Treating Military Base Freezer Malfunctions As Suspected Cyberattack, Officials Say",
+          "outlet": "HuffPost",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T16:28:56Z",
+          "link": "https://www.huffpost.com/entry/military-base-cyberattacks_n_6ae372f0e4b0a2cccd470dbd",
+          "citation": "(U) HuffPost. \"Pentagon Treating Military Base Freezer Malfunctions As Suspected Cyberattack, Officials Say.\" HuffPost, October 29, 2026. https://www.huffpost.com/entry/military-base-cyberattacks_n_6ae372f0e4b0a2cccd470dbd. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Russian drone strike kills at least 14 on Ukrainian rail platform",
+          "outlet": "New York Post",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T13:54:32Z",
+          "link": "https://nypost.com/2026/10/29/world-news/russian-drone-strike-kills-at-least-14-on-ukrainian-rail-platform/",
+          "citation": "(U) Reuters. \"Russian drone strike kills at least 14 on Ukrainian rail platform.\" New York Post, October 29, 2026. https://nypost.com/2026/10/29/world-news/russian-drone-strike-kills-at-least-14-on-ukrainian-rail-platform/. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
           "author": "Reuters",
           "title": "Pentagon treating military base freezer malfunctions as suspected cyberattack: officials",
           "outlet": "New York Post",
@@ -2726,30 +2797,6 @@
           "citation": "(U) Mike Adams. \"The Cyber Attack Wave Smells Like a False Flag … But To What End?.\" Naturalnews.com, October 23, 2026. https://www.naturalnews.com/2026-10-23-cyber-attack-wave-smells-like-false-flag.html. Accessed October 30, 2026.",
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Cam Wilson",
-          "title": "ABC staff targeted in sophisticated cyber attack",
-          "outlet": "ABC News (AU)",
-          "published": "October 23, 2026",
-          "publishedAt": "2026-10-23T01:41:30Z",
-          "link": "https://www.abc.net.au/news/2026-10-23/abc-staff-targeted-adfection-cyber-attack/107300806",
-          "citation": "(U) Cam Wilson. \"ABC staff targeted in sophisticated cyber attack.\" ABC News (AU), October 23, 2026. https://www.abc.net.au/news/2026-10-23/abc-staff-targeted-adfection-cyber-attack/107300806. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "John Hayward",
-          "title": "U.S. Withdraws Diplomatic Personnel from Saudi Arabia as Houthis Attack More Airports",
-          "outlet": "Breitbart News",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T21:19:27Z",
-          "link": "https://www.breitbart.com/middle-east/2026/10/22/u-s-withdraws-diplomatic-personnel-saudi-arabia-as-houthis-attack-more-airports/",
-          "citation": "(U) John Hayward. \"U.S. Withdraws Diplomatic Personnel from Saudi Arabia as Houthis Attack More Airports.\" Breitbart News, October 22, 2026. https://www.breitbart.com/middle-east/2026/10/22/u-s-withdraws-diplomatic-personnel-saudi-arabia-as-houthis-attack-more-airports/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
           ]
         }
       ]
@@ -2947,6 +2994,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Emma Richter",
+          "title": "Smug southern student celebrates Charlie Kirk's assassination in foul rant as she tells conservative speaker 'you're brave being here without your neck covered'",
+          "outlet": "Dailymail.com",
+          "published": "October 29, 2026",
+          "publishedAt": "2026-10-29T15:18:40Z",
+          "link": "https://www.dailymail.com/news/article-16249371/university-texas-san-antonio-christian-collins-charlie-kirk-neck-event.html",
+          "citation": "(U) Emma Richter. \"Smug southern student celebrates Charlie Kirk's assassination in foul rant as she tells conservative speaker 'you're brave being here without your neck covered'.\" Dailymail.com, October 29, 2026. https://www.dailymail.com/news/article-16249371/university-texas-san-antonio-christian-collins-charlie-kirk-neck-event.html. Accessed October 30, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
           "author": "Diego Almada Lopez",
           "title": "Nvidia CEO Jensen Huang targeted in Chinese espionage plot, NY Times reports",
           "outlet": "Crypto Briefing",
@@ -3016,18 +3075,6 @@
           "citation": "(U) Rikard Jozwiak. \"Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?.\" Radio Free Europe/ Radio Liberty, October 27, 2026. https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html. Accessed October 30, 2026.",
           "ci_match_patterns": [
             "\\bgru\\b"
-          ]
-        },
-        {
-          "author": "Renee Dudley",
-          "title": "Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims",
-          "outlet": "ProPublica",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T09:00:00Z",
-          "link": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
-          "citation": "(U) Renee Dudley. \"Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims.\" ProPublica, October 26, 2026. https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
           ]
         }
       ]
@@ -3351,735 +3398,6 @@
           "citation": "(U) Reuters. \"Kremlin critic, chess legend Garry Kasparov says US warned him of assassination threat.\" New York Post, October 1, 2026. https://nypost.com/2026/10/01/world-news/garry-kasparov-kremlin-critic-and-chess-legend-says-us-warned-him-of-assassination-threat/. Accessed October 30, 2026.",
           "ci_match_patterns": [
             "\\bassassination\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
-      "count": 18,
-      "error": null,
-      "articles": [
-        {
-          "author": "Diego Almada Lopez",
-          "title": "Nvidia CEO Jensen Huang targeted in Chinese espionage plot, NY Times reports",
-          "outlet": "Crypto Briefing",
-          "published": "October 29, 2026",
-          "publishedAt": "2026-10-29T09:10:34Z",
-          "link": "https://cryptobriefing.com/nvidia-ceo-huang-chinese-espionage-plot/",
-          "citation": "(U) Diego Almada Lopez. \"Nvidia CEO Jensen Huang targeted in Chinese espionage plot, NY Times reports.\" Crypto Briefing, October 29, 2026. https://cryptobriefing.com/nvidia-ceo-huang-chinese-espionage-plot/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Isegoria",
-          "title": "The core of the original Project Maven was spotting potential terrorist targets in mind-numbing hours of drone surveillance video",
-          "outlet": "Isegoria.net",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T17:12:12Z",
-          "link": "https://www.isegoria.net/2026/10/the-core-of-the-original-project-maven-was-spotting-potential-terrorist-targets-in-mind-numbing-hours-of-drone-surveillance-video/",
-          "citation": "(U) Isegoria. \"The core of the original Project Maven was spotting potential terrorist targets in mind-numbing hours of drone surveillance video.\" Isegoria.net, October 25, 2026. https://www.isegoria.net/2026/10/the-core-of-the-original-project-maven-was-spotting-potential-terrorist-targets-in-mind-numbing-hours-of-drone-surveillance-video/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Cathrin Schaer",
-          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
-          "outlet": "DW (English)",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T09:13:00Z",
-          "link": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemens-houthis-up-pressure/a-79735138",
-          "citation": "(U) Cathrin Schaer. \"Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure.\" DW (English), October 25, 2026. https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemens-houthis-up-pressure/a-79735138. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "October 25, 2026",
-          "title": "Research as Cover: How Chinese Intelligence Uses Think Tanks and Consultancies",
-          "outlet": "Substack.com",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T00:00:00Z",
-          "link": "https://asiacrimecentury.substack.com/p/research-as-cover-how-chinese-intelligence",
-          "citation": "(U) October 25, 2026. \"Research as Cover: How Chinese Intelligence Uses Think Tanks and Consultancies.\" Substack.com, October 25, 2026. https://asiacrimecentury.substack.com/p/research-as-cover-how-chinese-intelligence. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bchinese intelligence\\b"
-          ]
-        },
-        {
-          "author": "Jillian Butler",
-          "title": "The Deep State Is Leaking Trump’s Most Sensitive Undercover Operations To The Washington Post",
-          "outlet": "The Daily Caller",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T19:29:33Z",
-          "link": "https://dailycaller.com/2026/10/22/anonymous-sources-pentagon-clandestine-espionage-china-washington-post",
-          "citation": "(U) Jillian Butler. \"The Deep State Is Leaking Trump’s Most Sensitive Undercover Operations To The Washington Post.\" The Daily Caller, October 22, 2026. https://dailycaller.com/2026/10/22/anonymous-sources-pentagon-clandestine-espionage-china-washington-post. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "ET Online",
-          "title": "Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe",
-          "outlet": "The Times of India",
-          "published": "October 18, 2026",
-          "publishedAt": "2026-10-18T19:09:51Z",
-          "link": "https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms",
-          "citation": "(U) ET Online. \"Army Major's wife, ChatGPT, Claude & China links: How this Indian woman landed in the middle of Jammu espionage probe.\" The Times of India, October 18, 2026. https://economictimes.indiatimes.com/news/new-updates/army-majors-wife-chatgpt-claude-china-links-how-this-indian-woman-landed-in-the-middle-of-jammu-espionage-probe/articleshow/135034478.cms. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Bernard Keane",
-          "title": "Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws",
-          "outlet": "Crikey",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T22:56:26Z",
-          "link": "http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/",
-          "citation": "(U) Bernard Keane. \"Bizarre prosecution of ‘reckless’ consultant raises big questions about foreign interference laws.\" Crikey, October 15, 2026. http://www.crikey.com.au/2026/10/16/alexander-csergo-china-foreign-interference-laws-espionage/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Khabarhub",
-          "title": "The Changing Face of Chinese Espionage Strategies",
-          "outlet": "Khabarhub.com",
-          "published": "October 9, 2026",
-          "publishedAt": "2026-10-09T05:45:29Z",
-          "link": "https://english.khabarhub.com/2026/09/571301/",
-          "citation": "(U) Khabarhub. \"The Changing Face of Chinese Espionage Strategies.\" Khabarhub.com, October 9, 2026. https://english.khabarhub.com/2026/09/571301/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Tom Layton",
-          "title": "University launches probe into academics' research after MI5 warning over Chinese intelligence links",
-          "outlet": "Dailymail.com",
-          "published": "October 8, 2026",
-          "publishedAt": "2026-10-08T18:26:13Z",
-          "link": "https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html",
-          "citation": "(U) Tom Layton. \"University launches probe into academics' research after MI5 warning over Chinese intelligence links.\" Dailymail.com, October 8, 2026. https://www.dailymail.com/news/article-16194315/University-launches-probe-academics-research-MI5-warning-Chinese-intelligence-links.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bchinese intelligence\\b"
-          ]
-        },
-        {
-          "author": "David S. Cohen",
-          "title": "The Case for Economic Espionage",
-          "outlet": "Foreign Affairs",
-          "published": "October 8, 2026",
-          "publishedAt": "2026-10-08T12:59:17Z",
-          "link": "https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen",
-          "citation": "(U) David S. Cohen. \"The Case for Economic Espionage.\" Foreign Affairs, October 8, 2026. https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Ryan Lucas",
-          "title": "FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar",
-          "outlet": "NPR",
-          "published": "October 6, 2026",
-          "publishedAt": "2026-10-06T09:00:00Z",
-          "link": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
-          "citation": "(U) Ryan Lucas. \"FBI's spy hunting squads hit with deep cuts even as foreign espionage threats soar.\" NPR, October 6, 2026. https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "October 4, 2026",
-          "title": "Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence",
-          "outlet": "Hoover.org",
-          "published": "October 4, 2026",
-          "publishedAt": "2026-10-04T00:00:00Z",
-          "link": "https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan",
-          "citation": "(U) October 4, 2026. \"Articles On: Espionage, Academic Security, CCP Influence, Propaganda, Foreign Interference, Taiwan, Japan, Brazil, United Front, and Global Chinese Influence.\" Hoover.org, October 4, 2026. https://www.hoover.org/research/articles-espionage-academic-security-ccp-influence-propaganda-foreign-interference-taiwan. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-          "outlet": "Internet",
-          "published": "October 3, 2026",
-          "publishedAt": "2026-10-03T14:38:46Z",
-          "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics.\" Internet, October 3, 2026. https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bmss\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-          "outlet": "Internet",
-          "published": "October 1, 2026",
-          "publishedAt": "2026-10-01T16:45:38Z",
-          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories.\" Internet, October 1, 2026. https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bzero-?day\\b"
-          ]
-        },
-        {
-          "author": "Alina Maria Stan",
-          "title": "MI5 says over 100 UK academics worked on projects funded by China’s spies",
-          "outlet": "The Next Web",
-          "published": "October 1, 2026",
-          "publishedAt": "2026-10-01T14:12:30Z",
-          "link": "https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai",
-          "citation": "(U) Alina Maria Stan. \"MI5 says over 100 UK academics worked on projects funded by China’s spies.\" The Next Web, October 1, 2026. https://thenextweb.com/news/mi5-espionage-alert-cgtri-china-universities-ai. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Phil Muncaster",
-          "title": "MI5 Warns Over 100 Academics Helped China's Espionage Plans",
-          "outlet": "Infosecurity Magazine",
-          "published": "October 1, 2026",
-          "publishedAt": "2026-10-01T07:37:00Z",
-          "link": "https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/",
-          "citation": "(U) Phil Muncaster. \"MI5 Warns Over 100 Academics Helped China's Espionage Plans.\" Infosecurity Magazine, October 1, 2026. https://www.infosecurity-magazine.com/news/mi5-alerts-academics-chinese/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Eamon Javers",
-          "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
-          "outlet": "CNBC",
-          "published": "September 30, 2026",
-          "publishedAt": "2026-09-30T10:00:01Z",
-          "link": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
-          "citation": "(U) Eamon Javers. \"Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve.\" CNBC, September 30, 2026. https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Yevheny Serhiienko",
-          "title": "China Calls Crypto an “Accomplice” to Espionage: What Does It Mean for Crypto Market?",
-          "outlet": "Bitcoinfoundation.org",
-          "published": "September 29, 2026",
-          "publishedAt": "2026-09-29T11:58:16Z",
-          "link": "https://bitcoinfoundation.org/news/regulation/china-calls-crypto-an-accomplice-to-espionage-what-does-it-mean-for-crypto-market/",
-          "citation": "(U) Yevheny Serhiienko. \"China Calls Crypto an “Accomplice” to Espionage: What Does It Mean for Crypto Market?.\" Bitcoinfoundation.org, September 29, 2026. https://bitcoinfoundation.org/news/regulation/china-calls-crypto-an-accomplice-to-espionage-what-does-it-mean-for-crypto-market/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
-      "count": 8,
-      "error": null,
-      "articles": [
-        {
-          "author": "Tousi TV",
-          "title": "Pahlavi Urgent Message To Iran On Launching Uprising - IRGC Deploy Forces - Israel Elections",
-          "outlet": "Freerepublic.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T20:32:55Z",
-          "link": "https://freerepublic.com/focus/f-chat/4400817/posts",
-          "citation": "(U) Tousi TV. \"Pahlavi Urgent Message To Iran On Launching Uprising - IRGC Deploy Forces - Israel Elections.\" Freerepublic.com, October 27, 2026. https://freerepublic.com/focus/f-chat/4400817/posts. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "Tousi TV",
-          "title": "Pahlavi Urgent Message To Iran On Launching Uprising - IRGC Deploy Forces - Israel Elections",
-          "outlet": "Freerepublic.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T20:32:55Z",
-          "link": "https://freerepublic.com/focus/f-news/4400817/posts",
-          "citation": "(U) Tousi TV. \"Pahlavi Urgent Message To Iran On Launching Uprising - IRGC Deploy Forces - Israel Elections.\" Freerepublic.com, October 27, 2026. https://freerepublic.com/focus/f-news/4400817/posts. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "Rikard Jozwiak",
-          "title": "Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?",
-          "outlet": "Radio Free Europe/ Radio Liberty",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T10:55:02Z",
-          "link": "https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html",
-          "citation": "(U) Rikard Jozwiak. \"Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?.\" Radio Free Europe/ Radio Liberty, October 27, 2026. https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bgru\\b"
-          ]
-        },
-        {
-          "author": "Imogen Garfinkel",
-          "title": "British Islamic preacher accused of celebrating terrorists and radicalising followers sets up 'religious training camp' in Thailand",
-          "outlet": "Dailymail.com",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T13:41:28Z",
-          "link": "https://www.dailymail.com/news/article-16229095/British-Islamic-preacher-accused-celebrating-terrorists-radicalising-followers-sets-religious-training-camp-Thailand.html",
-          "citation": "(U) Imogen Garfinkel. \"British Islamic preacher accused of celebrating terrorists and radicalising followers sets up 'religious training camp' in Thailand.\" Dailymail.com, October 25, 2026. https://www.dailymail.com/news/article-16229095/British-Islamic-preacher-accused-celebrating-terrorists-radicalising-followers-sets-religious-training-camp-Thailand.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "UK police re-arrest two suspects in Iranian plot targeting US bomber base",
-          "outlet": "Israelnationalnews.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T01:12:08Z",
-          "link": "https://www.israelnationalnews.com/news/434923",
-          "citation": "(U) Israel National News. \"UK police re-arrest two suspects in Iranian plot targeting US bomber base.\" Israelnationalnews.com, October 21, 2026. https://www.israelnationalnews.com/news/434923. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "Germany summons Iran envoy following 'malicious' assassination plots",
-          "outlet": "The Local Germany",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T13:12:43Z",
-          "link": "https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots",
-          "citation": "(U) AFP. \"Germany summons Iran envoy following 'malicious' assassination plots.\" The Local Germany, October 19, 2026. https://www.thelocal.de/20261019/germany-summons-iran-envoy-following-malicious-assassination-plots. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b",
-            "\\bassassination plots?\\b"
-          ]
-        },
-        {
-          "author": "Aadrita Halder",
-          "title": "'Broad, troubling trend': US lawmakers urge FBI probe into mass shooting plot at Illinois Hindu temple",
-          "outlet": "The Times of India",
-          "published": "October 17, 2026",
-          "publishedAt": "2026-10-17T03:58:09Z",
-          "link": "https://timesofindia.indiatimes.com/world/us/broad-troubling-trend-us-lawmakers-urge-fbi-probe-into-mass-shooting-plot-at-illinois-hindu-temple/articleshow/135006991.cms",
-          "citation": "(U) Aadrita Halder. \"'Broad, troubling trend': US lawmakers urge FBI probe into mass shooting plot at Illinois Hindu temple.\" The Times of India, October 17, 2026. https://timesofindia.indiatimes.com/world/us/broad-troubling-trend-us-lawmakers-urge-fbi-probe-into-mass-shooting-plot-at-illinois-hindu-temple/articleshow/135006991.cms. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Maziar Motamedi",
-          "title": "Iran sees ‘false flag’ operations after UK blames IRGC for airbase incident",
-          "outlet": "Al Jazeera English",
-          "published": "October 13, 2026",
-          "publishedAt": "2026-10-13T13:03:56Z",
-          "link": "https://www.aljazeera.com/news/2026/10/13/iran-sees-false-flag-operations-after-uk-blames-irgc-for-airbase-incident",
-          "citation": "(U) Maziar Motamedi. \"Iran sees ‘false flag’ operations after UK blames IRGC for airbase incident.\" Al Jazeera English, October 13, 2026. https://www.aljazeera.com/news/2026/10/13/iran-sees-false-flag-operations-after-uk-blames-irgc-for-airbase-incident. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 16,
-      "error": null,
-      "articles": [
-        {
-          "author": "Diego Almada Lopez",
-          "title": "Nvidia CEO Jensen Huang targeted in Chinese espionage plot, NY Times reports",
-          "outlet": "Crypto Briefing",
-          "published": "October 29, 2026",
-          "publishedAt": "2026-10-29T09:10:34Z",
-          "link": "https://cryptobriefing.com/nvidia-ceo-huang-chinese-espionage-plot/",
-          "citation": "(U) Diego Almada Lopez. \"Nvidia CEO Jensen Huang targeted in Chinese espionage plot, NY Times reports.\" Crypto Briefing, October 29, 2026. https://cryptobriefing.com/nvidia-ceo-huang-chinese-espionage-plot/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "John T Psaropoulos",
-          "title": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
-          "outlet": "Al Jazeera English",
-          "published": "October 29, 2026",
-          "publishedAt": "2026-10-29T06:01:29Z",
-          "link": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation",
-          "citation": "(U) John T Psaropoulos. \"Russia’s alleged sabotage campaign in Europe raises fears of escalation.\" Al Jazeera English, October 29, 2026. https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Espionage threats blur lines between security and dissent in Iran",
-          "outlet": "Al Jazeera English",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T14:03:08Z",
-          "link": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents",
-          "citation": "(U) Al Jazeera Staff. \"Espionage threats blur lines between security and dissent in Iran.\" Al Jazeera English, October 28, 2026. https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "bbc",
-          "title": "Two charged over alleged plot to assist Iran in RAF Fairford incident",
-          "outlet": "Freerepublic.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T14:47:19Z",
-          "link": "https://freerepublic.com/focus/f-news/4400767/posts",
-          "citation": "(U) bbc. \"Two charged over alleged plot to assist Iran in RAF Fairford incident.\" Freerepublic.com, October 27, 2026. https://freerepublic.com/focus/f-news/4400767/posts. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Ioana Târziu",
-          "title": "Nicușor Dan, after SRI revealed the sabotage network coordinated by Russia: A serious violation of the country’s sovereignty and security | Prime Minister’s message",
-          "outlet": "Mediafax.ro",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T11:56:48Z",
-          "link": "https://www.mediafax.ro/english/nicusor-dan-after-sri-revealed-the-sabotage-network-coordinated-by-russia-a-serious-violation-of-the-countrys-sovereignty-and-security-prime-ministers-message-23832467",
-          "citation": "(U) Ioana Târziu. \"Nicușor Dan, after SRI revealed the sabotage network coordinated by Russia: A serious violation of the country’s sovereignty and security | Prime Minister’s message.\" Mediafax.ro, October 27, 2026. https://www.mediafax.ro/english/nicusor-dan-after-sri-revealed-the-sabotage-network-coordinated-by-russia-a-serious-violation-of-the-countrys-sovereignty-and-security-prime-ministers-message-23832467. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "RTÉ News",
-          "title": "Two men charged over RAF Fairford 'plot to aid Iran'",
-          "outlet": "RTE",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T10:51:41Z",
-          "link": "https://www.rte.ie/news/uk/2026/1027/1596944-raf-fairford-investigation/",
-          "citation": "(U) RTÉ News. \"Two men charged over RAF Fairford 'plot to aid Iran'.\" RTE, October 27, 2026. https://www.rte.ie/news/uk/2026/1027/1596944-raf-fairford-investigation/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "JILL LAWLESS",
-          "title": "2 men charged over suspected Iran-linked plot at U.S. bomber base in England",
-          "outlet": "Yahoo Entertainment",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T09:10:07Z",
-          "link": "https://www.yahoo.com/news/world/articles/uk-prosecutors-2-men-charged-091007409.html",
-          "citation": "(U) JILL LAWLESS. \"2 men charged over suspected Iran-linked plot at U.S. bomber base in England.\" Yahoo Entertainment, October 27, 2026. https://www.yahoo.com/news/world/articles/uk-prosecutors-2-men-charged-091007409.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Romania says Russia-run sabotage network set fire near weapons factory",
-          "outlet": "Al Jazeera English",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T00:33:06Z",
-          "link": "https://www.aljazeera.com/news/2026/10/27/romania-says-russia-run-sabotage-network-set-fire-near-weapons-factory",
-          "citation": "(U) Al Jazeera Staff. \"Romania says Russia-run sabotage network set fire near weapons factory.\" Al Jazeera English, October 27, 2026. https://www.aljazeera.com/news/2026/10/27/romania-says-russia-run-sabotage-network-set-fire-near-weapons-factory. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Antonio Graceffo",
-          "title": "Heroes or Terrorists? How Italy’s Left- and Right-Leaning Media Portray the Rioters",
-          "outlet": "Thegatewaypundit.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T14:30:30Z",
-          "link": "https://www.thegatewaypundit.com/2026/10/heroes-terrorists-how-italys-left-right-leaning-media/",
-          "citation": "(U) Antonio Graceffo. \"Heroes or Terrorists? How Italy’s Left- and Right-Leaning Media Portray the Rioters.\" Thegatewaypundit.com, October 26, 2026. https://www.thegatewaypundit.com/2026/10/heroes-terrorists-how-italys-left-right-leaning-media/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "October 25, 2026",
-          "title": "Research as Cover: How Chinese Intelligence Uses Think Tanks and Consultancies",
-          "outlet": "Substack.com",
-          "published": "October 25, 2026",
-          "publishedAt": "2026-10-25T00:00:00Z",
-          "link": "https://asiacrimecentury.substack.com/p/research-as-cover-how-chinese-intelligence",
-          "citation": "(U) October 25, 2026. \"Research as Cover: How Chinese Intelligence Uses Think Tanks and Consultancies.\" Substack.com, October 25, 2026. https://asiacrimecentury.substack.com/p/research-as-cover-how-chinese-intelligence. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bchinese intelligence\\b"
-          ]
-        },
-        {
-          "author": "https://www.facebook.com/bbcnews",
-          "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-          "outlet": "BBC News",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T17:07:03Z",
-          "link": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo",
-          "citation": "(U) https://www.facebook.com/bbcnews. \"Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest.\" BBC News, October 22, 2026. https://www.bbc.co.uk/news/articles/cmx28y5e04ggo. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Oliver JJ Lane",
-          "title": "Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford",
-          "outlet": "Breitbart News",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T13:37:38Z",
-          "link": "https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/",
-          "citation": "(U) Oliver JJ Lane. \"Terror Police Re-Arrest Two Men in Relation to Alleged Iranian Plot Against Joint UK-U.S. Airbase Fairford.\" Breitbart News, October 21, 2026. https://www.breitbart.com/europe/2026/10/21/terror-cops-re-arrest-two-men-in-relation-to-alleged-iranian-air-base-plot/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "German sniper detained after deserting Ukrainian Army – FSB",
-          "outlet": "Rt-english.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T12:47:04Z",
-          "link": "https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/",
-          "citation": "(U) RT. \"German sniper detained after deserting Ukrainian Army – FSB.\" Rt-english.com, October 21, 2026. https://rt-english.com/russia/647483-fsb-german-ukraine-deserter/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bfsb\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "Moscow accuses Japan of using journalists for espionage",
-          "outlet": "The Times of India",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T12:38:06Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms",
-          "citation": "(U) AFP. \"Moscow accuses Japan of using journalists for espionage.\" The Times of India, October 21, 2026. https://economictimes.indiatimes.com/news/international/world-news/moscow-accuses-japan-of-using-journalists-for-espionage/articleshow/135092531.cms. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Katherine Lawton",
-          "title": "Two men arrested over suspected RAF Fairford 'terror plot' are rearrested on suspicion of helping Iran's intelligence service",
-          "outlet": "Dailymail.com",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T17:07:20Z",
-          "link": "https://www.dailymail.com/news/article-16224395/Two-men-arrested-suspected-RAF-Fairford-terror-plot-rearrested-suspicion-helping-Irans-intelligence-service.html",
-          "citation": "(U) Katherine Lawton. \"Two men arrested over suspected RAF Fairford 'terror plot' are rearrested on suspicion of helping Iran's intelligence service.\" Dailymail.com, October 20, 2026. https://www.dailymail.com/news/article-16224395/Two-men-arrested-suspected-RAF-Fairford-terror-plot-rearrested-suspicion-helping-Irans-intelligence-service.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Oliver JJ Lane",
-          "title": "Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist",
-          "outlet": "Breitbart News",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T14:38:35Z",
-          "link": "https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/",
-          "citation": "(U) Oliver JJ Lane. \"Limoges Town Hall Arson Suspect is Known 'Ultra-Left' Extremist on Security Watchlist.\" Breitbart News, October 20, 2026. https://www.breitbart.com/europe/2026/10/20/limoges-town-hall-suspect-is-known-ultra-left-extremist-on-watchlist/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b",
-            "\\bextremist(s| group)?\\b"
-          ]
-        }
-      ]
-    },
-    {
-      "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 16,
-      "error": null,
-      "articles": [
-        {
-          "author": "Phil Muncaster",
-          "title": "Energy Giant Engie Notifies Customers of Supply Chain Breach",
-          "outlet": "Infosecurity Magazine",
-          "published": "October 28, 2026",
-          "publishedAt": "2026-10-28T14:05:00Z",
-          "link": "https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/",
-          "citation": "(U) Phil Muncaster. \"Energy Giant Engie Notifies Customers of Supply Chain Breach.\" Infosecurity Magazine, October 28, 2026. https://www.infosecurity-magazine.com/news/energy-giant-engie-supply-chain/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Redhat.com Staff",
-          "title": "Securing the enterprise software supply chain in the AI era",
-          "outlet": "Redhat.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T00:00:00Z",
-          "link": "https://www.redhat.com/en/blog/securing-enterprise-software-supply-chain-ai-era",
-          "citation": "(U) Redhat.com Staff. \"Securing the enterprise software supply chain in the AI era.\" Redhat.com, October 27, 2026. https://www.redhat.com/en/blog/securing-enterprise-software-supply-chain-ai-era. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsoftware supply\\b"
-          ]
-        },
-        {
-          "author": "Redhat.com Staff",
-          "title": "Red Hat Survey Shows Blind Spots in Swiss Enterprise Software Supply Chains",
-          "outlet": "Redhat.com",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T00:00:00Z",
-          "link": "https://www.redhat.com/en/about/press-releases/red-hat-survey-shows-blind-spots-swiss-enterprise-software-supply-chains",
-          "citation": "(U) Redhat.com Staff. \"Red Hat Survey Shows Blind Spots in Swiss Enterprise Software Supply Chains.\" Redhat.com, October 27, 2026. https://www.redhat.com/en/about/press-releases/red-hat-survey-shows-blind-spots-swiss-enterprise-software-supply-chains. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsoftware supply\\b"
-          ]
-        },
-        {
-          "author": "Diego Almada Lopez",
-          "title": "LiteLLM traces supply chain attack to a GitHub key nobody revoked",
-          "outlet": "Crypto Briefing",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T20:38:11Z",
-          "link": "https://cryptobriefing.com/litellm-supply-chain-attack-exposed-github-key/",
-          "citation": "(U) Diego Almada Lopez. \"LiteLLM traces supply chain attack to a GitHub key nobody revoked.\" Crypto Briefing, October 26, 2026. https://cryptobriefing.com/litellm-supply-chain-attack-exposed-github-key/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Jessica Lyons",
-          "title": "LiteLLM supply chain attack started with an exposed master key",
-          "outlet": "Theregister.com",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T20:30:53Z",
-          "link": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
-          "citation": "(U) Jessica Lyons. \"LiteLLM supply chain attack started with an exposed master key.\" Theregister.com, October 26, 2026. https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "James Coker",
-          "title": "CISA 2030 Sets Out ‘Aggressive, Anticipatory’ Cyber Defense Strategy for Critical Infrastructure",
-          "outlet": "Infosecurity Magazine",
-          "published": "October 26, 2026",
-          "publishedAt": "2026-10-26T16:00:00Z",
-          "link": "https://www.infosecurity-magazine.com/news/cisa-aggressive-strategy-critical/",
-          "citation": "(U) James Coker. \"CISA 2030 Sets Out ‘Aggressive, Anticipatory’ Cyber Defense Strategy for Critical Infrastructure.\" Infosecurity Magazine, October 26, 2026. https://www.infosecurity-magazine.com/news/cisa-aggressive-strategy-critical/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bcritical infrastructure\\b"
-          ]
-        },
-        {
-          "author": "Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan",
-          "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-          "outlet": "Microsoft.com",
-          "published": "October 23, 2026",
-          "publishedAt": "2026-10-23T18:12:19Z",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-          "citation": "(U) Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan. \"Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks.\" Microsoft.com, October 23, 2026. https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Shane Downing",
-          "title": "China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack",
-          "outlet": "Tom's Hardware UK",
-          "published": "October 23, 2026",
-          "publishedAt": "2026-10-23T10:30:00Z",
-          "link": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-says-china-aligned-hackers-used-ai-agents-in-connectwise-supply-chain-attack-agents-attempted-sign-ins-at-more-than-2-250-microsoft-365-tenants-with-some-of-the-groups-attacks-reaching-privileged-access-in-under-three-hours",
-          "citation": "(U) Shane Downing. \"China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack.\" Tom's Hardware UK, October 23, 2026. https://www.tomshardware.com/tech-industry/cyber-security/microsoft-says-china-aligned-hackers-used-ai-agents-in-connectwise-supply-chain-attack-agents-attempted-sign-ins-at-more-than-2-250-microsoft-365-tenants-with-some-of-the-groups-attacks-reaching-privileged-access-in-under-three-hours. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Ionut Arghire",
-          "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-          "outlet": "Securityweek.com",
-          "published": "October 23, 2026",
-          "publishedAt": "2026-10-23T08:10:46Z",
-          "link": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-          "citation": "(U) Ionut Arghire. \"LiteLLM Compromised in Fresh Supply Chain Attack.\" Securityweek.com, October 23, 2026. https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Bill Toulas",
-          "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-          "outlet": "BleepingComputer",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T19:12:51Z",
-          "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-          "citation": "(U) Bill Toulas. \"LiteLLM release pipeline hacked to distribute info-stealer malware.\" BleepingComputer, October 22, 2026. https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
-          ]
-        },
-        {
-          "author": "Sinisa Markovic",
-          "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
-          "outlet": "Help Net Security",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T13:10:28Z",
-          "link": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
-          "citation": "(U) Sinisa Markovic. \"LiteLLM hit by second supply chain attack this year, users urged to rotate credentials.\" Help Net Security, October 22, 2026. https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-          "outlet": "Internet",
-          "published": "October 22, 2026",
-          "publishedAt": "2026-10-22T04:21:26Z",
-          "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack.\" Internet, October 22, 2026. https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Microsoft Security Research and Microsoft Threat Intelligence",
-          "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-          "outlet": "Microsoft.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T18:23:55Z",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-          "citation": "(U) Microsoft Security Research and Microsoft Threat Intelligence. \"AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise.\" Microsoft.com, October 21, 2026. https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Jessica Lyons",
-          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
-          "outlet": "Theregister.com",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T18:22:20Z",
-          "link": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
-          "citation": "(U) Jessica Lyons. \"LiteLLM supply chain attack hoovers up passwords and secrets.\" Theregister.com, October 21, 2026. https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-          "outlet": "Internet",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T18:01:57Z",
-          "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor.\" Internet, October 21, 2026. https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Sead Fadilpašić",
-          "title": "State Bank of India reports cyberattack — thousands of customer records affected, here's what we know",
-          "outlet": "TechRadar",
-          "published": "October 21, 2026",
-          "publishedAt": "2026-10-21T14:16:20Z",
-          "link": "https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know",
-          "citation": "(U) Sead Fadilpašić. \"State Bank of India reports cyberattack — thousands of customer records affected, here's what we know.\" TechRadar, October 21, 2026. https://www.techradar.com/pro/security/state-bank-of-india-reports-cyberattack-thousands-of-customer-records-affected-heres-what-we-know. Accessed October 30, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
           ]
         }
       ]

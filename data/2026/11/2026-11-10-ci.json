@@ -1,11 +1,11 @@
 {
-  "pulled_at_utc": "2026-11-10T16:39:40Z",
+  "pulled_at_utc": "2026-11-10T17:37:37Z",
   "accessed": "November 10, 2026",
-  "filtered_at_utc": "2026-11-10T16:46:20Z",
+  "filtered_at_utc": "2026-11-10T17:44:21Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2310,
-  "article_count": 309,
+  "source_article_count": 2309,
+  "article_count": 308,
   "dropped_count": 2001,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
@@ -603,9 +603,21 @@
     },
     {
       "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
-      "count": 26,
+      "count": 27,
       "error": null,
       "articles": [
+        {
+          "author": "United Nations",
+          "title": "Secretary-General Strongly Condemns Deadly Mass Shooting in Krakow, Poland",
+          "outlet": "UN News",
+          "published": "November 9, 2026",
+          "publishedAt": "2026-11-09T17:10:42Z",
+          "link": "https://press.un.org/en/2026/sgsm23361.doc.htm",
+          "citation": "(U) United Nations. \"Secretary-General Strongly Condemns Deadly Mass Shooting in Krakow, Poland.\" UN News, November 9, 2026. https://press.un.org/en/2026/sgsm23361.doc.htm. Accessed November 10, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "feedfeeder",
           "title": "Poland mass shooting assailant dies in hospital, police say - Al Jazeera",
@@ -1502,7 +1514,7 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 5,
+      "count": 4,
       "error": null,
       "articles": [
         {
@@ -1553,26 +1565,38 @@
             "\\bsubstations?\\b",
             "\\bnuclear (plant|facility|site|power|safety)\\b"
           ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Russia strikes Ukraine emergency rescue shelter again — days after killing 55 in brutal bombing",
-          "outlet": "New York Post",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T13:19:56Z",
-          "link": "https://nypost.com/2026/11/08/world-news/russia-strikes-ukraine-emergency-rescue-shelter-again/",
-          "citation": "(U) Associated Press. \"Russia strikes Ukraine emergency rescue shelter again — days after killing 55 in brutal bombing.\" New York Post, November 8, 2026. https://nypost.com/2026/11/08/world-news/russia-strikes-ukraine-emergency-rescue-shelter-again/. Accessed November 10, 2026.",
-          "ci_match_patterns": [
-            "\\bbombing\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 29,
+      "count": 30,
       "error": null,
       "articles": [
+        {
+          "author": "Joe Hoft",
+          "title": "Midterm Early Voting Cyberattack: Where Is Secretary Mullin and Homeland Security?",
+          "outlet": "Joehoft.com",
+          "published": "November 9, 2026",
+          "publishedAt": "2026-11-09T17:30:13Z",
+          "link": "https://joehoft.com/midterm-early-voting-cyberattack-where-is-secretary-mullin/",
+          "citation": "(U) Joe Hoft. \"Midterm Early Voting Cyberattack: Where Is Secretary Mullin and Homeland Security?.\" Joehoft.com, November 9, 2026. https://joehoft.com/midterm-early-voting-cyberattack-where-is-secretary-mullin/. Accessed November 10, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "CBC News Staff",
+          "title": "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
+          "outlet": "CBC News",
+          "published": "November 9, 2026",
+          "publishedAt": "2026-11-09T17:00:36Z",
+          "link": "https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031",
+          "citation": "(U) CBC News Staff. \"France blames Iran for cyberattack that hacked supermarket refrigerators across the country.\" CBC News, November 9, 2026. https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031. Accessed November 10, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Mark Warren",
           "title": "Cyberattack on Sega third-party newsletter distributor reportedly sees over two million email addresses leaked, but Sega accounts unaffected",
@@ -1907,18 +1931,6 @@
           "citation": "(U) Associated Press. \"UK will face AI cyberattacks on critical infrastructure by 2028, official says.\" New York Post, November 3, 2026. https://nypost.com/2026/11/03/world-news/uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028-official-says/. Accessed November 10, 2026.",
           "ci_match_patterns": [
             "\\bcritical infrastructure\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "Caught cold: fridge cyberattack highlights internet gadget weaknesses",
-          "outlet": "Digital Journal",
-          "published": "November 3, 2026",
-          "publishedAt": "2026-11-03T14:38:54Z",
-          "link": "https://www.digitaljournal.com/article/caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses/",
-          "citation": "(U) AFP. \"Caught cold: fridge cyberattack highlights internet gadget weaknesses.\" Digital Journal, November 3, 2026. https://www.digitaljournal.com/article/caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses/. Accessed November 10, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
           ]
         }
       ]
@@ -2439,6 +2451,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Charles Kennedy",
+          "title": "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels",
+          "outlet": "OilPrice.com",
+          "published": "November 9, 2026",
+          "publishedAt": "2026-11-09T17:16:00Z",
+          "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
+          "citation": "(U) Charles Kennedy. \"Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels.\" OilPrice.com, November 9, 2026. https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html. Accessed November 10, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
           "author": "ABC News (AU) Staff",
           "title": "Ukrainian drone attack sets Russia's Kirishi refinery ablaze",
           "outlet": "ABC News (AU)",
@@ -2510,18 +2534,6 @@
           "citation": "(U) The Associated Press. \"Drone attack on a Colombian military base leaves 3 soldiers dead.\" Abcnews.com, November 7, 2026. https://abcnews.com/International/wireStory/drone-attack-colombian-military-base-leaves-3-soldiers-137945487. Accessed November 10, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Dave Kurlan",
-          "title": "When Your Sales Pipeline Looks Healthy But The Numbers Don’t",
-          "outlet": "Customer Think",
-          "published": "November 7, 2026",
-          "publishedAt": "2026-11-07T05:15:39Z",
-          "link": "https://customerthink.com/when-your-sales-pipeline-looks-healthy-but-the-numbers-dont/",
-          "citation": "(U) Dave Kurlan. \"When Your Sales Pipeline Looks Healthy But The Numbers Don’t.\" Customer Think, November 7, 2026. https://customerthink.com/when-your-sales-pipeline-looks-healthy-but-the-numbers-dont/. Accessed November 10, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
           ]
         }
       ]
@@ -2668,7 +2680,7 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 20,
+      "count": 19,
       "error": null,
       "articles": [
         {
@@ -2901,18 +2913,6 @@
           "citation": "(U) Garrison Vance. \"War Department Investigates Overnight Sabotage of Food Supply in Military Bases.\" Naturalnews.com, November 3, 2026. https://www.naturalnews.com/2026-11-03-war-department-investigates-sabotage-food-supply-bases.html. Accessed November 10, 2026.",
           "ci_match_patterns": [
             "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "ANI",
-          "title": "US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions",
-          "outlet": "The Times of India",
-          "published": "November 3, 2026",
-          "publishedAt": "2026-11-03T03:59:11Z",
-          "link": "https://economictimes.indiatimes.com/news/international/world-news/us-embassy-in-saudi-arabia-warns-of-houthi-attacks-and-airport-disruptions-amid-rising-tensions/articleshow/135481224.cms",
-          "citation": "(U) ANI. \"US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions.\" The Times of India, November 3, 2026. https://economictimes.indiatimes.com/news/international/world-news/us-embassy-in-saudi-arabia-warns-of-houthi-attacks-and-airport-disruptions-amid-rising-tensions/articleshow/135481224.cms. Accessed November 10, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
           ]
         }
       ]
@@ -3817,7 +3817,7 @@
     },
     {
       "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 7,
+      "count": 6,
       "error": null,
       "articles": [
         {
@@ -3888,18 +3888,6 @@
           "publishedAt": "2026-11-02T01:11:07Z",
           "link": "https://www.nzherald.co.nz/business/companies/airlines/airlines-including-qantas-cathay-pacific-impacted-in-amadeus-cyber-attack/AUGWJ3XXLNDBNNI67ITNPKB6IQ/",
           "citation": "(U) John Weekes. \"Airlines including Qantas, Cathay Pacific impacted in Amadeus cyber attack.\" New Zealand Herald, November 2, 2026. https://www.nzherald.co.nz/business/companies/airlines/airlines-including-qantas-cathay-pacific-impacted-in-amadeus-cyber-attack/AUGWJ3XXLNDBNNI67ITNPKB6IQ/. Accessed November 10, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Guru Baran",
-          "title": "Hacktober – Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More",
-          "outlet": "Cybersecuritynews.com",
-          "published": "October 31, 2026",
-          "publishedAt": "2026-10-31T16:00:00Z",
-          "link": "https://cybersecuritynews.com/hacktober-cyberattack-wave/",
-          "citation": "(U) Guru Baran. \"Hacktober – Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More.\" Cybersecuritynews.com, October 31, 2026. https://cybersecuritynews.com/hacktober-cyberattack-wave/. Accessed November 10, 2026.",
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]

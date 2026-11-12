@@ -1,12 +1,12 @@
 {
-  "pulled_at_utc": "2026-11-12T17:16:36Z",
+  "pulled_at_utc": "2026-11-12T18:03:49Z",
   "accessed": "November 12, 2026",
-  "filtered_at_utc": "2026-11-12T17:22:32Z",
+  "filtered_at_utc": "2026-11-12T18:10:17Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2276,
-  "article_count": 318,
-  "dropped_count": 1958,
+  "source_article_count": 2292,
+  "article_count": 285,
+  "dropped_count": 2007,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
@@ -176,9 +176,21 @@
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 7,
+      "count": 8,
       "error": null,
       "articles": [
+        {
+          "author": "TNN",
+          "title": "IED explodes along NH-2 in Kohima district, CM slams blast",
+          "outlet": "The Times of India",
+          "published": "November 11, 2026",
+          "publishedAt": "2026-11-11T18:02:30Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms",
+          "citation": "(U) TNN. \"IED explodes along NH-2 in Kohima district, CM slams blast.\" The Times of India, November 11, 2026. https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms. Accessed November 12, 2026.",
+          "ci_match_patterns": [
+            "\\bied\\b"
+          ]
+        },
         {
           "author": "Israel National News",
           "title": "US charges three Iran-backed operatives over attacks on Jews, plot against air base",
@@ -1036,7 +1048,7 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 22,
+      "count": 21,
       "error": null,
       "articles": [
         {
@@ -1290,18 +1302,6 @@
           "ci_match_patterns": [
             "\\barson\\b"
           ]
-        },
-        {
-          "author": "Sabrina Penty",
-          "title": "Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt",
-          "outlet": "Dailymail.com",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T09:02:05Z",
-          "link": "https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html",
-          "citation": "(U) Sabrina Penty. \"Traveller gang boss is feared to be behind arson attack that killed innocent couple and two children - sparked by another man's £17,000 drug debt.\" Dailymail.com, October 15, 2026. https://www.dailymail.com/news/article-16210801/Traveller-gang-boss-arson-attack-killed-couple-two-children.html. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
@@ -1377,9 +1377,21 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 34,
+      "count": 33,
       "error": null,
       "articles": [
+        {
+          "author": "Joe Hoft",
+          "title": "The CyberAttack that Hit the FEC Also Hit the Voting Firm “CHAINSTACK” which has an Application that Connects Networks to Submit and Retrieve Vote Counts",
+          "outlet": "Joehoft.com",
+          "published": "November 11, 2026",
+          "publishedAt": "2026-11-11T18:00:53Z",
+          "link": "https://joehoft.com/cyberattack-that-hit-fec-also-hit-voting-firm/",
+          "citation": "(U) Joe Hoft. \"The CyberAttack that Hit the FEC Also Hit the Voting Firm “CHAINSTACK” which has an Application that Connects Networks to Submit and Retrieve Vote Counts.\" Joehoft.com, November 11, 2026. https://joehoft.com/cyberattack-that-hit-fec-also-hit-voting-firm/. Accessed November 12, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "The Irish Times Staff",
           "title": "Romanian intelligence agency says it identified Russian-linked cyber attack",
@@ -1764,30 +1776,6 @@
           "citation": "(U) Allison Halataei,Chris Townsend. \"Scaling cyber protection for US critical infrastructure: How Elastic supports the Community Cyber Resilience Foundation.\" Elastic.co, November 6, 2026. https://www.elastic.co/blog/how-elastic-supports-the-community-cyber-resilience-foundation. Accessed November 12, 2026.",
           "ci_match_patterns": [
             "\\bcritical infrastructure\\b"
-          ]
-        },
-        {
-          "author": "Sead Fadilpašić",
-          "title": "DreamHost admits major cyberattack saw hackers steal customer data and access inboxes",
-          "outlet": "TechRadar",
-          "published": "November 5, 2026",
-          "publishedAt": "2026-11-05T14:37:33Z",
-          "link": "https://www.techradar.com/pro/security/dreamhost-admits-major-cyberattack-saw-hackers-steal-customer-data-and-access-inboxes",
-          "citation": "(U) Sead Fadilpašić. \"DreamHost admits major cyberattack saw hackers steal customer data and access inboxes.\" TechRadar, November 5, 2026. https://www.techradar.com/pro/security/dreamhost-admits-major-cyberattack-saw-hackers-steal-customer-data-and-access-inboxes. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Vivian Nguyen",
-          "title": "French bank Crédit Mutuel Arkéa confirms cyberattack following $133M theft alert",
-          "outlet": "Crypto Briefing",
-          "published": "November 5, 2026",
-          "publishedAt": "2026-11-05T12:04:26Z",
-          "link": "https://cryptobriefing.com/cyberattack-french-bank-fraudulent-transactions/",
-          "citation": "(U) Vivian Nguyen. \"French bank Crédit Mutuel Arkéa confirms cyberattack following $133M theft alert.\" Crypto Briefing, November 5, 2026. https://cryptobriefing.com/cyberattack-french-bank-fraudulent-transactions/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
           ]
         }
       ]
@@ -2917,252 +2905,19 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 20,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "John Carney",
-          "title": "Larry Kudlow Calls on Nvidia CEO Jensen Huang to Resign Amid Chinese Espionage Scandal",
-          "outlet": "Breitbart News",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T15:37:36Z",
-          "link": "https://www.breitbart.com/economy/2026/11/11/larry-kudlow-calls-on-nvidia-ceo-jensen-huang-to-resign-amid-chinese-espionage-scandal/",
-          "citation": "(U) John Carney. \"Larry Kudlow Calls on Nvidia CEO Jensen Huang to Resign Amid Chinese Espionage Scandal.\" Breitbart News, November 11, 2026. https://www.breitbart.com/economy/2026/11/11/larry-kudlow-calls-on-nvidia-ceo-jensen-huang-to-resign-amid-chinese-espionage-scandal/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "David DiMolfetta",
-          "title": "Nvidia spying allegations test Washington’s defenses against tech espionage",
-          "outlet": "Nextgov",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T15:00:00Z",
-          "link": "https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/",
-          "citation": "(U) David DiMolfetta. \"Nvidia spying allegations test Washington’s defenses against tech espionage.\" Nextgov, November 11, 2026. https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Kshitiz",
-          "title": "Fire breaks out in Kishanganj transformer workshop, none injured",
+          "author": "TNN",
+          "title": "IED explodes along NH-2 in Kohima district, CM slams blast",
           "outlet": "The Times of India",
           "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T13:54:30Z",
-          "link": "https://timesofindia.indiatimes.com/city/patna/fire-breaks-out-in-kishanganj-transformer-workshop-none-injured/articleshow/135740010.cms",
-          "citation": "(U) Kshitiz. \"Fire breaks out in Kishanganj transformer workshop, none injured.\" The Times of India, November 11, 2026. https://timesofindia.indiatimes.com/city/patna/fire-breaks-out-in-kishanganj-transformer-workshop-none-injured/articleshow/135740010.cms. Accessed November 12, 2026.",
+          "publishedAt": "2026-11-11T18:02:30Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms",
+          "citation": "(U) TNN. \"IED explodes along NH-2 in Kohima district, CM slams blast.\" The Times of India, November 11, 2026. https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms. Accessed November 12, 2026.",
           "ci_match_patterns": [
-            "\\btransformers?\\b"
-          ]
-        },
-        {
-          "author": "Dwaipayan Ghosh",
-          "title": "STF files charge sheet against Pakistani national, three aides over alleged espionage ring run from Nepal",
-          "outlet": "The Times of India",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T13:37:50Z",
-          "link": "https://timesofindia.indiatimes.com/city/kolkata/stf-files-charge-sheet-against-pakistani-national-three-aides-over-alleged-espionage-ring-run-from-nepal/articleshow/135739672.cms",
-          "citation": "(U) Dwaipayan Ghosh. \"STF files charge sheet against Pakistani national, three aides over alleged espionage ring run from Nepal.\" The Times of India, November 11, 2026. https://timesofindia.indiatimes.com/city/kolkata/stf-files-charge-sheet-against-pakistani-national-three-aides-over-alleged-espionage-ring-run-from-nepal/articleshow/135739672.cms. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Idaho ISIS wannabe Alexander Scott Mercurio jailed for 18 years over plot to massacre churchgoers",
-          "outlet": "New York Post",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T11:48:38Z",
-          "link": "https://nypost.com/2026/11/11/us-news/idaho-isis-wannabe-alexander-scott-mercurio-jailed-for-18-years-over-plot-to-massacre-churchgoers/",
-          "citation": "(U) Associated Press. \"Idaho ISIS wannabe Alexander Scott Mercurio jailed for 18 years over plot to massacre churchgoers.\" New York Post, November 11, 2026. https://nypost.com/2026/11/11/us-news/idaho-isis-wannabe-alexander-scott-mercurio-jailed-for-18-years-over-plot-to-massacre-churchgoers/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
-          ]
-        },
-        {
-          "author": "RTÉ News",
-          "title": "US charges three 'Iranian operatives' in UK airbase plot",
-          "outlet": "RTE",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T02:23:48Z",
-          "link": "https://www.rte.ie/news/2026/1111/1598772-us-fairford-charges/",
-          "citation": "(U) RTÉ News. \"US charges three 'Iranian operatives' in UK airbase plot.\" RTE, November 11, 2026. https://www.rte.ie/news/2026/1111/1598772-us-fairford-charges/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Kelly Rae Robertson, Kelly Rae Robertsonkellyraerobertsonhttps://cdn01.dailycaller.com/wp-content/uploads/2026/11/IMG_0192.jpegkelly@kellyraereports.com https://x.com/KellyRaeReports ContributorKelly Rae Robertson is a Daily Caller contributor covering hard news and opinion. A former criminal justice investigator, she spent more than 14 years with Allegheny County Pretrial Services. Her work has also appeared in The Washington Times, Law Enforcement Today, and American Thinker. , Kelly Rae Robertson",
-          "title": "UK Arrests High-Ranking U.S. Soldier Suspected Of Spying For Russians",
-          "outlet": "The Daily Caller",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T02:13:45Z",
-          "link": "https://dailycaller.com/2026/11/10/uk-arrests-senior-us-soldier-russia-espionage",
-          "citation": "(U) Kelly Rae Robertson, Kelly Rae Robertsonkellyraerobertsonhttps://cdn01.dailycaller.com/wp-content/uploads/2026/11/IMG_0192.jpegkelly@kellyraereports.com https://x.com/KellyRaeReports ContributorKelly Rae Robertson is a Daily Caller contributor covering hard news and opinion. A former criminal justice investigator, she spent more than 14 years with Allegheny County Pretrial Services. Her work has also appeared in The Washington Times, Law Enforcement Today, and American Thinker. , Kelly Rae Robertson. \"UK Arrests High-Ranking U.S. Soldier Suspected Of Spying For Russians.\" The Daily Caller, November 11, 2026. https://dailycaller.com/2026/11/10/uk-arrests-senior-us-soldier-russia-espionage. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "REBECCA BOONE Associated Press",
-          "title": "An Idaho man gets 18 years in prison for an Islamic State support plot",
-          "outlet": "Abcnews.com",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T01:42:14Z",
-          "link": "https://abcnews.com/US/wireStory/idaho-man-gets-18-years-prison-islamic-state-138031319",
-          "citation": "(U) REBECCA BOONE Associated Press. \"An Idaho man gets 18 years in prison for an Islamic State support plot.\" Abcnews.com, November 11, 2026. https://abcnews.com/US/wireStory/idaho-man-gets-18-years-prison-islamic-state-138031319. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bislamic state\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "US charges three Iran-backed operatives over attacks on Jews, plot against air base",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T01:09:07Z",
-          "link": "https://www.israelnationalnews.com/news/435994",
-          "citation": "(U) Israel National News. \"US charges three Iran-backed operatives over attacks on Jews, plot against air base.\" Israelnationalnews.com, November 11, 2026. https://www.israelnationalnews.com/news/435994. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Fox News Staff",
-          "title": "IRGC operative lands on FBI’s Most Wanted Terrorists list over alleged plot to kill former Trump advisor",
-          "outlet": "Fox News",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T00:58:39Z",
-          "link": "https://www.foxnews.com/us/irgc-operative-lands-fbis-most-wanted-terrorists-list-alleged-plot-kill-former-trump-adviser",
-          "citation": "(U) Fox News Staff. \"IRGC operative lands on FBI’s Most Wanted Terrorists list over alleged plot to kill former Trump advisor.\" Fox News, November 11, 2026. https://www.foxnews.com/us/irgc-operative-lands-fbis-most-wanted-terrorists-list-alleged-plot-kill-former-trump-adviser. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England",
-          "outlet": "TheJournal.ie",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T22:07:35Z",
-          "link": "https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/",
-          "citation": "(U) AFP. \"US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England.\" TheJournal.ie, November 10, 2026. https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "HuffPost",
-          "title": "U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia",
-          "outlet": "HuffPost",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:49:26Z",
-          "link": "https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130",
-          "citation": "(U) HuffPost. \"U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia.\" HuffPost, November 10, 2026. https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "US soldier arrested in UK on suspicion of spying for Russia",
-          "outlet": "Al Jazeera English",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:41:53Z",
-          "link": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage",
-          "citation": "(U) Al Jazeera Staff. \"US soldier arrested in UK on suspicion of spying for Russia.\" Al Jazeera English, November 10, 2026. https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "US Army soldier arrested in UK on Russian espionage charges",
-          "outlet": "New York Post",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:30:50Z",
-          "link": "https://nypost.com/2026/11/10/world-news/us-army-soldier-arrested-in-uk-on-russian-espionage-charges/",
-          "citation": "(U) Associated Press. \"US Army soldier arrested in UK on Russian espionage charges.\" New York Post, November 10, 2026. https://nypost.com/2026/11/10/world-news/us-army-soldier-arrested-in-uk-on-russian-espionage-charges/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "CBC News Staff",
-          "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
-          "outlet": "CBC News",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:21:11Z",
-          "link": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928",
-          "citation": "(U) CBC News Staff. \"U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say.\" CBC News, November 10, 2026. https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Cristina Laila",
-          "title": "JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:20:36Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/",
-          "citation": "(U) Cristina Laila. \"JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia.\" Thegatewaypundit.com, November 10, 2026. https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "The Associated Press",
-          "title": "US soldier arrested in Britain on suspicion of espionage linked to Russia",
-          "outlet": "Abcnews.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:52:37Z",
-          "link": "https://abcnews.com/International/wireStory/us-soldier-arrested-britain-suspicion-espionage-linked-russia-138022230",
-          "citation": "(U) The Associated Press. \"US soldier arrested in Britain on suspicion of espionage linked to Russia.\" Abcnews.com, November 10, 2026. https://abcnews.com/International/wireStory/us-soldier-arrested-britain-suspicion-espionage-linked-russia-138022230. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Diarmuid Pepper",
-          "title": "US army member arrested in UK following allegations of espionage involving Russia",
-          "outlet": "TheJournal.ie",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:41:06Z",
-          "link": "https://www.thejournal.ie/us-army-member-arrested-in-uk-on-suspicion-of-offences-under-national-security-act-7221855-Nov2026/",
-          "citation": "(U) Diarmuid Pepper. \"US army member arrested in UK following allegations of espionage involving Russia.\" TheJournal.ie, November 10, 2026. https://www.thejournal.ie/us-army-member-arrested-in-uk-on-suspicion-of-offences-under-national-security-act-7221855-Nov2026/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Mark Hallam",
-          "title": "US soldier arrested in UK on Russian espionage allegations",
-          "outlet": "DW (English)",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:35:00Z",
-          "link": "https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240",
-          "citation": "(U) Mark Hallam. \"US soldier arrested in UK on Russian espionage allegations.\" DW (English), November 10, 2026. https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Max Saltman",
-          "title": "US army soldier arrested in UK for alleged espionage related to Russia | CNN",
-          "outlet": "CNN",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:20:39Z",
-          "link": "https://www.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia",
-          "citation": "(U) Max Saltman. \"US army soldier arrested in UK for alleged espionage related to Russia | CNN.\" CNN, November 10, 2026. https://www.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
+            "\\bied\\b"
           ]
         }
       ]
@@ -3545,182 +3300,19 @@
     },
     {
       "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
-      "count": 14,
+      "count": 1,
       "error": null,
       "articles": [
         {
-          "author": "RTÉ News",
-          "title": "US charges three 'Iranian operatives' in UK airbase plot",
-          "outlet": "RTE",
+          "author": "TNN",
+          "title": "IED explodes along NH-2 in Kohima district, CM slams blast",
+          "outlet": "The Times of India",
           "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T02:23:48Z",
-          "link": "https://www.rte.ie/news/2026/1111/1598772-us-fairford-charges/",
-          "citation": "(U) RTÉ News. \"US charges three 'Iranian operatives' in UK airbase plot.\" RTE, November 11, 2026. https://www.rte.ie/news/2026/1111/1598772-us-fairford-charges/. Accessed November 12, 2026.",
+          "publishedAt": "2026-11-11T18:02:30Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms",
+          "citation": "(U) TNN. \"IED explodes along NH-2 in Kohima district, CM slams blast.\" The Times of India, November 11, 2026. https://timesofindia.indiatimes.com/city/guwahati/ied-explodes-along-nh-2-in-kohima-district-cm-slams-blast/articleshow/135746321.cms. Accessed November 12, 2026.",
           "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
-          "outlet": "Al Jazeera English",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T01:44:21Z",
-          "link": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base",
-          "citation": "(U) Al Jazeera Staff. \"US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base.\" Al Jazeera English, November 11, 2026. https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "US charges three Iran-backed operatives over attacks on Jews, plot against air base",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T01:09:07Z",
-          "link": "https://www.israelnationalnews.com/news/435994",
-          "citation": "(U) Israel National News. \"US charges three Iran-backed operatives over attacks on Jews, plot against air base.\" Israelnationalnews.com, November 11, 2026. https://www.israelnationalnews.com/news/435994. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Fox News Staff",
-          "title": "IRGC operative lands on FBI’s Most Wanted Terrorists list over alleged plot to kill former Trump advisor",
-          "outlet": "Fox News",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T00:58:39Z",
-          "link": "https://www.foxnews.com/us/irgc-operative-lands-fbis-most-wanted-terrorists-list-alleged-plot-kill-former-trump-adviser",
-          "citation": "(U) Fox News Staff. \"IRGC operative lands on FBI’s Most Wanted Terrorists list over alleged plot to kill former Trump advisor.\" Fox News, November 11, 2026. https://www.foxnews.com/us/irgc-operative-lands-fbis-most-wanted-terrorists-list-alleged-plot-kill-former-trump-adviser. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England",
-          "outlet": "TheJournal.ie",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T22:07:35Z",
-          "link": "https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/",
-          "citation": "(U) AFP. \"US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England.\" TheJournal.ie, November 10, 2026. https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Steven Nelson",
-          "title": "Three Iran-backed operatives charged in plot targeting UK air base hosting US aircraft",
-          "outlet": "New York Post",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:25:00Z",
-          "link": "https://nypost.com/2026/11/10/us-news/three-iran-backed-operatives-charged-in-plot-targeting-uk-air-base-hosting-us-aircraft/",
-          "citation": "(U) Steven Nelson. \"Three Iran-backed operatives charged in plot targeting UK air base hosting US aircraft.\" New York Post, November 10, 2026. https://nypost.com/2026/11/10/us-news/three-iran-backed-operatives-charged-in-plot-targeting-uk-air-base-hosting-us-aircraft/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "Vijeta Uniyal",
-          "title": "Iran’s IRGC Behind Supermarket Cyberattacks, France Confirms",
-          "outlet": "Legalinsurrection.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T17:30:13Z",
-          "link": "https://legalinsurrection.com/2026/11/irans-irgc-behind-supermarket-cyberattacks-france-confirms/",
-          "citation": "(U) Vijeta Uniyal. \"Iran’s IRGC Behind Supermarket Cyberattacks, France Confirms.\" Legalinsurrection.com, November 10, 2026. https://legalinsurrection.com/2026/11/irans-irgc-behind-supermarket-cyberattacks-france-confirms/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "Mark Hallam",
-          "title": "Iran denies role in fridge hack, France summons ambassador",
-          "outlet": "DW (English)",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T15:57:00Z",
-          "link": "https://www.dw.com/en/iran-denies-french-fridge-cyberattack-hacking/a-79910206",
-          "citation": "(U) Mark Hallam. \"Iran denies role in fridge hack, France summons ambassador.\" DW (English), November 10, 2026. https://www.dw.com/en/iran-denies-french-fridge-cyberattack-hacking/a-79910206. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Oliver JJ Lane",
-          "title": "France Says Iran Behind Supermarket Sabotage Fridge Hack",
-          "outlet": "Breitbart News",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T12:05:57Z",
-          "link": "https://www.breitbart.com/europe/2026/11/10/france-says-iran-behind-supermarket-sabotage-fridge-hack/",
-          "citation": "(U) Oliver JJ Lane. \"France Says Iran Behind Supermarket Sabotage Fridge Hack.\" Breitbart News, November 10, 2026. https://www.breitbart.com/europe/2026/11/10/france-says-iran-behind-supermarket-sabotage-fridge-hack/. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Mike Moore",
-          "title": "France accuses Iran of 'unprecedented' supermarket freezer hacking",
-          "outlet": "TechRadar",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T11:01:22Z",
-          "link": "https://www.techradar.com/pro/security/france-accuses-iran-of-supermarket-freezer-hacking-slams-the-first-cyber-offensive-campaign-carried-out-purely-for-the-purpose-of-sabotage-on-national-territory",
-          "citation": "(U) Mike Moore. \"France accuses Iran of 'unprecedented' supermarket freezer hacking.\" TechRadar, November 10, 2026. https://www.techradar.com/pro/security/france-accuses-iran-of-supermarket-freezer-hacking-slams-the-first-cyber-offensive-campaign-carried-out-purely-for-the-purpose-of-sabotage-on-national-territory. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "France summons Iran’s ambassador over supermarket fridge ‘sabotage’",
-          "outlet": "Al Jazeera English",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T10:51:02Z",
-          "link": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage",
-          "citation": "(U) Al Jazeera Staff. \"France summons Iran’s ambassador over supermarket fridge ‘sabotage’.\" Al Jazeera English, November 10, 2026. https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-          "outlet": "Internet",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T09:08:20Z",
-          "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites.\" Internet, November 10, 2026. https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "France blames Iran for cyberattack on 700 supermarkets",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T02:51:11Z",
-          "link": "https://www.israelnationalnews.com/news/435931",
-          "citation": "(U) Israel National News. \"France blames Iran for cyberattack on 700 supermarkets.\" Israelnationalnews.com, November 10, 2026. https://www.israelnationalnews.com/news/435931. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Jenna McLaughlin",
-          "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
-          "outlet": "NPR",
-          "published": "November 9, 2026",
-          "publishedAt": "2026-11-09T22:30:49Z",
-          "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
-          "citation": "(U) Jenna McLaughlin. \"France accuses Iran of cyber 'sabotage' in fridge attacks.\" NPR, November 9, 2026. https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks. Accessed November 12, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
+            "\\bied\\b"
           ]
         }
       ]

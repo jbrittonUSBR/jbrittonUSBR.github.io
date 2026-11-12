@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Priority Headlines for 10NOV2026"
-date: 2026-11-10 09:00:00 -0700
+date: 2026-11-10 00:05:00 -0600
 categories: news
 ---
 

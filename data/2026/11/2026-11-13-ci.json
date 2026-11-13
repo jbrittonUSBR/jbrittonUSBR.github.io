@@ -1,18 +1,18 @@
 {
-  "pulled_at_utc": "2026-11-13T12:57:22Z",
+  "pulled_at_utc": "2026-11-13T17:36:04Z",
   "accessed": "November 13, 2026",
-  "filtered_at_utc": "2026-11-13T13:03:15Z",
+  "filtered_at_utc": "2026-11-13T17:41:58Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2295,
-  "article_count": 302,
-  "dropped_count": 1993,
+  "source_article_count": 2287,
+  "article_count": 298,
+  "dropped_count": 1989,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 13,
+      "count": 8,
       "error": null,
       "articles": [
         {
@@ -110,75 +110,26 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Willow Tohi",
-          "title": "Houthi missile barrage tests Saudi defenses as Yemen conflict escalates",
-          "outlet": "Naturalnews.com",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T06:00:00Z",
-          "link": "https://www.naturalnews.com/2026-11-11-houthi-missile-barrage-tests-saudi-defenses.html",
-          "citation": "(U) Willow Tohi. \"Houthi missile barrage tests Saudi defenses as Yemen conflict escalates.\" Naturalnews.com, November 11, 2026. https://www.naturalnews.com/2026-11-11-houthi-missile-barrage-tests-saudi-defenses.html. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Unis Ahmad Dar",
-          "title": "IndiGo extends Saudi flight suspension till Nov 30 amid Houthi attacks",
-          "outlet": "Business Standard",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T05:21:35Z",
-          "link": "https://www.business-standard.com/india-news/indigo-extends-suspension-saudi-arabia-flights-security-concerns-126111100306_1.html",
-          "citation": "(U) Unis Ahmad Dar. \"IndiGo extends Saudi flight suspension till Nov 30 amid Houthi attacks.\" Business Standard, November 11, 2026. https://www.business-standard.com/india-news/indigo-extends-suspension-saudi-arabia-flights-security-concerns-126111100306_1.html. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "OilPrice.com",
-          "title": "Houthis Launch Another Attack on Pumping Stations Along Crucial Saudi East-West",
-          "outlet": "OilPrice.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T21:00:00Z",
-          "link": "https://oilprice.com/Energy/Energy-General/Houthis-Launch-Another-Attack-on-Pumping-Stations-Along-Crucial-Saudi-East-West.html",
-          "citation": "(U) OilPrice.com. \"Houthis Launch Another Attack on Pumping Stations Along Crucial Saudi East-West.\" OilPrice.com, November 10, 2026. https://oilprice.com/Energy/Energy-General/Houthis-Launch-Another-Attack-on-Pumping-Stations-Along-Crucial-Saudi-East-West.html. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "HuffPost",
-          "title": "U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia",
-          "outlet": "HuffPost",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:49:26Z",
-          "link": "https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130",
-          "citation": "(U) HuffPost. \"U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia.\" HuffPost, November 10, 2026. https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "Key Saudi oil pipeline hit in new attack",
-          "outlet": "Rt-english.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T16:44:51Z",
-          "link": "https://rt-english.com/news/648647-saudi-oil-pipeline-attack-houthis/",
-          "citation": "(U) RT. \"Key Saudi oil pipeline hit in new attack.\" Rt-english.com, November 10, 2026. https://rt-english.com/news/648647-saudi-oil-pipeline-attack-houthis/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b",
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 11,
+      "count": 12,
       "error": null,
       "articles": [
+        {
+          "author": "RT",
+          "title": "Car bomb kills Russian military officer in St. Petersburg (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T14:50:01Z",
+          "link": "https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/",
+          "citation": "(U) RT. \"Car bomb kills Russian military officer in St. Petersburg (VIDEO).\" Rt-english.com, November 12, 2026. https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcar bomb\\b"
+          ]
+        },
         {
           "author": "Reuters",
           "title": "Car bomb kills Russian soldier in latest targeted assassination",
@@ -320,7 +271,7 @@
     },
     {
       "query": "\"Ballistic attack\" OR ((shooting OR sabotage OR attack) AND (transformer OR substation OR \"power line\" OR \"high voltage\"))",
-      "count": 15,
+      "count": 14,
       "error": null,
       "articles": [
         {
@@ -457,18 +408,6 @@
           ]
         },
         {
-          "author": "Abeer Aljohani",
-          "title": "Transformer-aided guard: A hybrid spatio-temporal framework for confidence-aware intrusion detection in cyber-physical systems",
-          "outlet": "Plos.org",
-          "published": "November 4, 2026",
-          "publishedAt": "2026-11-04T14:00:00Z",
-          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361820",
-          "citation": "(U) Abeer Aljohani. \"Transformer-aided guard: A hybrid spatio-temporal framework for confidence-aware intrusion detection in cyber-physical systems.\" Plos.org, November 4, 2026. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361820. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\btransformers?\\b"
-          ]
-        },
-        {
           "author": "Michael",
           "title": "We Are Being Warned That Our “Window To Prepare” Is Closing – What Would The Survival Rate Be If The Power Grid In The U.S. Went Down For 6 Months?",
           "outlet": "Theeconomiccollapseblog.com",
@@ -511,6 +450,90 @@
       "count": 26,
       "error": null,
       "articles": [
+        {
+          "author": "Gandharv Walia",
+          "title": "Is active shooter alive and why did the suspect fire shots in Washington DC? What we know about Logan Circle shooting",
+          "outlet": "The Times of India",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T16:52:18Z",
+          "link": "https://economictimes.indiatimes.com/news/international/us/is-active-shooter-alive-and-why-did-the-suspect-fire-shots-in-washington-dc-what-we-know-about-logan-circle-shooting/articleshow/135776323.cms",
+          "citation": "(U) Gandharv Walia. \"Is active shooter alive and why did the suspect fire shots in Washington DC? What we know about Logan Circle shooting.\" The Times of India, November 12, 2026. https://economictimes.indiatimes.com/news/international/us/is-active-shooter-alive-and-why-did-the-suspect-fire-shots-in-washington-dc-what-we-know-about-logan-circle-shooting/articleshow/135776323.cms. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
+        {
+          "author": "Rob Quinn with Newser.AI",
+          "title": "Gunman Dead After DC Mass Shooting",
+          "outlet": "Newser",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T16:08:15Z",
+          "link": "https://www.newser.com/story/399909/gunman-dead-after-dc-mass-shooting.html",
+          "citation": "(U) Rob Quinn with Newser.AI. \"Gunman Dead After DC Mass Shooting.\" Newser, November 12, 2026. https://www.newser.com/story/399909/gunman-dead-after-dc-mass-shooting.html. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Jordan Conradson",
+          "title": "DEVELOPING: Active shooter at Gym Less Than a Mile From the White House",
+          "outlet": "Thegatewaypundit.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T15:15:27Z",
+          "link": "https://www.thegatewaypundit.com/2026/11/developing-active-shooter-gym-less-than-mile-white/",
+          "citation": "(U) Jordan Conradson. \"DEVELOPING: Active shooter at Gym Less Than a Mile From the White House.\" Thegatewaypundit.com, November 12, 2026. https://www.thegatewaypundit.com/2026/11/developing-active-shooter-gym-less-than-mile-white/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
+        {
+          "author": "Christopher Wiggins",
+          "title": "Mass shooting at popular gay-owned VIDA Fitness in D.C. leaves one dead, suspect barricaded",
+          "outlet": "Advocate.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T15:06:40Z",
+          "link": "https://www.advocate.com/breaking-news/vida-fitness-shooting-dc",
+          "citation": "(U) Christopher Wiggins. \"Mass shooting at popular gay-owned VIDA Fitness in D.C. leaves one dead, suspect barricaded.\" Advocate.com, November 12, 2026. https://www.advocate.com/breaking-news/vida-fitness-shooting-dc. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Gandharv Walia",
+          "title": "Washington DC Shooting: Is there an active shooter in capital? Four people shot in Logan Circle. Here's what happened",
+          "outlet": "The Times of India",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T14:49:16Z",
+          "link": "https://economictimes.indiatimes.com/news/international/us/washington-dc-shooting-is-there-an-active-shooter-in-capital-four-people-shot-in-logan-circle-heres-what-happened/articleshow/135772781.cms",
+          "citation": "(U) Gandharv Walia. \"Washington DC Shooting: Is there an active shooter in capital? Four people shot in Logan Circle. Here's what happened.\" The Times of India, November 12, 2026. https://economictimes.indiatimes.com/news/international/us/washington-dc-shooting-is-there-an-active-shooter-in-capital-four-people-shot-in-logan-circle-heres-what-happened/articleshow/135772781.cms. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
+        {
+          "author": "Alyssa Guzman, Ap",
+          "title": "Active shooter injures at least four in Washington DC gym during morning rush hour",
+          "outlet": "Dailymail.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T14:02:07Z",
+          "link": "https://www.dailymail.com/news/article-16287407/washington-dc-gym-active-shooter.html",
+          "citation": "(U) Alyssa Guzman, Ap. \"Active shooter injures at least four in Washington DC gym during morning rush hour.\" Dailymail.com, November 12, 2026. https://www.dailymail.com/news/article-16287407/washington-dc-gym-active-shooter.html. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
+        {
+          "author": "Zara Norman",
+          "title": "D.C. Police Respond to an Active Shooter at Logan Circle VIDA Fitness Gym",
+          "outlet": "Washingtonsun.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T13:31:10Z",
+          "link": "https://www.washingtonsun.com/metro/mpd-shooter-reports-downtown-dc-vida-fitness",
+          "citation": "(U) Zara Norman. \"D.C. Police Respond to an Active Shooter at Logan Circle VIDA Fitness Gym.\" Washingtonsun.com, November 12, 2026. https://www.washingtonsun.com/metro/mpd-shooter-reports-downtown-dc-vida-fitness. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bactive shooter\\b"
+          ]
+        },
         {
           "author": "Eliot Force",
           "title": "Idaho ISIS terrorist, 21, imprisoned for 18 years for plotting mass shooting in local churches",
@@ -738,90 +761,6 @@
           "publishedAt": "2026-11-08T11:31:52Z",
           "link": "https://abcnews.com/International/deadly-mass-shooting-poland-investigated-terror-act-prosecutor/story?id=137951543",
           "citation": "(U) Dragana Jovanovic, Kevin Shalvey. \"Deadly mass shooting in Poland investigated as terror act, prosecutor says.\" Abcnews.com, November 8, 2026. https://abcnews.com/International/deadly-mass-shooting-poland-investigated-terror-act-prosecutor/story?id=137951543. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "RTÉ News",
-          "title": "Poland mourns victims of Krakow mass shooting",
-          "outlet": "RTE",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T10:17:02Z",
-          "link": "https://www.rte.ie/news/2026/1108/1598405-krakow-poland/",
-          "citation": "(U) RTÉ News. \"Poland mourns victims of Krakow mass shooting.\" RTE, November 8, 2026. https://www.rte.ie/news/2026/1108/1598405-krakow-poland/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Press Association",
-          "title": "Bodies found at home of suspect in Kraków mass shooting",
-          "outlet": "TheJournal.ie",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T07:30:31Z",
-          "link": "https://www.thejournal.ie/krakow-mass-shooting-7219332-Nov2026/",
-          "citation": "(U) Press Association. \"Bodies found at home of suspect in Kraków mass shooting.\" TheJournal.ie, November 8, 2026. https://www.thejournal.ie/krakow-mass-shooting-7219332-Nov2026/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "Lunatic who killed 6 in Poland mass shooting held ‘ultranationalistic’ views, authorities say",
-          "outlet": "New York Post",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T00:43:48Z",
-          "link": "https://nypost.com/2026/11/07/world-news/very-radical-polish-gunman-who-killed-6-held-ultranationalistic-views-authorities-say/",
-          "citation": "(U) Associated Press. \"Lunatic who killed 6 in Poland mass shooting held ‘ultranationalistic’ views, authorities say.\" New York Post, November 8, 2026. https://nypost.com/2026/11/07/world-news/very-radical-polish-gunman-who-killed-6-held-ultranationalistic-views-authorities-say/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Dianalodderhose",
-          "title": "Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’",
-          "outlet": "Deadline",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T00:37:12Z",
-          "link": "http://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/",
-          "citation": "(U) Dianalodderhose. \"Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’.\" Deadline, November 8, 2026. http://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Subhadra Srivastava",
-          "title": "Poland mass shooting: PM says footage shows 3 bodies at suspect’s home; minister cites far-right influence",
-          "outlet": "The Times of India",
-          "published": "November 7, 2026",
-          "publishedAt": "2026-11-07T21:49:55Z",
-          "link": "https://timesofindia.indiatimes.com/world/europe/poland-mass-shooting-pm-says-footage-shows-3-bodies-at-suspects-home-minister-cites-far-right-influence/articleshow/135646464.cms",
-          "citation": "(U) Subhadra Srivastava. \"Poland mass shooting: PM says footage shows 3 bodies at suspect’s home; minister cites far-right influence.\" The Times of India, November 7, 2026. https://timesofindia.indiatimes.com/world/europe/poland-mass-shooting-pm-says-footage-shows-3-bodies-at-suspects-home-minister-cites-far-right-influence/articleshow/135646464.cms. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "HuffPost",
-          "title": "Poland In Shock As 6 Dead After Mass Shooting In Krakow",
-          "outlet": "HuffPost",
-          "published": "November 7, 2026",
-          "publishedAt": "2026-11-07T21:44:26Z",
-          "link": "https://www.huffpost.com/entry/poland-mass-shooting-krakow_n_6aef9a9de4b037ca1034dbb5",
-          "citation": "(U) HuffPost. \"Poland In Shock As 6 Dead After Mass Shooting In Krakow.\" HuffPost, November 7, 2026. https://www.huffpost.com/entry/poland-mass-shooting-krakow_n_6aef9a9de4b037ca1034dbb5. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "https://www.facebook.com/bbcnews",
-          "title": "What we know about Krakow mass shooting so far",
-          "outlet": "BBC News",
-          "published": "November 7, 2026",
-          "publishedAt": "2026-11-07T17:48:29Z",
-          "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo",
-          "citation": "(U) https://www.facebook.com/bbcnews. \"What we know about Krakow mass shooting so far.\" BBC News, November 7, 2026. https://www.bbc.co.uk/news/articles/cmd7q15drwgeo. Accessed November 13, 2026.",
           "ci_match_patterns": [
             "\\bmass (casualty|shooting)\\b"
           ]
@@ -1344,9 +1283,34 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 35,
+      "count": 37,
       "error": null,
       "articles": [
+        {
+          "author": "Mike LaChance",
+          "title": "Ransomware Gang Claims Credit for Vanderbilt Cyberattack",
+          "outlet": "Legalinsurrection.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T17:00:12Z",
+          "link": "https://legalinsurrection.com/2026/11/ransomware-gang-claims-credit-for-vanderbilt-cyberattack/",
+          "citation": "(U) Mike LaChance. \"Ransomware Gang Claims Credit for Vanderbilt Cyberattack.\" Legalinsurrection.com, November 12, 2026. https://legalinsurrection.com/2026/11/ransomware-gang-claims-credit-for-vanderbilt-cyberattack/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b",
+            "\\bransomware\\b"
+          ]
+        },
+        {
+          "author": "Zack Whittaker",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts | TechCrunch",
+          "outlet": "TechCrunch",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T15:03:28Z",
+          "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "citation": "(U) Zack Whittaker. \"Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts | TechCrunch.\" TechCrunch, November 12, 2026. https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Pierluigi Paganini",
           "title": "Poland takes its national e-government platform offline after a cyberattack",
@@ -1924,6 +1888,30 @@
       "error": null,
       "articles": [
         {
+          "author": "Punch Newspapers",
+          "title": "Soldiers kill terrorist, arrest father, son in Katsina, Sokoto",
+          "outlet": "The Punch",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T16:41:03Z",
+          "link": "https://punchng.com/soldiers-kill-terrorist-arrest-father-son-in-katsina-sokoto/",
+          "citation": "(U) Punch Newspapers. \"Soldiers kill terrorist, arrest father, son in Katsina, Sokoto.\" The Punch, November 12, 2026. https://punchng.com/soldiers-kill-terrorist-arrest-father-son-in-katsina-sokoto/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Car bomb kills Russian military officer in St. Petersburg (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T14:50:01Z",
+          "link": "https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/",
+          "citation": "(U) RT. \"Car bomb kills Russian military officer in St. Petersburg (VIDEO).\" Rt-english.com, November 12, 2026. https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcar bomb\\b"
+          ]
+        },
+        {
           "author": "Paul Johnson and Sarah Ferguson",
           "title": "When Evan Gershkovich was arrested by the FSB he feared the worst",
           "outlet": "ABC News (AU)",
@@ -2219,31 +2207,6 @@
             "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
             "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
           ]
-        },
-        {
-          "author": "Mark Hallam",
-          "title": "US soldier arrested in UK on Russian espionage allegations",
-          "outlet": "DW (English)",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:35:00Z",
-          "link": "https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240",
-          "citation": "(U) Mark Hallam. \"US soldier arrested in UK on Russian espionage allegations.\" DW (English), November 10, 2026. https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Steven Nelson",
-          "title": "Three Iran-backed operatives charged in plot targeting UK air base hosting US aircraft",
-          "outlet": "New York Post",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T19:25:00Z",
-          "link": "https://nypost.com/2026/11/10/us-news/three-iran-backed-operatives-charged-in-plot-targeting-uk-air-base-hosting-us-aircraft/",
-          "citation": "(U) Steven Nelson. \"Three Iran-backed operatives charged in plot targeting UK air base hosting US aircraft.\" New York Post, November 10, 2026. https://nypost.com/2026/11/10/us-news/three-iran-backed-operatives-charged-in-plot-targeting-uk-air-base-hosting-us-aircraft/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
         }
       ]
     },
@@ -2474,9 +2437,21 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 5,
+      "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Estefano Gomez",
+          "title": "Houthis claim attack on Saudi oil facility in Yanbu",
+          "outlet": "Crypto Briefing",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T17:01:09Z",
+          "link": "https://cryptobriefing.com/houthis-claim-attack-on-saudi-oil-facility-in-yanbu/",
+          "citation": "(U) Estefano Gomez. \"Houthis claim attack on Saudi oil facility in Yanbu.\" Crypto Briefing, November 12, 2026. https://cryptobriefing.com/houthis-claim-attack-on-saudi-oil-facility-in-yanbu/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Antonio Graceffo",
           "title": "Chinese Satellites, Russian Intelligence: Who Helped Iran Target U.S. Troops Ahead of a Possible Trump-Xi-Putin Meeting?",
@@ -2541,9 +2516,21 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 16,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Estefano Gomez",
+          "title": "Houthis claim attack on Saudi oil facility in Yanbu",
+          "outlet": "Crypto Briefing",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T17:01:09Z",
+          "link": "https://cryptobriefing.com/houthis-claim-attack-on-saudi-oil-facility-in-yanbu/",
+          "citation": "(U) Estefano Gomez. \"Houthis claim attack on Saudi oil facility in Yanbu.\" Crypto Briefing, November 12, 2026. https://cryptobriefing.com/houthis-claim-attack-on-saudi-oil-facility-in-yanbu/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Al Jazeera English Staff",
           "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
@@ -2742,7 +2729,7 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 7,
+      "count": 6,
       "error": null,
       "articles": [
         {
@@ -2815,18 +2802,6 @@
           "citation": "(U) RTÉ News. \"Zaporizhzhia nuclear plant loses external power supply.\" RTE, November 8, 2026. https://www.rte.ie/news/2026/1108/1598404-ukraine-russia/. Accessed November 13, 2026.",
           "ci_match_patterns": [
             "\\bnuclear (plant|facility|site|power|safety)\\b"
-          ]
-        },
-        {
-          "author": "Ken Donnelly",
-          "title": "How did supermarket fridges become a target for hackers?",
-          "outlet": "RTE",
-          "published": "November 5, 2026",
-          "publishedAt": "2026-11-05T06:00:01Z",
-          "link": "https://www.rte.ie/news/primetime/2026/1105/1598007-clarity-supermarket-cyberattack/",
-          "citation": "(U) Ken Donnelly. \"How did supermarket fridges become a target for hackers?.\" RTE, November 5, 2026. https://www.rte.ie/news/primetime/2026/1105/1598007-clarity-supermarket-cyberattack/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
           ]
         }
       ]
@@ -2960,9 +2935,33 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 5,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Peter J. Toren",
+          "title": "Understanding the Three Accrual Standards Applied by Courts for Trade Secret Misappropriation",
+          "outlet": "IPWatchdog.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T17:15:55Z",
+          "link": "https://ipwatchdog.com/2026/11/12/understanding-the-three-accrual-standards-applied-by-courts-for-trade-secret-misappropriation/",
+          "citation": "(U) Peter J. Toren. \"Understanding the Three Accrual Standards Applied by Courts for Trade Secret Misappropriation.\" IPWatchdog.com, November 12, 2026. https://ipwatchdog.com/2026/11/12/understanding-the-three-accrual-standards-applied-by-courts-for-trade-secret-misappropriation/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\btrade secret\\b"
+          ]
+        },
+        {
+          "author": "Ferdinand Knapp",
+          "title": "‘Blind spot’ no longer: Austria targets Russian espionage with new law",
+          "outlet": "POLITICO.eu",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T16:26:55Z",
+          "link": "https://www.politico.eu/article/austria-targets-russian-espionage-with-new-legislation/",
+          "citation": "(U) Ferdinand Knapp. \"‘Blind spot’ no longer: Austria targets Russian espionage with new law.\" POLITICO.eu, November 12, 2026. https://www.politico.eu/article/austria-targets-russian-espionage-with-new-legislation/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Paul Johnson and Sarah Ferguson",
           "title": "When Evan Gershkovich was arrested by the FSB he feared the worst",
@@ -3029,7 +3028,7 @@
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 24,
+      "count": 23,
       "error": null,
       "articles": [
         {
@@ -3308,25 +3307,12 @@
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
           ]
-        },
-        {
-          "author": "Sputnik International",
-          "title": "Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB",
-          "outlet": "Sputnikglobe.com",
-          "published": "October 15, 2026",
-          "publishedAt": "2026-10-15T07:05:36Z",
-          "link": "https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html",
-          "citation": "(U) Sputnik International. \"Swedish Citizen Plotting Sabotage at Russia Military Objects Detained in Pskov Region - FSB.\" Sputnikglobe.com, October 15, 2026. https://sputnikglobe.com/20261015/swedish-citizen-plotting-sabotage-at-russia-military-objects-detained-in-pskov-region---fsb-1124883920.html. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b",
-            "\\bfsb\\b"
-          ]
         }
       ]
     },
     {
       "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
-      "count": 13,
+      "count": 9,
       "error": null,
       "articles": [
         {
@@ -3436,54 +3422,6 @@
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]
-        },
-        {
-          "author": "Sari Moon",
-          "title": "Jensen Huang Told Nvidia Staff He Was Unfaithful to His Wife After Reports Tied the Woman to Suspected Chinese Espionage",
-          "outlet": "Thoughtcatalog.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T22:37:10Z",
-          "link": "https://thoughtcatalog.com/sari-moon/2026/11/jensen-huang-told-nvidia-staff-he-was-unfaithful-to-his-wife-after-reports-tied-the-woman-to-suspected-chinese-espionage/",
-          "citation": "(U) Sari Moon. \"Jensen Huang Told Nvidia Staff He Was Unfaithful to His Wife After Reports Tied the Woman to Suspected Chinese Espionage.\" Thoughtcatalog.com, November 10, 2026. https://thoughtcatalog.com/sari-moon/2026/11/jensen-huang-told-nvidia-staff-he-was-unfaithful-to-his-wife-after-reports-tied-the-woman-to-suspected-chinese-espionage/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Sputnik International",
-          "title": "Is Investigation Into Jensen Huang About Counter-Espionage, or Is It a Political Witch Hunt?",
-          "outlet": "Sputnikglobe.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T10:52:11Z",
-          "link": "https://sputnikglobe.com/20261110/is-investigation-into-jensen-huang-about-counter-espionage-or-is-it-a-political-witch-hunt-1125043117.html",
-          "citation": "(U) Sputnik International. \"Is Investigation Into Jensen Huang About Counter-Espionage, or Is It a Political Witch Hunt?.\" Sputnikglobe.com, November 10, 2026. https://sputnikglobe.com/20261110/is-investigation-into-jensen-huang-about-counter-espionage-or-is-it-a-political-witch-hunt-1125043117.html. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "FOX News Radio",
-          "title": "“Honey Pot” Espionage? NVIDIA Scandal Raises Questions About National Security”",
-          "outlet": "Fox News",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T10:36:02Z",
-          "link": "https://radio.foxnews.com/2026/11/10/honey-pot-espionage-nvidia-scandal-raises-questions-about-national-security/",
-          "citation": "(U) FOX News Radio. \"“Honey Pot” Espionage? NVIDIA Scandal Raises Questions About National Security”.\" Fox News, November 10, 2026. https://radio.foxnews.com/2026/11/10/honey-pot-espionage-nvidia-scandal-raises-questions-about-national-security/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Estefano Gomez",
-          "title": "Nvidia board investigates CEO Jensen Huang over espionage allegations",
-          "outlet": "Crypto Briefing",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T10:22:15Z",
-          "link": "https://cryptobriefing.com/nvidia-board-investigates-ceo-jensen-huang-over-espionage-allegations/",
-          "citation": "(U) Estefano Gomez. \"Nvidia board investigates CEO Jensen Huang over espionage allegations.\" Crypto Briefing, November 10, 2026. https://cryptobriefing.com/nvidia-board-investigates-ceo-jensen-huang-over-espionage-allegations/. Accessed November 13, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
@@ -3520,9 +3458,21 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 17,
+      "count": 18,
       "error": null,
       "articles": [
+        {
+          "author": "RT",
+          "title": "Car bomb kills Russian military officer in St. Petersburg (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "November 12, 2026",
+          "publishedAt": "2026-11-12T14:50:01Z",
+          "link": "https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/",
+          "citation": "(U) RT. \"Car bomb kills Russian military officer in St. Petersburg (VIDEO).\" Rt-english.com, November 12, 2026. https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/. Accessed November 13, 2026.",
+          "ci_match_patterns": [
+            "\\bcar bomb\\b"
+          ]
+        },
         {
           "author": "NBC News",
           "title": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",

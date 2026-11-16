@@ -1,20 +1,93 @@
 {
-  "pulled_at_utc": "2026-11-16T13:47:31Z",
+  "pulled_at_utc": "2026-11-16T20:12:43Z",
   "accessed": "November 16, 2026",
-  "filtered_at_utc": "2026-11-16T13:54:34Z",
+  "filtered_at_utc": "2026-11-16T20:17:52Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2303,
-  "article_count": 270,
-  "dropped_count": 2033,
+  "source_article_count": 2310,
+  "article_count": 284,
+  "dropped_count": 2026,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 12,
+      "count": 18,
       "error": null,
       "articles": [
+        {
+          "author": "Zac Crellin",
+          "title": "Estonia closes border to Russia after suspected drone factory arson",
+          "outlet": "DW (English)",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:29:00Z",
+          "link": "https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115",
+          "citation": "(U) Zac Crellin. \"Estonia closes border to Russia after suspected drone factory arson.\" DW (English), November 15, 2026. https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Iran launches second drone attack on Bahrain in just three days",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T17:25:02Z",
+          "link": "https://www.israelnationalnews.com/news/436246",
+          "citation": "(U) Israel National News. \"Iran launches second drone attack on Bahrain in just three days.\" Israelnationalnews.com, November 15, 2026. https://www.israelnationalnews.com/news/436246. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Sophia Stanford",
+          "title": "Estonia to CLOSE Russian border in two weeks after 'sabotage' attack",
+          "outlet": "Dailymail.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:54:31Z",
+          "link": "https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html",
+          "citation": "(U) Sophia Stanford. \"Estonia to CLOSE Russian border in two weeks after 'sabotage' attack.\" Dailymail.com, November 15, 2026. https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "RFE/RL's Ukrainian Service",
+          "title": "Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:00:27Z",
+          "link": "https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html",
+          "citation": "(U) RFE/RL's Ukrainian Service. \"Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock.\" Radio Free Europe/ Radio Liberty, November 15, 2026. https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Iran targets US military base in Bahrain with drone attack - BBC",
+          "outlet": "Slashdot.org",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:53:43Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186730968",
+          "citation": "(U) feedfeeder. \"Iran targets US military base in Bahrain with drone attack - BBC.\" Slashdot.org, November 15, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186730968. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "Six injured in Ukrainian drone attack on Russia’s Tatarstan",
+          "outlet": "Rt-english.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:21:29Z",
+          "link": "https://rt-english.com/russia/648864-six-injured-ukrainian-drone-attack-russia-tatarstan/",
+          "citation": "(U) RT. \"Six injured in Ukrainian drone attack on Russia’s Tatarstan.\" Rt-english.com, November 15, 2026. https://rt-english.com/russia/648864-six-injured-ukrainian-drone-attack-russia-tatarstan/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "Ella Kipling",
           "title": "Iran targets US military base in Bahrain with drone attack",
@@ -163,9 +236,21 @@
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 12,
+      "count": 13,
       "error": null,
       "articles": [
+        {
+          "author": "Sophia Stanford",
+          "title": "Estonia to CLOSE Russian border in two weeks after 'sabotage' attack",
+          "outlet": "Dailymail.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:54:31Z",
+          "link": "https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html",
+          "citation": "(U) Sophia Stanford. \"Estonia to CLOSE Russian border in two weeks after 'sabotage' attack.\" Dailymail.com, November 15, 2026. https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
         {
           "author": "Stephen M. Lepore",
           "title": "Trump scales back public appearances after CIA and Mossad intercept plans for Iranian drone attack... as the line of succession is shuffled away to secure locations",
@@ -1185,9 +1270,21 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 9,
+      "count": 10,
       "error": null,
       "articles": [
+        {
+          "author": "Jason Ma",
+          "title": "Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe",
+          "outlet": "Fortune",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T17:41:41Z",
+          "link": "https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/",
+          "citation": "(U) Jason Ma. \"Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe.\" Fortune, November 15, 2026. https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Rahim Amir Noorali",
           "title": "A French bank lost around €100 million in cyberattack \"very likely\" aided by AI",
@@ -1300,9 +1397,33 @@
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 7,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "The Times Of India",
+          "title": "Dam Chargers XI win cricket match",
+          "outlet": "The Times of India",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:12:59Z",
+          "link": "https://timesofindia.indiatimes.com/city/kanpur/dam-chargers-xi-win-cricket-match/articleshow/135863529.cms",
+          "citation": "(U) The Times Of India. \"Dam Chargers XI win cricket match.\" The Times of India, November 15, 2026. https://timesofindia.indiatimes.com/city/kanpur/dam-chargers-xi-win-cricket-match/articleshow/135863529.cms. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Jason Ma",
+          "title": "Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe",
+          "outlet": "Fortune",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T17:41:41Z",
+          "link": "https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/",
+          "citation": "(U) Jason Ma. \"Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe.\" Fortune, November 15, 2026. https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Punch Newspapers",
           "title": "Experts decry vandalism of public facilities",
@@ -1435,7 +1556,7 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 19,
+      "count": 18,
       "error": null,
       "articles": [
         {
@@ -1656,18 +1777,6 @@
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
           ]
-        },
-        {
-          "author": "RT",
-          "title": "Car bomb kills Russian military officer in St. Petersburg (VIDEO)",
-          "outlet": "Rt-english.com",
-          "published": "November 12, 2026",
-          "publishedAt": "2026-11-12T14:50:01Z",
-          "link": "https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/",
-          "citation": "(U) RT. \"Car bomb kills Russian military officer in St. Petersburg (VIDEO).\" Rt-english.com, November 12, 2026. https://rt-english.com/russia/648751-russian-colonel-killed-st-petersburg-car-bomb/. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bcar bomb\\b"
-          ]
         }
       ]
     },
@@ -1800,9 +1909,21 @@
     },
     {
       "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
-      "count": 5,
+      "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Punch Newspapers",
+          "title": "Military killed over 15,000 terrorists in three years – APC PCC",
+          "outlet": "The Punch",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:53:14Z",
+          "link": "https://punchng.com/military-killed-over-15000-terrorists-in-three-years-apc-pcc/",
+          "citation": "(U) Punch Newspapers. \"Military killed over 15,000 terrorists in three years – APC PCC.\" The Punch, November 15, 2026. https://punchng.com/military-killed-over-15000-terrorists-in-three-years-apc-pcc/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Shishir Sinha",
           "title": "SEBI assures continuous evolving mechanism to thwart possible cyberattacks",
@@ -1914,6 +2035,18 @@
       "error": null,
       "articles": [
         {
+          "author": "RFE/RL's Ukrainian Service",
+          "title": "Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock",
+          "outlet": "Radio Free Europe/ Radio Liberty",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:00:27Z",
+          "link": "https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html",
+          "citation": "(U) RFE/RL's Ukrainian Service. \"Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock.\" Radio Free Europe/ Radio Liberty, November 15, 2026. https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
           "author": "Antonio Graceffo",
           "title": "Middle East Report: U.S. Blockade Chokes Iran’s Oil Exports as Tehran and the Houthis Escalate Attacks",
           "outlet": "Thegatewaypundit.com",
@@ -1984,18 +2117,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Al Jazeera English Staff",
-          "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-          "outlet": "Al Jazeera English",
-          "published": "November 12, 2026",
-          "publishedAt": "2026-11-12T23:52:38Z",
-          "link": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
-          "citation": "(U) Al Jazeera English Staff. \"Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions.\" Al Jazeera English, November 12, 2026. https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
@@ -2004,6 +2125,30 @@
       "count": 15,
       "error": null,
       "articles": [
+        {
+          "author": "Estefano Gomez",
+          "title": "Yemen’s Houthis target King Khalid Airport and Riyadh financial center with ballistic missiles",
+          "outlet": "Crypto Briefing",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:13:30Z",
+          "link": "https://cryptobriefing.com/yemens-houthis-target-king-khalid-airport-and-riyadh-financial-center-with/",
+          "citation": "(U) Estefano Gomez. \"Yemen’s Houthis target King Khalid Airport and Riyadh financial center with ballistic missiles.\" Crypto Briefing, November 15, 2026. https://cryptobriefing.com/yemens-houthis-target-king-khalid-airport-and-riyadh-financial-center-with/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Israel National News",
+          "title": "Iran launches second drone attack on Bahrain in just three days",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T17:25:02Z",
+          "link": "https://www.israelnationalnews.com/news/436246",
+          "citation": "(U) Israel National News. \"Iran launches second drone attack on Bahrain in just three days.\" Israelnationalnews.com, November 15, 2026. https://www.israelnationalnews.com/news/436246. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "Punch Newspapers",
           "title": "Terrorists killed 835 in October – Report",
@@ -2160,38 +2305,26 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Al Jazeera English Staff",
-          "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
-          "outlet": "Al Jazeera English",
-          "published": "November 12, 2026",
-          "publishedAt": "2026-11-12T04:41:17Z",
-          "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca",
-          "citation": "(U) Al Jazeera English Staff. \"Fighting intensifies in Yemen as Houthis deny targeting Mecca.\" Al Jazeera English, November 12, 2026. https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "John Hayward",
-          "title": "Egypt Helps Saudi Arabia Defend ‘Sensitive Sites’ Against Houthi Attacks",
-          "outlet": "Breitbart News",
-          "published": "November 12, 2026",
-          "publishedAt": "2026-11-12T00:41:56Z",
-          "link": "https://www.breitbart.com/middle-east/2026/11/11/egypt-helps-saudi-arabia-defend-sensitive-sites-against-houthi-attacks/",
-          "citation": "(U) John Hayward. \"Egypt Helps Saudi Arabia Defend ‘Sensitive Sites’ Against Houthi Attacks.\" Breitbart News, November 12, 2026. https://www.breitbart.com/middle-east/2026/11/11/egypt-helps-saudi-arabia-defend-sensitive-sites-against-houthi-attacks/. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 10,
+      "count": 11,
       "error": null,
       "articles": [
+        {
+          "author": "Scott Lance",
+          "title": "China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West",
+          "outlet": "Ibtimes.com.au",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:36:36Z",
+          "link": "https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610",
+          "citation": "(U) Scott Lance. \"China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West.\" Ibtimes.com.au, November 15, 2026. https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Punch Newspapers",
           "title": "Experts decry vandalism of public facilities",
@@ -2419,9 +2552,33 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 16,
+      "count": 18,
       "error": null,
       "articles": [
+        {
+          "author": "Diego Almada Lopez",
+          "title": "Megaspeed confirms Alice Huang left company amid espionage claims",
+          "outlet": "Crypto Briefing",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:06:36Z",
+          "link": "https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/",
+          "citation": "(U) Diego Almada Lopez. \"Megaspeed confirms Alice Huang left company amid espionage claims.\" Crypto Briefing, November 15, 2026. https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Scott Lance",
+          "title": "China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West",
+          "outlet": "Ibtimes.com.au",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:36:36Z",
+          "link": "https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610",
+          "citation": "(U) Scott Lance. \"China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West.\" Ibtimes.com.au, November 15, 2026. https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Aryan Singh",
           "title": "US Army names officer held in UK over suspected Russian espionage at Nato base",
@@ -2619,9 +2776,34 @@
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 22,
+      "count": 23,
       "error": null,
       "articles": [
+        {
+          "author": "Zac Crellin",
+          "title": "Estonia closes border to Russia after suspected drone factory arson",
+          "outlet": "DW (English)",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:29:00Z",
+          "link": "https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115",
+          "citation": "(U) Zac Crellin. \"Estonia closes border to Russia after suspected drone factory arson.\" DW (English), November 15, 2026. https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Sophia Stanford",
+          "title": "Estonia to CLOSE Russian border in two weeks after 'sabotage' attack",
+          "outlet": "Dailymail.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:54:31Z",
+          "link": "https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html",
+          "citation": "(U) Sophia Stanford. \"Estonia to CLOSE Russian border in two weeks after 'sabotage' attack.\" Dailymail.com, November 15, 2026. https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
         {
           "author": "RT",
           "title": "Former Ukrainian PM’s aide targeted in Moscow car bombing",
@@ -2873,26 +3055,38 @@
           "ci_match_patterns": [
             "\\bfsb\\b"
           ]
-        },
-        {
-          "author": "Michael Kan",
-          "title": "Starlink Faces Third Attempted Arson Attack In Europe",
-          "outlet": "PCMag.com",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T14:33:49Z",
-          "link": "https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe",
-          "citation": "(U) Michael Kan. \"Starlink Faces Third Attempted Arson Attack In Europe.\" PCMag.com, October 19, 2026. https://uk.pcmag.com/networking/168003/starlink-faces-third-attempted-arson-attack-in-europe. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
     {
       "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
-      "count": 10,
+      "count": 12,
       "error": null,
       "articles": [
+        {
+          "author": "Diego Almada Lopez",
+          "title": "Megaspeed confirms Alice Huang left company amid espionage claims",
+          "outlet": "Crypto Briefing",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:06:36Z",
+          "link": "https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/",
+          "citation": "(U) Diego Almada Lopez. \"Megaspeed confirms Alice Huang left company amid espionage claims.\" Crypto Briefing, November 15, 2026. https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Scott Lance",
+          "title": "China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West",
+          "outlet": "Ibtimes.com.au",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:36:36Z",
+          "link": "https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610",
+          "citation": "(U) Scott Lance. \"China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West.\" Ibtimes.com.au, November 15, 2026. https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Sasha Tuddenham",
           "title": "Bodyguards aren’t enough: After Jensen Huang’s exit, CEOs need counterintelligence training",
@@ -3084,9 +3278,58 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 19,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Zac Crellin",
+          "title": "Estonia closes border to Russia after suspected drone factory arson",
+          "outlet": "DW (English)",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:29:00Z",
+          "link": "https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115",
+          "citation": "(U) Zac Crellin. \"Estonia closes border to Russia after suspected drone factory arson.\" DW (English), November 15, 2026. https://www.dw.com/en/estonia-russia-border-drone-factory-sabotage-arson/a-79953115. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b",
+            "\\barson\\b"
+          ]
+        },
+        {
+          "author": "Diego Almada Lopez",
+          "title": "Megaspeed confirms Alice Huang left company amid espionage claims",
+          "outlet": "Crypto Briefing",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T18:06:36Z",
+          "link": "https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/",
+          "citation": "(U) Diego Almada Lopez. \"Megaspeed confirms Alice Huang left company amid espionage claims.\" Crypto Briefing, November 15, 2026. https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
+        {
+          "author": "Sophia Stanford",
+          "title": "Estonia to CLOSE Russian border in two weeks after 'sabotage' attack",
+          "outlet": "Dailymail.com",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T15:54:31Z",
+          "link": "https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html",
+          "citation": "(U) Sophia Stanford. \"Estonia to CLOSE Russian border in two weeks after 'sabotage' attack.\" Dailymail.com, November 15, 2026. https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Scott Lance",
+          "title": "China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West",
+          "outlet": "Ibtimes.com.au",
+          "published": "November 15, 2026",
+          "publishedAt": "2026-11-15T14:36:36Z",
+          "link": "https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610",
+          "citation": "(U) Scott Lance. \"China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West.\" Ibtimes.com.au, November 15, 2026. https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610. Accessed November 16, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Melissa Karbas",
           "title": "Turkey uses espionage accusations to pressure government critics",
@@ -3245,80 +3488,6 @@
           "ci_match_patterns": [
             "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
             "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England",
-          "outlet": "TheJournal.ie",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T22:07:35Z",
-          "link": "https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/",
-          "citation": "(U) AFP. \"US charges three 'Iranian operatives' over alleged terrorist plot at RAF base in England.\" TheJournal.ie, November 10, 2026. https://www.thejournal.ie/us-charges-three-iranian-operatives-over-alleged-terrorist-plot-at-raf-base-7221911-Nov2026/. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
-        },
-        {
-          "author": "HuffPost",
-          "title": "U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia",
-          "outlet": "HuffPost",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:49:26Z",
-          "link": "https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130",
-          "citation": "(U) HuffPost. \"U.S. Soldier Arrested In Britain On Suspicion Of Espionage Linked To Russia.\" HuffPost, November 10, 2026. https://www.huffpost.com/entry/us-soldier-arrested-russia-britain-spy-espionage_n_6af38087e4b09e0b5c530130. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "US soldier arrested in UK on suspicion of spying for Russia",
-          "outlet": "Al Jazeera English",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:41:53Z",
-          "link": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage",
-          "citation": "(U) Al Jazeera Staff. \"US soldier arrested in UK on suspicion of spying for Russia.\" Al Jazeera English, November 10, 2026. https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Associated Press",
-          "title": "US Army soldier arrested in UK on Russian espionage charges",
-          "outlet": "New York Post",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:30:50Z",
-          "link": "https://nypost.com/2026/11/10/world-news/us-army-soldier-arrested-in-uk-on-russian-espionage-charges/",
-          "citation": "(U) Associated Press. \"US Army soldier arrested in UK on Russian espionage charges.\" New York Post, November 10, 2026. https://nypost.com/2026/11/10/world-news/us-army-soldier-arrested-in-uk-on-russian-espionage-charges/. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "CBC News Staff",
-          "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
-          "outlet": "CBC News",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:21:11Z",
-          "link": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928",
-          "citation": "(U) CBC News Staff. \"U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say.\" CBC News, November 10, 2026. https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Cristina Laila",
-          "title": "JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:20:36Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/",
-          "citation": "(U) Cristina Laila. \"JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia.\" Thegatewaypundit.com, November 10, 2026. https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/. Accessed November 16, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
           ]
         }
       ]

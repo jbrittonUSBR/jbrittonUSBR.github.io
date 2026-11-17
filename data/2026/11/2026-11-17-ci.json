@@ -1,18 +1,18 @@
 {
-  "pulled_at_utc": "2026-11-17T16:42:01Z",
+  "pulled_at_utc": "2026-11-17T19:01:53Z",
   "accessed": "November 17, 2026",
-  "filtered_at_utc": "2026-11-17T16:50:33Z",
+  "filtered_at_utc": "2026-11-17T19:10:07Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2297,
-  "article_count": 301,
-  "dropped_count": 1996,
+  "source_article_count": 2298,
+  "article_count": 305,
+  "dropped_count": 1993,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 27,
+      "count": 26,
       "error": null,
       "articles": [
         {
@@ -324,18 +324,6 @@
           "publishedAt": "2026-11-15T13:42:58Z",
           "link": "https://www.bbc.com/news/articles/cqn4e2py48kwo",
           "citation": "(U) Ella Kipling. \"Iran targets US military base in Bahrain with drone attack.\" BBC News, November 15, 2026. https://www.bbc.com/news/articles/cqn4e2py48kwo. Accessed November 17, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "https://www.facebook.com/bbcnews",
-          "title": "Iran targets US military base in Bahrain with drone attack",
-          "outlet": "BBC News",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T13:42:58Z",
-          "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo",
-          "citation": "(U) https://www.facebook.com/bbcnews. \"Iran targets US military base in Bahrain with drone attack.\" BBC News, November 15, 2026. https://www.bbc.co.uk/news/articles/cqn4e2py48kwo. Accessed November 17, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
@@ -1390,9 +1378,33 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 10,
+      "count": 11,
       "error": null,
       "articles": [
+        {
+          "author": "Sead Fadilpašić",
+          "title": "TSMC confirms cyberattack and data breach — chip giant says personal employee data has been leaked online",
+          "outlet": "TechRadar",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T17:05:00Z",
+          "link": "https://www.techradar.com/pro/security/tsmc-confirms-cyberattack-and-data-breach-chip-giant-says-personal-employee-data-has-been-leaked-online",
+          "citation": "(U) Sead Fadilpašić. \"TSMC confirms cyberattack and data breach — chip giant says personal employee data has been leaked online.\" TechRadar, November 16, 2026. https://www.techradar.com/pro/security/tsmc-confirms-cyberattack-and-data-breach-chip-giant-says-personal-employee-data-has-been-leaked-online. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Joe Brennan",
+          "title": "Goodbody reports cyber attack to DPC as up to 20 client email addresses accessed",
+          "outlet": "The Irish Times",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T16:43:13Z",
+          "link": "https://www.irishtimes.com/business/2026/11/16/goodbody-reports-cyber-attack-to-dpc-as-up-to-20-client-email-addresses-accessed/",
+          "citation": "(U) Joe Brennan. \"Goodbody reports cyber attack to DPC as up to 20 client email addresses accessed.\" The Irish Times, November 16, 2026. https://www.irishtimes.com/business/2026/11/16/goodbody-reports-cyber-attack-to-dpc-as-up-to-20-client-email-addresses-accessed/. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Sead Fadilpašić",
           "title": "Yet another massive cyberattack hits Japan — city of Osaka latest to be hit, as more than a million email addresses exposed",
@@ -1500,24 +1512,12 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Punch Newspapers",
-          "title": "US reopens airspace after flight disruption, rules out cyberattack",
-          "outlet": "The Punch",
-          "published": "November 14, 2026",
-          "publishedAt": "2026-11-14T06:09:35Z",
-          "link": "https://punchng.com/us-reopens-airspace-after-flight-disruption-rules-out-cyberattack/",
-          "citation": "(U) Punch Newspapers. \"US reopens airspace after flight disruption, rules out cyberattack.\" The Punch, November 14, 2026. https://punchng.com/us-reopens-airspace-after-flight-disruption-rules-out-cyberattack/. Accessed November 17, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 9,
+      "count": 8,
       "error": null,
       "articles": [
         {
@@ -1615,18 +1615,6 @@
           "ci_match_patterns": [
             "\\bpipeline\\b"
           ]
-        },
-        {
-          "author": "ABC News (AU) Staff",
-          "title": "Police expand operation targeting Melbourne arsons and extortion",
-          "outlet": "ABC News (AU)",
-          "published": "November 5, 2026",
-          "publishedAt": "2026-11-05T21:25:52Z",
-          "link": "https://www.abc.net.au/news/2026-11-06/vic-police-expand-arson-extortion-taskforce-phoenix/107353740",
-          "citation": "(U) ABC News (AU) Staff. \"Police expand operation targeting Melbourne arsons and extortion.\" ABC News (AU), November 5, 2026. https://www.abc.net.au/news/2026-11-06/vic-police-expand-arson-extortion-taskforce-phoenix/107353740. Accessed November 17, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
@@ -1676,9 +1664,21 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 18,
+      "count": 19,
       "error": null,
       "articles": [
+        {
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Teenager, 17, charged with terrorism offences",
+          "outlet": "BBC News",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T18:22:11Z",
+          "link": "https://www.bbc.co.uk/news/articles/cq3dgxr89vjgo",
+          "citation": "(U) https://www.facebook.com/bbcnews. \"Teenager, 17, charged with terrorism offences.\" BBC News, November 16, 2026. https://www.bbc.co.uk/news/articles/cq3dgxr89vjgo. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Israel National News",
           "title": "Footage from southern Lebanon | IDF arrests terrorists operating on Hezbollah's behalf",
@@ -2162,9 +2162,21 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 8,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Pypi.org Staff",
+          "title": "assay-pipeline added to PyPI",
+          "outlet": "Pypi.org",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T17:39:35Z",
+          "link": "https://pypi.org/project/assay-pipeline/",
+          "citation": "(U) Pypi.org Staff. \"assay-pipeline added to PyPI.\" Pypi.org, November 16, 2026. https://pypi.org/project/assay-pipeline/. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
         {
           "author": "Oliver JJ Lane",
           "title": "Ukraine Launches 'Largest' Drone Attack of the War So Far, Striking Crimea Bridge and Oil Facilities",
@@ -2265,9 +2277,21 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 19,
+      "count": 20,
       "error": null,
       "articles": [
+        {
+          "author": "CNA Staff",
+          "title": "Saudi Arabia dismisses commander of anti-Houthi coalition: state media",
+          "outlet": "CNA",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T17:00:34Z",
+          "link": "https://www.channelnewsasia.com/world/saudi-arabia-anti-houthi-coalition-leader-6556351",
+          "citation": "(U) CNA Staff. \"Saudi Arabia dismisses commander of anti-Houthi coalition: state media.\" CNA, November 16, 2026. https://www.channelnewsasia.com/world/saudi-arabia-anti-houthi-coalition-leader-6556351. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "feedfeeder",
           "title": "Houthis seize ground on Yemen's southern coast, edge closer to Aden - Reuters",
@@ -2639,9 +2663,21 @@
     },
     {
       "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
-      "count": 8,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Israel National News",
+          "title": "Iran's secret missile network may be hidden behind massive dam projects",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T17:01:54Z",
+          "link": "https://www.israelnationalnews.com/news/436342",
+          "citation": "(U) Israel National News. \"Iran's secret missile network may be hidden behind massive dam projects.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/news/436342. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "Jeffrey Sonnenfeld, Cedric Leighton, Vito Errico, Steven Tian",
           "title": "Air traffic control, phone systems and emails are all down following China’s AI espionage scandal — is there a common answer?",
@@ -2742,9 +2778,21 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 16,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Israel National News",
+          "title": "Iran's secret missile network may be hidden behind massive dam projects",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 16, 2026",
+          "publishedAt": "2026-11-16T17:01:54Z",
+          "link": "https://www.israelnationalnews.com/news/436342",
+          "citation": "(U) Israel National News. \"Iran's secret missile network may be hidden behind massive dam projects.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/news/436342. Accessed November 17, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "FOX News Radio",
           "title": "After a Slew of Tech, Aviation & Espionage Scares, How Safe Is the U.S.?",

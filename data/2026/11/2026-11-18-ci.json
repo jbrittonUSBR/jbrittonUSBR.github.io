@@ -1,18 +1,18 @@
 {
-  "pulled_at_utc": "2026-11-18T13:10:59Z",
+  "pulled_at_utc": "2026-11-18T18:45:09Z",
   "accessed": "November 18, 2026",
-  "filtered_at_utc": "2026-11-18T13:18:49Z",
+  "filtered_at_utc": "2026-11-18T18:53:44Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
   "source_article_count": 2274,
-  "article_count": 346,
-  "dropped_count": 1928,
+  "article_count": 351,
+  "dropped_count": 1923,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 19,
+      "count": 15,
       "error": null,
       "articles": [
         {
@@ -196,60 +196,12 @@
           "ci_match_patterns": [
             "\\barson\\b"
           ]
-        },
-        {
-          "author": "Gokul Ankari",
-          "title": "US army major claims Pentagon ignored warnings over Kuwait base security before Iranian drone strike killed 6 troops in March",
-          "outlet": "The Times of India",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T14:08:11Z",
-          "link": "https://timesofindia.indiatimes.com/world/us/us-army-major-claims-pentagon-ignored-warnings-over-kuwait-base-security-before-iranian-drone-strike-killed-6-troops-in-march/articleshow/135892065.cms",
-          "citation": "(U) Gokul Ankari. \"US army major claims Pentagon ignored warnings over Kuwait base security before Iranian drone strike killed 6 troops in March.\" The Times of India, November 16, 2026. https://timesofindia.indiatimes.com/world/us/us-army-major-claims-pentagon-ignored-warnings-over-kuwait-base-security-before-iranian-drone-strike-killed-6-troops-in-march/articleshow/135892065.cms. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Mohammad Mansour",
-          "title": "Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb",
-          "outlet": "Al Jazeera English",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T13:45:54Z",
-          "link": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb",
-          "citation": "(U) Mohammad Mansour. \"Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb.\" Al Jazeera English, November 16, 2026. https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "CBC News Staff",
-          "title": "Ukraine launches biggest drone attack on Russia since war began: Defence ministry",
-          "outlet": "CBC News",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T13:10:23Z",
-          "link": "https://www.cbc.ca/news/world/ukraine-russia-drone-attacks-9.7423256",
-          "citation": "(U) CBC News Staff. \"Ukraine launches biggest drone attack on Russia since war began: Defence ministry.\" CBC News, November 16, 2026. https://www.cbc.ca/news/world/ukraine-russia-drone-attacks-9.7423256. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "YLE News Staff",
-          "title": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-          "outlet": "YLE News",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T12:24:06Z",
-          "link": "https://yle.fi/a/74-20257202",
-          "citation": "(U) YLE News Staff. \"Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia.\" YLE News, November 16, 2026. https://yle.fi/a/74-20257202. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 21,
+      "count": 20,
       "error": null,
       "articles": [
         {
@@ -494,19 +446,6 @@
           "ci_match_patterns": [
             "\\bied\\b"
           ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "US charges three Iran-backed operatives over attacks on Jews, plot against air base",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T01:09:07Z",
-          "link": "https://www.israelnationalnews.com/news/435994",
-          "citation": "(U) Israel National News. \"US charges three Iran-backed operatives over attacks on Jews, plot against air base.\" Israelnationalnews.com, November 11, 2026. https://www.israelnationalnews.com/news/435994. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\b(charg(e|es|ed)|indictment|arrest(ed|s)?)\\b.*\\b(russian|china|chinese|iran|iranian)\\b.*\\b(plot|plots|assassination|murder)\\b",
-            "\\b(russian|china|chinese|iran|iranian)\\b.*\\b(charg(e|es|ed)|indictment)\\b.*\\b(plot|plots|assassination|murder)\\b"
-          ]
         }
       ]
     },
@@ -688,7 +627,7 @@
     },
     {
       "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
-      "count": 16,
+      "count": 15,
       "error": null,
       "articles": [
         {
@@ -871,18 +810,6 @@
             "\\bmass (casualty|shooting)\\b",
             "\\bterroris(m|t|ts)\\b",
             "\\bisis\\b"
-          ]
-        },
-        {
-          "author": "Peter Senzamici",
-          "title": "Grieving family sues Park Ave building owner for ‘myriad security failures’ leading to daughter’s mass shooting death",
-          "outlet": "New York Post",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T23:05:40Z",
-          "link": "https://nypost.com/2026/11/10/us-news/family-sues-building-over-park-ave-shooting-for-security-failures/",
-          "citation": "(U) Peter Senzamici. \"Grieving family sues Park Ave building owner for ‘myriad security failures’ leading to daughter’s mass shooting death.\" New York Post, November 10, 2026. https://nypost.com/2026/11/10/us-news/family-sues-building-over-park-ave-shooting-for-security-failures/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
           ]
         }
       ]
@@ -1076,9 +1003,21 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 20,
+      "count": 21,
       "error": null,
       "articles": [
+        {
+          "author": "Whyevolutionistrue.com Staff",
+          "title": "Mamdani disbands police unit targeting terrorism and violent protests, replaces with unarmed unit using “dialogue” and “deescalation”",
+          "outlet": "Whyevolutionistrue.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:00:21Z",
+          "link": "https://whyevolutionistrue.com/2026/11/17/mamdani-disbands-police-unit-targeting-terrorism-and-violent-protests-replaces-with-unarmed-unit-using-dialogue-and-deescalation/",
+          "citation": "(U) Whyevolutionistrue.com Staff. \"Mamdani disbands police unit targeting terrorism and violent protests, replaces with unarmed unit using “dialogue” and “deescalation”.\" Whyevolutionistrue.com, November 17, 2026. https://whyevolutionistrue.com/2026/11/17/mamdani-disbands-police-unit-targeting-terrorism-and-violent-protests-replaces-with-unarmed-unit-using-dialogue-and-deescalation/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "https://www.facebook.com/bbcnews",
           "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
@@ -1324,9 +1263,117 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 26,
+      "count": 22,
       "error": null,
       "articles": [
+        {
+          "author": "REUTERS",
+          "title": "Tehran Denies Report Of Potential Plan To Detonate Dirty Bomb In Washington",
+          "outlet": "HuffPost",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T17:21:56Z",
+          "link": "https://www.huffpost.com/entry/iran-denies-dirty-bomb-plan_n_6afc87a1e4b0e902c23afc30",
+          "citation": "(U) REUTERS. \"Tehran Denies Report Of Potential Plan To Detonate Dirty Bomb In Washington.\" HuffPost, November 17, 2026. https://www.huffpost.com/entry/iran-denies-dirty-bomb-plan_n_6afc87a1e4b0e902c23afc30. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "John Loftus",
+          "title": "Deep State Fingerprints Are All Over The Iranian ‘Dirty Bomb’ Leak",
+          "outlet": "The Daily Caller",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:51:15Z",
+          "link": "https://dailycaller.com/2026/11/17/cnn-report-iran-dirty-bomb-plot-dc-deep-state-israel-natasha-bertrand/",
+          "citation": "(U) John Loftus. \"Deep State Fingerprints Are All Over The Iranian ‘Dirty Bomb’ Leak.\" The Daily Caller, November 17, 2026. https://dailycaller.com/2026/11/17/cnn-report-iran-dirty-bomb-plot-dc-deep-state-israel-natasha-bertrand/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Kevin Breuninger",
+          "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+          "outlet": "CNBC",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:47:52Z",
+          "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
+          "citation": "(U) Kevin Breuninger. \"Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'.\" CNBC, November 17, 2026. https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Stacy Liberatore",
+          "title": "US to test cutting-edge nuclear weapon today amid Iran bomb scare and global cyberattack",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:16:20Z",
+          "link": "https://www.dailymail.com/sciencetech/article-16299999/us-nuclear-missile-test-california.html",
+          "citation": "(U) Stacy Liberatore. \"US to test cutting-edge nuclear weapon today amid Iran bomb scare and global cyberattack.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/sciencetech/article-16299999/us-nuclear-missile-test-california.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+          "outlet": "Al Jazeera English",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:13:57Z",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington",
+          "citation": "(U) Al Jazeera English Staff. \"Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Heba Habib",
+          "title": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+          "outlet": "Al Jazeera English",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:59:39Z",
+          "link": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
+          "citation": "(U) Heba Habib. \"Is Iran plotting a ‘dirty bomb’ attack in the US? What we know.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Sertac Comak",
+          "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+          "outlet": "DW (English)",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:39:00Z",
+          "link": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741",
+          "citation": "(U) Sertac Comak. \"Iran dismisses report of alleged 'dirty bomb' attack on Washington.\" DW (English), November 17, 2026. https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "William Astore",
+          "title": "Iranian Dirty Bomb Targets Washington!",
+          "outlet": "Antiwar.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:37:59Z",
+          "link": "https://www.antiwar.com/blog/2026/11/17/iranian-dirty-bomb-targets-washington/",
+          "citation": "(U) William Astore. \"Iranian Dirty Bomb Targets Washington!.\" Antiwar.com, November 17, 2026. https://www.antiwar.com/blog/2026/11/17/iranian-dirty-bomb-targets-washington/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Gokul Ankari",
+          "title": "Iran rejects CNN report of 'dirty bomb' plot in Washington, calls claims 'fabricated'",
+          "outlet": "The Times of India",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:47:40Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/iran-rejects-cnn-report-of-dirty-bomb-plot-in-washington-calls-claims-fabricated/articleshow/135928096.cms",
+          "citation": "(U) Gokul Ankari. \"Iran rejects CNN report of 'dirty bomb' plot in Washington, calls claims 'fabricated'.\" The Times of India, November 17, 2026. https://timesofindia.indiatimes.com/world/middle-east/iran-rejects-cnn-report-of-dirty-bomb-plot-in-washington-calls-claims-fabricated/articleshow/135928096.cms. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
         {
           "author": "Arden Dier with Newser.AI",
           "title": "Report: Iran May Be Planning to Attack DC With Dirty Bomb",
@@ -1482,170 +1529,134 @@
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
           ]
-        },
-        {
-          "author": "Victor Nava",
-          "title": "US intel picks up ‘very specific’ Iranian dirty bomb plot targeting Washington: report",
-          "outlet": "New York Post",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T03:50:38Z",
-          "link": "https://nypost.com/2026/11/16/us-news/us-intel-picks-up-very-specific-iranian-dirty-bomb-plot-targeting-washington-report/",
-          "citation": "(U) Victor Nava. \"US intel picks up ‘very specific’ Iranian dirty bomb plot targeting Washington: report.\" New York Post, November 17, 2026. https://nypost.com/2026/11/16/us-news/us-intel-picks-up-very-specific-iranian-dirty-bomb-plot-targeting-washington-report/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Joshua Klein",
-          "title": "Report: U.S. Intel Indicates Iran Plotting ‘Dirty Bomb’ or Chemical Attack in Washington",
-          "outlet": "Breitbart News",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T02:34:54Z",
-          "link": "https://www.breitbart.com/politics/2026/11/16/report-u-s-intel-indicates-iran-plotting-dirty-bomb-chemical-attack-washington/",
-          "citation": "(U) Joshua Klein. \"Report: U.S. Intel Indicates Iran Plotting ‘Dirty Bomb’ or Chemical Attack in Washington.\" Breitbart News, November 17, 2026. https://www.breitbart.com/politics/2026/11/16/report-u-s-intel-indicates-iran-plotting-dirty-bomb-chemical-attack-washington/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Red State",
-          "title": "Iran's Next Target? Trump Officials Possibly in the Crosshairs of Dirty Bomb Plot",
-          "outlet": "Freerepublic.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T02:04:12Z",
-          "link": "https://freerepublic.com/focus/f-news/4403316/posts",
-          "citation": "(U) Red State. \"Iran's Next Target? Trump Officials Possibly in the Crosshairs of Dirty Bomb Plot.\" Freerepublic.com, November 17, 2026. https://freerepublic.com/focus/f-news/4403316/posts. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "CNN Lite",
-          "title": "Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
-          "outlet": "Freerepublic.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T02:00:56Z",
-          "link": "https://freerepublic.com/focus/f-news/4403314/posts",
-          "citation": "(U) CNN Lite. \"Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say.\" Freerepublic.com, November 17, 2026. https://freerepublic.com/focus/f-news/4403314/posts. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Ayush Pandey",
-          "title": "Iran planning dirty bomb attack in Washington, US intel warns",
-          "outlet": "The Times of India",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T01:17:56Z",
-          "link": "https://timesofindia.indiatimes.com/world/us/iran-planning-dirty-bomb-attack-in-washington-us-intel-warns/articleshow/135906822.cms",
-          "citation": "(U) Ayush Pandey. \"Iran planning dirty bomb attack in Washington, US intel warns.\" The Times of India, November 17, 2026. https://timesofindia.indiatimes.com/world/us/iran-planning-dirty-bomb-attack-in-washington-us-intel-warns/articleshow/135906822.cms. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Jessica Corbett",
-          "title": "'It's Giving Iraq WMDs Reporting': US Officials Tell CNN Iran Has Dirty Bomb Plan",
-          "outlet": "Common Dreams",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T01:02:06Z",
-          "link": "https://www.commondreams.org/news/iran-dirty-bomb",
-          "citation": "(U) Jessica Corbett. \"'It's Giving Iraq WMDs Reporting': US Officials Tell CNN Iran Has Dirty Bomb Plan.\" Common Dreams, November 17, 2026. https://www.commondreams.org/news/iran-dirty-bomb. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Israelnationalnews.com Staff",
-          "title": "US intelligence: Iran plotting dirty bomb or chemical attack in Washington",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T00:24:18Z",
-          "link": "https://www.israelnationalnews.com/flashes/697638",
-          "citation": "(U) Israelnationalnews.com Staff. \"US intelligence: Iran plotting dirty bomb or chemical attack in Washington.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/flashes/697638. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Israelnationalnews.com Staff",
-          "title": "US intelligence: Iran plotting dirty bomb or chemical attack in Washington",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T00:24:17Z",
-          "link": "https://www.israelnationalnews.com/news/436370",
-          "citation": "(U) Israelnationalnews.com Staff. \"US intelligence: Iran plotting dirty bomb or chemical attack in Washington.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/news/436370. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Offgridsurvival.com Staff",
-          "title": "Iran Reportedly Planning Dirty Bomb or Chemical Attack in Washington, DC: Intelligence Suggests Weapons Materials May Already Be Inside America",
-          "outlet": "Offgridsurvival.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T00:14:40Z",
-          "link": "https://offgridsurvival.com/iran-reportedly-planning-dirty-bomb-inside-america/",
-          "citation": "(U) Offgridsurvival.com Staff. \"Iran Reportedly Planning Dirty Bomb or Chemical Attack in Washington, DC: Intelligence Suggests Weapons Materials May Already Be Inside America.\" Offgridsurvival.com, November 17, 2026. https://offgridsurvival.com/iran-reportedly-planning-dirty-bomb-inside-america/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Melissa Koenig",
-          "title": "Iran plotting terrifying 'dirty bomb' attack targeting Trump administration officials in Washington DC, intelligence report says",
-          "outlet": "Dailymail.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T00:00:59Z",
-          "link": "https://www.dailymail.com/news/article-16298071/Iran-dirty-bomb-attack-Trump-administration.html",
-          "citation": "(U) Melissa Koenig. \"Iran plotting terrifying 'dirty bomb' attack targeting Trump administration officials in Washington DC, intelligence report says.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16298071/Iran-dirty-bomb-attack-Trump-administration.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Alex Griffing",
-          "title": "BREAKING: CNN Reports Iran ‘Developing Plans’ to Detonate a ‘Dirty Bomb’ in Washington, DC",
-          "outlet": "Mediaite",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T23:44:38Z",
-          "link": "https://www.mediaite.com/media/news/breaking-cnn-reports-iran-developing-plans-to-detonate-a-dirty-bomb-in-washington-dc/",
-          "citation": "(U) Alex Griffing. \"BREAKING: CNN Reports Iran ‘Developing Plans’ to Detonate a ‘Dirty Bomb’ in Washington, DC.\" Mediaite, November 16, 2026. https://www.mediaite.com/media/news/breaking-cnn-reports-iran-developing-plans-to-detonate-a-dirty-bomb-in-washington-dc/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Taegan Goddard",
-          "title": "Intelligence Points to Iranian Dirty Bomb Plot",
-          "outlet": "Politicalwire.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T23:18:58Z",
-          "link": "https://politicalwire.com/2026/11/16/intelligence-points-to-iranian-dirty-bomb-plot/",
-          "citation": "(U) Taegan Goddard. \"Intelligence Points to Iranian Dirty Bomb Plot.\" Politicalwire.com, November 16, 2026. https://politicalwire.com/2026/11/16/intelligence-points-to-iranian-dirty-bomb-plot/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "CNN",
-          "title": "Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
-          "outlet": "Freerepublic.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T23:15:16Z",
-          "link": "https://freerepublic.com/focus/f-news/4403290/posts",
-          "citation": "(U) CNN. \"Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say.\" Freerepublic.com, November 16, 2026. https://freerepublic.com/focus/f-news/4403290/posts. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 14,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Rory Tingle, Stacy Liberatore",
+          "title": "HSBC and TalkTalk customers told to update their iPhones and check card statements as massive cyberattack hits 178 of world's biggest companies",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T17:15:49Z",
+          "link": "https://www.dailymail.com/news/article-16299959/HSBC-TalkTalk-customers-told-update-iPhones-check-card-statements-massive-cyberattack-hits-178-worlds-biggest-companies.html",
+          "citation": "(U) Rory Tingle, Stacy Liberatore. \"HSBC and TalkTalk customers told to update their iPhones and check card statements as massive cyberattack hits 178 of world's biggest companies.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16299959/HSBC-TalkTalk-customers-told-update-iPhones-check-card-statements-massive-cyberattack-hits-178-worlds-biggest-companies.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Jerome London",
+          "title": "Markwayne Mullin Says He’s 98% Sure Recent Outages at United, the FAA, Microsoft and JPMorgan Weren’t a Cyberattack",
+          "outlet": "Thoughtcatalog.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:37:54Z",
+          "link": "https://thoughtcatalog.com/jeremy-london/2026/11/markwayne-mullin-says-hes-98-sure-recent-outages-at-united-the-faa-microsoft-and-jpmorgan-werent-a-cyberattack/",
+          "citation": "(U) Jerome London. \"Markwayne Mullin Says He’s 98% Sure Recent Outages at United, the FAA, Microsoft and JPMorgan Weren’t a Cyberattack.\" Thoughtcatalog.com, November 17, 2026. https://thoughtcatalog.com/jeremy-london/2026/11/markwayne-mullin-says-hes-98-sure-recent-outages-at-united-the-faa-microsoft-and-jpmorgan-werent-a-cyberattack/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "George Anton",
+          "title": "NSA's Highly Classified Internal Network Goes Down as String of Major US Tech Outages Raises Security Fears",
+          "outlet": "Ibtimes.com.au",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:32:27Z",
+          "link": "https://www.ibtimes.com.au/nsa-classified-network-outage-no-cyberattack-evidence-1878803",
+          "citation": "(U) George Anton. \"NSA's Highly Classified Internal Network Goes Down as String of Major US Tech Outages Raises Security Fears.\" Ibtimes.com.au, November 17, 2026. https://www.ibtimes.com.au/nsa-classified-network-outage-no-cyberattack-evidence-1878803. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Stacy Liberatore",
+          "title": "US to test cutting-edge nuclear weapon today amid Iran bomb scare and global cyberattack",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:16:20Z",
+          "link": "https://www.dailymail.com/sciencetech/article-16299999/us-nuclear-missile-test-california.html",
+          "citation": "(U) Stacy Liberatore. \"US to test cutting-edge nuclear weapon today amid Iran bomb scare and global cyberattack.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/sciencetech/article-16299999/us-nuclear-missile-test-california.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "UK Daily Mail",
+          "title": "NSA's top secret communications network goes down with staff told to come in late amid 'heightened' threat, hours after cyberattack hit 178 of world's biggest companies while Trump is in Asia",
+          "outlet": "Freerepublic.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:02:25Z",
+          "link": "https://freerepublic.com/focus/f-news/4403367/posts",
+          "citation": "(U) UK Daily Mail. \"NSA's top secret communications network goes down with staff told to come in late amid 'heightened' threat, hours after cyberattack hit 178 of world's biggest companies while Trump is in Asia.\" Freerepublic.com, November 17, 2026. https://freerepublic.com/focus/f-news/4403367/posts. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Natasha Anderson",
+          "title": "NSA's top secret communications network goes down with staff told to come in late amid 'heightened' threat, hours after cyberattack hit 178 of world's biggest companies while Trump is in Asia",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:52:25Z",
+          "link": "https://www.dailymail.com/news/article-16300073/nsa-communications-network-cyberattack.html",
+          "citation": "(U) Natasha Anderson. \"NSA's top secret communications network goes down with staff told to come in late amid 'heightened' threat, hours after cyberattack hit 178 of world's biggest companies while Trump is in Asia.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16300073/nsa-communications-network-cyberattack.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Prisha Patnaik",
+          "title": "America's spy agency goes dark: NSA's classified internal network goes down; no cyberattack evidence yet - report",
+          "outlet": "The Times of India",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:51:30Z",
+          "link": "https://timesofindia.indiatimes.com/world/us/americas-spy-agency-goes-dark-nsas-classified-internal-network-goes-down-no-cyberattack-evidence-yet-report/articleshow/135932100.cms",
+          "citation": "(U) Prisha Patnaik. \"America's spy agency goes dark: NSA's classified internal network goes down; no cyberattack evidence yet - report.\" The Times of India, November 17, 2026. https://timesofindia.indiatimes.com/world/us/americas-spy-agency-goes-dark-nsas-classified-internal-network-goes-down-no-cyberattack-evidence-yet-report/articleshow/135932100.cms. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Rachel Bowman",
+          "title": "Panicked Americans rush to check banking apps after mass outage as another cyberattack hits and FEMA schedules emergency alert tests: Live updates",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:50:47Z",
+          "link": "https://www.dailymail.com/news/article-16299951/americans-cyberattack-banking-outage-fema-emergency-alert-live-updates.html",
+          "citation": "(U) Rachel Bowman. \"Panicked Americans rush to check banking apps after mass outage as another cyberattack hits and FEMA schedules emergency alert tests: Live updates.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16299951/americans-cyberattack-banking-outage-fema-emergency-alert-live-updates.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "David Gilmour",
+          "title": "CNN, Zoom and IKEA Among 178 Websites Hit by Cyberattack in Sweeping Crypto Raid",
+          "outlet": "Mediaite",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:47:23Z",
+          "link": "https://www.mediaite.com/media/news/cnn-zoom-and-ikea-among-178-websites-hit-by-cyberattack-in-sweeping-crypto-raid/",
+          "citation": "(U) David Gilmour. \"CNN, Zoom and IKEA Among 178 Websites Hit by Cyberattack in Sweeping Crypto Raid.\" Mediaite, November 17, 2026. https://www.mediaite.com/media/news/cnn-zoom-and-ikea-among-178-websites-hit-by-cyberattack-in-sweeping-crypto-raid/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Stacy Liberatore",
+          "title": "Massive cyberattack hits 178 of world's biggest companies as hackers target customers' money and credit card details",
+          "outlet": "Dailymail.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:34:37Z",
+          "link": "https://www.dailymail.com/sciencetech/article-16299523/cnn-fox-news-zoom-companies-cyberattack.html",
+          "citation": "(U) Stacy Liberatore. \"Massive cyberattack hits 178 of world's biggest companies as hackers target customers' money and credit card details.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/sciencetech/article-16299523/cnn-fox-news-zoom-companies-cyberattack.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "ET Online",
           "title": "United Airlines fixes tech glitch that delayed flights, rules out cyberattack signs",
@@ -1726,90 +1737,6 @@
           "publishedAt": "2026-11-16T19:57:13Z",
           "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
           "citation": "(U) Bill Toulas. \"Barracuda links cloud breach to ARTEX AI-powered cyberattack.\" BleepingComputer, November 16, 2026. https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Sead Fadilpašić",
-          "title": "TSMC confirms cyberattack and data breach — chip giant says personal employee data has been leaked online",
-          "outlet": "TechRadar",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T17:05:00Z",
-          "link": "https://www.techradar.com/pro/security/tsmc-confirms-cyberattack-and-data-breach-chip-giant-says-personal-employee-data-has-been-leaked-online",
-          "citation": "(U) Sead Fadilpašić. \"TSMC confirms cyberattack and data breach — chip giant says personal employee data has been leaked online.\" TechRadar, November 16, 2026. https://www.techradar.com/pro/security/tsmc-confirms-cyberattack-and-data-breach-chip-giant-says-personal-employee-data-has-been-leaked-online. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Joe Brennan",
-          "title": "Goodbody reports cyber attack to DPC as up to 20 client email addresses accessed",
-          "outlet": "The Irish Times",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T16:43:13Z",
-          "link": "https://www.irishtimes.com/business/2026/11/16/goodbody-reports-cyber-attack-to-dpc-as-up-to-20-client-email-addresses-accessed/",
-          "citation": "(U) Joe Brennan. \"Goodbody reports cyber attack to DPC as up to 20 client email addresses accessed.\" The Irish Times, November 16, 2026. https://www.irishtimes.com/business/2026/11/16/goodbody-reports-cyber-attack-to-dpc-as-up-to-20-client-email-addresses-accessed/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Sead Fadilpašić",
-          "title": "Yet another massive cyberattack hits Japan — city of Osaka latest to be hit, as more than a million email addresses exposed",
-          "outlet": "TechRadar",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T16:25:00Z",
-          "link": "https://www.techradar.com/pro/security/yet-another-massive-cyberattack-hits-japan-city-of-osaka-latest-to-be-hit-as-more-than-a-million-email-addresses-exposed",
-          "citation": "(U) Sead Fadilpašić. \"Yet another massive cyberattack hits Japan — city of Osaka latest to be hit, as more than a million email addresses exposed.\" TechRadar, November 16, 2026. https://www.techradar.com/pro/security/yet-another-massive-cyberattack-hits-japan-city-of-osaka-latest-to-be-hit-as-more-than-a-million-email-addresses-exposed. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "alexblake.techradar@gmail.com (Alex Blake) , Alex Blake",
-          "title": "Microsoft 365 outage led to chlorine gas poisoning of 15 people in Germany",
-          "outlet": "TechRadar",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T11:55:28Z",
-          "link": "https://www.techradar.com/computing/microsoft-365-outage-led-to-chlorine-gas-poisoning-of-15-hotel-guests-in-germany-as-microsoft-says-crash-was-caused-by-cascading-failure-rather-than-cyberattack",
-          "citation": "(U) alexblake.techradar@gmail.com (Alex Blake) , Alex Blake. \"Microsoft 365 outage led to chlorine gas poisoning of 15 people in Germany.\" TechRadar, November 16, 2026. https://www.techradar.com/computing/microsoft-365-outage-led-to-chlorine-gas-poisoning-of-15-hotel-guests-in-germany-as-microsoft-says-crash-was-caused-by-cascading-failure-rather-than-cyberattack. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Jason Ma",
-          "title": "Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe",
-          "outlet": "Fortune",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T17:41:41Z",
-          "link": "https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/",
-          "citation": "(U) Jason Ma. \"Transportation secretary still doesn’t totally rule out that a cyberattack may have hit the FAA, and the FBI is assisting the probe.\" Fortune, November 15, 2026. https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Rahim Amir Noorali",
-          "title": "A French bank lost around €100 million in cyberattack \"very likely\" aided by AI",
-          "outlet": "Notebookcheck.net",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T12:52:00Z",
-          "link": "https://www.notebookcheck.net/A-French-bank-lost-around-EUR100-million-in-cyberattack-very-likely-aided-by-AI.1450944.0.html",
-          "citation": "(U) Rahim Amir Noorali. \"A French bank lost around €100 million in cyberattack \"very likely\" aided by AI.\" Notebookcheck.net, November 15, 2026. https://www.notebookcheck.net/A-French-bank-lost-around-EUR100-million-in-cyberattack-very-likely-aided-by-AI.1450944.0.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Rahim Amir Noorali",
-          "title": "French bank lost around €100 million in cyberattack \"very likely\" aided by AI",
-          "outlet": "Notebookcheck.net",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T12:52:00Z",
-          "link": "https://www.notebookcheck.net/French-bank-lost-around-EUR100-million-in-cyberattack-very-likely-aided-by-AI.1450944.0.html",
-          "citation": "(U) Rahim Amir Noorali. \"French bank lost around €100 million in cyberattack \"very likely\" aided by AI.\" Notebookcheck.net, November 15, 2026. https://www.notebookcheck.net/French-bank-lost-around-EUR100-million-in-cyberattack-very-likely-aided-by-AI.1450944.0.html. Accessed November 18, 2026.",
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
@@ -1989,9 +1916,49 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 17,
+      "count": 19,
       "error": null,
       "articles": [
+        {
+          "author": "The Associated Press",
+          "title": "4 detained in North Macedonia for alleged Iran-backed assassination plot in Greece",
+          "outlet": "Abcnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:01:02Z",
+          "link": "https://abcnews.com/International/wireStory/4-detained-north-macedonia-alleged-iran-backed-assassination-138214034",
+          "citation": "(U) The Associated Press. \"4 detained in North Macedonia for alleged Iran-backed assassination plot in Greece.\" Abcnews.com, November 17, 2026. https://abcnews.com/International/wireStory/4-detained-north-macedonia-alleged-iran-backed-assassination-138214034. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Αλεξία Αμβράζη",
+          "title": "Israeli executive was target in foiled assassination plot in Greece",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:03:19Z",
+          "link": "https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/",
+          "citation": "(U) Αλεξία Αμβράζη. \"Israeli executive was target in foiled assassination plot in Greece.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Protothema.gr Staff",
+          "title": "FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:24:12Z",
+          "link": "https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/",
+          "citation": "(U) Protothema.gr Staff. \"FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Duncan Gardham, James Tozer",
           "title": "AI has helped plan dozens of mass casualty attacks causing more than 70 deaths, Southport inquiry hears",
@@ -2183,18 +2150,6 @@
           "citation": "(U) The Associated Press. \"Panamanian authorities investigate bombing attack on investigative reporter's home.\" Abcnews.com, November 14, 2026. https://abcnews.com/International/wireStory/panamanian-authorities-investigate-bombing-attack-investigative-reporters-home-138147790. Accessed November 18, 2026.",
           "ci_match_patterns": [
             "\\bbombing\\b"
-          ]
-        },
-        {
-          "author": "Brieanna Charlebois",
-          "title": "'A terrible mistake': B.C. ISIS bride Kimberley Polman, in her own words",
-          "outlet": "CBC News",
-          "published": "November 14, 2026",
-          "publishedAt": "2026-11-14T18:33:56Z",
-          "link": "https://www.cbc.ca/news/canada/british-columbia/a-terrible-mistake-b-c-isis-bride-kimberley-polman-in-her-own-words-9.7422181",
-          "citation": "(U) Brieanna Charlebois. \"'A terrible mistake': B.C. ISIS bride Kimberley Polman, in her own words.\" CBC News, November 14, 2026. https://www.cbc.ca/news/canada/british-columbia/a-terrible-mistake-b-c-isis-bride-kimberley-polman-in-her-own-words-9.7422181. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bisis\\b"
           ]
         }
       ]
@@ -2466,6 +2421,18 @@
       "error": null,
       "articles": [
         {
+          "author": "Simon Ellery",
+          "title": "Ukraine says underground gas pipeline used to mount sneak attack",
+          "outlet": "CBS News",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T17:16:06Z",
+          "link": "https://www.cbsnews.com/news/russia-ukraine-war-battle-in-underground-gas-pipeline-kupiansk/",
+          "citation": "(U) Simon Ellery. \"Ukraine says underground gas pipeline used to mount sneak attack.\" CBS News, November 17, 2026. https://www.cbsnews.com/news/russia-ukraine-war-battle-in-underground-gas-pipeline-kupiansk/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
           "author": "Last Updated: 1 hour ago",
           "title": "Iran fires drones at U.S. base in Bahrain, denies reports of planned dirty bomb attack in D.C.",
           "outlet": "CBC News",
@@ -2548,18 +2515,6 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "RFE/RL's Ukrainian Service",
-          "title": "Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock",
-          "outlet": "Radio Free Europe/ Radio Liberty",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T15:00:27Z",
-          "link": "https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html",
-          "citation": "(U) RFE/RL's Ukrainian Service. \"Russia And Ukraine Trade Air Attacks As US-Mediated Talks Fail To Break Diplomatic Deadlock.\" Radio Free Europe/ Radio Liberty, November 15, 2026. https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b"
-          ]
         }
       ]
     },
@@ -2568,6 +2523,18 @@
       "count": 26,
       "error": null,
       "articles": [
+        {
+          "author": "Heba Habib",
+          "title": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+          "outlet": "Al Jazeera English",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:59:39Z",
+          "link": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
+          "citation": "(U) Heba Habib. \"Is Iran plotting a ‘dirty bomb’ attack in the US? What we know.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
         {
           "author": "Last Updated: 1 hour ago",
           "title": "Iran fires drones at U.S. base in Bahrain, denies reports of planned dirty bomb attack in D.C.",
@@ -2867,26 +2834,26 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Punch Newspapers",
-          "title": "Terrorists killed 835 in October – Report",
-          "outlet": "The Punch",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T02:50:15Z",
-          "link": "https://punchng.com/terrorists-killed-835-in-october-report/",
-          "citation": "(U) Punch Newspapers. \"Terrorists killed 835 in October – Report.\" The Punch, November 15, 2026. https://punchng.com/terrorists-killed-835-in-october-report/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
         }
       ]
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 10,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "CNA Staff",
+          "title": "Norway's Equinor detects ongoing cyberattack, oil and gas output unaffected",
+          "outlet": "CNA",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T18:16:20Z",
+          "link": "https://www.channelnewsasia.com/business/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected-6560121",
+          "citation": "(U) CNA Staff. \"Norway's Equinor detects ongoing cyberattack, oil and gas output unaffected.\" CNA, November 17, 2026. https://www.channelnewsasia.com/business/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected-6560121. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "RT",
           "title": "Ukrainian naval drone attack on Russian ships in Caspian Sea thwarted – FSB",
@@ -2983,30 +2950,6 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Unis Ahmad Dar",
-          "title": "IndiGo extends Saudi flight suspension till Nov 30 amid Houthi attacks",
-          "outlet": "Business Standard",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T05:21:35Z",
-          "link": "https://www.business-standard.com/india-news/indigo-extends-suspension-saudi-arabia-flights-security-concerns-126111100306_1.html",
-          "citation": "(U) Unis Ahmad Dar. \"IndiGo extends Saudi flight suspension till Nov 30 amid Houthi attacks.\" Business Standard, November 11, 2026. https://www.business-standard.com/india-news/indigo-extends-suspension-saudi-arabia-flights-security-concerns-126111100306_1.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "info@thehackernews.com (The Hacker News)",
-          "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-          "outlet": "Internet",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T17:43:23Z",
-          "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-          "citation": "(U) info@thehackernews.com (The Hacker News). \"Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem.\" Internet, November 10, 2026. https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
@@ -3015,6 +2958,18 @@
       "count": 10,
       "error": null,
       "articles": [
+        {
+          "author": "Gokul Ankari",
+          "title": "Iran rejects CNN report of 'dirty bomb' plot in Washington, calls claims 'fabricated'",
+          "outlet": "The Times of India",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:47:40Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/iran-rejects-cnn-report-of-dirty-bomb-plot-in-washington-calls-claims-fabricated/articleshow/135928096.cms",
+          "citation": "(U) Gokul Ankari. \"Iran rejects CNN report of 'dirty bomb' plot in Washington, calls claims 'fabricated'.\" The Times of India, November 17, 2026. https://timesofindia.indiatimes.com/world/middle-east/iran-rejects-cnn-report-of-dirty-bomb-plot-in-washington-calls-claims-fabricated/articleshow/135928096.cms. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
         {
           "author": "Last Updated: 1 hour ago",
           "title": "Iran fires drones at U.S. base in Bahrain, denies reports of planned dirty bomb attack in D.C.",
@@ -3122,26 +3077,106 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Maddie Nixon",
-          "title": "From fridges to nuclear power plants, hackers are gaining control",
-          "outlet": "ABC News (AU)",
-          "published": "November 1, 2026",
-          "publishedAt": "2026-11-01T02:13:34Z",
-          "link": "https://www.abc.net.au/news/2026-11-01/ot-critical-infrastructure-hacking-cyber-security/107288694",
-          "citation": "(U) Maddie Nixon. \"From fridges to nuclear power plants, hackers are gaining control.\" ABC News (AU), November 1, 2026. https://www.abc.net.au/news/2026-11-01/ot-critical-infrastructure-hacking-cyber-security/107288694. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bnuclear (plant|facility|site|power|safety)\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 20,
+      "count": 24,
       "error": null,
       "articles": [
+        {
+          "author": "The Associated Press",
+          "title": "4 detained in North Macedonia for alleged Iran-backed assassination plot in Greece",
+          "outlet": "Abcnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T16:01:02Z",
+          "link": "https://abcnews.com/International/wireStory/4-detained-north-macedonia-alleged-iran-backed-assassination-138214034",
+          "citation": "(U) The Associated Press. \"4 detained in North Macedonia for alleged Iran-backed assassination plot in Greece.\" Abcnews.com, November 17, 2026. https://abcnews.com/International/wireStory/4-detained-north-macedonia-alleged-iran-backed-assassination-138214034. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Assassination plot thwarted in Greece; suspected Iranian intelligence link",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:20:07Z",
+          "link": "https://www.israelnationalnews.com/flashes/697720",
+          "citation": "(U) Israelnationalnews.com Staff. \"Assassination plot thwarted in Greece; suspected Iranian intelligence link.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/flashes/697720. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Assassination plot thwarted in Greece; suspected Iranian intelligence link",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:20:00Z",
+          "link": "https://www.israelnationalnews.com/news/436446",
+          "citation": "(U) Israelnationalnews.com Staff. \"Assassination plot thwarted in Greece; suspected Iranian intelligence link.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/news/436446. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Αλεξία Αμβράζη",
+          "title": "Israeli executive was target in foiled assassination plot in Greece",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:03:19Z",
+          "link": "https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/",
+          "citation": "(U) Αλεξία Αμβράζη. \"Israeli executive was target in foiled assassination plot in Greece.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Heba Habib",
+          "title": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+          "outlet": "Al Jazeera English",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:59:39Z",
+          "link": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
+          "citation": "(U) Heba Habib. \"Is Iran plotting a ‘dirty bomb’ attack in the US? What we know.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
+        {
+          "author": "Polly Davis Doig with Newser.AI",
+          "title": "US Strikes Often Hit Targets Near Iran's Mysterious Dams",
+          "outlet": "Newser",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T14:14:00Z",
+          "link": "https://www.newser.com/story/400139/us-strikes-often-hit-targets-near-irans-mysterious-dams.html",
+          "citation": "(U) Polly Davis Doig with Newser.AI. \"US Strikes Often Hit Targets Near Iran's Mysterious Dams.\" Newser, November 17, 2026. https://www.newser.com/story/400139/us-strikes-often-hit-targets-near-irans-mysterious-dams.html. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
+        {
+          "author": "Protothema.gr Staff",
+          "title": "FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:24:12Z",
+          "link": "https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/",
+          "citation": "(U) Protothema.gr Staff. \"FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Lance D Johnson",
           "title": "Mossad alerts CIA to Iranian drone assassination plot against Trump",
@@ -3345,43 +3380,6 @@
           "citation": "(U) Melissa Karbas. \"Espionage accusations: a pressure tactic for Turkish government critics.\" DW (English), November 14, 2026. https://www.dw.com/en/espionage-accusations-a-pressure-tactic-for-turkish-government-critics/a-79943768. Accessed November 18, 2026.",
           "ci_match_patterns": [
             "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "feedfeeder",
-          "title": "US Army names officer held on ‘allegations of espionage’ - Defense News",
-          "outlet": "Slashdot.org",
-          "published": "November 14, 2026",
-          "publishedAt": "2026-11-14T00:12:38Z",
-          "link": "https://slashdot.org/firehose.pl?op=view&amp;id=186716463",
-          "citation": "(U) feedfeeder. \"US Army names officer held on ‘allegations of espionage’ - Defense News.\" Slashdot.org, November 14, 2026. https://slashdot.org/firehose.pl?op=view&amp;id=186716463. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Andrew Neil",
-          "title": "ANDREW NEIL: Trump fears assassination by Iran. No wonder he doesn't trust Britain when we're so blasé about the threat the mullahs pose to us all",
-          "outlet": "Dailymail.com",
-          "published": "November 13, 2026",
-          "publishedAt": "2026-11-13T23:33:40Z",
-          "link": "https://www.dailymail.com/news/article-16291397/ANDREW-NEIL-Trump-fears-assassination-Iran.html",
-          "citation": "(U) Andrew Neil. \"ANDREW NEIL: Trump fears assassination by Iran. No wonder he doesn't trust Britain when we're so blasé about the threat the mullahs pose to us all.\" Dailymail.com, November 13, 2026. https://www.dailymail.com/news/article-16291397/ANDREW-NEIL-Trump-fears-assassination-Iran.html. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b"
-          ]
-        },
-        {
-          "author": "Ashlyn Walker",
-          "title": "EXCLUSIVE: Trump Assassination Attempt Suspect Slapped With New Terrorism Charge — as Explosive Federal Indictment Exposes Alleged Plot",
-          "outlet": "Radaronline.com",
-          "published": "November 13, 2026",
-          "publishedAt": "2026-11-13T19:30:00Z",
-          "link": "https://radaronline.com/p/trump-assassination-attempt-suspect-cole-tomas-allen-terrorism-charge/",
-          "citation": "(U) Ashlyn Walker. \"EXCLUSIVE: Trump Assassination Attempt Suspect Slapped With New Terrorism Charge — as Explosive Federal Indictment Exposes Alleged Plot.\" Radaronline.com, November 13, 2026. https://radaronline.com/p/trump-assassination-attempt-suspect-cole-tomas-allen-terrorism-charge/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b",
-            "\\bassassination\\b"
           ]
         }
       ]
@@ -3836,9 +3834,64 @@
     },
     {
       "query": "(\"Iranian intelligence\" OR MOIS OR VEVAK OR \"IRGC\" OR \"Quds Force\" OR Quds) AND (charged OR plot OR arrest OR sabotage OR surveillance OR assassination)",
-      "count": 7,
+      "count": 11,
       "error": null,
       "articles": [
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Assassination plot thwarted in Greece; suspected Iranian intelligence link",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:20:07Z",
+          "link": "https://www.israelnationalnews.com/flashes/697720",
+          "citation": "(U) Israelnationalnews.com Staff. \"Assassination plot thwarted in Greece; suspected Iranian intelligence link.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/flashes/697720. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Assassination plot thwarted in Greece; suspected Iranian intelligence link",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:20:00Z",
+          "link": "https://www.israelnationalnews.com/news/436446",
+          "citation": "(U) Israelnationalnews.com Staff. \"Assassination plot thwarted in Greece; suspected Iranian intelligence link.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/news/436446. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Αλεξία Αμβράζη",
+          "title": "Israeli executive was target in foiled assassination plot in Greece",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:03:19Z",
+          "link": "https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/",
+          "citation": "(U) Αλεξία Αμβράζη. \"Israeli executive was target in foiled assassination plot in Greece.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Protothema.gr Staff",
+          "title": "FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:24:12Z",
+          "link": "https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/",
+          "citation": "(U) Protothema.gr Staff. \"FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Newsroom",
           "title": "Five arrests in Athens and Skopje – They were planning an assassination in Greece on orders from Iran",
@@ -3929,9 +3982,50 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 20,
+      "count": 23,
       "error": null,
       "articles": [
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Assassination plot thwarted in Greece; suspected Iranian intelligence link",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:20:00Z",
+          "link": "https://www.israelnationalnews.com/news/436446",
+          "citation": "(U) Israelnationalnews.com Staff. \"Assassination plot thwarted in Greece; suspected Iranian intelligence link.\" Israelnationalnews.com, November 17, 2026. https://www.israelnationalnews.com/news/436446. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Αλεξία Αμβράζη",
+          "title": "Israeli executive was target in foiled assassination plot in Greece",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T15:03:19Z",
+          "link": "https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/",
+          "citation": "(U) Αλεξία Αμβράζη. \"Israeli executive was target in foiled assassination plot in Greece.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Protothema.gr Staff",
+          "title": "FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence",
+          "outlet": "Protothema.gr",
+          "published": "November 17, 2026",
+          "publishedAt": "2026-11-17T13:24:12Z",
+          "link": "https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/",
+          "citation": "(U) Protothema.gr Staff. \"FBI hunts for man linked to alleged Greece assassination plot thought have been ordered by Iranian intelligence.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/fbi-seeks-iranian-man-linked-to-alleged-assassination-plot-in-greece/. Accessed November 18, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\biranian intelligence\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Newsroom",
           "title": "Five arrests in Athens and Skopje – They were planning an assassination in Greece on orders from Iran",
@@ -4181,7 +4275,7 @@
     },
     {
       "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 14,
+      "count": 13,
       "error": null,
       "articles": [
         {
@@ -4338,18 +4432,6 @@
           "citation": "(U) Kevin  Poireault. \"New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories.\" Infosecurity Magazine, November 9, 2026. https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/. Accessed November 18, 2026.",
           "ci_match_patterns": [
             "\\bsupply[- ]chain (compromise|breach|attack|poison)\\b"
-          ]
-        },
-        {
-          "author": "Jason Ma",
-          "title": "The Pentagon is reportedly ramping up economic warfare and espionage. Nvidia CEO Jensen Huang’s affair with a suspected Chinese spy shows why",
-          "outlet": "Fortune",
-          "published": "November 8, 2026",
-          "publishedAt": "2026-11-08T23:20:38Z",
-          "link": "https://fortune.com/2026/11/08/pentagon-economic-warfare-espionage-nvidia-jensen-huang-chinese-spy-romantic-affair/",
-          "citation": "(U) Jason Ma. \"The Pentagon is reportedly ramping up economic warfare and espionage. Nvidia CEO Jensen Huang’s affair with a suspected Chinese spy shows why.\" Fortune, November 8, 2026. https://fortune.com/2026/11/08/pentagon-economic-warfare-espionage-nvidia-jensen-huang-chinese-spy-romantic-affair/. Accessed November 18, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
           ]
         }
       ]

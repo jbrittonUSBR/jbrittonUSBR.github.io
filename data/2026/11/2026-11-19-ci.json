@@ -1,20 +1,56 @@
 {
-  "pulled_at_utc": "2026-11-19T13:19:12Z",
+  "pulled_at_utc": "2026-11-19T18:56:08Z",
   "accessed": "November 19, 2026",
-  "filtered_at_utc": "2026-11-19T13:26:53Z",
+  "filtered_at_utc": "2026-11-19T19:03:58Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2282,
-  "article_count": 340,
-  "dropped_count": 1942,
+  "source_article_count": 2283,
+  "article_count": 334,
+  "dropped_count": 1949,
   "term_count": 24,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 18,
+      "count": 15,
       "error": null,
       "articles": [
+        {
+          "author": "James Cirrone",
+          "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos",
+          "outlet": "Fox News",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T18:14:57Z",
+          "link": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+          "citation": "(U) James Cirrone. \"16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos.\" Fox News, November 18, 2026. https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Press Trust of India",
+          "title": "Iranian army claims drone attack on US airbase at Kuwait's Ali Al Salem",
+          "outlet": "Business Standard",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T18:09:48Z",
+          "link": "https://www.business-standard.com/world-news/iranian-army-claims-drone-attack-on-us-airbase-at-kuwait-s-ali-al-salem-126111801563_1.html",
+          "citation": "(U) Press Trust of India. \"Iranian army claims drone attack on US airbase at Kuwait's Ali Al Salem.\" Business Standard, November 18, 2026. https://www.business-standard.com/world-news/iranian-army-claims-drone-attack-on-us-airbase-at-kuwait-s-ali-al-salem-126111801563_1.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Ukraine says it hit 2 Russian oil refineries as Zelenskyy hails weapons produced in the country",
+          "outlet": "Abcnews.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:26:07Z",
+          "link": "https://abcnews.com/International/wireStory/ukraine-hit-2-russian-oil-refineries-zelenskyy-hails-138250394",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Ukraine says it hit 2 Russian oil refineries as Zelenskyy hails weapons produced in the country.\" Abcnews.com, November 18, 2026. https://abcnews.com/International/wireStory/ukraine-hit-2-russian-oil-refineries-zelenskyy-hails-138250394. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
         {
           "author": "Joshua Klein",
           "title": "Rubio Says No ‘Imminent Threat’ After Report of Potential Iranian ‘Dirty Bomb’ Plot",
@@ -161,86 +197,12 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Russia says Ukraine struck its bridge to Crimea for second day in biggest drone attack of war",
-          "outlet": "New York Post",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T10:09:28Z",
-          "link": "https://nypost.com/2026/11/17/world-news/russia-says-ukraine-struck-its-bridge-to-crimea-for-second-day-in-biggest-drone-attack-of-war/",
-          "citation": "(U) Reuters. \"Russia says Ukraine struck its bridge to Crimea for second day in biggest drone attack of war.\" New York Post, November 17, 2026. https://nypost.com/2026/11/17/world-news/russia-says-ukraine-struck-its-bridge-to-crimea-for-second-day-in-biggest-drone-attack-of-war/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Ayush Pandey",
-          "title": "Ukraine strikes Crimea Bridge for second consecutive day as Russia reports record drone attack",
-          "outlet": "The Times of India",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T08:48:55Z",
-          "link": "https://timesofindia.indiatimes.com/world/us/ukraine-strikes-crimea-bridge-for-second-consecutive-day-as-russia-reports-record-drone-attack/articleshow/135917400.cms",
-          "citation": "(U) Ayush Pandey. \"Ukraine strikes Crimea Bridge for second consecutive day as Russia reports record drone attack.\" The Times of India, November 17, 2026. https://timesofindia.indiatimes.com/world/us/ukraine-strikes-crimea-bridge-for-second-consecutive-day-as-russia-reports-record-drone-attack/articleshow/135917400.cms. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-          "outlet": "Al Jazeera English",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T08:12:06Z",
-          "link": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge",
-          "citation": "(U) Al Jazeera Staff. \"Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera English Staff",
-          "title": "Bahrain thwarts drone attack, Iran claims targeting US military radar",
-          "outlet": "Al Jazeera English",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T07:35:54Z",
-          "link": "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar",
-          "citation": "(U) Al Jazeera English Staff. \"Bahrain thwarts drone attack, Iran claims targeting US military radar.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "Ukrainian naval drone attack on Russian ships in Caspian Sea thwarted – FSB",
-          "outlet": "Rt-english.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T06:09:30Z",
-          "link": "https://rt-english.com/russia/648928-ukraine-drone-caspian-sea/",
-          "citation": "(U) RT. \"Ukrainian naval drone attack on Russian ships in Caspian Sea thwarted – FSB.\" Rt-english.com, November 17, 2026. https://rt-english.com/russia/648928-ukraine-drone-caspian-sea/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bfsb\\b",
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Lance D Johnson",
-          "title": "Mossad alerts CIA to Iranian drone assassination plot against Trump",
-          "outlet": "Naturalnews.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T06:00:00Z",
-          "link": "https://www.naturalnews.com/2026-11-17-mossad-alerts-cia-iranian-drone-assassination-trump.html",
-          "citation": "(U) Lance D Johnson. \"Mossad alerts CIA to Iranian drone assassination plot against Trump.\" Naturalnews.com, November 17, 2026. https://www.naturalnews.com/2026-11-17-mossad-alerts-cia-iranian-drone-assassination-trump.html. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b",
-            "\\bassassination plots?\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 20,
+      "count": 19,
       "error": null,
       "articles": [
         {
@@ -471,18 +433,6 @@
             "\\bcar bomb\\b",
             "\\bassassination\\b"
           ]
-        },
-        {
-          "author": "Will Stewart",
-          "title": "Russian colonel is killed by car bomb in St Petersburg in suspected Ukrainian hit",
-          "outlet": "Dailymail.com",
-          "published": "November 12, 2026",
-          "publishedAt": "2026-11-12T08:05:40Z",
-          "link": "https://www.dailymail.com/news/article-16286325/Russian-colonel-killed-car-bomb-St-Petersburg.html",
-          "citation": "(U) Will Stewart. \"Russian colonel is killed by car bomb in St Petersburg in suspected Ukrainian hit.\" Dailymail.com, November 12, 2026. https://www.dailymail.com/news/article-16286325/Russian-colonel-killed-car-bomb-St-Petersburg.html. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bcar bomb\\b"
-          ]
         }
       ]
     },
@@ -664,9 +614,33 @@
     },
     {
       "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
-      "count": 15,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Harold Hutchison",
+          "title": "Armed Citizen Says Having AR-15 Of His Own Saved His Life During 2017 Texas Church Mass Shooting",
+          "outlet": "The Daily Caller",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T17:23:44Z",
+          "link": "https://dailycaller.com/2026/11/18/heroic-armed-citizen-says-ar-15-saved-his-life-when-he-intervened-during-2017-texas-church-mass-shooting/",
+          "citation": "(U) Harold Hutchison. \"Armed Citizen Says Having AR-15 Of His Own Saved His Life During 2017 Texas Church Mass Shooting.\" The Daily Caller, November 18, 2026. https://dailycaller.com/2026/11/18/heroic-armed-citizen-says-ar-15-saved-his-life-when-he-intervened-during-2017-texas-church-mass-shooting/. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Anugrah Kumar",
+          "title": "3 sentenced to death for deadly church mass shooting in Jordan",
+          "outlet": "The Christian Post",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T15:58:00Z",
+          "link": "https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html",
+          "citation": "(U) Anugrah Kumar. \"3 sentenced to death for deadly church mass shooting in Jordan.\" The Christian Post, November 18, 2026. https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "Christopher Wiggins",
           "title": "‘Some will never come back’: VIDA’s gay owner on the D.C. community that a mass shooting has forever changed",
@@ -1052,7 +1026,7 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 18,
+      "count": 17,
       "error": null,
       "articles": [
         {
@@ -1259,26 +1233,38 @@
           "ci_match_patterns": [
             "\\barson\\b"
           ]
-        },
-        {
-          "author": "Andrew Walsh",
-          "title": "Funeral of four family members killed in Waterford arson attack to take place today",
-          "outlet": "TheJournal.ie",
-          "published": "October 19, 2026",
-          "publishedAt": "2026-10-19T06:56:41Z",
-          "link": "https://www.thejournal.ie/funeral-waterford-english-family-arson-attack-7197725-Oct2026/",
-          "citation": "(U) Andrew Walsh. \"Funeral of four family members killed in Waterford arson attack to take place today.\" TheJournal.ie, October 19, 2026. https://www.thejournal.ie/funeral-waterford-english-family-arson-attack-7197725-Oct2026/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 11,
+      "count": 10,
       "error": null,
       "articles": [
+        {
+          "author": "Alvi Jawad",
+          "title": "How we can prepare for future cyberattacks on critical infrastructure",
+          "outlet": "The Conversation Africa",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:55:00Z",
+          "link": "https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214",
+          "citation": "(U) Alvi Jawad. \"How we can prepare for future cyberattacks on critical infrastructure.\" The Conversation Africa, November 18, 2026. https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
+        {
+          "author": "Travis Gettys",
+          "title": "Officials dump barnyard epithet on Trump's 'dirty bomb' claims: 'Doesn’t pass smell test'",
+          "outlet": "Raw Story",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T13:22:31Z",
+          "link": "https://www.rawstory.com/trump-dirty-bomb-new-report/",
+          "citation": "(U) Travis Gettys. \"Officials dump barnyard epithet on Trump's 'dirty bomb' claims: 'Doesn’t pass smell test'.\" Raw Story, November 18, 2026. https://www.rawstory.com/trump-dirty-bomb-new-report/. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
         {
           "author": "The Jerusalem Post",
           "title": "Rubio downplays Iranian ‘dirty bomb’ threat to Washington, condemns intelligence leaks",
@@ -1376,50 +1362,50 @@
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
           ]
-        },
-        {
-          "author": "REUTERS",
-          "title": "Tehran Denies Report Of Potential Plan To Detonate Dirty Bomb In Washington",
-          "outlet": "HuffPost",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T17:21:56Z",
-          "link": "https://www.huffpost.com/entry/iran-denies-dirty-bomb-plan_n_6afc87a1e4b0e902c23afc30",
-          "citation": "(U) REUTERS. \"Tehran Denies Report Of Potential Plan To Detonate Dirty Bomb In Washington.\" HuffPost, November 17, 2026. https://www.huffpost.com/entry/iran-denies-dirty-bomb-plan_n_6afc87a1e4b0e902c23afc30. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "John Loftus",
-          "title": "Deep State Fingerprints Are All Over The Iranian ‘Dirty Bomb’ Leak",
-          "outlet": "The Daily Caller",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T16:51:15Z",
-          "link": "https://dailycaller.com/2026/11/17/cnn-report-iran-dirty-bomb-plot-dc-deep-state-israel-natasha-bertrand/",
-          "citation": "(U) John Loftus. \"Deep State Fingerprints Are All Over The Iranian ‘Dirty Bomb’ Leak.\" The Daily Caller, November 17, 2026. https://dailycaller.com/2026/11/17/cnn-report-iran-dirty-bomb-plot-dc-deep-state-israel-natasha-bertrand/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Kevin Breuninger",
-          "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
-          "outlet": "CNBC",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T16:47:52Z",
-          "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
-          "citation": "(U) Kevin Breuninger. \"Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'.\" CNBC, November 17, 2026. https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 17,
+      "count": 16,
       "error": null,
       "articles": [
+        {
+          "author": "Alvi Jawad",
+          "title": "How we can prepare for future cyberattacks on critical infrastructure",
+          "outlet": "The Conversation Africa",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:55:00Z",
+          "link": "https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214",
+          "citation": "(U) Alvi Jawad. \"How we can prepare for future cyberattacks on critical infrastructure.\" The Conversation Africa, November 18, 2026. https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
+        {
+          "author": "Sophie Gable",
+          "title": "Panic buying and bank runs sweep America in wake of mass technology outages amid fears country is on brink of cyberattack that will trigger apocalyptic chaos",
+          "outlet": "Dailymail.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:30:37Z",
+          "link": "https://www.dailymail.com/news/article-16302611/outages-tech-security-expeert-cyber-attack.html",
+          "citation": "(U) Sophie Gable. \"Panic buying and bank runs sweep America in wake of mass technology outages amid fears country is on brink of cyberattack that will trigger apocalyptic chaos.\" Dailymail.com, November 18, 2026. https://www.dailymail.com/news/article-16302611/outages-tech-security-expeert-cyber-attack.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sead Fadilpašić",
+          "title": "Visa confirms apparent cyberattack, hackers also claim hit on JPMorgan",
+          "outlet": "TechRadar",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:10:00Z",
+          "link": "https://www.techradar.com/pro/security/visa-confirms-apparent-cyberattack-hackers-also-claim-hit-on-jpmorgan",
+          "citation": "(U) Sead Fadilpašić. \"Visa confirms apparent cyberattack, hackers also claim hit on JPMorgan.\" TechRadar, November 18, 2026. https://www.techradar.com/pro/security/visa-confirms-apparent-cyberattack-hackers-also-claim-hit-on-jpmorgan. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Daily Hodl Agent",
           "title": "Ransomware Gang Claims Visa and JPMorgan Chase as Victims, Sets 48-Hour Leak Deadline",
@@ -1575,54 +1561,6 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "MacDailyNews Webmaster",
-          "title": "Apple blames internal update for iCloud outage, denies cyberattack",
-          "outlet": "Macdailynews.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T20:30:19Z",
-          "link": "https://macdailynews.com/2026/11/17/apple-blames-internal-update-for-icloud-outage-denies-cyberattack/",
-          "citation": "(U) MacDailyNews Webmaster. \"Apple blames internal update for iCloud outage, denies cyberattack.\" Macdailynews.com, November 17, 2026. https://macdailynews.com/2026/11/17/apple-blames-internal-update-for-icloud-outage-denies-cyberattack/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Chris Hauk",
-          "title": "Apple Says Outage Not Due to Cyberattack, Blames Internal Update",
-          "outlet": "Mactrast.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T20:03:48Z",
-          "link": "https://www.mactrast.com/2026/11/apple-says-outage-not-due-to-cyberattack-blames-internal-update/",
-          "citation": "(U) Chris Hauk. \"Apple Says Outage Not Due to Cyberattack, Blames Internal Update.\" Mactrast.com, November 17, 2026. https://www.mactrast.com/2026/11/apple-says-outage-not-due-to-cyberattack-blames-internal-update/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Andy Greenberg, Lily Hay Newman",
-          "title": "How to Tell If It’s a Cyberattack or Just an Outage",
-          "outlet": "Wired",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T19:40:57Z",
-          "link": "https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/",
-          "citation": "(U) Andy Greenberg, Lily Hay Newman. \"How to Tell If It’s a Cyberattack or Just an Outage.\" Wired, November 17, 2026. https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Juli Clover",
-          "title": "Apple Blames Internal Update for Outage, Says It Wasn't a Cyberattack",
-          "outlet": "MacRumors",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T19:31:40Z",
-          "link": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/",
-          "citation": "(U) Juli Clover. \"Apple Blames Internal Update for Outage, Says It Wasn't a Cyberattack.\" MacRumors, November 17, 2026. https://www.macrumors.com/2026/11/17/apple-outage-internal-update/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
@@ -1763,9 +1701,21 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 19,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Anugrah Kumar",
+          "title": "3 sentenced to death for deadly church mass shooting in Jordan",
+          "outlet": "The Christian Post",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T15:58:00Z",
+          "link": "https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html",
+          "citation": "(U) Anugrah Kumar. \"3 sentenced to death for deadly church mass shooting in Jordan.\" The Christian Post, November 18, 2026. https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "Protothema.gr Staff",
           "title": "Iranian Embassy in Athens: Claims of terrorist plot involving Tehran are entirely baseless",
@@ -1963,42 +1913,6 @@
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
           ]
-        },
-        {
-          "author": "https://www.facebook.com/bbcnews",
-          "title": "Teenager, 17, charged with terrorism offences",
-          "outlet": "BBC News",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T18:22:11Z",
-          "link": "https://www.bbc.co.uk/news/articles/cq3dgxr89vjgo",
-          "citation": "(U) https://www.facebook.com/bbcnews. \"Teenager, 17, charged with terrorism offences.\" BBC News, November 16, 2026. https://www.bbc.co.uk/news/articles/cq3dgxr89vjgo. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "Footage from southern Lebanon | IDF arrests terrorists operating on Hezbollah's behalf",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T15:08:09Z",
-          "link": "https://www.israelnationalnews.com/news/436335",
-          "citation": "(U) Israel National News. \"Footage from southern Lebanon | IDF arrests terrorists operating on Hezbollah's behalf.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/news/436335. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "Unprecedented demolition in Yesha: IDF destroys home of terrorist behind rocket launch efforts",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T14:03:59Z",
-          "link": "https://www.israelnationalnews.com/flashes/697586",
-          "citation": "(U) Israel National News. \"Unprecedented demolition in Yesha: IDF destroys home of terrorist behind rocket launch efforts.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/flashes/697586. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
         }
       ]
     },
@@ -2131,9 +2045,21 @@
     },
     {
       "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
-      "count": 6,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "TNN",
+          "title": "No space for criminals, terrorists in UP, no compromise on nat’l security: Yogi",
+          "outlet": "The Times of India",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T18:03:07Z",
+          "link": "https://timesofindia.indiatimes.com/city/lucknow/no-space-for-criminals-terrorists-in-up-no-compromise-on-natl-security-yogi/articleshow/135969285.cms",
+          "citation": "(U) TNN. \"No space for criminals, terrorists in UP, no compromise on nat’l security: Yogi.\" The Times of India, November 18, 2026. https://timesofindia.indiatimes.com/city/lucknow/no-space-for-criminals-terrorists-in-up-no-compromise-on-natl-security-yogi/articleshow/135969285.cms. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Punch Newspapers",
           "title": "Military killed over 15,000 terrorists in three years – APC campaign",
@@ -2265,9 +2191,45 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 3,
+      "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "Greg Norman-Diamond",
+          "title": "Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China",
+          "outlet": "Fox News",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T18:32:36Z",
+          "link": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china",
+          "citation": "(U) Greg Norman-Diamond. \"Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China.\" Fox News, November 18, 2026. https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press",
+          "title": "Ukraine says it hit 2 Russian oil refineries as Zelenskyy hails weapons produced in the country",
+          "outlet": "Abcnews.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:26:07Z",
+          "link": "https://abcnews.com/International/wireStory/ukraine-hit-2-russian-oil-refineries-zelenskyy-hails-138250394",
+          "citation": "(U) HANNA ARHIROVA Associated Press, BARRY HATTON Associated Press. \"Ukraine says it hit 2 Russian oil refineries as Zelenskyy hails weapons produced in the country.\" Abcnews.com, November 18, 2026. https://abcnews.com/International/wireStory/ukraine-hit-2-russian-oil-refineries-zelenskyy-hails-138250394. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\brefiner(y|ies)\\b"
+          ]
+        },
+        {
+          "author": "Jenn Gidman with Newser.AI",
+          "title": "Ukrainian Troops Hole Up in Pipeline to Ambush Russians",
+          "outlet": "Newser",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T13:55:04Z",
+          "link": "https://www.newser.com/story/400190/ukrainian-troops-hole-up-in-pipeline-to-ambush-russians.html",
+          "citation": "(U) Jenn Gidman with Newser.AI. \"Ukrainian Troops Hole Up in Pipeline to Ambush Russians.\" Newser, November 18, 2026. https://www.newser.com/story/400190/ukrainian-troops-hole-up-in-pipeline-to-ambush-russians.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
         {
           "author": "Willow Tohi",
           "title": "Iran strikes Kuwait, Bahrain in escalation after U.S. bombing of Qeshm Island",
@@ -2308,9 +2270,57 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 28,
+      "count": 23,
       "error": null,
       "articles": [
+        {
+          "author": "Press Trust of India",
+          "title": "Iranian army claims drone attack on US airbase at Kuwait's Ali Al Salem",
+          "outlet": "Business Standard",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T18:09:48Z",
+          "link": "https://www.business-standard.com/world-news/iranian-army-claims-drone-attack-on-us-airbase-at-kuwait-s-ali-al-salem-126111801563_1.html",
+          "citation": "(U) Press Trust of India. \"Iranian army claims drone attack on US airbase at Kuwait's Ali Al Salem.\" Business Standard, November 18, 2026. https://www.business-standard.com/world-news/iranian-army-claims-drone-attack-on-us-airbase-at-kuwait-s-ali-al-salem-126111801563_1.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Anugrah Kumar",
+          "title": "3 sentenced to death for deadly church mass shooting in Jordan",
+          "outlet": "The Christian Post",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T15:58:00Z",
+          "link": "https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html",
+          "citation": "(U) Anugrah Kumar. \"3 sentenced to death for deadly church mass shooting in Jordan.\" The Christian Post, November 18, 2026. https://www.christianpost.com/news/3-sentenced-to-death-for-church-mass-shooting-in-jordan.html. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Aadrita Halder",
+          "title": "Another endless war? Saudi Arabia prepares for prolonged fight against Yemen's Houthis",
+          "outlet": "The Times of India",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T13:52:42Z",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/another-endless-war-saudi-arabia-prepares-for-prolonged-fight-against-yemens-houthis/articleshow/135965080.cms",
+          "citation": "(U) Aadrita Halder. \"Another endless war? Saudi Arabia prepares for prolonged fight against Yemen's Houthis.\" The Times of India, November 18, 2026. https://timesofindia.indiatimes.com/world/middle-east/another-endless-war-saudi-arabia-prepares-for-prolonged-fight-against-yemens-houthis/articleshow/135965080.cms. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Travis Gettys",
+          "title": "Officials dump barnyard epithet on Trump's 'dirty bomb' claims: 'Doesn’t pass smell test'",
+          "outlet": "Raw Story",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T13:22:31Z",
+          "link": "https://www.rawstory.com/trump-dirty-bomb-new-report/",
+          "citation": "(U) Travis Gettys. \"Officials dump barnyard epithet on Trump's 'dirty bomb' claims: 'Doesn’t pass smell test'.\" Raw Story, November 18, 2026. https://www.rawstory.com/trump-dirty-bomb-new-report/. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bdirty bomb\\b"
+          ]
+        },
         {
           "author": "Al Jazeera Staff",
           "title": "How the Houthis fund war effort and tighten grip on Yemen",
@@ -2538,122 +2548,38 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Amb. (ret.) Yoram Ettinger",
-          "title": "Israel - Bulwark against anti-US Islamic terrorism",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T06:02:29Z",
-          "link": "https://www.israelnationalnews.com/news/436281",
-          "citation": "(U) Amb. (ret.) Yoram Ettinger. \"Israel - Bulwark against anti-US Islamic terrorism.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/news/436281. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Juan Cole",
-          "title": "Yemen: Saudi-backed Forces Retreat, Leaving Houthis in Command of Bab al-Mandab Strait",
-          "outlet": "Juancole.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T05:15:13Z",
-          "link": "https://www.juancole.com/2026/11/retreat-leaving-houthis.html",
-          "citation": "(U) Juan Cole. \"Yemen: Saudi-backed Forces Retreat, Leaving Houthis in Command of Bab al-Mandab Strait.\" Juancole.com, November 16, 2026. https://www.juancole.com/2026/11/retreat-leaving-houthis.html. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Courtney Barrett Peters",
-          "title": "No bail for NT teen who allegedly wrote 'a massacre needs to happen'",
-          "outlet": "ABC News (AU)",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T03:53:14Z",
-          "link": "https://www.abc.net.au/news/2026-11-16/nt-teenage-boy-charged-with-terrorism-offences-refused-bail/107383978",
-          "citation": "(U) Courtney Barrett Peters. \"No bail for NT teen who allegedly wrote 'a massacre needs to happen'.\" ABC News (AU), November 16, 2026. https://www.abc.net.au/news/2026-11-16/nt-teenage-boy-charged-with-terrorism-offences-refused-bail/107383978. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Yemen forces retreat near Bab el-Mandeb in setback in war against Houthis",
-          "outlet": "Business Standard",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T03:14:35Z",
-          "link": "https://www.business-standard.com/world-news/yemen-forces-retreat-near-bab-el-mandeb-in-setback-in-war-against-houthis-126111600084_1.html",
-          "citation": "(U) Reuters. \"Yemen forces retreat near Bab el-Mandeb in setback in war against Houthis.\" Business Standard, November 16, 2026. https://www.business-standard.com/world-news/yemen-forces-retreat-near-bab-el-mandeb-in-setback-in-war-against-houthis-126111600084_1.html. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Katy Watson",
-          "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
-          "outlet": "BBC News",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T03:08:31Z",
-          "link": "https://www.bbc.com/news/articles/cqvg2xgyvnjpo",
-          "citation": "(U) Katy Watson. \"Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway.\" BBC News, November 16, 2026. https://www.bbc.com/news/articles/cqvg2xgyvnjpo. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "Houthis tighten grip on key Red Sea shipping route (VIDEOS)",
-          "outlet": "Rt-english.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T00:36:55Z",
-          "link": "https://rt-english.com/news/648876-houthis-tighten-grip-key-route/",
-          "citation": "(U) RT. \"Houthis tighten grip on key Red Sea shipping route (VIDEOS).\" Rt-english.com, November 16, 2026. https://rt-english.com/news/648876-houthis-tighten-grip-key-route/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Wesley Dockery",
-          "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
-          "outlet": "DW (English)",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T23:29:00Z",
-          "link": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692",
-          "citation": "(U) Wesley Dockery. \"Yemen: Anti-Houthi forces pull back as rebels advance.\" DW (English), November 15, 2026. https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Ronny Reyes",
-          "title": "Major Red Sea strait falls under full Houthi control as Yemeni forces retreat",
-          "outlet": "New York Post",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T22:33:03Z",
-          "link": "https://nypost.com/2026/11/15/world-news/major-red-sea-strait-falls-under-full-houthi-control-as-yemeni-forces-retreat/",
-          "citation": "(U) Ronny Reyes. \"Major Red Sea strait falls under full Houthi control as Yemeni forces retreat.\" New York Post, November 15, 2026. https://nypost.com/2026/11/15/world-news/major-red-sea-strait-falls-under-full-houthi-control-as-yemeni-forces-retreat/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "ANI",
-          "title": "Yemen’s Houthis claim missile strikes on Riyadh airport and financial centre",
-          "outlet": "BusinessLine",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T21:43:38Z",
-          "link": "https://www.thehindubusinessline.com/news/world/yemens-houthis-claim-missile-strikes-on-riyadh-airport-and-financial-centre/article71705956.ece",
-          "citation": "(U) ANI. \"Yemen’s Houthis claim missile strikes on Riyadh airport and financial centre.\" BusinessLine, November 15, 2026. https://www.thehindubusinessline.com/news/world/yemens-houthis-claim-missile-strikes-on-riyadh-airport-and-financial-centre/article71705956.ece. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 7,
+      "count": 9,
       "error": null,
       "articles": [
+        {
+          "author": "Grace Dille",
+          "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds",
+          "outlet": "Nextgov",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T17:34:00Z",
+          "link": "https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/",
+          "citation": "(U) Grace Dille. \"Major AI platforms generated viable plans for terrorist attacks, GAO finds.\" Nextgov, November 18, 2026. https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Alvi Jawad",
+          "title": "How we can prepare for future cyberattacks on critical infrastructure",
+          "outlet": "The Conversation Africa",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:55:00Z",
+          "link": "https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214",
+          "citation": "(U) Alvi Jawad. \"How we can prepare for future cyberattacks on critical infrastructure.\" The Conversation Africa, November 18, 2026. https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
         {
           "author": "Wiliam Hunter",
           "title": "Why is the internet on its knees? As yet another cyberattack leaves major websites scrambling, experts warn the web is more vulnerable than ever",
@@ -2743,9 +2669,21 @@
     },
     {
       "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
-      "count": 11,
+      "count": 12,
       "error": null,
       "articles": [
+        {
+          "author": "Alvi Jawad",
+          "title": "How we can prepare for future cyberattacks on critical infrastructure",
+          "outlet": "The Conversation Africa",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:55:00Z",
+          "link": "https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214",
+          "citation": "(U) Alvi Jawad. \"How we can prepare for future cyberattacks on critical infrastructure.\" The Conversation Africa, November 18, 2026. https://theconversation.com/how-we-can-prepare-for-future-cyberattacks-on-critical-infrastructure-296214. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
         {
           "author": "Subhadra Srivastava",
           "title": "‘No imminent threat’: Rubio hits back at Iran dirty bomb report, brands intelligence sources ‘liars’",
@@ -2885,6 +2823,32 @@
       "count": 25,
       "error": null,
       "articles": [
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Target of Iranian assassination plot in Greece revealed",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:03:52Z",
+          "link": "https://www.israelnationalnews.com/news/436545",
+          "citation": "(U) Israelnationalnews.com Staff. \"Target of Iranian assassination plot in Greece revealed.\" Israelnationalnews.com, November 18, 2026. https://www.israelnationalnews.com/news/436545. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Target of Iranian assassination plot in Greece revealed",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:03:52Z",
+          "link": "https://www.israelnationalnews.com/flashes/697849",
+          "citation": "(U) Israelnationalnews.com Staff. \"Target of Iranian assassination plot in Greece revealed.\" Israelnationalnews.com, November 18, 2026. https://www.israelnationalnews.com/flashes/697849. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Geoff Nixon",
           "title": "Theft of trade, tech secrets 'a global issue' extending beyond recent headlines: security CEO",
@@ -3171,30 +3135,6 @@
           "citation": "(U) Melissa Koenig. \"Iran plotting terrifying 'dirty bomb' attack targeting Trump administration officials in Washington DC, intelligence report says.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16298071/Iran-dirty-bomb-attack-Trump-administration.html. Accessed November 19, 2026.",
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "Iran's secret missile network may be hidden behind massive dam projects",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T17:01:54Z",
-          "link": "https://www.israelnationalnews.com/news/436342",
-          "citation": "(U) Israel National News. \"Iran's secret missile network may be hidden behind massive dam projects.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/news/436342. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bdam(s)?\\b"
-          ]
-        },
-        {
-          "author": "FOX News Radio",
-          "title": "After a Slew of Tech, Aviation & Espionage Scares, How Safe Is the U.S.?",
-          "outlet": "Fox News",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T10:42:03Z",
-          "link": "https://radio.foxnews.com/2026/11/16/after-a-slew-of-tech-aviation-espionage-scares-how-safe-is-the-u-s/",
-          "citation": "(U) FOX News Radio. \"After a Slew of Tech, Aviation & Espionage Scares, How Safe Is the U.S.?.\" Fox News, November 16, 2026. https://radio.foxnews.com/2026/11/16/after-a-slew-of-tech-aviation-espionage-scares-how-safe-is-the-u-s/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
           ]
         }
       ]
@@ -3522,7 +3462,7 @@
     },
     {
       "query": "(\"Chinese intelligence\" OR MSS OR \"Ministry of State Security\" OR Guoanbu OR MSSA OR \"United Front\" OR \"PLA intelligence\") AND (charged OR plot OR arrest OR sabotage OR surveillance OR espionage)",
-      "count": 11,
+      "count": 10,
       "error": null,
       "articles": [
         {
@@ -3641,18 +3581,6 @@
           "publishedAt": "2026-11-13T17:28:00Z",
           "link": "https://www.foxnews.com/opinion/chinas-great-ai-chip-loophole-how-american-espionage-stopped-china-this-time",
           "citation": "(U) Fox News Staff. \"China’s great AI chip loophole: How American espionage stopped China — this time.\" Fox News, November 13, 2026. https://www.foxnews.com/opinion/chinas-great-ai-chip-loophole-how-american-espionage-stopped-china-this-time. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Anthony Will",
-          "title": "Jensen Huang Joins a Notorious List: 5 Famous Americans Caught in Alleged Honey Traps by Foreign Spy Agencies",
-          "outlet": "Ibtimes.com.au",
-          "published": "November 13, 2026",
-          "publishedAt": "2026-11-13T16:11:26Z",
-          "link": "https://www.ibtimes.com.au/jensen-huang-honey-trap-espionage-cases-1878542",
-          "citation": "(U) Anthony Will. \"Jensen Huang Joins a Notorious List: 5 Famous Americans Caught in Alleged Honey Traps by Foreign Spy Agencies.\" Ibtimes.com.au, November 13, 2026. https://www.ibtimes.com.au/jensen-huang-honey-trap-espionage-cases-1878542. Accessed November 19, 2026.",
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]
@@ -3873,9 +3801,22 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 24,
+      "count": 25,
       "error": null,
       "articles": [
+        {
+          "author": "Israelnationalnews.com Staff",
+          "title": "Target of Iranian assassination plot in Greece revealed",
+          "outlet": "Israelnationalnews.com",
+          "published": "November 18, 2026",
+          "publishedAt": "2026-11-18T16:03:52Z",
+          "link": "https://www.israelnationalnews.com/news/436545",
+          "citation": "(U) Israelnationalnews.com Staff. \"Target of Iranian assassination plot in Greece revealed.\" Israelnationalnews.com, November 18, 2026. https://www.israelnationalnews.com/news/436545. Accessed November 19, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b",
+            "\\bassassination plots?\\b"
+          ]
+        },
         {
           "author": "Newsroom",
           "title": "Iranian assassination plot in Greece: The FBI-wanted man who recruited the hitmen and the role of Greece’s National Intelligence Service in foiling the attack",
@@ -4179,7 +4120,7 @@
     },
     {
       "query": "\"Supply chain\" AND (compromise OR breach OR poisoned OR \"software supply\")",
-      "count": 11,
+      "count": 10,
       "error": null,
       "articles": [
         {
@@ -4300,18 +4241,6 @@
           "citation": "(U) Bill Toulas. \"Maersk confirms data breach as WhiteArmor ransomware demands $5 million.\" BleepingComputer, November 11, 2026. https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/. Accessed November 19, 2026.",
           "ci_match_patterns": [
             "\\bransomware\\b"
-          ]
-        },
-        {
-          "author": "Diego Almada Lopez",
-          "title": "Jensen Huang scandal puts executive vulnerability to espionage in the spotlight",
-          "outlet": "Crypto Briefing",
-          "published": "November 11, 2026",
-          "publishedAt": "2026-11-11T16:20:08Z",
-          "link": "https://cryptobriefing.com/jensen-huang-scandal-executive-espionage-risk/",
-          "citation": "(U) Diego Almada Lopez. \"Jensen Huang scandal puts executive vulnerability to espionage in the spotlight.\" Crypto Briefing, November 11, 2026. https://cryptobriefing.com/jensen-huang-scandal-executive-espionage-risk/. Accessed November 19, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
           ]
         }
       ]

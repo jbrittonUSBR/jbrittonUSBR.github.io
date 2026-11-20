@@ -1,20 +1,32 @@
 {
-  "pulled_at_utc": "2026-11-20T16:07:12Z",
+  "pulled_at_utc": "2026-11-20T18:27:14Z",
   "accessed": "November 20, 2026",
-  "filtered_at_utc": "2026-11-20T16:14:54Z",
+  "filtered_at_utc": "2026-11-20T18:34:10Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2288,
+  "source_article_count": 2290,
   "article_count": 351,
-  "dropped_count": 1937,
+  "dropped_count": 1939,
   "term_count": 25,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 16,
+      "count": 14,
       "error": null,
       "articles": [
+        {
+          "author": "Luke Cooper",
+          "title": "Fishermen sue US over 'unlawful drone strike, kidnapping and torture' at sea",
+          "outlet": "ABC News (AU)",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T18:00:00Z",
+          "link": "https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866",
+          "citation": "(U) Luke Cooper. \"Fishermen sue US over 'unlawful drone strike, kidnapping and torture' at sea.\" ABC News (AU), November 19, 2026. https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "thfeed",
           "title": "Ukraine deploys homemade 'flying modems' in daring drone attack to destroy Crimean Bridge, ditching Elon Musk's Starlink",
@@ -168,43 +180,6 @@
           "publishedAt": "2026-11-18T02:08:29Z",
           "link": "https://freerepublic.com/focus/f-news/4403433/posts",
           "citation": "(U) 100% Fed Up. \"JUST IN: U.S. Responds After IRGC Drone Attack Targets American Base.\" Freerepublic.com, November 18, 2026. https://freerepublic.com/focus/f-news/4403433/posts. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b",
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Brian Osgood",
-          "title": "Ecuadorian fishermen sue Trump administration over drone strike",
-          "outlet": "Al Jazeera English",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T01:04:43Z",
-          "link": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike",
-          "citation": "(U) Brian Osgood. \"Ecuadorian fishermen sue Trump administration over drone strike.\" Al Jazeera English, November 18, 2026. https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Israelnationalnews.com Staff",
-          "title": "Alerts sound in Bahrain, Kuwait reports drone attack",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T00:38:28Z",
-          "link": "https://www.israelnationalnews.com/flashes/697765",
-          "citation": "(U) Israelnationalnews.com Staff. \"Alerts sound in Bahrain, Kuwait reports drone attack.\" Israelnationalnews.com, November 18, 2026. https://www.israelnationalnews.com/flashes/697765. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Joshua Klein",
-          "title": "U.S. Fighter Jets Strike IRGC Missile Site on Qeshm Island After Drone Attack on U.S. Base in Bahrain",
-          "outlet": "Breitbart News",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T00:19:40Z",
-          "link": "https://www.breitbart.com/politics/2026/11/17/u-s-fighter-jets-strike-irgc-missile-site-on-qeshm-island-after-drone-attack-on-u-s-base-in-bahrain/",
-          "citation": "(U) Joshua Klein. \"U.S. Fighter Jets Strike IRGC Missile Site on Qeshm Island After Drone Attack on U.S. Base in Bahrain.\" Breitbart News, November 18, 2026. https://www.breitbart.com/politics/2026/11/17/u-s-fighter-jets-strike-irgc-missile-site-on-qeshm-island-after-drone-attack-on-u-s-base-in-bahrain/. Accessed November 20, 2026.",
           "ci_match_patterns": [
             "\\birgc\\b",
             "\\bdrone (attack|strike|incursion|sighting)\\b"
@@ -1075,6 +1050,18 @@
       "error": null,
       "articles": [
         {
+          "author": "RTÉ News",
+          "title": "Man pleads guilty to arson at mosque on Talbot Street",
+          "outlet": "RTE",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:41:56Z",
+          "link": "https://www.rte.ie/news/regional/2026/1119/1599910-khosroabadi-courts-dublin/",
+          "citation": "(U) RTÉ News. \"Man pleads guilty to arson at mosque on Talbot Street.\" RTE, November 19, 2026. https://www.rte.ie/news/regional/2026/1119/1599910-khosroabadi-courts-dublin/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
+        {
           "author": "Noa Shpigel",
           "title": "Israeli lawmakers blame Netanyahu's anti-Arab incitement for mosque arson",
           "outlet": "Haaretz",
@@ -1254,24 +1241,12 @@
           "ci_match_patterns": [
             "\\bsabotage\\b"
           ]
-        },
-        {
-          "author": "Ali NI, Rahmad Nasution",
-          "title": "Papua police arrest suspect in 2021 PT Unggul camp arson",
-          "outlet": "Antaranews.com",
-          "published": "October 20, 2026",
-          "publishedAt": "2026-10-20T02:53:25Z",
-          "link": "https://en.antaranews.com/news/436645/papua-police-arrest-suspect-in-2021-pt-unggul-camp-arson",
-          "citation": "(U) Ali NI, Rahmad Nasution. \"Papua police arrest suspect in 2021 PT Unggul camp arson.\" Antaranews.com, October 20, 2026. https://en.antaranews.com/news/436645/papua-police-arrest-suspect-in-2021-pt-unggul-camp-arson. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\barson\\b"
-          ]
         }
       ]
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 9,
+      "count": 6,
       "error": null,
       "articles": [
         {
@@ -1345,51 +1320,86 @@
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
           ]
-        },
-        {
-          "author": "Ken Jorgustin",
-          "title": "Dirty Bomb Blast Radius: How Far Could the Damage Spread?",
-          "outlet": "Modernsurvivalblog.com",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T21:58:19Z",
-          "link": "https://modernsurvivalblog.com/nuclear/dirty-bomb-blast-radius/",
-          "citation": "(U) Ken Jorgustin. \"Dirty Bomb Blast Radius: How Far Could the Damage Spread?.\" Modernsurvivalblog.com, November 18, 2026. https://modernsurvivalblog.com/nuclear/dirty-bomb-blast-radius/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Brett Wilkins",
-          "title": "Iran Slams 'Baseless' US Media Speculation on Dirty Bomb Plot, Dual-Use Dams",
-          "outlet": "Common Dreams",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T20:18:52Z",
-          "link": "https://www.commondreams.org/news/speculative-us-media-reports-iran-war",
-          "citation": "(U) Brett Wilkins. \"Iran Slams 'Baseless' US Media Speculation on Dirty Bomb Plot, Dual-Use Dams.\" Common Dreams, November 18, 2026. https://www.commondreams.org/news/speculative-us-media-reports-iran-war. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdam(s)?\\b",
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Jen Judson Arsalan Shahla",
-          "title": "USA Strikes IRGC Site on Qeshm Island",
-          "outlet": "Rigzone",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T20:00:00Z",
-          "link": "https://www.rigzone.com/news/wire/usa_strikes_irgc_site_on_qeshm_island-18-nov-2026-185116-article/",
-          "citation": "(U) Jen Judson Arsalan Shahla. \"USA Strikes IRGC Site on Qeshm Island.\" Rigzone, November 18, 2026. https://www.rigzone.com/news/wire/usa_strikes_irgc_site_on_qeshm_island-18-nov-2026-185116-article/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 23,
+      "count": 28,
       "error": null,
       "articles": [
+        {
+          "author": "Lucas Nolan",
+          "title": "JPMorgan Chase Customer Data Leaked After Cyberattack It Claims Isn't Related to Recent Banking Outage",
+          "outlet": "Breitbart News",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:49:57Z",
+          "link": "https://www.breitbart.com/tech/2026/11/19/jpmorgan-chase-customer-data-leaked-after-cyberattack-it-claims-isnt-related-to-recent-banking-outage/",
+          "citation": "(U) Lucas Nolan. \"JPMorgan Chase Customer Data Leaked After Cyberattack It Claims Isn't Related to Recent Banking Outage.\" Breitbart News, November 19, 2026. https://www.breitbart.com/tech/2026/11/19/jpmorgan-chase-customer-data-leaked-after-cyberattack-it-claims-isnt-related-to-recent-banking-outage/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Cristina Laila",
+          "title": "Chase Says Hackers Accessed Customer Data After Third-Party Vendors Targeted in Cyberattack",
+          "outlet": "Thegatewaypundit.com",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:40:18Z",
+          "link": "https://www.thegatewaypundit.com/2026/11/chase-says-third-party-vendors-targeted-cyberattack/",
+          "citation": "(U) Cristina Laila. \"Chase Says Hackers Accessed Customer Data After Third-Party Vendors Targeted in Cyberattack.\" Thegatewaypundit.com, November 19, 2026. https://www.thegatewaypundit.com/2026/11/chase-says-third-party-vendors-targeted-cyberattack/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Sofia Ramirez",
+          "title": "JPMorgan Vendor Cyberattack Hits Customer Marketing Data",
+          "outlet": "Sqmagazine.co.uk",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:38:37Z",
+          "link": "https://sqmagazine.co.uk/jpmorgan-chase-warns-vendor-hack/",
+          "citation": "(U) Sofia Ramirez. \"JPMorgan Vendor Cyberattack Hits Customer Marketing Data.\" Sqmagazine.co.uk, November 19, 2026. https://sqmagazine.co.uk/jpmorgan-chase-warns-vendor-hack/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Protothema.gr Staff",
+          "title": "Politico: Major cyberattack on European Commission, hackers may have accessed personal data",
+          "outlet": "Protothema.gr",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T16:44:24Z",
+          "link": "https://en.protothema.gr/2026/11/19/politico-major-cyberattack-on-european-commission-hackers-may-have-accessed-personal-data/",
+          "citation": "(U) Protothema.gr Staff. \"Politico: Major cyberattack on European Commission, hackers may have accessed personal data.\" Protothema.gr, November 19, 2026. https://en.protothema.gr/2026/11/19/politico-major-cyberattack-on-european-commission-hackers-may-have-accessed-personal-data/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Ryan Gallagher",
+          "title": "EU Executive Branch Suffered AI-Driven Cyberattack in October",
+          "outlet": "Insurance Journal",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T16:27:20Z",
+          "link": "https://www.insurancejournal.com/news/international/2026/11/19/893157.htm",
+          "citation": "(U) Ryan Gallagher. \"EU Executive Branch Suffered AI-Driven Cyberattack in October.\" Insurance Journal, November 19, 2026. https://www.insurancejournal.com/news/international/2026/11/19/893157.htm. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Emma Roth",
+          "title": "JPMorgan Chase reveals data breach, but says it’s unrelated to this week’s banking outage",
+          "outlet": "The Verge",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T16:15:37Z",
+          "link": "https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack",
+          "citation": "(U) Emma Roth. \"JPMorgan Chase reveals data breach, but says it’s unrelated to this week’s banking outage.\" The Verge, November 19, 2026. https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Guru Baran",
           "title": "JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails",
@@ -1653,18 +1663,6 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Daily Hodl Agent",
-          "title": "Ransomware Gang Claims Visa and JPMorgan Chase as Victims, Sets 48-Hour Leak Deadline",
-          "outlet": "The Daily Hodl",
-          "published": "November 18, 2026",
-          "publishedAt": "2026-11-18T12:45:04Z",
-          "link": "https://dailyhodl.com/2026/11/18/ransomware-gang-claims-visa-and-jpmorgan-chase-as-victims-sets-48-hour-leak-deadline/",
-          "citation": "(U) Daily Hodl Agent. \"Ransomware Gang Claims Visa and JPMorgan Chase as Victims, Sets 48-Hour Leak Deadline.\" The Daily Hodl, November 18, 2026. https://dailyhodl.com/2026/11/18/ransomware-gang-claims-visa-and-jpmorgan-chase-as-victims-sets-48-hour-leak-deadline/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
-          ]
         }
       ]
     },
@@ -1781,9 +1779,69 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 26,
+      "count": 29,
       "error": null,
       "articles": [
+        {
+          "author": "Josh Breiner",
+          "title": "Arab Israeli lawmaker says police officer called him 'terrorist' in recorded confrontation",
+          "outlet": "Haaretz",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T18:04:32Z",
+          "link": "https://www.haaretz.com/israel-news/israel-crime/2026-11-19/ty-article/.premium/arab-israeli-mk-says-cop-called-him-terrorist-in-recorded-confrontation/000001a1-f4b4-d059-a5ff-f6fede310000",
+          "citation": "(U) Josh Breiner. \"Arab Israeli lawmaker says police officer called him 'terrorist' in recorded confrontation.\" Haaretz, November 19, 2026. https://www.haaretz.com/israel-news/israel-crime/2026-11-19/ty-article/.premium/arab-israeli-mk-says-cop-called-him-terrorist-in-recorded-confrontation/000001a1-f4b4-d059-a5ff-f6fede310000. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Luke Cooper",
+          "title": "Fishermen sue US over 'unlawful drone strike, kidnapping and torture' at sea",
+          "outlet": "ABC News (AU)",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T18:00:00Z",
+          "link": "https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866",
+          "citation": "(U) Luke Cooper. \"Fishermen sue US over 'unlawful drone strike, kidnapping and torture' at sea.\" ABC News (AU), November 19, 2026. https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Seanín Graham",
+          "title": "Four arrested in connection with right-wing terrorism investigation in North",
+          "outlet": "The Irish Times",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:47:16Z",
+          "link": "https://www.irishtimes.com/crime-law/2026/11/19/four-arrested-in-connection-with-right-wing-terrorism-investigation-in-north/",
+          "citation": "(U) Seanín Graham. \"Four arrested in connection with right-wing terrorism investigation in North.\" The Irish Times, November 19, 2026. https://www.irishtimes.com/crime-law/2026/11/19/four-arrested-in-connection-with-right-wing-terrorism-investigation-in-north/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "ALMUDENA CALATRAVA Associated Press",
+          "title": "Wife of Italian fugitive convicted of terrorism arrested in Argentina over his escape",
+          "outlet": "Abcnews.com",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:40:18Z",
+          "link": "https://abcnews.com/International/wireStory/wife-italian-fugitive-convicted-terrorism-arrested-argentina-escape-138294446",
+          "citation": "(U) ALMUDENA CALATRAVA Associated Press. \"Wife of Italian fugitive convicted of terrorism arrested in Argentina over his escape.\" Abcnews.com, November 19, 2026. https://abcnews.com/International/wireStory/wife-italian-fugitive-convicted-terrorism-arrested-argentina-escape-138294446. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Radar Staff",
+          "title": "Joe Rogan's Army Veteran Guest Accuses U.S. Government of Being a 'Worldwide Terrorist' in Explosive Rant Against Trump Over Iran War",
+          "outlet": "Radaronline.com",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:09:41Z",
+          "link": "https://radaronline.com/p/joe-rogans-army-veteran-guest-accuses-us-government-of-being-a-worldwide-terrorist-in-explosive-rant-against-trump-over-iran-war/",
+          "citation": "(U) Radar Staff. \"Joe Rogan's Army Veteran Guest Accuses U.S. Government of Being a 'Worldwide Terrorist' in Explosive Rant Against Trump Over Iran War.\" Radaronline.com, November 19, 2026. https://radaronline.com/p/joe-rogans-army-veteran-guest-accuses-us-government-of-being-a-worldwide-terrorist-in-explosive-rant-against-trump-over-iran-war/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "RTÉ News",
           "title": "Four arrested as PSNI probe extreme right-wing terrorism",
@@ -2073,30 +2131,6 @@
           "citation": "(U) Mahima Kapoor. \"Pakistani man gets 27 years for foiled plot to kill Trump, Biden.\" DW (English), November 18, 2026. https://www.dw.com/en/pakistani-man-gets-27-years-for-foiled-plot-to-kill-trump-biden/a-79976086. Accessed November 20, 2026.",
           "ci_match_patterns": [
             "\\bfoiled (plot|attack)\\b"
-          ]
-        },
-        {
-          "author": "Joe Saunders",
-          "title": "Breaking: US Army Lt. Col. Arrested Over Russian Espionage Suspicions, Transferred to American Custody",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T23:40:06Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/breaking-us-army-lt-col-arrested-russian-espionage/",
-          "citation": "(U) Joe Saunders. \"Breaking: US Army Lt. Col. Arrested Over Russian Espionage Suspicions, Transferred to American Custody.\" Thegatewaypundit.com, November 17, 2026. https://www.thegatewaypundit.com/2026/11/breaking-us-army-lt-col-arrested-russian-espionage/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Ben Kochman",
-          "title": "Bumbling wannabe terrorist and banana king behind NYC plot to kill Trump learns his fate",
-          "outlet": "New York Post",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T23:00:25Z",
-          "link": "https://nypost.com/2026/11/17/us-news/bumbling-wannabe-terrorist-and-banana-king-behind-nyc-plot-to-kill-trump-learns-his-fate/",
-          "citation": "(U) Ben Kochman. \"Bumbling wannabe terrorist and banana king behind NYC plot to kill Trump learns his fate.\" New York Post, November 17, 2026. https://nypost.com/2026/11/17/us-news/bumbling-wannabe-terrorist-and-banana-king-behind-nyc-plot-to-kill-trump-learns-his-fate/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
           ]
         }
       ]
@@ -2443,9 +2477,21 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 22,
+      "count": 21,
       "error": null,
       "articles": [
+        {
+          "author": "RT",
+          "title": "Houthi missiles hit Saudi skyscraper (VIDEO)",
+          "outlet": "Rt-english.com",
+          "published": "November 19, 2026",
+          "publishedAt": "2026-11-19T17:56:50Z",
+          "link": "https://rt-english.com/news/649129-houthis-strike-tower-riyadh/",
+          "citation": "(U) RT. \"Houthi missiles hit Saudi skyscraper (VIDEO).\" Rt-english.com, November 19, 2026. https://rt-english.com/news/649129-houthis-strike-tower-riyadh/. Accessed November 20, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Estefano Gomez",
           "title": "Houthi missile damages Riyadh tower, no injuries reported",
@@ -2454,18 +2500,6 @@
           "publishedAt": "2026-11-19T15:19:46Z",
           "link": "https://cryptobriefing.com/houthi-missile-damages-riyadh-tower-no-injuries-reported/",
           "citation": "(U) Estefano Gomez. \"Houthi missile damages Riyadh tower, no injuries reported.\" Crypto Briefing, November 19, 2026. https://cryptobriefing.com/houthi-missile-damages-riyadh-tower-no-injuries-reported/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "feedfeeder",
-          "title": "Houthi Attack Damages Saudi Capital’s Tallest Tower - WSJ",
-          "outlet": "Slashdot.org",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T14:13:07Z",
-          "link": "https://slashdot.org/firehose.pl?op=view&id=186792608",
-          "citation": "(U) feedfeeder. \"Houthi Attack Damages Saudi Capital’s Tallest Tower - WSJ.\" Slashdot.org, November 19, 2026. https://slashdot.org/firehose.pl?op=view&id=186792608. Accessed November 20, 2026.",
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
@@ -2696,18 +2730,6 @@
           "citation": "(U) Last Updated: 1 hour ago. \"Iran fires drones at U.S. base in Bahrain, denies reports of planned dirty bomb attack in D.C..\" CBC News, November 17, 2026. https://www.cbc.ca/news/world/iran-us-war-bahrain-drones-dirty-bomb-report-9.7424686. Accessed November 20, 2026.",
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Duncan Gardham, James Tozer",
-          "title": "AI has helped plan dozens of mass casualty attacks causing more than 70 deaths, Southport inquiry hears",
-          "outlet": "Dailymail.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T12:18:59Z",
-          "link": "https://www.dailymail.com/news/article-16299097/AI-helped-mastermind-terror-attacks-Southport-inquiry.html",
-          "citation": "(U) Duncan Gardham, James Tozer. \"AI has helped plan dozens of mass casualty attacks causing more than 70 deaths, Southport inquiry hears.\" Dailymail.com, November 17, 2026. https://www.dailymail.com/news/article-16299097/AI-helped-mastermind-terror-attacks-Southport-inquiry.html. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
           ]
         }
       ]
@@ -3001,7 +3023,7 @@
     },
     {
       "query": "(Espionage OR \"murder for hire\" OR assassination OR \"finance terrorism\" OR \"material support\") AND (charged OR indictment OR arrested OR plot OR expelled OR diplomat OR \"trade secret\" OR classified)",
-      "count": 28,
+      "count": 26,
       "error": null,
       "articles": [
         {
@@ -3326,31 +3348,6 @@
             "\\bassassination\\b",
             "\\biranian intelligence\\b",
             "\\bassassination plots?\\b"
-          ]
-        },
-        {
-          "author": "Αλεξία Αμβράζη",
-          "title": "Israeli executive was target in foiled assassination plot in Greece",
-          "outlet": "Protothema.gr",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T15:03:19Z",
-          "link": "https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/",
-          "citation": "(U) Αλεξία Αμβράζη. \"Israeli executive was target in foiled assassination plot in Greece.\" Protothema.gr, November 17, 2026. https://en.protothema.gr/2026/11/17/israeli-executive-was-target-in-foiled-assassination-plot-in-greece/. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b",
-            "\\bassassination plots?\\b"
-          ]
-        },
-        {
-          "author": "Heba Habib",
-          "title": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
-          "outlet": "Al Jazeera English",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T14:59:39Z",
-          "link": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
-          "citation": "(U) Heba Habib. \"Is Iran plotting a ‘dirty bomb’ attack in the US? What we know.\" Al Jazeera English, November 17, 2026. https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know. Accessed November 20, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
           ]
         }
       ]

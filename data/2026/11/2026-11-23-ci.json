@@ -1,20 +1,68 @@
 {
-  "pulled_at_utc": "2026-11-23T16:05:28Z",
+  "pulled_at_utc": "2026-11-23T21:57:59Z",
   "accessed": "November 23, 2026",
-  "filtered_at_utc": "2026-11-23T16:10:30Z",
+  "filtered_at_utc": "2026-11-23T22:03:55Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2292,
+  "source_article_count": 2291,
   "article_count": 370,
-  "dropped_count": 1922,
+  "dropped_count": 1921,
   "term_count": 25,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 19,
+      "count": 20,
       "error": null,
       "articles": [
+        {
+          "author": "Anthony Blair",
+          "title": "Putin’s warship hit in suspected Ukrainian drone strike that set off huge explosion",
+          "outlet": "New York Post",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T20:03:58Z",
+          "link": "https://nypost.com/2026/11/22/world-news/putins-warship-hit-in-suspected-ukrainian-drone-strike-that-set-off-huge-explosion/",
+          "citation": "(U) Anthony Blair. \"Putin’s warship hit in suspected Ukrainian drone strike that set off huge explosion.\" New York Post, November 22, 2026. https://nypost.com/2026/11/22/world-news/putins-warship-hit-in-suspected-ukrainian-drone-strike-that-set-off-huge-explosion/. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship - Reuters",
+          "outlet": "Slashdot.org",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:52:37Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&id=186832685",
+          "citation": "(U) feedfeeder. \"Libya's eastern government suspects drone attack caused explosion on Russian ship - Reuters.\" Slashdot.org, November 22, 2026. https://slashdot.org/firehose.pl?op=view&id=186832685. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+          "outlet": "Al Jazeera English",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:11:30Z",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya",
+          "citation": "(U) Al Jazeera English Staff. \"Suspected drone attack causes explosion on Russian ship in Libya.\" Al Jazeera English, November 22, 2026. https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Dmytro Hubenko",
+          "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+          "outlet": "DW (English)",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T16:50:00Z",
+          "link": "https://www.dw.com/en/libya-russian-ship-drone-benghazi/a-80014545",
+          "citation": "(U) Dmytro Hubenko. \"Libya: Suspected drone attack hits Russian ship in Benghazi.\" DW (English), November 22, 2026. https://www.dw.com/en/libya-russian-ship-drone-benghazi/a-80014545. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "Hafsa Khalil",
           "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
@@ -95,18 +143,6 @@
           "publishedAt": "2026-11-22T14:48:11Z",
           "link": "https://www.israelnationalnews.com/flashes/698219",
           "citation": "(U) Israelnationalnews.com Staff. \"Mystery explosion on Russian ship in Libya raises suspicions of drone attack.\" Israelnationalnews.com, November 22, 2026. https://www.israelnationalnews.com/flashes/698219. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "feedfeeder",
-          "title": "Russian cargo ship still on fire off Finland after drone attack - Al Jazeera",
-          "outlet": "Slashdot.org",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T11:52:48Z",
-          "link": "https://slashdot.org/firehose.pl?op=view&id=186830269",
-          "citation": "(U) feedfeeder. \"Russian cargo ship still on fire off Finland after drone attack - Al Jazeera.\" Slashdot.org, November 22, 2026. https://slashdot.org/firehose.pl?op=view&id=186830269. Accessed November 23, 2026.",
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
@@ -218,30 +254,6 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Imogen Garfinkel",
-          "title": "Former IRGC commander behind Iran's brutal hijab crackdown to give keynote speech at London 'Islamophobia' conference",
-          "outlet": "Dailymail.com",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T14:43:44Z",
-          "link": "https://www.dailymail.com/news/article-16299701/Former-IRGC-commander-Irans-brutal-hijab-crackdown-keynote-speech-London-Islamophobia-conference.html",
-          "citation": "(U) Imogen Garfinkel. \"Former IRGC commander behind Iran's brutal hijab crackdown to give keynote speech at London 'Islamophobia' conference.\" Dailymail.com, November 21, 2026. https://www.dailymail.com/news/article-16299701/Former-IRGC-commander-Irans-brutal-hijab-crackdown-keynote-speech-London-Islamophobia-conference.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "Agnes Rønberg",
-          "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
-          "outlet": "POLITICO.eu",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T12:36:56Z",
-          "link": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/",
-          "citation": "(U) Agnes Rønberg. \"Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say.\" POLITICO.eu, November 21, 2026. https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
         }
       ]
     },
@@ -250,6 +262,30 @@
       "count": 14,
       "error": null,
       "articles": [
+        {
+          "author": "Antonio Graceffo",
+          "title": "Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh",
+          "outlet": "Thegatewaypundit.com",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T19:00:33Z",
+          "link": "https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/",
+          "citation": "(U) Antonio Graceffo. \"Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh.\" Thegatewaypundit.com, November 22, 2026. https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "feedfeeder",
+          "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship - Reuters",
+          "outlet": "Slashdot.org",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:52:37Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&id=186832685",
+          "citation": "(U) feedfeeder. \"Libya's eastern government suspects drone attack caused explosion on Russian ship - Reuters.\" Slashdot.org, November 22, 2026. https://slashdot.org/firehose.pl?op=view&id=186832685. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "JPost",
           "title": "Former IRGC commander, sanctioned by Canada, to address London Islamophobia conference",
@@ -391,30 +427,6 @@
           "publishedAt": "2026-11-18T05:01:44Z",
           "link": "https://www.breitbart.com/politics/2026/11/17/rubio-no-imminent-threat-report-potential-iranian-dirty-bomb-plot/",
           "citation": "(U) Joshua Klein. \"Rubio Says No ‘Imminent Threat’ After Report of Potential Iranian ‘Dirty Bomb’ Plot.\" Breitbart News, November 18, 2026. https://www.breitbart.com/politics/2026/11/17/rubio-no-imminent-threat-report-potential-iranian-dirty-bomb-plot/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Morgan Phillips",
-          "title": "Iran's latest dirty bomb news builds on decades of threats to attack America at home",
-          "outlet": "Fox News",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T21:11:31Z",
-          "link": "https://www.foxnews.com/politics/irans-latest-dirty-bomb-news-builds-decades-threats-attack-america-home",
-          "citation": "(U) Morgan Phillips. \"Iran's latest dirty bomb news builds on decades of threats to attack America at home.\" Fox News, November 17, 2026. https://www.foxnews.com/politics/irans-latest-dirty-bomb-news-builds-decades-threats-attack-america-home. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Morgan Phillips",
-          "title": "Senior US official undercuts CNN’s alarming Iran ‘dirty bomb’ report: ‘It’s not new’",
-          "outlet": "Fox News",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T21:11:31Z",
-          "link": "https://www.foxnews.com/politics/senior-us-official-undercuts-cnns-alarming-iran-dirty-bomb-report-its-not-new",
-          "citation": "(U) Morgan Phillips. \"Senior US official undercuts CNN’s alarming Iran ‘dirty bomb’ report: ‘It’s not new’.\" Fox News, November 17, 2026. https://www.foxnews.com/politics/senior-us-official-undercuts-cnns-alarming-iran-dirty-bomb-report-its-not-new. Accessed November 23, 2026.",
           "ci_match_patterns": [
             "\\bdirty bomb\\b"
           ]
@@ -611,9 +623,21 @@
     },
     {
       "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
-      "count": 24,
+      "count": 25,
       "error": null,
       "articles": [
+        {
+          "author": "Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich",
+          "title": "We need to better combat terrorism. The first step? Remove religion from the definition",
+          "outlet": "The Conversation Africa",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:38:58Z",
+          "link": "https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132",
+          "citation": "(U) Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich. \"We need to better combat terrorism. The first step? Remove religion from the definition.\" The Conversation Africa, November 22, 2026. https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Nikki Dobrin",
           "title": "Mass shooting at private concert rocks California city",
@@ -1082,9 +1106,33 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 15,
+      "count": 16,
       "error": null,
       "articles": [
+        {
+          "author": "Ibrahim Dahman",
+          "title": "Israeli settlers launch attacks in West Bank as Netanyahu rival decries 'Jewish terrorism'",
+          "outlet": "CNN",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:44:41Z",
+          "link": "https://www.cnn.com/2026/11/22/middleeast/west-bank-attacks-eisenkot-intl",
+          "citation": "(U) Ibrahim Dahman. \"Israeli settlers launch attacks in West Bank as Netanyahu rival decries 'Jewish terrorism'.\" CNN, November 22, 2026. https://www.cnn.com/2026/11/22/middleeast/west-bank-attacks-eisenkot-intl. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich",
+          "title": "We need to better combat terrorism. The first step? Remove religion from the definition",
+          "outlet": "The Conversation Africa",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:38:58Z",
+          "link": "https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132",
+          "citation": "(U) Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich. \"We need to better combat terrorism. The first step? Remove religion from the definition.\" The Conversation Africa, November 22, 2026. https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Timothy Jones",
           "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
@@ -1253,18 +1301,6 @@
           "ci_match_patterns": [
             "\\barson\\b"
           ]
-        },
-        {
-          "author": "Rikard Jozwiak",
-          "title": "Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?",
-          "outlet": "Radio Free Europe/ Radio Liberty",
-          "published": "October 27, 2026",
-          "publishedAt": "2026-10-27T10:55:02Z",
-          "link": "https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html",
-          "citation": "(U) Rikard Jozwiak. \"Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?.\" Radio Free Europe/ Radio Liberty, October 27, 2026. https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bgru\\b"
-          ]
         }
       ]
     },
@@ -1313,7 +1349,7 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 25,
+      "count": 23,
       "error": null,
       "articles": [
         {
@@ -1591,38 +1627,38 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Rimjhim Singh",
-          "title": "Visa, Mastercard, JPMorgan customer data exposed in ransomware attack",
-          "outlet": "Business Standard",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T03:54:22Z",
-          "link": "https://www.business-standard.com/world-news/visa-mastercard-jpmorgan-customer-data-leak-ransomware-attack-us-outage-126112000197_1.html",
-          "citation": "(U) Rimjhim Singh. \"Visa, Mastercard, JPMorgan customer data exposed in ransomware attack.\" Business Standard, November 20, 2026. https://www.business-standard.com/world-news/visa-mastercard-jpmorgan-customer-data-leak-ransomware-attack-us-outage-126112000197_1.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
-          ]
-        },
-        {
-          "author": "Et Online",
-          "title": "JPMorgan Chase, Visa and Mastercard customer data leaked in cyberattack as tech woes pile up",
-          "outlet": "Economictimes.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T03:37:50Z",
-          "link": "https://m.economictimes.com/news/international/business/visa-mastercard-and-jpmorgan-customer-data-leaked-in-cyberattack-as-tech-woes-pile-up/articleshow/136010934.cms",
-          "citation": "(U) Et Online. \"JPMorgan Chase, Visa and Mastercard customer data leaked in cyberattack as tech woes pile up.\" Economictimes.com, November 20, 2026. https://m.economictimes.com/news/international/business/visa-mastercard-and-jpmorgan-customer-data-leaked-in-cyberattack-as-tech-woes-pile-up/articleshow/136010934.cms. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 4,
+      "count": 5,
       "error": null,
       "articles": [
+        {
+          "author": "TNN",
+          "title": "Ahmedabad: Seven held for attack on GSPL staff, cops during pipeline protest",
+          "outlet": "The Times of India",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:27:24Z",
+          "link": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-seven-held-for-attack-on-gspl-staff-cops-during-pipeline-protest/articleshow/136081934.cms",
+          "citation": "(U) TNN. \"Ahmedabad: Seven held for attack on GSPL staff, cops during pipeline protest.\" The Times of India, November 22, 2026. https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-seven-held-for-attack-on-gspl-staff-cops-during-pipeline-protest/articleshow/136081934.cms. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Biswendu Bhattacharjee",
+          "title": "Smoking dispute at Tripura tea shop ends in vandalism",
+          "outlet": "The Times of India",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:17:58Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/smoking-dispute-at-tripura-tea-shop-ends-in-vandalism/articleshow/136081723.cms",
+          "citation": "(U) Biswendu Bhattacharjee. \"Smoking dispute at Tripura tea shop ends in vandalism.\" The Times of India, November 22, 2026. https://timesofindia.indiatimes.com/city/guwahati/smoking-dispute-at-tripura-tea-shop-ends-in-vandalism/articleshow/136081723.cms. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
         {
           "author": "Madhu Rasala",
           "title": "Farmers blow a fuse as thieves target transformers to steal copper and aluminium windings",
@@ -1657,18 +1693,6 @@
           "citation": "(U) Oliver Haslam. \"Pakistan undersea cable fault causes internet failure near Strait of Hormuz.\" Tom's Hardware UK, November 19, 2026. https://www.tomshardware.com/networking/pakistan-undersea-cable-fault-causes-internet-failure-near-strait-of-hormuz-fault-detected-offshore-weeks-after-iran-threatened-infrastructure-in-the-region. Accessed November 23, 2026.",
           "ci_match_patterns": [
             "\\bundersea cable\\b"
-          ]
-        },
-        {
-          "author": "Mike Adams",
-          "title": "The Real Reason the Systems Are Collapsing: Incompetence, Legacy Code, and the Sabotage Question",
-          "outlet": "Naturalnews.com",
-          "published": "November 17, 2026",
-          "publishedAt": "2026-11-17T06:00:00Z",
-          "link": "https://www.naturalnews.com/2026-11-17-the-real-reason-the-systems-are-collapsing.html",
-          "citation": "(U) Mike Adams. \"The Real Reason the Systems Are Collapsing: Incompetence, Legacy Code, and the Sabotage Question.\" Naturalnews.com, November 17, 2026. https://www.naturalnews.com/2026-11-17-the-real-reason-the-systems-are-collapsing.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
           ]
         }
       ]
@@ -1731,9 +1755,58 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 22,
+      "count": 23,
       "error": null,
       "articles": [
+        {
+          "author": "Caitlin Kelly",
+          "title": "Israeli opposition leader Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'",
+          "outlet": "ABC News (AU)",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T20:37:28Z",
+          "link": "https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280",
+          "citation": "(U) Caitlin Kelly. \"Israeli opposition leader Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'.\" ABC News (AU), November 22, 2026. https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich",
+          "title": "We need to better combat terrorism. The first step? Remove religion from the definition",
+          "outlet": "The Conversation Africa",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:38:58Z",
+          "link": "https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132",
+          "citation": "(U) Dominique Dalla-Pozza, Rebecca Ananian-Welsh, Tamara Tulich. \"We need to better combat terrorism. The first step? Remove religion from the definition.\" The Conversation Africa, November 22, 2026. https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "Ben Smith",
+          "title": "FBI Arrests Georgia Man in $26K ISIS Crypto Case",
+          "outlet": "Legalinsurrection.com",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T17:00:23Z",
+          "link": "https://legalinsurrection.com/2026/11/fbi-arrests-georgia-man-in-26k-isis-crypto-case/",
+          "citation": "(U) Ben Smith. \"FBI Arrests Georgia Man in $26K ISIS Crypto Case.\" Legalinsurrection.com, November 22, 2026. https://legalinsurrection.com/2026/11/fbi-arrests-georgia-man-in-26k-isis-crypto-case/. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bisis\\b"
+          ]
+        },
+        {
+          "author": "Richard Marsden, Dominik Lemanski",
+          "title": "£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid",
+          "outlet": "Dailymail.com",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T16:37:46Z",
+          "link": "https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html",
+          "citation": "(U) Richard Marsden, Dominik Lemanski. \"£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid.\" Dailymail.com, November 22, 2026. https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "JPost",
           "title": "Former IRGC commander, sanctioned by Canada, to address London Islamophobia conference",
@@ -1963,42 +2036,6 @@
           "ci_match_patterns": [
             "\\bmass (casualty|shooting)\\b"
           ]
-        },
-        {
-          "author": "Rob Quinn",
-          "title": "Illinois Man Pleads Not Guilty to Thwarted Mass Shooting",
-          "outlet": "Newser",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T21:08:00Z",
-          "link": "https://www.newser.com/story/400335/illinois-man-pleads-not-guilty-to-thwarted-mass-shooting.html",
-          "citation": "(U) Rob Quinn. \"Illinois Man Pleads Not Guilty to Thwarted Mass Shooting.\" Newser, November 19, 2026. https://www.newser.com/story/400335/illinois-man-pleads-not-guilty-to-thwarted-mass-shooting.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "CYBELE MAYES-OSTERMAN /REPORT FOR AMERICA Associated Press",
-          "title": "Illinois man pleads not guilty over thwarted mass shooting at Hindu temple",
-          "outlet": "Abcnews.com",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T20:03:37Z",
-          "link": "https://abcnews.com/US/wireStory/illinois-man-pleads-guilty-thwarted-mass-shooting-hindu-138298181",
-          "citation": "(U) CYBELE MAYES-OSTERMAN /REPORT FOR AMERICA Associated Press. \"Illinois man pleads not guilty over thwarted mass shooting at Hindu temple.\" Abcnews.com, November 19, 2026. https://abcnews.com/US/wireStory/illinois-man-pleads-guilty-thwarted-mass-shooting-hindu-138298181. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bmass (casualty|shooting)\\b"
-          ]
-        },
-        {
-          "author": "Josh Breiner",
-          "title": "Arab Israeli lawmaker says police officer called him 'terrorist' in recorded confrontation",
-          "outlet": "Haaretz",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T18:04:32Z",
-          "link": "https://www.haaretz.com/israel-news/israel-crime/2026-11-19/ty-article/.premium/arab-israeli-mk-says-cop-called-him-terrorist-in-recorded-confrontation/000001a1-f4b4-d059-a5ff-f6fede310000",
-          "citation": "(U) Josh Breiner. \"Arab Israeli lawmaker says police officer called him 'terrorist' in recorded confrontation.\" Haaretz, November 19, 2026. https://www.haaretz.com/israel-news/israel-crime/2026-11-19/ty-article/.premium/arab-israeli-mk-says-cop-called-him-terrorist-in-recorded-confrontation/000001a1-f4b4-d059-a5ff-f6fede310000. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
         }
       ]
     },
@@ -2119,9 +2156,21 @@
     },
     {
       "query": "\"Emerging threats\" AND (infrastructure OR drone OR cyber OR terrorism OR \"data center\")",
-      "count": 7,
+      "count": 8,
       "error": null,
       "articles": [
+        {
+          "author": "Efosa Udinmwen",
+          "title": "'Remember, there is a lot of stuff in our critical infrastructure that’s unpatchable': Microsoft CEO Satya Nadella warns more outages of key networks could be coming",
+          "outlet": "TechRadar",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T19:30:00Z",
+          "link": "https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming",
+          "citation": "(U) Efosa Udinmwen. \"'Remember, there is a lot of stuff in our critical infrastructure that’s unpatchable': Microsoft CEO Satya Nadella warns more outages of key networks could be coming.\" TechRadar, November 22, 2026. https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
         {
           "author": "TNN",
           "title": "No space for criminals, terrorists in UP, no compromise on nat’l security: Yogi",
@@ -2253,9 +2302,45 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 17,
+      "count": 13,
       "error": null,
       "articles": [
+        {
+          "author": "TNN",
+          "title": "Ahmedabad: Seven held for attack on GSPL staff, cops during pipeline protest",
+          "outlet": "The Times of India",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T18:27:24Z",
+          "link": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-seven-held-for-attack-on-gspl-staff-cops-during-pipeline-protest/articleshow/136081934.cms",
+          "citation": "(U) TNN. \"Ahmedabad: Seven held for attack on GSPL staff, cops during pipeline protest.\" The Times of India, November 22, 2026. https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-seven-held-for-attack-on-gspl-staff-cops-during-pipeline-protest/articleshow/136081934.cms. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "Efosa Udinmwen",
+          "title": "Google claims it has seen the first fully autonomous cyberattack — and says a 'significant threshold' has been crossed in terms of cybersecurity",
+          "outlet": "TechRadar",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T17:05:00Z",
+          "link": "https://www.techradar.com/pro/security/google-says-it-just-saw-the-first-fully-autonomous-cyberattack-and-says-a-significant-threshold-has-been-crossed-in-terms-of-cybersecurity",
+          "citation": "(U) Efosa Udinmwen. \"Google claims it has seen the first fully autonomous cyberattack — and says a 'significant threshold' has been crossed in terms of cybersecurity.\" TechRadar, November 22, 2026. https://www.techradar.com/pro/security/google-says-it-just-saw-the-first-fully-autonomous-cyberattack-and-says-a-significant-threshold-has-been-crossed-in-terms-of-cybersecurity. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Dmytro Hubenko",
+          "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+          "outlet": "DW (English)",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T16:50:00Z",
+          "link": "https://www.dw.com/en/libya-russian-ship-drone-benghazi/a-80014545",
+          "citation": "(U) Dmytro Hubenko. \"Libya: Suspected drone attack hits Russian ship in Benghazi.\" DW (English), November 22, 2026. https://www.dw.com/en/libya-russian-ship-drone-benghazi/a-80014545. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "The Associated Press",
           "title": "A suspected drone strike hits a Russian vessel in Libya",
@@ -2376,98 +2461,38 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns",
-          "outlet": "Business Standard",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T03:14:12Z",
-          "link": "https://www.business-standard.com/markets/commodities/oil-prices-rise-on-houthi-attacks-on-riyadh-supply-disruption-concerns-126112000113_1.html",
-          "citation": "(U) Reuters. \"Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns.\" Business Standard, November 20, 2026. https://www.business-standard.com/markets/commodities/oil-prices-rise-on-houthi-attacks-on-riyadh-supply-disruption-concerns-126112000113_1.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Veer Sharma",
-          "title": "Oil Price Today (November 20): Brent crude rises to $93 as fresh Houthi attacks heighten worries. What are experts saying?",
-          "outlet": "Economictimes.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T02:39:43Z",
-          "link": "https://m.economictimes.com/markets/commodities/news/oil-price-today-november-20-brent-crude-rises-to-93-as-fresh-houthi-attacks-heighten-worries-what-are-experts-saying/articleshow/136010579.cms",
-          "citation": "(U) Veer Sharma. \"Oil Price Today (November 20): Brent crude rises to $93 as fresh Houthi attacks heighten worries. What are experts saying?.\" Economictimes.com, November 20, 2026. https://m.economictimes.com/markets/commodities/news/oil-price-today-november-20-brent-crude-rises-to-93-as-fresh-houthi-attacks-heighten-worries-what-are-experts-saying/articleshow/136010579.cms. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
-          "outlet": "Economictimes.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T02:19:44Z",
-          "link": "https://m.economictimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms",
-          "citation": "(U) Reuters. \"Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns.\" Economictimes.com, November 20, 2026. https://m.economictimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "CNA Staff",
-          "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
-          "outlet": "CNA",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T02:00:04Z",
-          "link": "https://www.channelnewsasia.com/business/oil-prices-gain-houthi-attacks-riyadh-raise-supply-concerns-6568016",
-          "citation": "(U) CNA Staff. \"Oil prices gain as Houthi attacks on Riyadh raise supply concerns.\" CNA, November 20, 2026. https://www.channelnewsasia.com/business/oil-prices-gain-houthi-attacks-riyadh-raise-supply-concerns-6568016. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "CNA Staff",
-          "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
-          "outlet": "CNA",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T02:00:04Z",
-          "link": "https://www.channelnewsasia.com/business/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-6568016",
-          "citation": "(U) CNA Staff. \"Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns.\" CNA, November 20, 2026. https://www.channelnewsasia.com/business/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-6568016. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Estefano Gomez",
-          "title": "Houthis target Saudi Arabia’s Jizan in attack",
-          "outlet": "Crypto Briefing",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T00:11:54Z",
-          "link": "https://cryptobriefing.com/houthis-target-saudi-arabias-jizan-in-attack/",
-          "citation": "(U) Estefano Gomez. \"Houthis target Saudi Arabia’s Jizan in attack.\" Crypto Briefing, November 20, 2026. https://cryptobriefing.com/houthis-target-saudi-arabias-jizan-in-attack/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Duncan Riley",
-          "title": "Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate",
-          "outlet": "SiliconANGLE News",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T22:44:56Z",
-          "link": "https://siliconangle.com/2026/11/19/wiz-ties-microsoft-agent-framework-package-compromise-to-release-pipeline-certificate/",
-          "citation": "(U) Duncan Riley. \"Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate.\" SiliconANGLE News, November 19, 2026. https://siliconangle.com/2026/11/19/wiz-ties-microsoft-agent-framework-package-compromise-to-release-pipeline-certificate/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bpipeline\\b"
-          ]
         }
       ]
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 36,
+      "count": 35,
       "error": null,
       "articles": [
+        {
+          "author": "Antonio Graceffo",
+          "title": "Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh",
+          "outlet": "Thegatewaypundit.com",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T19:00:33Z",
+          "link": "https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/",
+          "citation": "(U) Antonio Graceffo. \"Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh.\" Thegatewaypundit.com, November 22, 2026. https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Richard Marsden, Dominik Lemanski",
+          "title": "£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid",
+          "outlet": "Dailymail.com",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T16:37:46Z",
+          "link": "https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html",
+          "citation": "(U) Richard Marsden, Dominik Lemanski. \"£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid.\" Dailymail.com, November 22, 2026. https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "JPost",
           "title": "Former IRGC commander, sanctioned by Canada, to address London Islamophobia conference",
@@ -2864,42 +2889,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Estefano Gomez",
-          "title": "Houthis target Saudi Arabia’s Jizan in attack",
-          "outlet": "Crypto Briefing",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T00:11:54Z",
-          "link": "https://cryptobriefing.com/houthis-target-saudi-arabias-jizan-in-attack/",
-          "citation": "(U) Estefano Gomez. \"Houthis target Saudi Arabia’s Jizan in attack.\" Crypto Briefing, November 20, 2026. https://cryptobriefing.com/houthis-target-saudi-arabias-jizan-in-attack/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Leena Fraihat, Leila Minkara",
-          "title": "Iran war live: Houthis escalate attacks on Saudi capital",
-          "outlet": "Al Jazeera English",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T23:58:40Z",
-          "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
-          "citation": "(U) Leena Fraihat, Leila Minkara. \"Iran war live: Houthis escalate attacks on Saudi capital.\" Al Jazeera English, November 19, 2026. https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "RT",
-          "title": "Could the Houthis take Yemen’s last major government stronghold?",
-          "outlet": "Rt-english.com",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T23:11:32Z",
-          "link": "https://rt-english.com/news/649124-houthis-yemen-saudi-coalition/",
-          "citation": "(U) RT. \"Could the Houthis take Yemen’s last major government stronghold?.\" Rt-english.com, November 19, 2026. https://rt-english.com/news/649124-houthis-yemen-saudi-coalition/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
@@ -2924,9 +2913,21 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 9,
+      "count": 10,
       "error": null,
       "articles": [
+        {
+          "author": "Efosa Udinmwen",
+          "title": "'Remember, there is a lot of stuff in our critical infrastructure that’s unpatchable': Microsoft CEO Satya Nadella warns more outages of key networks could be coming",
+          "outlet": "TechRadar",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T19:30:00Z",
+          "link": "https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming",
+          "citation": "(U) Efosa Udinmwen. \"'Remember, there is a lot of stuff in our critical infrastructure that’s unpatchable': Microsoft CEO Satya Nadella warns more outages of key networks could be coming.\" TechRadar, November 22, 2026. https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bcritical infrastructure\\b"
+          ]
+        },
         {
           "author": "Chris Melore, Stacy Liberatore",
           "title": "I was the White House tech chief... the Trump administration must brace itself. A new, more devastating cyber crisis is looming and this is where America's enemies will hit next",
@@ -3040,9 +3041,21 @@
     },
     {
       "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
-      "count": 16,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Bastine Rodrigues",
+          "title": "River flows fall nearly 50% in Dakshina Kannada; minor irrigation department begins early water conservation at vented dams after lower rainfall",
+          "outlet": "The Times of India",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T17:19:18Z",
+          "link": "https://timesofindia.indiatimes.com/city/mangaluru/river-flows-fall-nearly-50-in-dakshina-kannada-minor-irrigation-department-begins-early-water-conservation-at-vented-dams-after-lower-rainfall/articleshow/136080073.cms",
+          "citation": "(U) Bastine Rodrigues. \"River flows fall nearly 50% in Dakshina Kannada; minor irrigation department begins early water conservation at vented dams after lower rainfall.\" The Times of India, November 22, 2026. https://timesofindia.indiatimes.com/city/mangaluru/river-flows-fall-nearly-50-in-dakshina-kannada-minor-irrigation-department-begins-early-water-conservation-at-vented-dams-after-lower-rainfall/articleshow/136080073.cms. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "Team Global",
           "title": "Illinois took down a large dam on the Des Plaines River in 2012; soon after, 10 fish species not recorded before appeared in the old pool, including channel catfish",
@@ -3243,6 +3256,18 @@
       "count": 18,
       "error": null,
       "articles": [
+        {
+          "author": "Bob Cronin",
+          "title": "Denmark, Poland Urge EU to Act on Allegations of Russian Plot",
+          "outlet": "Newser",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T21:35:00Z",
+          "link": "https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html",
+          "citation": "(U) Bob Cronin. \"Denmark, Poland Urge EU to Act on Allegations of Russian Plot.\" Newser, November 22, 2026. https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
         {
           "author": "Nektaria Stamouli",
           "title": "Cyprus expels Russian diplomats on suspicion of espionage",
@@ -3452,18 +3477,6 @@
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
           ]
-        },
-        {
-          "author": "Al Jazeera English Staff",
-          "title": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
-          "outlet": "Al Jazeera English",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T03:58:10Z",
-          "link": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president",
-          "citation": "(U) Al Jazeera English Staff. \"Miami court convicts US-Haitian pastor over 2021 assassination of president.\" Al Jazeera English, November 19, 2026. https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bassassination\\b"
-          ]
         }
       ]
     },
@@ -3472,6 +3485,18 @@
       "count": 26,
       "error": null,
       "articles": [
+        {
+          "author": "Bob Cronin",
+          "title": "Denmark, Poland Urge EU to Act on Allegations of Russian Plot",
+          "outlet": "Newser",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T21:35:00Z",
+          "link": "https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html",
+          "citation": "(U) Bob Cronin. \"Denmark, Poland Urge EU to Act on Allegations of Russian Plot.\" Newser, November 22, 2026. https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
         {
           "author": "Tom Lawrence, Will Stewart",
           "title": "Air raid sirens go off in Kaliningrad amid fears of Ukrainian drone attack in Russia's European enclave - a month after Putin threatened to use nuclear weapons to defend it",
@@ -3773,18 +3798,6 @@
           "citation": "(U) Cristina Laila. \"JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia.\" Thegatewaypundit.com, November 10, 2026. https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/. Accessed November 23, 2026.",
           "ci_match_patterns": [
             "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Anna  Noryskiewicz",
-          "title": "Poland launches major security operation along border with Russia",
-          "outlet": "CBS News",
-          "published": "November 3, 2026",
-          "publishedAt": "2026-11-03T17:32:02Z",
-          "link": "https://www.cbsnews.com/news/poland-russia-border-operation-kaliningrad-sabotage-provocation-nato/",
-          "citation": "(U) Anna  Noryskiewicz. \"Poland launches major security operation along border with Russia.\" CBS News, November 3, 2026. https://www.cbsnews.com/news/poland-russia-border-operation-kaliningrad-sabotage-provocation-nato/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
           ]
         }
       ]
@@ -4154,9 +4167,21 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 29,
+      "count": 28,
       "error": null,
       "articles": [
+        {
+          "author": "Bob Cronin",
+          "title": "Denmark, Poland Urge EU to Act on Allegations of Russian Plot",
+          "outlet": "Newser",
+          "published": "November 22, 2026",
+          "publishedAt": "2026-11-22T21:35:00Z",
+          "link": "https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html",
+          "citation": "(U) Bob Cronin. \"Denmark, Poland Urge EU to Act on Allegations of Russian Plot.\" Newser, November 22, 2026. https://www.newser.com/story/400444/denmark-poland-urge-eu-to-act-on-allegations-of-russian-plot.html. Accessed November 23, 2026.",
+          "ci_match_patterns": [
+            "\\brussian plots?\\b"
+          ]
+        },
         {
           "author": "Adam Maguire",
           "title": "Spy and sell: The murky history of economic espionage",
@@ -4489,30 +4514,6 @@
           "publishedAt": "2026-11-15T18:06:36Z",
           "link": "https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/",
           "citation": "(U) Diego Almada Lopez. \"Megaspeed confirms Alice Huang left company amid espionage claims.\" Crypto Briefing, November 15, 2026. https://cryptobriefing.com/megaspeed-confirms-alice-huang-departure/. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Sophia Stanford",
-          "title": "Estonia to CLOSE Russian border in two weeks after 'sabotage' attack",
-          "outlet": "Dailymail.com",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T15:54:31Z",
-          "link": "https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html",
-          "citation": "(U) Sophia Stanford. \"Estonia to CLOSE Russian border in two weeks after 'sabotage' attack.\" Dailymail.com, November 15, 2026. https://www.dailymail.com/news/article-16294399/Estonia-CLOSE-Russian-border.html. Accessed November 23, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Scott Lance",
-          "title": "China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West",
-          "outlet": "Ibtimes.com.au",
-          "published": "November 15, 2026",
-          "publishedAt": "2026-11-15T14:36:36Z",
-          "link": "https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610",
-          "citation": "(U) Scott Lance. \"China's Estimated 600,000-Strong Spy Machine Targets Chips and AI as Jensen Huang Scandal Rattles the West.\" Ibtimes.com.au, November 15, 2026. https://www.ibtimes.com.au/jensen-huang-case-china-chip-ai-espionage-1878610. Accessed November 23, 2026.",
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]

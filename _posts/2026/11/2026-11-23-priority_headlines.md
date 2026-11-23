@@ -92,6 +92,7 @@ categories: news
 - **VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)** (Help Net Security).
 - **NVIDIA Faces Ransomware Extortion Threat As Hackers Threaten To Leak Stolen Data On November 28, Company Investigates Possible Partner Breach** (Wccftech).
 - Down Detector outages affecting Charles Schwab, Vanguard and My Social Security in the United States (CI Sector Brief 2026-11-23).
+- **DOI Unstable Slope Management Program CVE cluster** (All Hazards Brief 2026-11-23): CVE-2026-129175 unauthenticated SQL injection (CVSS 9.8), CVE-2026-129179 auth bypass (high), CVE-2026-129176 improper access control (CVSS 8.2), CVE-2026-129177 unauthenticated user creation (CVSS 7.5), CVE-2026-129178 unsalted MD5 password storage; patched on/around 2026-10-19.
 
 ### Government / Emergency Services
 

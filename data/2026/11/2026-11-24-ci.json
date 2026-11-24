@@ -1,20 +1,56 @@
 {
-  "pulled_at_utc": "2026-11-24T16:46:52Z",
+  "pulled_at_utc": "2026-11-24T20:34:22Z",
   "accessed": "November 24, 2026",
-  "filtered_at_utc": "2026-11-24T16:53:43Z",
+  "filtered_at_utc": "2026-11-24T20:40:51Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2288,
-  "article_count": 347,
-  "dropped_count": 1941,
+  "source_article_count": 2296,
+  "article_count": 337,
+  "dropped_count": 1959,
   "term_count": 25,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 11,
+      "count": 12,
       "error": null,
       "articles": [
+        {
+          "author": "feedfeeder",
+          "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict - The New York Times",
+          "outlet": "Slashdot.org",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T19:53:10Z",
+          "link": "https://slashdot.org/firehose.pl?op=view&id=186844365",
+          "citation": "(U) feedfeeder. \"Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict - The New York Times.\" Slashdot.org, November 23, 2026. https://slashdot.org/firehose.pl?op=view&id=186844365. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "ASTRID SUÁREZ Associated Press",
+          "title": "Drone attack on Colombian police base injures civilians and damages homes",
+          "outlet": "Abcnews.com",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T17:47:53Z",
+          "link": "https://abcnews.com/International/wireStory/drone-attack-colombian-police-base-injures-civilians-damages-138381975",
+          "citation": "(U) ASTRID SUÁREZ Associated Press. \"Drone attack on Colombian police base injures civilians and damages homes.\" Abcnews.com, November 23, 2026. https://abcnews.com/International/wireStory/drone-attack-colombian-police-base-injures-civilians-damages-138381975. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Tamaghna Banerjee",
+          "title": "Bagdogra airport closed for 1 hr after ‘drone sighting’",
+          "outlet": "The Times of India",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T17:30:13Z",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/bagdogra-airport-closed-for-1-hr-after-drone-sighting/articleshow/136110765.cms",
+          "citation": "(U) Tamaghna Banerjee. \"Bagdogra airport closed for 1 hr after ‘drone sighting’.\" The Times of India, November 23, 2026. https://timesofindia.indiatimes.com/city/kolkata/bagdogra-airport-closed-for-1-hr-after-drone-sighting/articleshow/136110765.cms. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
         {
           "author": "Chris Panella",
           "title": "Satellite images capture Ukrainian naval drone strike on a Russian warship in Libya, over 1,000 miles away from the war",
@@ -122,36 +158,12 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Anthony Blair",
-          "title": "Putin’s warship hit in suspected Ukrainian drone strike that set off huge explosion",
-          "outlet": "New York Post",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T20:03:58Z",
-          "link": "https://nypost.com/2026/11/22/world-news/putins-warship-hit-in-suspected-ukrainian-drone-strike-that-set-off-huge-explosion/",
-          "citation": "(U) Anthony Blair. \"Putin’s warship hit in suspected Ukrainian drone strike that set off huge explosion.\" New York Post, November 22, 2026. https://nypost.com/2026/11/22/world-news/putins-warship-hit-in-suspected-ukrainian-drone-strike-that-set-off-huge-explosion/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera English Staff",
-          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
-          "outlet": "Al Jazeera English",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T18:11:30Z",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya",
-          "citation": "(U) Al Jazeera English Staff. \"Suspected drone attack causes explosion on Russian ship in Libya.\" Al Jazeera English, November 22, 2026. https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 14,
+      "count": 12,
       "error": null,
       "articles": [
         {
@@ -297,30 +309,6 @@
           "ci_match_patterns": [
             "\\bcar bomb\\b",
             "\\bislamic state\\b"
-          ]
-        },
-        {
-          "author": "Michael Ruiz",
-          "title": "MICHAEL RUIZ: What is a dirty bomb? Explosive terror threat explained",
-          "outlet": "Fox News",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T12:00:34Z",
-          "link": "https://www.foxnews.com/us/michael-ruiz-what-is-dirty-bomb-explosive-terror-threat-explained",
-          "citation": "(U) Michael Ruiz. \"MICHAEL RUIZ: What is a dirty bomb? Explosive terror threat explained.\" Fox News, November 19, 2026. https://www.foxnews.com/us/michael-ruiz-what-is-dirty-bomb-explosive-terror-threat-explained. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bdirty bomb\\b"
-          ]
-        },
-        {
-          "author": "Jim Vorel",
-          "title": "This Irish Guy Embraced Extreme Overkill in Destroying a $60 Million U.S. Warplane",
-          "outlet": "Jezebel",
-          "published": "November 19, 2026",
-          "publishedAt": "2026-11-19T10:05:31Z",
-          "link": "https://www.jezebel.com/irish-man-destroyed-us-warplane-aircraft-c-130-axe-chemicals-shannon-airport-sabotage",
-          "citation": "(U) Jim Vorel. \"This Irish Guy Embraced Extreme Overkill in Destroying a $60 Million U.S. Warplane.\" Jezebel, November 19, 2026. https://www.jezebel.com/irish-man-destroyed-us-warplane-aircraft-c-130-axe-chemicals-shannon-airport-sabotage. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
           ]
         }
       ]
@@ -515,9 +503,21 @@
     },
     {
       "query": "\"Active shooter\" OR \"mass shooting\" OR \"mass casualty incident\" OR \"armed assault\"",
-      "count": 26,
+      "count": 27,
       "error": null,
       "articles": [
+        {
+          "author": "Eugene Volokh",
+          "title": "Social Media Platforms Not Liable for Racist Buffalo Mass Shooting, Says N.Y. High Court by 4-3 Vote",
+          "outlet": "Reason",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T17:28:15Z",
+          "link": "https://reason.com/volokh/2026/11/23/social-media-platforms-not-liable-for-racist-buffalo-mass-shooting-says-n-y-high-court-by-4-3-vote/",
+          "citation": "(U) Eugene Volokh. \"Social Media Platforms Not Liable for Racist Buffalo Mass Shooting, Says N.Y. High Court by 4-3 Vote.\" Reason, November 23, 2026. https://reason.com/volokh/2026/11/23/social-media-platforms-not-liable-for-racist-buffalo-mass-shooting-says-n-y-high-court-by-4-3-vote/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "Ben Schlappig",
           "title": "Dozens Fall Ill On Two Condor Flights To Frankfurt, Triggering Mass Casualty Response",
@@ -1010,9 +1010,21 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 16,
+      "count": 17,
       "error": null,
       "articles": [
+        {
+          "author": "Times News Network",
+          "title": "Accused in Kochi synagogue arson case sent in NIA custody",
+          "outlet": "The Times of India",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:49:49Z",
+          "link": "https://timesofindia.indiatimes.com/city/kochi/accused-in-kochi-synagogue-arson-case-sent-in-nia-custody/articleshow/136112663.cms",
+          "citation": "(U) Times News Network. \"Accused in Kochi synagogue arson case sent in NIA custody.\" The Times of India, November 23, 2026. https://timesofindia.indiatimes.com/city/kochi/accused-in-kochi-synagogue-arson-case-sent-in-nia-custody/articleshow/136112663.cms. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
         {
           "author": "Ibrahim Dahman",
           "title": "Israeli settlers launch attacks in West Bank as Netanyahu rival decries 'Jewish terrorism'",
@@ -1210,9 +1222,33 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 3,
+      "count": 4,
       "error": null,
       "articles": [
+        {
+          "author": "Douglas Charles",
+          "title": "Government Investigators Got Four Popular AI Chatbots To Generate Detailed Terrorist Attack Plans",
+          "outlet": "BroBible",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T19:50:19Z",
+          "link": "https://brobible.com/culture/article/government-ai-chatbots-terror-attack-plans/",
+          "citation": "(U) Douglas Charles. \"Government Investigators Got Four Popular AI Chatbots To Generate Detailed Terrorist Attack Plans.\" BroBible, November 23, 2026. https://brobible.com/culture/article/government-ai-chatbots-terror-attack-plans/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "RT",
+          "title": "False flag fever: Who is itching for a ‘mass casualty event’ to start a war with Russia?",
+          "outlet": "Rt-english.com",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:31:37Z",
+          "link": "https://rt-english.com/news/649269-russia-eu-false-flag/",
+          "citation": "(U) RT. \"False flag fever: Who is itching for a ‘mass casualty event’ to start a war with Russia?.\" Rt-english.com, November 23, 2026. https://rt-english.com/news/649269-russia-eu-false-flag/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
         {
           "author": "Simon Watkins",
           "title": "What Is Trump Up To Bombing Iran’s Qeshm Island?",
@@ -1237,26 +1273,38 @@
             "\\brefiner(y|ies)\\b",
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Tom Lawrence, Will Stewart",
-          "title": "Air raid sirens go off in Kaliningrad amid fears of Ukrainian drone attack in Russia's European enclave - a month after Putin threatened to use nuclear weapons to defend it",
-          "outlet": "Dailymail.com",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T09:23:10Z",
-          "link": "https://www.dailymail.com/news/article-16312901/Air-raid-sirens-Kaliningrad-fears-Ukrainian-drone-attack-Russia-Kaliningrad.html",
-          "citation": "(U) Tom Lawrence, Will Stewart. \"Air raid sirens go off in Kaliningrad amid fears of Ukrainian drone attack in Russia's European enclave - a month after Putin threatened to use nuclear weapons to defend it.\" Dailymail.com, November 22, 2026. https://www.dailymail.com/news/article-16312901/Air-raid-sirens-Kaliningrad-fears-Ukrainian-drone-attack-Russia-Kaliningrad.html. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bdrone (attack|strike|incursion|sighting)\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 22,
+      "count": 18,
       "error": null,
       "articles": [
+        {
+          "author": "Times News Network",
+          "title": "SFX novena rush looms on Pilar road as pipeline delays leave stretch dug up",
+          "outlet": "The Times of India",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:47:07Z",
+          "link": "https://timesofindia.indiatimes.com/city/goa/sfx-novena-rush-looms-on-pilar-road-as-pipeline-delays-leave-stretch-dug-up/articleshow/136112929.cms",
+          "citation": "(U) Times News Network. \"SFX novena rush looms on Pilar road as pipeline delays leave stretch dug up.\" The Times of India, November 23, 2026. https://timesofindia.indiatimes.com/city/goa/sfx-novena-rush-looms-on-pilar-road-as-pipeline-delays-leave-stretch-dug-up/articleshow/136112929.cms. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bpipeline\\b"
+          ]
+        },
+        {
+          "author": "ZeroHedge",
+          "title": "America’s Biggest Oil Export Port Faces Thousands of Cyberattack Attempts",
+          "outlet": "OilPrice.com",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T17:00:00Z",
+          "link": "https://oilprice.com/Energy/Energy-General/Americas-Biggest-Oil-Export-Port-Faces-Thousands-of-Cyberattack-Attempts.html",
+          "citation": "(U) ZeroHedge. \"America’s Biggest Oil Export Port Faces Thousands of Cyberattack Attempts.\" OilPrice.com, November 23, 2026. https://oilprice.com/Energy/Energy-General/Americas-Biggest-Oil-Export-Port-Faces-Thousands-of-Cyberattack-Attempts.html. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "Newsroom",
           "title": "China-backed hackers suspected of carrying out massive cyberattack on European Commission",
@@ -1449,86 +1497,26 @@
           "ci_match_patterns": [
             "\\bcyber ?attack\\b"
           ]
-        },
-        {
-          "author": "Stephen M. Lepore",
-          "title": "Cyberattack hits Trump administration as hackers' latest strike against the US's critical systems takes down the Department of Agriculture",
-          "outlet": "Dailymail.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T23:16:34Z",
-          "link": "https://www.dailymail.com/news/article-16310465/Cyberattack-hits-Trump-administration-hackers-latest-strike-against-USs-critical-systems-takes-Department-Agriculture.html",
-          "citation": "(U) Stephen M. Lepore. \"Cyberattack hits Trump administration as hackers' latest strike against the US's critical systems takes down the Department of Agriculture.\" Dailymail.com, November 20, 2026. https://www.dailymail.com/news/article-16310465/Cyberattack-hits-Trump-administration-hackers-latest-strike-against-USs-critical-systems-takes-Department-Agriculture.html. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Dylan H.",
-          "title": "Vendor Breach Exposes Chase and Mastercard Marketing Data; n0n Ransomware Claims Qubole Attack",
-          "outlet": "Cosmicbytez.ca",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T22:56:50Z",
-          "link": "https://labs.cosmicbytez.ca/news/2026-11-20-vendor-data-breach-exposes-chase-visa-mastercard-customer-info",
-          "citation": "(U) Dylan H.. \"Vendor Breach Exposes Chase and Mastercard Marketing Data; n0n Ransomware Claims Qubole Attack.\" Cosmicbytez.ca, November 20, 2026. https://labs.cosmicbytez.ca/news/2026-11-20-vendor-data-breach-exposes-chase-visa-mastercard-customer-info. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bransomware\\b"
-          ]
-        },
-        {
-          "author": "PYMNTS",
-          "title": "Cyberattack or Outage? CFOs Face the Same Cash Flow Problem",
-          "outlet": "pymnts.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T21:55:01Z",
-          "link": "https://www.pymnts.com/back-office/cfo/2026/cyberattack-or-outage-cfos-face-the-same-cash-flow-problem/",
-          "citation": "(U) PYMNTS. \"Cyberattack or Outage? CFOs Face the Same Cash Flow Problem.\" pymnts.com, November 20, 2026. https://www.pymnts.com/back-office/cfo/2026/cyberattack-or-outage-cfos-face-the-same-cash-flow-problem/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Last Updated: 15 minutes ago",
-          "title": "Bell says it's investigating cyberattack that led to potential theft of business customer data",
-          "outlet": "CBC News",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T21:54:02Z",
-          "link": "https://www.cbc.ca/news/business/bell-agentic-cyber-attack-9.7430468",
-          "citation": "(U) Last Updated: 15 minutes ago. \"Bell says it's investigating cyberattack that led to potential theft of business customer data.\" CBC News, November 20, 2026. https://www.cbc.ca/news/business/bell-agentic-cyber-attack-9.7430468. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Yi-Jin Yu",
-          "title": "New government report sparks concern over potential cyberattack on US food supply",
-          "outlet": "Abcnews.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T16:51:52Z",
-          "link": "https://abcnews.com/GMA/Food/new-government-report-sparks-concern-potential-cyberattack-us/story?id=138316014",
-          "citation": "(U) Yi-Jin Yu. \"New government report sparks concern over potential cyberattack on US food supply.\" Abcnews.com, November 20, 2026. https://abcnews.com/GMA/Food/new-government-report-sparks-concern-potential-cyberattack-us/story?id=138316014. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
-        },
-        {
-          "author": "Lucas Nolan",
-          "title": "Report: Cyberattack Knocks USDA Systems Used to Pay Farmers Offline for Days",
-          "outlet": "Breitbart News",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T16:22:33Z",
-          "link": "https://www.breitbart.com/tech/2026/11/20/cyberattack-knocks-usda-systems-used-to-pay-farmers-offline-for-days/",
-          "citation": "(U) Lucas Nolan. \"Report: Cyberattack Knocks USDA Systems Used to Pay Farmers Offline for Days.\" Breitbart News, November 20, 2026. https://www.breitbart.com/tech/2026/11/20/cyberattack-knocks-usda-systems-used-to-pay-farmers-offline-for-days/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bcyber ?attack\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Sabotage OR Vandalism OR Theft) AND (grid OR substation OR pipeline OR rail OR dam OR \"power line\" OR fiber OR copper)",
-      "count": 5,
+      "count": 6,
       "error": null,
       "articles": [
+        {
+          "author": "James Abraham",
+          "title": "Plateau blames dam repairs for water shortage in Jos",
+          "outlet": "The Punch",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:05:08Z",
+          "link": "https://punchng.com/plateau-blames-dam-repairs-for-water-shortage-in-jos/",
+          "citation": "(U) James Abraham. \"Plateau blames dam repairs for water shortage in Jos.\" The Punch, November 23, 2026. https://punchng.com/plateau-blames-dam-repairs-for-water-shortage-in-jos/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "TNN",
           "title": "Ahmedabad: Seven held for attack on GSPL staff, cops during pipeline protest",
@@ -1661,9 +1649,21 @@
     },
     {
       "query": "(Terrorism OR terrorist OR \"extremist group\") AND (plot OR arrested OR charged OR foiled OR bombing) NOT memorial NOT anniversary",
-      "count": 19,
+      "count": 20,
       "error": null,
       "articles": [
+        {
+          "author": "Times News Network",
+          "title": "Accused in Kochi synagogue arson case sent in NIA custody",
+          "outlet": "The Times of India",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:49:49Z",
+          "link": "https://timesofindia.indiatimes.com/city/kochi/accused-in-kochi-synagogue-arson-case-sent-in-nia-custody/articleshow/136112663.cms",
+          "citation": "(U) Times News Network. \"Accused in Kochi synagogue arson case sent in NIA custody.\" The Times of India, November 23, 2026. https://timesofindia.indiatimes.com/city/kochi/accused-in-kochi-synagogue-arson-case-sent-in-nia-custody/articleshow/136112663.cms. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b"
+          ]
+        },
         {
           "author": "Efrat Lachter",
           "title": "Taylor Swift ISIS concert plot foiled with Israel’s help, ex-Mossad chief says",
@@ -2338,9 +2338,33 @@
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 29,
+      "count": 20,
       "error": null,
       "articles": [
+        {
+          "author": "RT",
+          "title": "False flag fever: Who is itching for a ‘mass casualty event’ to start a war with Russia?",
+          "outlet": "Rt-english.com",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:31:37Z",
+          "link": "https://rt-english.com/news/649269-russia-eu-false-flag/",
+          "citation": "(U) RT. \"False flag fever: Who is itching for a ‘mass casualty event’ to start a war with Russia?.\" Rt-english.com, November 23, 2026. https://rt-english.com/news/649269-russia-eu-false-flag/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bmass (casualty|shooting)\\b"
+          ]
+        },
+        {
+          "author": "Dwaipayan Ghosh,Sumati Yengkhom",
+          "title": "Medical College and Hospital vandalism in Kolkata: 3 interns among 5 summoned by KP",
+          "outlet": "The Times of India",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T18:10:13Z",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/medical-college-and-hospital-vandalism-in-kolkata-3-interns-among-5-summoned-by-kp/articleshow/136112103.cms",
+          "citation": "(U) Dwaipayan Ghosh,Sumati Yengkhom. \"Medical College and Hospital vandalism in Kolkata: 3 interns among 5 summoned by KP.\" The Times of India, November 23, 2026. https://timesofindia.indiatimes.com/city/kolkata/medical-college-and-hospital-vandalism-in-kolkata-3-interns-among-5-summoned-by-kp/articleshow/136112103.cms. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bvandalism\\b"
+          ]
+        },
         {
           "author": "Efrat Lachter",
           "title": "Taylor Swift ISIS concert plot foiled with Israel’s help, ex-Mossad chief says",
@@ -2558,138 +2582,6 @@
           "ci_match_patterns": [
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "AP",
-          "title": "Saudi-led coalition strikes Houthi targets as rebels attack Saudi Arabia",
-          "outlet": "Business Standard",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T04:51:19Z",
-          "link": "https://www.business-standard.com/world-news/saudi-led-coalition-strikes-houthi-targets-as-rebels-attack-saudi-arabia-126112100022_1.html",
-          "citation": "(U) AP. \"Saudi-led coalition strikes Houthi targets as rebels attack Saudi Arabia.\" Business Standard, November 21, 2026. https://www.business-standard.com/world-news/saudi-led-coalition-strikes-houthi-targets-as-rebels-attack-saudi-arabia-126112100022_1.html. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-          "outlet": "Al Jazeera English",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T04:32:07Z",
-          "link": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
-          "citation": "(U) Al Jazeera Staff. \"Saudi-led coalition intercepts three Houthi missiles headed for Riyadh.\" Al Jazeera English, November 21, 2026. https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "CNA Staff",
-          "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
-          "outlet": "CNA",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T03:54:18Z",
-          "link": "https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-missiles-riyadh-6571176",
-          "citation": "(U) CNA Staff. \"Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh.\" CNA, November 21, 2026. https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-missiles-riyadh-6571176. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Jordan Hoffman",
-          "title": "After ‘Wild Horse Nine,’ 5 of the Best Movies About the CIA",
-          "outlet": "Foreign Policy",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T19:00:51Z",
-          "link": "https://foreignpolicy.com/2026/11/20/cia-movies-wild-horse-nine-review-espionage-us-intelligence/",
-          "citation": "(U) Jordan Hoffman. \"After ‘Wild Horse Nine,’ 5 of the Best Movies About the CIA.\" Foreign Policy, November 20, 2026. https://foreignpolicy.com/2026/11/20/cia-movies-wild-horse-nine-review-espionage-us-intelligence/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
-        },
-        {
-          "author": "Josh Campbell",
-          "title": "Security officials warn the US aviation industry of recent calls for attack by Al Qaeda | CNN Politics",
-          "outlet": "CNN",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T18:03:40Z",
-          "link": "https://www.cnn.com/2026/11/20/politics/security-officials-warn-us-aviation-al-qaeda",
-          "citation": "(U) Josh Campbell. \"Security officials warn the US aviation industry of recent calls for attack by Al Qaeda | CNN Politics.\" CNN, November 20, 2026. https://www.cnn.com/2026/11/20/politics/security-officials-warn-us-aviation-al-qaeda. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bal[- ]?qaeda\\b"
-          ]
-        },
-        {
-          "author": "Reuters",
-          "title": "Houthis Order Ships to Leave Saudi Red Sea Ports After Hodeidah Airstrikes",
-          "outlet": "gcaptain.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T17:19:31Z",
-          "link": "https://gcaptain.com/houthis-order-ships-to-leave-saudi-red-sea-ports-after-hodeidah-airstrikes/",
-          "citation": "(U) Reuters. \"Houthis Order Ships to Leave Saudi Red Sea Ports After Hodeidah Airstrikes.\" gcaptain.com, November 20, 2026. https://gcaptain.com/houthis-order-ships-to-leave-saudi-red-sea-ports-after-hodeidah-airstrikes/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "AFP",
-          "title": "Saudi coalition launches 'special operation', Yemen's Houthis vow reprisals",
-          "outlet": "Economictimes.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T15:08:21Z",
-          "link": "https://m.economictimes.com/news/defence/saudi-coalition-launches-special-operation-yemens-houthis-vow-reprisals/articleshow/136031547.cms",
-          "citation": "(U) AFP. \"Saudi coalition launches 'special operation', Yemen's Houthis vow reprisals.\" Economictimes.com, November 20, 2026. https://m.economictimes.com/news/defence/saudi-coalition-launches-special-operation-yemens-houthis-vow-reprisals/articleshow/136031547.cms. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Al Jazeera Staff",
-          "title": "Saudi coalition and Houthis exchange threats to bomb key ports",
-          "outlet": "Al Jazeera English",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T14:48:04Z",
-          "link": "https://www.aljazeera.com/news/2026/11/20/saudi-coalition-and-houthis-exchange-threats-to-bomb-key-ports",
-          "citation": "(U) Al Jazeera Staff. \"Saudi coalition and Houthis exchange threats to bomb key ports.\" Al Jazeera English, November 20, 2026. https://www.aljazeera.com/news/2026/11/20/saudi-coalition-and-houthis-exchange-threats-to-bomb-key-ports. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "QASSIM ABDUL-ZAHRA Associated Press, FATMA KHALED Associated Press, SAM METZ Associated Press",
-          "title": "Saudi Arabia intercepts more Yemen Houthi missiles and drones, and other Mideast news",
-          "outlet": "Abcnews.com",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T13:46:20Z",
-          "link": "https://abcnews.com/International/wireStory/saudi-arabia-intercepts-yemen-houthi-missiles-drones-mideast-138314659",
-          "citation": "(U) QASSIM ABDUL-ZAHRA Associated Press, FATMA KHALED Associated Press, SAM METZ Associated Press. \"Saudi Arabia intercepts more Yemen Houthi missiles and drones, and other Mideast news.\" Abcnews.com, November 20, 2026. https://abcnews.com/International/wireStory/saudi-arabia-intercepts-yemen-houthi-missiles-drones-mideast-138314659. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Andrew Day",
-          "title": "Iran War Day 266: Houthis Threaten Major Attacks on Saudi Arabia",
-          "outlet": "The American Conservative",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T13:25:53Z",
-          "link": "https://www.theamericanconservative.com/iran-war-day-266-houthis-threaten-major-attacks-on-saudi-arabia/",
-          "citation": "(U) Andrew Day. \"Iran War Day 266: Houthis Threaten Major Attacks on Saudi Arabia.\" The American Conservative, November 20, 2026. https://www.theamericanconservative.com/iran-war-day-266-houthis-threaten-major-attacks-on-saudi-arabia/. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Bloomberg News",
-          "title": "Houthi Attack Damaged Buildings in Riyadh Financial District",
-          "outlet": "Insurance Journal",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T11:13:02Z",
-          "link": "https://www.insurancejournal.com/news/international/2026/11/20/893242.htm",
-          "citation": "(U) Bloomberg News. \"Houthi Attack Damaged Buildings in Riyadh Financial District.\" Insurance Journal, November 20, 2026. https://www.insurancejournal.com/news/international/2026/11/20/893242.htm. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
@@ -2714,9 +2606,21 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 12,
+      "count": 13,
       "error": null,
       "articles": [
+        {
+          "author": "Douglas Charles",
+          "title": "Government Investigators Got Four Popular AI Chatbots To Generate Detailed Terrorist Attack Plans",
+          "outlet": "BroBible",
+          "published": "November 23, 2026",
+          "publishedAt": "2026-11-23T19:50:19Z",
+          "link": "https://brobible.com/culture/article/government-ai-chatbots-terror-attack-plans/",
+          "citation": "(U) Douglas Charles. \"Government Investigators Got Four Popular AI Chatbots To Generate Detailed Terrorist Attack Plans.\" BroBible, November 23, 2026. https://brobible.com/culture/article/government-ai-chatbots-terror-attack-plans/. Accessed November 24, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "David Gewirtz",
           "title": "Can AI help plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok",
@@ -3919,7 +3823,7 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 26,
+      "count": 24,
       "error": null,
       "articles": [
         {
@@ -4219,30 +4123,6 @@
           "citation": "(U) YLE News Staff. \"Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia.\" YLE News, November 16, 2026. https://yle.fi/a/74-20257202. Accessed November 24, 2026.",
           "ci_match_patterns": [
             "\\barson\\b"
-          ]
-        },
-        {
-          "author": "Sam Meredith",
-          "title": "NATO member Estonia to close Russia border after attempted 'sabotage' of drone maker",
-          "outlet": "CNBC",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T09:30:31Z",
-          "link": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html",
-          "citation": "(U) Sam Meredith. \"NATO member Estonia to close Russia border after attempted 'sabotage' of drone maker.\" CNBC, November 16, 2026. https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
-          ]
-        },
-        {
-          "author": "Israel National News",
-          "title": "Estonia to close Russian border crossings following suspected sabotage attack",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 16, 2026",
-          "publishedAt": "2026-11-16T09:01:54Z",
-          "link": "https://www.israelnationalnews.com/flashes/697542",
-          "citation": "(U) Israel National News. \"Estonia to close Russian border crossings following suspected sabotage attack.\" Israelnationalnews.com, November 16, 2026. https://www.israelnationalnews.com/flashes/697542. Accessed November 24, 2026.",
-          "ci_match_patterns": [
-            "\\bsabotage\\b"
           ]
         }
       ]

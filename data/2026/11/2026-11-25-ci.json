@@ -1,20 +1,69 @@
 {
-  "pulled_at_utc": "2026-11-25T15:11:29Z",
+  "pulled_at_utc": "2026-11-25T19:51:36Z",
   "accessed": "November 25, 2026",
-  "filtered_at_utc": "2026-11-25T15:17:43Z",
+  "filtered_at_utc": "2026-11-25T19:58:23Z",
   "filter": "manual_title_review_terrorism_or_CI",
   "source_file": "newspull_merged.json",
-  "source_article_count": 2292,
-  "article_count": 349,
-  "dropped_count": 1943,
+  "source_article_count": 2298,
+  "article_count": 359,
+  "dropped_count": 1939,
   "term_count": 25,
   "note": "Title-only CI/terrorism screen. Transactional contract/award/market pieces excluded. Biztoc dropped.",
   "results": [
     {
       "query": "(Drone OR UAS OR UAV) AND (\"drone attack\" OR \"drone strike\" OR incursion OR \"hostile drone\" OR \"counter-UAS\" OR airport OR substation OR border OR port)",
-      "count": 16,
+      "count": 19,
       "error": null,
       "articles": [
+        {
+          "author": "Reuters",
+          "title": "Houthis advance to within 60 km of Yemen's Aden, military says city will not fall",
+          "outlet": "Economictimes.com",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T18:02:03Z",
+          "link": "https://m.economictimes.com/news/defence/houthis-advance-to-within-60-km-of-yemens-aden-military-says-city-will-not-fall/articleshow/136139751.cms",
+          "citation": "(U) Reuters. \"Houthis advance to within 60 km of Yemen's Aden, military says city will not fall.\" Economictimes.com, November 24, 2026. https://m.economictimes.com/news/defence/houthis-advance-to-within-60-km-of-yemens-aden-military-says-city-will-not-fall/articleshow/136139751.cms. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Yuliia Dysa Gwladys Fouche",
+          "title": "Zelenskiy confirms Ukrainian drone strike on Russian ship in Gulf of Finland",
+          "outlet": "The Irish Times",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:58:24Z",
+          "link": "https://www.irishtimes.com/world/europe/2026/11/24/zelenskiy-confirms-ukrainian-drone-strike-on-russian-ship-in-gulf-of-finland/",
+          "citation": "(U) Yuliia Dysa Gwladys Fouche. \"Zelenskiy confirms Ukrainian drone strike on Russian ship in Gulf of Finland.\" The Irish Times, November 24, 2026. https://www.irishtimes.com/world/europe/2026/11/24/zelenskiy-confirms-ukrainian-drone-strike-on-russian-ship-in-gulf-of-finland/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bdrone (attack|strike|incursion|sighting)\\b"
+          ]
+        },
+        {
+          "author": "Dan Woodland",
+          "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
+          "outlet": "BBC News",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:48:59Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo",
+          "citation": "(U) Dan Woodland. \"Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage.\" BBC News, November 24, 2026. https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning",
+          "outlet": "Al Jazeera English",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T15:56:07Z",
+          "link": "https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning",
+          "citation": "(U) Al Jazeera English Staff. \"Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning.\" Al Jazeera English, November 24, 2026. https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Al Jazeera English Staff",
           "title": "Russia tows it cargo ship back home after Ukrainian drone attack",
@@ -195,24 +244,12 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "David Gewirtz",
-          "title": "Can AI help plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok",
-          "outlet": "ZDNet",
-          "published": "November 23, 2026",
-          "publishedAt": "2026-11-23T13:29:04Z",
-          "link": "https://www.zdnet.com/innovation/ai-chatbots-terrorist-attack-plans-us-government-test/",
-          "citation": "(U) David Gewirtz. \"Can AI help plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok.\" ZDNet, November 23, 2026. https://www.zdnet.com/innovation/ai-chatbots-terrorist-attack-plans-us-government-test/. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
         }
       ]
     },
     {
       "query": "(Bombing OR explosion OR IED OR \"improvised explosive device\") AND (plot OR arrested OR detonat OR foiled OR blast OR VBIED)",
-      "count": 14,
+      "count": 12,
       "error": null,
       "articles": [
         {
@@ -359,30 +396,6 @@
           "citation": "(U) Tosin Oyediran. \"Military kills 21 ISWAP fighters, eight terrorists surrender.\" The Punch, November 21, 2026. https://punchng.com/military-kills-21-iswap-fighters-eight-terrorists-surrender/. Accessed November 25, 2026.",
           "ci_match_patterns": [
             "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "Joanna Hynds, Kylie Stevens",
-          "title": "Inside the life of Islamic scholar accused of trying to build a car bomb for alleged terror attack - before his arrest at a Sydney home",
-          "outlet": "Dailymail.com",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T07:53:44Z",
-          "link": "https://www.dailymail.com/news/article-16310583/sydney-terror-plot-car-bomb.html",
-          "citation": "(U) Joanna Hynds, Kylie Stevens. \"Inside the life of Islamic scholar accused of trying to build a car bomb for alleged terror attack - before his arrest at a Sydney home.\" Dailymail.com, November 21, 2026. https://www.dailymail.com/news/article-16310583/sydney-terror-plot-car-bomb.html. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bcar bomb\\b"
-          ]
-        },
-        {
-          "author": "TNN",
-          "title": "Pak handlers ‘Chacha’, ‘Shah’ may be named in rly blast chargesheet",
-          "outlet": "The Times of India",
-          "published": "November 20, 2026",
-          "publishedAt": "2026-11-20T18:17:54Z",
-          "link": "https://timesofindia.indiatimes.com/city/jaipur/pak-handlers-chacha-shah-may-be-named-in-rly-blast-chargesheet/articleshow/136037220.cms",
-          "citation": "(U) TNN. \"Pak handlers ‘Chacha’, ‘Shah’ may be named in rly blast chargesheet.\" The Times of India, November 20, 2026. https://timesofindia.indiatimes.com/city/jaipur/pak-handlers-chacha-shah-may-be-named-in-rly-blast-chargesheet/articleshow/136037220.cms. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bchargesheet\\b"
           ]
         }
       ]
@@ -1132,9 +1145,22 @@
     },
     {
       "query": "Arson AND (substation OR \"power plant\" OR mosque OR church OR synagogue OR warehouse OR rail OR electrical)",
-      "count": 19,
+      "count": 20,
       "error": null,
       "articles": [
+        {
+          "author": "Al Jazeera English Staff",
+          "title": "Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning",
+          "outlet": "Al Jazeera English",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T15:56:07Z",
+          "link": "https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning",
+          "citation": "(U) Al Jazeera English Staff. \"Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning.\" Al Jazeera English, November 24, 2026. https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\barson\\b",
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
         {
           "author": "Karan Manral",
           "title": "UK warns British firms supporting Ukraine of potential Russian sabotage attacks",
@@ -1368,9 +1394,33 @@
     },
     {
       "query": "(CBRN OR chemical OR biological OR radiological OR nuclear) AND (weapon OR plot OR attack OR seized OR ricin OR \"dirty bomb\")",
-      "count": 1,
+      "count": 3,
       "error": null,
       "articles": [
+        {
+          "author": "Malcolm Ferguson",
+          "title": "Trump Thinking About Assassinating Iranian Leaders",
+          "outlet": "The New Republic",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T19:25:27Z",
+          "link": "https://newrepublic.com/post/218337/trump-assassination-iranian-leaders-khamenei-end-iran-war",
+          "citation": "(U) Malcolm Ferguson. \"Trump Thinking About Assassinating Iranian Leaders.\" The New Republic, November 24, 2026. https://newrepublic.com/post/218337/trump-assassination-iranian-leaders-khamenei-end-iran-war. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
+        {
+          "author": "Glenn Taylor",
+          "title": "Concerns of Cyberattacks Escalate for Global Shipping, US Ports",
+          "outlet": "WWD",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T17:18:05Z",
+          "link": "https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510/",
+          "citation": "(U) Glenn Taylor. \"Concerns of Cyberattacks Escalate for Global Shipping, US Ports.\" WWD, November 24, 2026. https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "John Hayward",
           "title": "Houthis Claim Attack on Major Saudi Oil Refinery",
@@ -1388,9 +1438,33 @@
     },
     {
       "query": "(Cyberattack OR SCADA OR \"Industrial Control Systems\") AND (hack OR ransomware OR breach OR sabotage OR outage OR \"water utility\" OR \"power grid\")",
-      "count": 20,
+      "count": 22,
       "error": null,
       "articles": [
+        {
+          "author": "Bill Toulas",
+          "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+          "outlet": "BleepingComputer",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T18:59:52Z",
+          "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+          "citation": "(U) Bill Toulas. \"Turnitin discloses cyberattack affecting customer-facing systems.\" BleepingComputer, November 24, 2026. https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
+        {
+          "author": "Glenn Taylor",
+          "title": "Concerns of Cyberattacks Escalate for Global Shipping, US Ports",
+          "outlet": "WWD",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T17:18:05Z",
+          "link": "https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510/",
+          "citation": "(U) Glenn Taylor. \"Concerns of Cyberattacks Escalate for Global Shipping, US Ports.\" WWD, November 24, 2026. https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "John Chen",
           "title": "European Commission confirms personal data stolen in AI-assisted cyberattack",
@@ -2270,9 +2344,21 @@
     },
     {
       "query": "(pipeline OR refinery OR LNG OR tanker OR \"oil port\") AND (attack OR strike OR sabotage OR drone OR missile)",
-      "count": 8,
+      "count": 7,
       "error": null,
       "articles": [
+        {
+          "author": "Steve Miller",
+          "title": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
+          "outlet": "Greynoise.io",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:32:17Z",
+          "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+          "citation": "(U) Steve Miller. \"Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations.\" Greynoise.io, November 24, 2026. https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bcyber ?attack\\b"
+          ]
+        },
         {
           "author": "John Hayward",
           "title": "Houthis Claim Attack on Major Saudi Oil Refinery",
@@ -2345,40 +2431,98 @@
           "ci_match_patterns": [
             "\\bdrone (attack|strike|incursion|sighting)\\b"
           ]
-        },
-        {
-          "author": "Israelnationalnews.com Staff",
-          "title": "Houthis claim attack on oil refinery in Saudi Arabia",
-          "outlet": "Israelnationalnews.com",
-          "published": "November 23, 2026",
-          "publishedAt": "2026-11-23T04:23:54Z",
-          "link": "https://www.israelnationalnews.com/flashes/698265",
-          "citation": "(U) Israelnationalnews.com Staff. \"Houthis claim attack on oil refinery in Saudi Arabia.\" Israelnationalnews.com, November 23, 2026. https://www.israelnationalnews.com/flashes/698265. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Anniek Bao",
-          "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
-          "outlet": "CNBC",
-          "published": "November 23, 2026",
-          "publishedAt": "2026-11-23T03:50:14Z",
-          "link": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
-          "citation": "(U) Anniek Bao. \"Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year.\" CNBC, November 23, 2026. https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\brefiner(y|ies)\\b",
-            "\\bhouthi(s)?\\b"
-          ]
         }
       ]
     },
     {
       "query": "(ISIS OR \"Islamic State\" OR \"al-Qaeda\" OR \"al-Shabaab\" OR Houthi OR Houthis) AND (attack OR plot OR claimed OR drone OR missile)",
-      "count": 27,
+      "count": 30,
       "error": null,
       "articles": [
+        {
+          "author": "SAM METZ Associated Press, SALLY ABOU ALJOUD Associated Press, MENELAOS HADJICOSTIS Associated Press",
+          "title": "Houthi rebels close in on Aden as Yemeni forces dig in behind a fortified line",
+          "outlet": "Abcnews.com",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T18:15:23Z",
+          "link": "https://abcnews.com/International/wireStory/houthi-rebels-close-aden-yemeni-forces-dig-fortified-138404636",
+          "citation": "(U) SAM METZ Associated Press, SALLY ABOU ALJOUD Associated Press, MENELAOS HADJICOSTIS Associated Press. \"Houthi rebels close in on Aden as Yemeni forces dig in behind a fortified line.\" Abcnews.com, November 24, 2026. https://abcnews.com/International/wireStory/houthi-rebels-close-aden-yemeni-forces-dig-fortified-138404636. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Reuters",
+          "title": "Houthis advance to within 60 km of Yemen's Aden, military says city will not fall",
+          "outlet": "Economictimes.com",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T18:02:03Z",
+          "link": "https://m.economictimes.com/news/defence/houthis-advance-to-within-60-km-of-yemens-aden-military-says-city-will-not-fall/articleshow/136139751.cms",
+          "citation": "(U) Reuters. \"Houthis advance to within 60 km of Yemen's Aden, military says city will not fall.\" Economictimes.com, November 24, 2026. https://m.economictimes.com/news/defence/houthis-advance-to-within-60-km-of-yemens-aden-military-says-city-will-not-fall/articleshow/136139751.cms. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Ahmed Elimam, Mirette Magdy, Sherif Tarek",
+          "title": "Houthi Attack on Riyadh Tower Injures 11 People, Saudis Say",
+          "outlet": "Insurance Journal",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T17:01:36Z",
+          "link": "https://www.insurancejournal.com/news/international/2026/11/24/893643.htm",
+          "citation": "(U) Ahmed Elimam, Mirette Magdy, Sherif Tarek. \"Houthi Attack on Riyadh Tower Injures 11 People, Saudis Say.\" Insurance Journal, November 24, 2026. https://www.insurancejournal.com/news/international/2026/11/24/893643.htm. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "CNA Staff",
+          "title": "Saudi skyscraper hit again, coalition slams 'terrorist attack'",
+          "outlet": "CNA",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:54:43Z",
+          "link": "https://www.channelnewsasia.com/world/saudi-skyscraper-hit-again-coalition-slams-terrorist-attack-6579126",
+          "citation": "(U) CNA Staff. \"Saudi skyscraper hit again, coalition slams 'terrorist attack'.\" CNA, November 24, 2026. https://www.channelnewsasia.com/world/saudi-skyscraper-hit-again-coalition-slams-terrorist-attack-6579126. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bterroris(m|t|ts)\\b"
+          ]
+        },
+        {
+          "author": "PTI",
+          "title": "2 Indians among 11 injured in Houthi attack in Saudi Arabia's capital",
+          "outlet": "Economictimes.com",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:44:55Z",
+          "link": "https://m.economictimes.com/news/india/2-indians-among-11-injured-in-houthi-attack-in-saudi-arabias-capital/articleshow/136137071.cms",
+          "citation": "(U) PTI. \"2 Indians among 11 injured in Houthi attack in Saudi Arabia's capital.\" Economictimes.com, November 24, 2026. https://m.economictimes.com/news/india/2-indians-among-11-injured-in-houthi-attack-in-saudi-arabias-capital/articleshow/136137071.cms. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "RTÉ News",
+          "title": "Saudi skyscraper hit again, coalition slams attack",
+          "outlet": "RTE",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:28:30Z",
+          "link": "https://www.rte.ie/news/middle-east/2026/1124/1600490-saudi-attack-houthi/",
+          "citation": "(U) RTÉ News. \"Saudi skyscraper hit again, coalition slams attack.\" RTE, November 24, 2026. https://www.rte.ie/news/middle-east/2026/1124/1600490-saudi-attack-houthi/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
+        {
+          "author": "Estefano Gomez",
+          "title": "Houthi missile strike injures 11 in Riyadh financial district",
+          "outlet": "Crypto Briefing",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T15:18:29Z",
+          "link": "https://cryptobriefing.com/houthi-missile-strike-injures-11-in-riyadh-financial-district/",
+          "citation": "(U) Estefano Gomez. \"Houthi missile strike injures 11 in Riyadh financial district.\" Crypto Briefing, November 24, 2026. https://cryptobriefing.com/houthi-missile-strike-injures-11-in-riyadh-financial-district/. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bhouthi(s)?\\b"
+          ]
+        },
         {
           "author": "Reuters",
           "title": "Saudi-led coalition says Riyadh financial district skyscraper targeted in 'terrorist attack'",
@@ -2657,54 +2801,6 @@
             "\\brefiner(y|ies)\\b",
             "\\bhouthi(s)?\\b"
           ]
-        },
-        {
-          "author": "Antonio Graceffo",
-          "title": "Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T19:00:33Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/",
-          "citation": "(U) Antonio Graceffo. \"Iran-Backed Houthis Blame Saudi Arabia for Village Strike, Then Launch Attacks on Riyadh.\" Thegatewaypundit.com, November 22, 2026. https://www.thegatewaypundit.com/2026/11/iran-backed-houthis-blame-saudi-arabia-village-strike/. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bhouthi(s)?\\b"
-          ]
-        },
-        {
-          "author": "Richard Marsden, Dominik Lemanski",
-          "title": "£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid",
-          "outlet": "Dailymail.com",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T16:37:46Z",
-          "link": "https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html",
-          "citation": "(U) Richard Marsden, Dominik Lemanski. \"£520k legal aid bill for terrorists who plotted to blow up barracks using bomb launched from toy car as High Court to rule on ringleader's parole bid.\" Dailymail.com, November 22, 2026. https://www.dailymail.com/news/article-16313135/520k-legal-aid-bill-terrorists-plotted-blow-barracks-using-bomb-launched-toy-car-High-Court-rule-ringleaders-parole-bid.html. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bterroris(m|t|ts)\\b"
-          ]
-        },
-        {
-          "author": "JPost",
-          "title": "Former IRGC commander, sanctioned by Canada, to address London Islamophobia conference",
-          "outlet": "Freerepublic.com",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T15:05:55Z",
-          "link": "https://freerepublic.com/focus/f-news/4403939/posts",
-          "citation": "(U) JPost. \"Former IRGC commander, sanctioned by Canada, to address London Islamophobia conference.\" Freerepublic.com, November 22, 2026. https://freerepublic.com/focus/f-news/4403939/posts. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\birgc\\b"
-          ]
-        },
-        {
-          "author": "Antonio Graceffo",
-          "title": "Islamic State-Linked ADF Kills at Least 141 Civilians in Christian-Majority Eastern Congo",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 22, 2026",
-          "publishedAt": "2026-11-22T14:45:19Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/islamic-state-linked-adf-kills-least-141-civilians/",
-          "citation": "(U) Antonio Graceffo. \"Islamic State-Linked ADF Kills at Least 141 Civilians in Christian-Majority Eastern Congo.\" Thegatewaypundit.com, November 22, 2026. https://www.thegatewaypundit.com/2026/11/islamic-state-linked-adf-kills-least-141-civilians/. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bislamic state\\b"
-          ]
         }
       ]
     },
@@ -2729,9 +2825,21 @@
     },
     {
       "query": "\"Critical infrastructure\" AND (attack OR sabotage OR incident OR outage OR hack) NOT contract NOT loan",
-      "count": 14,
+      "count": 15,
       "error": null,
       "articles": [
+        {
+          "author": "Maxim Adams",
+          "title": "Fishing or espionage? What Russian trawlers are doing near undersea cables",
+          "outlet": "VOA News",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T17:09:01Z",
+          "link": "https://www.voanews.com/a/fishing-or-espionage-what-russian-trawlers-are-doing-near-undersea-cables/8227348.html",
+          "citation": "(U) Maxim Adams. \"Fishing or espionage? What Russian trawlers are doing near undersea cables.\" VOA News, November 24, 2026. https://www.voanews.com/a/fishing-or-espionage-what-russian-trawlers-are-doing-near-undersea-cables/8227348.html. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bespionage\\b"
+          ]
+        },
         {
           "author": "Karan Manral",
           "title": "UK warns British firms supporting Ukraine of potential Russian sabotage attacks",
@@ -2905,9 +3013,21 @@
     },
     {
       "query": "(dams OR hydropower OR hydroelectric OR \"water treatment\" OR \"water utility\") AND (sabotage OR cyber OR attack OR threat)",
-      "count": 14,
+      "count": 15,
       "error": null,
       "articles": [
+        {
+          "author": "Prabin Kalita",
+          "title": "69 ex-civil servants rally against Demwe dam on Lohit",
+          "outlet": "The Times of India",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T17:49:40Z",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/69-ex-civil-servants-rally-against-demwe-dam-on-lohit/articleshow/136139388.cms",
+          "citation": "(U) Prabin Kalita. \"69 ex-civil servants rally against Demwe dam on Lohit.\" The Times of India, November 24, 2026. https://timesofindia.indiatimes.com/city/guwahati/69-ex-civil-servants-rally-against-demwe-dam-on-lohit/articleshow/136139388.cms. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bdam(s)?\\b"
+          ]
+        },
         {
           "author": "Bastine Rodrigues",
           "title": "River flows fall nearly 50% in Dakshina Kannada; minor irrigation department begins early water conservation at vented dams after lower rainfall",
@@ -3084,6 +3204,18 @@
       "count": 22,
       "error": null,
       "articles": [
+        {
+          "author": "ET Bureau",
+          "title": "'Security was removed on purpose': Rahul Gandhi alleges plot behind Rajiv Gandhi's assassination",
+          "outlet": "Economictimes.com",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T18:52:54Z",
+          "link": "https://m.economictimes.com/news/politics-and-nation/security-was-removed-on-purpose-rahul-gandhi-alleges-plot-behind-rajiv-gandhis-assassination/articleshow/136140353.cms",
+          "citation": "(U) ET Bureau. \"'Security was removed on purpose': Rahul Gandhi alleges plot behind Rajiv Gandhi's assassination.\" Economictimes.com, November 24, 2026. https://m.economictimes.com/news/politics-and-nation/security-was-removed-on-purpose-rahul-gandhi-alleges-plot-behind-rajiv-gandhis-assassination/articleshow/136140353.cms. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bassassination\\b"
+          ]
+        },
         {
           "author": "Karan Manral",
           "title": "UK warns British firms supporting Ukraine of potential Russian sabotage attacks",
@@ -3339,24 +3471,12 @@
             "\\bassassination\\b",
             "\\bassassination plots?\\b"
           ]
-        },
-        {
-          "author": "Protothema.gr Staff",
-          "title": "Cyprus expels two Russian diplomats over espionage targeting state secrets and European technology",
-          "outlet": "Protothema.gr",
-          "published": "November 21, 2026",
-          "publishedAt": "2026-11-21T06:09:00Z",
-          "link": "https://en.protothema.gr/2026/11/21/cyprus-expels-two-russian-diplomats-over-espionage-targeting-state-secrets-and-european-technology/",
-          "citation": "(U) Protothema.gr Staff. \"Cyprus expels two Russian diplomats over espionage targeting state secrets and European technology.\" Protothema.gr, November 21, 2026. https://en.protothema.gr/2026/11/21/cyprus-expels-two-russian-diplomats-over-espionage-targeting-state-secrets-and-european-technology/. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
     {
       "query": "(\"Russian intelligence\" OR GRU OR FSB OR SVR) AND (charged OR plot OR arrest OR sabotage OR surveillance)",
-      "count": 28,
+      "count": 27,
       "error": null,
       "articles": [
         {
@@ -3688,18 +3808,6 @@
           "ci_match_patterns": [
             "\\bespionage\\b"
           ]
-        },
-        {
-          "author": "Cristina Laila",
-          "title": "JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia",
-          "outlet": "Thegatewaypundit.com",
-          "published": "November 10, 2026",
-          "publishedAt": "2026-11-10T20:20:36Z",
-          "link": "https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/",
-          "citation": "(U) Cristina Laila. \"JUST IN: British Counterterrorism Police Arrest US Soldier On Suspicion of Espionage Related to Russia.\" Thegatewaypundit.com, November 10, 2026. https://www.thegatewaypundit.com/2026/11/just-british-counterterrorism-police-arrest-us-soldier-suspicion/. Accessed November 25, 2026.",
-          "ci_match_patterns": [
-            "\\bespionage\\b"
-          ]
         }
       ]
     },
@@ -4020,9 +4128,21 @@
     },
     {
       "query": "(\"intelligence service\" OR \"intelligence services\" OR \"foreign intelligence\" OR \"state intelligence\") AND (charged OR indictment OR plot OR arrest OR sabotage OR assassination OR \"murder for hire\")",
-      "count": 20,
+      "count": 21,
       "error": null,
       "articles": [
+        {
+          "author": "Dan Woodland",
+          "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
+          "outlet": "BBC News",
+          "published": "November 24, 2026",
+          "publishedAt": "2026-11-24T16:48:59Z",
+          "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo",
+          "citation": "(U) Dan Woodland. \"Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage.\" BBC News, November 24, 2026. https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo. Accessed November 25, 2026.",
+          "ci_match_patterns": [
+            "\\bsabotage\\b"
+          ]
+        },
         {
           "author": "Newsroom",
           "title": "“If we do not respond, Putin’s pressure will intensify”: Relentless cyberattacks, assassination plots and missiles in the sky are shaking Europe",
